@@ -1,0 +1,18 @@
+Thu Jun  1 14:12:16 2023 user.notice root: start testcase: R4E0PWO2P
+Thu Jun  1 14:12:42 2023 daemon.notice netifd: up0v0 (4163): udhcpc: sending renew to 172.16.0.1
+Thu Jun  1 14:12:42 2023 daemon.notice netifd: up0v0 (4163): udhcpc: lease of 172.16.227.4 obtained, lease time 600
+Thu Jun  1 14:13:06 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:d5:e3 IEEE 802.11: authenticated
+Thu Jun  1 14:13:06 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:d5:e3 IEEE 802.11: associated (aid 1)
+Thu Jun  1 14:13:06 2023 daemon.notice hostapd: wlan1: CTRL-EVENT-EAP-STARTED 00:0a:52:06:d5:e3
+Thu Jun  1 14:13:06 2023 daemon.notice hostapd: wlan1: CTRL-EVENT-EAP-PROPOSED-METHOD vendor=0 method=1
+Thu Jun  1 14:13:06 2023 daemon.notice hostapd: wlan1: CTRL-EVENT-EAP-SUCCESS2 00:0a:52:06:d5:e3
+Thu Jun  1 14:13:06 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:d5:e3 WPA: pairwise key handshake completed (WPA)
+Thu Jun  1 14:13:06 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 00:0a:52:06:d5:e3
+Thu Jun  1 14:13:06 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:d5:e3 RADIUS: starting accounting session ACE722C255978AFE
+Thu Jun  1 14:13:06 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:d5:e3 IEEE 802.1X: authenticated - EAP type: 13 (TLS)
+Thu Jun  1 14:13:06 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:d5:e3 WPA: group key handshake completed (WPA)
+Thu Jun  1 14:13:48 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 8.8.8.8
+Thu Jun  1 14:13:48 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"healthcheck","params":{"serial":"0006ae6df0db","uuid":1685628630,"sanity":67,"data":{"unit":{"memory":39},"interfaces":{"down1v0":{"dhcp":false,"location":"/interfaces/1","warning":["DHCP did not offer any leases"]}}}}}
+Thu Jun  1 14:13:53 2023 daemon.notice hostapd: wlan1: AP-STA-DISCONNECTED 00:0a:52:06:d5:e3
+Thu Jun  1 14:13:53 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:d5:e3 RADIUS: stopped accounting session ACE722C255978AFE
+Thu Jun  1 14:13:56 2023 user.notice root: stop testcase: R4E0PWO2P

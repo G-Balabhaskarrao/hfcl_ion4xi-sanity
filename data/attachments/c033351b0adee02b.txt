@@ -1,0 +1,11 @@
+2023-06-01 19:00:48 [32mINFO[0m Sending Command: 
+TimeStamp: 2023-06-01 13:30:48.718590
+URI: https://gw-qa01.cicd.lab.wlan.tip.build:16002/api/v1/device/0006ae6df0db/status
+Headers: {'Authorization': 'Bearer 48dd6c01e9258ed35adb8c2d4604afa60f0d585d328c5962e1aa415c62a101df', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}
+2023-06-01 19:00:49 [32mINFO[0m Command Response: 
+Command Type: GET
+Response URI: https://gw-qa01.cicd.lab.wlan.tip.build:16002/api/v1/device/0006ae6df0db/status
+Response Headers: {'Authorization': 'Bearer 48dd6c01e9258ed35adb8c2d4604afa60f0d585d328c5962e1aa415c62a101df', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}
+TimeStamp: 2023-06-01 13:30:49.684846
+Response Code: 200
+Response Body: {'UUID': 1685625574, 'associations_2G': 0, 'associations_5G': 0, 'associations_6G': 0, 'certificateExpiryDate': 1776119926, 'connectReason': '', 'connected': True, 'connectionCompletionTime': 416.045349, 'firmware': 'OpenWrt 21.02-SNAPSHOT r16399+164-c67509efd7 / TIP-v2.9.0-85ff703', 'hasGPS': False, 'hasRADIUSSessions': 0, 'ipAddress': '10.10.11.123:58190', 'kafkaClients': 0, 'kafkaPackets': 0, 'lastContact': 1685626231, 'load': 0.011719, 'locale': 'US', 'memoryUsed': 39.11051010442491, 'messageCount': 29, 'rxBytes': 22051, 'sanity': 100, 'sessionId': 405, 'started': 1685625246, 'temperature': 59, 'totalConnectionTime': 1003, 'txBytes': 2878, 'verifiedCertificate': 'VERIFIED', 'webSocketClients': 0, 'websocketPackets': 0}

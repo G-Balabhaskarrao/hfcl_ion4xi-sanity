@@ -1,0 +1,202 @@
+4 ok-to-reset: FALSE
+1685630607169:  Port.cc 11667: Port: 1.1.15-_vrf14(0x2326430)  1.1.15-_vrf14 setting ok-to-delete to: 1  debug: setPhantom, auto-managed
+1685630607169:  Card.cc 2505: ##Port: 1.1.17-Unknown [17] does not exist on remote, but does locally..removing.
+1685630608082:  client.cc 2613: addDutSsid, name: 0006ae6df0db idx: 0 ssid: MDU-Wi-Fi-2g passwd: OpenWifi2 bssid: 32 flags: 4294967295 flags_mask: 
+1685630608082:  client.cc 381: client: Admin had error -:[add DUT SSID]: ERROR:  Not enough HEX values in the input string.
+:-
+1685630608082:  LFCtrlHandler.cc 3069: ERROR processing text command:  str_msg -:add_dut_ssid 0006ae6df0db 0 MDU-Wi-Fi-2g OpenWifi2  32 4294967295:-  pld->len: 66 len: 76 hdr_len: 8 rv: -22
+1685630608179:  client2.cc 4104: client::setWifiRadio: Admin: shelf: 1 card: 1 radio_dev: wiphy3 mode: 0 channel: 6 country: 0 freq: 2437 frag_thresh: NA rate:  NA rts: NA txpower: NA Antenna: NA mac: NA flags: NA flags-mask: NA const-tx: NA pulse-width: NA pulse interval: NA vdev-count: NA peer_count: NA stations-count: NA rate_ctrl_count: NA fwname: NA fwver: NA txdesc_count: NA tids-count: NA skid-limit: NA active-peers: NA tx-pulses: NA pulse2-interval-us: NA max-amsdu: NA pref-ap: NA max-ampdu: NA dbg: gen-cmds-spec
+1685630608179:  Card.cc 6186: Card::setWifiRadio, radio: wiphy3 mode: 0 channel: 6 country: 0 freq: 2437 frag_thresh: NA rate:  NA rts: NA txpower: NA Antenna: NA mac: NA flags: NA flags-mask: NA const-tx: NA pulse-interval: NA pulse-width: NA vdev-count: NA peer_count: NA stations-count: NA rate_ctrl_count: NA fwname: NA fwver: NA txdesc_count: NA tids-count: NA skid-limit: NA active-peers: NA tx-pulses: NA pulse2-interval-us: NA max-amsdu: NA pref-ap: NA max-ampdu: NA dbg: gen-cmds-spec
+1685630608179:  Port.cc 3601: setWifiRadio, dev: 1.1.7-wiphy3 mode: 0 channel: 6 country: 0 freq: 2437 frag_thresh: NA rate:  NA rts: NA txpower: NA Antenna: NA flags: NA flags-mask: NA const-tx: NA pulse-width: NA pulse_interval: NA vdev-count: NA peer_count: NA stations-count: NA rate_ctrl_count: NA fwname: NA fwver: NA txdesc_count: NA tids-count: NA skid-limit: NA active-peers: NA tx-pulses: NA pulse2-interval-us: NA max-amsdu: NA pref-ap: NA max-ampdu: NA dbg: gen-cmds-spec
+1685630608179:  Port.cc 3669: 1.1.7-wiphy3:  do-freq: TRUE frequency-string: 2437 wifi_cfg.frequency: 2437 freq: 2437
+1685630608179:  Port.cc 4126: 1.1.7-wiphy3: setWifiRadio: should_flush: FALSE should-reload: FALSE flush-country: FALSE may_reload: FALSE flags: NA dbg:  write-fwcfg: FALSE
+1685630608179:  Card.cc 6365: setWifiRadio, card: Shelf: 1, Card: 1 sending cmd: set_wifi_radio 1 1 'wiphy3' '0' '6' '0' '2437' 'NA' 'NA' 'NA' 'NA' 'NA' 'NA' 'NA' 'NA' 'NA' 'NA' 'NA' 'NA' 'NA' 'NA' 'NA' 'NA' 'NA' 'NA' 'NA' 'NA' 'NA' 'NA' 'NA' 'NA' 'NA' 'NA' to remote.
+1685630609264:  Card.cc 5316: addVWIFI, pt: MONITOR(15)  radio: wiphy3 name: moni3a flags: 0 ssid: NA beacon/aid: NA key: NA ap: NA wpa_cfg_file: NA mac: NA max-sta: NA dtim: NA mode: NA rate: NA max_amsdu: NA ampdu_factor: NA ampdu_density: NA sta-br-ip: NA flags-mask: 281474976710655 ieee80211w: NA x: NA y: NA z: NA
+1685630609264:  Card.cc 5449: Added dummy Virtual WiFi, idx: 12 name: moni3a devName: moni3a type: MONITOR key: NA
+1685630609264:  Port.cc 4574: 1.1.12-moni3a: setVwifiValues flags: 0 ssid: NA beacon/aid: NA key: NA ap: NA wpa_cfg_file: NA mac: NA max-sta: NA dtim: NA mode: NA rate: NA max_amsdu: NA ampdu_factor: NA ampdu_density: NA sta-br-ip: NA flags-mask: 281474976710655 ieee80211w: NA x: NA y: NA z: NA cur-ssid: 
+1685630609264:  Port.cc 4574: 1.1.12-moni3a: setVwifiValues flags: 0 ssid: NA beacon/aid: NA key: NA ap: NA wpa_cfg_file: NA mac: NA max-sta: NA dtim: NA mode: NA rate: NA max_amsdu: NA ampdu_factor: NA ampdu_density: NA sta-br-ip: NA flags-mask: 281474976710655 ieee80211w: NA x: NA y: NA z: NA cur-ssid: 
+1685630609264:  Card.cc 5489: addVWIFI, card: Shelf: 1, Card: 1 sending cmd: add_monitor 1 1 'wiphy3' 'moni3a' '0' '281474976710655' 'NA' 'NA' to remote.
+1685630609307:  ShelfMgr.cc 1699: checkNewAlert: is_event: FALSE alert:  event_type: 0 id: 4726 type: 2 eid: 1.1.12.0.0 entity-name: moni3a details: Port moni3a is Link DOWN. debug: AlertHandler
+1685630609307:  ShelfMgr.cc 1802: Propagating Alert, checkNewAlert:  event_type: 0 id: 4727 type: 2 eid: 1.1.12.0.0 entity-name: moni3a details: Port moni3a is Link DOWN.
+1685630609307:  ShelfMgr.cc 1811: ShelfMgr::receiveEvent:  event_type: 0 id: 4080 type: 2 eid: 1.1.12.0.0 entity-name: moni3a details: Port moni3a is Link DOWN. size: 1001 max: 1000 event:  event_type: 0 id: 4080 type: 2 eid: 1.1.12.0.0 entity-name: moni3a details: Port moni3a is Link DOWN. dbg: EventHandler
+1685630609307:  ShelfMgr.cc 1699: checkNewAlert: is_event: TRUE alert:  event_type: 0 id: 4080 type: 2 eid: 1.1.12.0.0 entity-name: moni3a details: Port moni3a is Link DOWN. debug: receiveEvent
+1685630609307:  ShelfMgr.cc 1663: Propagating Alert Deletion, removeAlert:  event_type: 0 id: 4727 type: 2 eid: 1.1.12.0.0 entity-name: moni3a details: Port moni3a is Link DOWN.
+1685630609307:  ShelfMgr.cc 1802: Propagating Alert, checkNewAlert:  event_type: 0 id: 4728 type: 2 eid: 1.1.12.0.0 entity-name: moni3a details: Port moni3a is Link DOWN.
+1685630609307:  ShelfMgr.cc 1863: Propagating Event, receiveEvent:  event_type: 0 id: 4080 type: 2 eid: 1.1.12.0.0 entity-name: moni3a details: Port moni3a is Link DOWN.
+1685630609307:  ShelfMgr.cc 1699: checkNewAlert: is_event: FALSE alert:  event_type: 0 id: 4729 type: 2 eid: 1.1.12.0.0 entity-name: moni3a details: Port moni3a is Link DOWN. debug: AlertHandler
+1685630609307:  ShelfMgr.cc 1663: Propagating Alert Deletion, removeAlert:  event_type: 0 id: 4728 type: 2 eid: 1.1.12.0.0 entity-name: moni3a details: Port moni3a is Link DOWN.
+1685630609307:  ShelfMgr.cc 1811: ShelfMgr::receiveEvent:  event_type: 1 id: 4081 type: 2 eid: 1.1.12.0.0 entity-name: moni3a details: Port moni3a is Link UP. size: 1001 max: 1000 event:  event_type: 1 id: 4081 type: 2 eid: 1.1.12.0.0 entity-name: moni3a details: Port moni3a is Link UP. dbg: EventHandler
+1685630609307:  ShelfMgr.cc 1699: checkNewAlert: is_event: TRUE alert:  event_type: 1 id: 4081 type: 2 eid: 1.1.12.0.0 entity-name: moni3a details: Port moni3a is Link UP. debug: receiveEvent
+1685630609307:  ShelfMgr.cc 1863: Propagating Event, receiveEvent:  event_type: 1 id: 4081 type: 2 eid: 1.1.12.0.0 entity-name: moni3a details: Port moni3a is Link UP.
+1685630609307:  client.cc 381: client: Admin had error -:Important message from card: Shelf: 1, Card: 1 -:[ADD Virtual WiFi]  ERROR:  system command "echo 0 0 0 1 > /debug/ieee80211/wiphy3/mt76/he_sniffer_params" had return code: 1
+:-
+:-
+1685630609307:  LFCtrlHandler.cc 3600: Important message from card: Shelf: 1, Card: 1 -:[ADD Virtual WiFi]  ERROR:  system command "echo 0 0 0 1 > /debug/ieee80211/wiphy3/mt76/he_sniffer_params" had return code: 1
+:-
+1685630609460:  Port.cc 15429: 1.1.12-moni3a  setPhantom: current: TRUE new: FALSE dbg: handleIfaceRpt-4 ok-to-reset: TRUE
+1685630609460:  Port.cc 13337: 1.1.12-moni3a:  Setting link state to: TRUE reason: handleInterfaceReport
+1685630609460:  Port.cc 15481: 1.1.12-moni3a: setReset state, old: 0 new: 3 debug: handleInterfaceReport
+1685630609460:  Port2.cc 8228: moni3a:  handleInterfaceReport, Link state changed to: TRUE
+1685630614349:  client2.cc 5115: client::setPortConfig, shelf: 1 card: 1 port: moni3a ip_address: NA netmask: NA gw: NA cmd_flags: NA cur_flags: 0 mac -:NA:-  MTU: NA tx_q_len: NA should_create: 0 interest_flags: 8388610 dns-servers: NA iff-specified: TRUE cur-flags-msk: NA ipsec-concentrator: NA ipsec-passwd: NA ipsec-local-id: NA ipsec-remote-id: NA dbg: gen-cmds-cli
+1685630614349:  Card.cc 8607: Card::setPortConfig, port: moni3a ip: NA netmask: NA gw: NA interesting_flags: 8388610 mac: NA mtu: NA tx_qlen: NA alias: NA should_create: 0 br_port_priority: NA br_port_cost: NA ipv6_global: NA ipv6_link: NA ipv6_gw: NA br_flags: NA current_flags: 0 cpu_mask: NA dns-servers: NA command_flags: NA sta-br-id: NA dhclient-id: NA current-flags-msk: NA dhcp-vendor-id: NA ipsec-concentrator: NA ipsec-passwd: NA dhcp-hostname: NA
+1685630614349:  Card.cc 9241: 1.1.12-moni3a admin-down-cfg: FALSE down-rpt: FALSE staged-ifup-cfg: FALSE
+1685630614349:  Card.cc 9277: 1.1.12-moni3a 2: admin-down-cfg: FALSE down-rpt: FALSE staged-ifup-cfg: FALSE
+1685630614356:  client.cc 381: client: Admin had error -:Important message from card: Shelf: 1, Card: 1 -:[Port Config] Shelf: 1, Card: 1, Port: 12 (moni3a)  ERROR:  system command "echo 0 0 0 1 > /debug/ieee80211/wiphy3/mt76/he_sniffer_params" had return code: 1
+:-
+:-
+1685630614356:  LFCtrlHandler.cc 3600: Important message from card: Shelf: 1, Card: 1 -:[Port Config] Shelf: 1, Card: 1, Port: 12 (moni3a)  ERROR:  system command "echo 0 0 0 1 > /debug/ieee80211/wiphy3/mt76/he_sniffer_params" had return code: 1
+:-
+1685630614395:  client2.cc 5115: client::setPortConfig, shelf: 1 card: 1 port: moni3a ip_address: NA netmask: NA gw: NA cmd_flags: NA cur_flags: 0 mac -:NA:-  MTU: NA tx_q_len: NA should_create: 0 interest_flags: 8388610 dns-servers: NA iff-specified: TRUE cur-flags-msk: NA ipsec-concentrator: NA ipsec-passwd: NA ipsec-local-id: NA ipsec-remote-id: NA dbg: gen-cmds-cli
+1685630614395:  Card.cc 8607: Card::setPortConfig, port: moni3a ip: NA netmask: NA gw: NA interesting_flags: 8388610 mac: NA mtu: NA tx_qlen: NA alias: NA should_create: 0 br_port_priority: NA br_port_cost: NA ipv6_global: NA ipv6_link: NA ipv6_gw: NA br_flags: NA current_flags: 0 cpu_mask: NA dns-servers: NA command_flags: NA sta-br-id: NA dhclient-id: NA current-flags-msk: NA dhcp-vendor-id: NA ipsec-concentrator: NA ipsec-passwd: NA dhcp-hostname: NA
+1685630614395:  Card.cc 9241: 1.1.12-moni3a admin-down-cfg: FALSE down-rpt: FALSE staged-ifup-cfg: FALSE
+1685630614395:  Card.cc 9277: 1.1.12-moni3a 2: admin-down-cfg: FALSE down-rpt: FALSE staged-ifup-cfg: FALSE
+1685630619500:  Card.cc 5316: addVWIFI, pt: STA(10)  radio: wiphy0 name: sta00100 flags: 68719607808 ssid: fake ssid beacon/aid: NA key: [BLANK] ap: NA wpa_cfg_file: NA mac: xx:xx:xx:xx:*:xx max-sta: NA dtim: NA mode: 0 rate: NA max_amsdu: NA ampdu_factor: NA ampdu_density: NA sta-br-ip: NA flags-mask: 68719607808 ieee80211w: NA x: NA y: NA z: NA
+1685630619500:  Port.cc 1833: 1.1.14-sta00100: setOsAdminDownCfg: TRUE dbg: addVWIFI, create
+1685630619500:  Card.cc 5449: Added dummy Virtual WiFi, idx: 14 name: sta00100 devName: sta00100 type: STA key: [BLANK]
+1685630619500:  Port.cc 4574: 1.1.14-sta00100: setVwifiValues flags: 68719607808 ssid: fake ssid beacon/aid: NA key: [BLANK] ap: NA wpa_cfg_file: NA mac: 00:0a:52:06:35:e3 max-sta: NA dtim: NA mode: 0 rate: NA max_amsdu: NA ampdu_factor: NA ampdu_density: NA sta-br-ip: NA flags-mask: 68719607808 ieee80211w: NA x: NA y: NA z: NA cur-ssid: 
+1685630619500:  Port.cc 4574: 1.1.14-sta00100: setVwifiValues flags: 68719607808 ssid: fake ssid beacon/aid: NA key: [BLANK] ap: NA wpa_cfg_file: NA mac: 00:0a:52:06:35:e3 max-sta: NA dtim: NA mode: 0 rate: NA max_amsdu: NA ampdu_factor: NA ampdu_density: NA sta-br-ip: NA flags-mask: 68719607808 ieee80211w: NA x: NA y: NA z: NA cur-ssid: fake ssid
+1685630619500:  Card.cc 5489: addVWIFI, card: Shelf: 1, Card: 1 sending cmd: add_vsta 1 1 'wiphy0' 'sta00100' 68719607808 'fake ssid' 'NA' '[BLANK]' 'NA' 'NA' '00:0a:52:06:35:e3' '0' 'NA' NA NA NA NA 68719607808 NA NA NA NA to remote.
+1685630619541:  ShelfMgr.cc 1699: checkNewAlert: is_event: FALSE alert:  event_type: 0 id: 4730 type: 2 eid: 1.1.14.0.0 entity-name: sta00100 details: Port sta00100 is Link DOWN. debug: AlertHandler
+1685630619541:  ShelfMgr.cc 1802: Propagating Alert, checkNewAlert:  event_type: 0 id: 4731 type: 2 eid: 1.1.14.0.0 entity-name: sta00100 details: Port sta00100 is Link DOWN.
+1685630619541:  ShelfMgr.cc 1811: ShelfMgr::receiveEvent:  event_type: 0 id: 4082 type: 2 eid: 1.1.14.0.0 entity-name: sta00100 details: Port sta00100 is Link DOWN. size: 1001 max: 1000 event:  event_type: 0 id: 4082 type: 2 eid: 1.1.14.0.0 entity-name: sta00100 details: Port sta00100 is Link DOWN. dbg: EventHandler
+1685630619542:  ShelfMgr.cc 1699: checkNewAlert: is_event: TRUE alert:  event_type: 0 id: 4082 type: 2 eid: 1.1.14.0.0 entity-name: sta00100 details: Port sta00100 is Link DOWN. debug: receiveEvent
+1685630619542:  ShelfMgr.cc 1663: Propagating Alert Deletion, removeAlert:  event_type: 0 id: 4731 type: 2 eid: 1.1.14.0.0 entity-name: sta00100 details: Port sta00100 is Link DOWN.
+1685630619542:  ShelfMgr.cc 1802: Propagating Alert, checkNewAlert:  event_type: 0 id: 4732 type: 2 eid: 1.1.14.0.0 entity-name: sta00100 details: Port sta00100 is Link DOWN.
+1685630619542:  ShelfMgr.cc 1863: Propagating Event, receiveEvent:  event_type: 0 id: 4082 type: 2 eid: 1.1.14.0.0 entity-name: sta00100 details: Port sta00100 is Link DOWN.
+1685630619595:  client2.cc 5115: client::setPortConfig, shelf: 1 card: 1 port: sta00100 ip_address: NA netmask: NA gw: NA cmd_flags: NA cur_flags: 2147483649 mac -:NA:-  MTU: NA tx_q_len: NA should_create: 0 interest_flags: 8437762 dns-servers: NA iff-specified: TRUE cur-flags-msk: NA ipsec-concentrator: NA ipsec-passwd: NA ipsec-local-id: NA ipsec-remote-id: NA dbg: gen-cmds-cli
+1685630619595:  Card.cc 8607: Card::setPortConfig, port: sta00100 ip: NA netmask: NA gw: NA interesting_flags: 8437762 mac: NA mtu: NA tx_qlen: NA alias: NA should_create: 0 br_port_priority: NA br_port_cost: NA ipv6_global: NA ipv6_link: NA ipv6_gw: NA br_flags: NA current_flags: 2147483649 cpu_mask: NA dns-servers: NA command_flags: NA sta-br-id: NA dhclient-id: NA current-flags-msk: NA dhcp-vendor-id: NA ipsec-concentrator: NA ipsec-passwd: NA dhcp-hostname: NA
+1685630619595:  Card.cc 9241: 1.1.14-sta00100 admin-down-cfg: TRUE down-rpt: FALSE staged-ifup-cfg: FALSE
+1685630619595:  Card.cc 9265: 1.1.14-sta00100 admin-down-cfg: TRUE down-rpt: FALSE cur-flags-down: TRUE
+1685630619595:  Card.cc 9277: 1.1.14-sta00100 2: admin-down-cfg: TRUE down-rpt: FALSE staged-ifup-cfg: FALSE
+1685630619600:  Port.cc 15429: 1.1.14-sta00100  setPhantom: current: TRUE new: FALSE dbg: handleIfaceRpt-4 ok-to-reset: TRUE
+1685630619600:  Port.cc 13280: Port: 1.1.14-sta00100 goes admin DOWN, dbg: handleInterfaceReport
+1685630619600:  Port.cc 13337: 1.1.14-sta00100:  Setting link state to: FALSE reason: handleInterfaceReport
+1685630619600:  Port.cc 15481: 1.1.14-sta00100: setReset state, old: 0 new: 3 debug: handleInterfaceReport
+1685630621738:  client2.cc 5115: client::setPortConfig, shelf: 1 card: 1 port: sta00100 ip_address: NA netmask: NA gw: NA cmd_flags: NA cur_flags: 0 mac -:NA:-  MTU: NA tx_q_len: NA should_create: 0 interest_flags: 8388610 dns-servers: NA iff-specified: TRUE cur-flags-msk: NA ipsec-concentrator: NA ipsec-passwd: NA ipsec-local-id: NA ipsec-remote-id: NA dbg: gen-cmds-cli
+1685630621738:  Card.cc 8607: Card::setPortConfig, port: sta00100 ip: NA netmask: NA gw: NA interesting_flags: 8388610 mac: NA mtu: NA tx_qlen: NA alias: NA should_create: 0 br_port_priority: NA br_port_cost: NA ipv6_global: NA ipv6_link: NA ipv6_gw: NA br_flags: NA current_flags: 0 cpu_mask: NA dns-servers: NA command_flags: NA sta-br-id: NA dhclient-id: NA current-flags-msk: NA dhcp-vendor-id: NA ipsec-concentrator: NA ipsec-passwd: NA dhcp-hostname: NA
+1685630621738:  Card.cc 9241: 1.1.14-sta00100 admin-down-cfg: TRUE down-rpt: TRUE staged-ifup-cfg: FALSE
+1685630621738:  Card.cc 9277: 1.1.14-sta00100 2: admin-down-cfg: TRUE down-rpt: TRUE staged-ifup-cfg: TRUE
+1685630627966:  LFCtrlHandler.cc 4186: LFCtrlHandler: Creating new port, pn: NULL eidp: Shelf: 1, Card: 1, Port: 15 name_40: _vrf14  pname: _vrf14
+1685630627966:  Port.cc 15429: 1.1.15-_vrf14  setPhantom: current: TRUE new: FALSE dbg: handleIfaceRpt-4 ok-to-reset: TRUE
+1685630627966:  Card.cc 2505: ##Port: 1.1.17-Unknown [17] does not exist on remote, but does locally..removing.
+1685630628056:  Port.cc 13239: Port: 1.1.14-sta00100 goes admin UP, dbg: handleInterfaceReport
+1685630628056:  Port.cc 13337: 1.1.15-_vrf14:  Setting link state to: TRUE reason: handleInterfaceReport
+1685630628056:  Port.cc 15481: 1.1.15-_vrf14: setReset state, old: 0 new: 3 debug: handleInterfaceReport
+1685630628056:  Port2.cc 8228: _vrf14:  handleInterfaceReport, Link state changed to: TRUE
+WARNING:  making string of size 100000
+WARNING:  making string of size 100000
+1685630643894:  Card.cc 4226: Card::deleteVLAN, port: sta00100 debug: client::remVLAN ifindex: 640 type: STA
+1685630643894:  Port.cc 11667: Port: 1.1.14-sta00100(0x23159f0)  1.1.14-sta00100 setting ok-to-delete to: 1  debug: deleteVLAN
+1685630644193:  ShelfMgr.cc 1699: checkNewAlert: is_event: FALSE alert:  event_type: 0 id: 4733 type: 2 eid: 1.1.14.0.0 entity-name: sta00100 details: Port sta00100 is Link DOWN. debug: AlertHandler
+1685630644193:  ShelfMgr.cc 1663: Propagating Alert Deletion, removeAlert:  event_type: 0 id: 4732 type: 2 eid: 1.1.14.0.0 entity-name: sta00100 details: Port sta00100 is Link DOWN.
+1685630644193:  Card.cc 2475: Port [14] (1.1.14-sta00100) does not exist on remote, but does locally..removing.
+1685630644193:  Port.cc 15429: 1.1.14-sta00100  setPhantom: current: FALSE new: TRUE dbg: handlePortListing ok-to-reset: FALSE
+1685630644193:  Card.cc 2475: Port [15] (1.1.15-_vrf14) does not exist on remote, but does locally..removing.
+1685630644193:  Port.cc 15429: 1.1.15-_vrf14  setPhantom: current: FALSE new: TRUE dbg: handlePortListing ok-to-reset: FALSE
+1685630644193:  Port.cc 11667: Port: 1.1.15-_vrf14(0x2326430)  1.1.15-_vrf14 setting ok-to-delete to: 1  debug: setPhantom, auto-managed
+1685630644193:  Card.cc 2505: ##Port: 1.1.17-Unknown [17] does not exist on remote, but does locally..removing.
+1685630645121:  Card.cc 5316: addVWIFI, pt: STA(10)  radio: wiphy0 name: ath10k_2g00 flags: 68719608832 ssid: MDU-Wi-Fi-2g beacon/aid: NA key: OpenWifi2 ap: NA wpa_cfg_file: NA mac: xx:xx:xx:xx:*:xx max-sta: NA dtim: NA mode: 0 rate: NA max_amsdu: NA ampdu_factor: NA ampdu_density: NA sta-br-ip: NA flags-mask: 68719608832 ieee80211w: NA x: NA y: NA z: NA
+1685630645122:  Port.cc 1833: 1.1.14-ath10k_2g00: setOsAdminDownCfg: TRUE dbg: addVWIFI, create
+1685630645122:  Card.cc 5449: Added dummy Virtual WiFi, idx: 14 name: ath10k_2g00 devName: ath10k_2g00 type: STA key: OpenWifi2
+1685630645122:  Port.cc 4574: 1.1.14-ath10k_2g00: setVwifiValues flags: 68719608832 ssid: MDU-Wi-Fi-2g beacon/aid: NA key: OpenWifi2 ap: NA wpa_cfg_file: NA mac: 00:0a:52:06:8e:e3 max-sta: NA dtim: NA mode: 0 rate: NA max_amsdu: NA ampdu_factor: NA ampdu_density: NA sta-br-ip: NA flags-mask: 68719608832 ieee80211w: NA x: NA y: NA z: NA cur-ssid: 
+1685630645122:  Port.cc 4574: 1.1.14-ath10k_2g00: setVwifiValues flags: 68719608832 ssid: MDU-Wi-Fi-2g beacon/aid: NA key: OpenWifi2 ap: NA wpa_cfg_file: NA mac: 00:0a:52:06:8e:e3 max-sta: NA dtim: NA mode: 0 rate: NA max_amsdu: NA ampdu_factor: NA ampdu_density: NA sta-br-ip: NA flags-mask: 68719608832 ieee80211w: NA x: NA y: NA z: NA cur-ssid: MDU-Wi-Fi-2g
+1685630645122:  Card.cc 5489: addVWIFI, card: Shelf: 1, Card: 1 sending cmd: add_vsta 1 1 'wiphy0' 'ath10k_2g00' 68719608832 'MDU-Wi-Fi-2g' 'NA' '0x4f70656e5769666932' 'NA' 'NA' '00:0a:52:06:8e:e3' '0' 'NA' NA NA NA NA 68719608832 NA NA NA NA to remote.
+1685630645177:  client2.cc 5115: client::setPortConfig, shelf: 1 card: 1 port: ath10k_2g00 ip_address: NA netmask: NA gw: NA cmd_flags: NA cur_flags: 2147483649 mac -:NA:-  MTU: NA tx_q_len: NA should_create: 0 interest_flags: 8437762 dns-servers: NA iff-specified: TRUE cur-flags-msk: NA ipsec-concentrator: NA ipsec-passwd: NA ipsec-local-id: NA ipsec-remote-id: NA dbg: gen-cmds-cli
+1685630645177:  Card.cc 8607: Card::setPortConfig, port: ath10k_2g00 ip: NA netmask: NA gw: NA interesting_flags: 8437762 mac: NA mtu: NA tx_qlen: NA alias: NA should_create: 0 br_port_priority: NA br_port_cost: NA ipv6_global: NA ipv6_link: NA ipv6_gw: NA br_flags: NA current_flags: 2147483649 cpu_mask: NA dns-servers: NA command_flags: NA sta-br-id: NA dhclient-id: NA current-flags-msk: NA dhcp-vendor-id: NA ipsec-concentrator: NA ipsec-passwd: NA dhcp-hostname: NA
+1685630645177:  Card.cc 9241: 1.1.14-ath10k_2g00 admin-down-cfg: TRUE down-rpt: FALSE staged-ifup-cfg: FALSE
+1685630645177:  Card.cc 9265: 1.1.14-ath10k_2g00 admin-down-cfg: TRUE down-rpt: FALSE cur-flags-down: TRUE
+1685630645178:  Card.cc 9277: 1.1.14-ath10k_2g00 2: admin-down-cfg: TRUE down-rpt: FALSE staged-ifup-cfg: FALSE
+1685630645200:  Card.cc 2505: ##Port: 1.1.17-Unknown [17] does not exist on remote, but does locally..removing.
+1685630645200:  Card.cc 2505: ##Port: 1.1.17-Unknown [17] does not exist on remote, but does locally..removing.
+1685630645200:  ShelfMgr.cc 1699: checkNewAlert: is_event: FALSE alert:  event_type: 0 id: 4734 type: 2 eid: 1.1.14.0.0 entity-name: ath10k_2g00 details: Port ath10k_2g00 is Link DOWN. debug: AlertHandler
+1685630645200:  ShelfMgr.cc 1802: Propagating Alert, checkNewAlert:  event_type: 0 id: 4735 type: 2 eid: 1.1.14.0.0 entity-name: ath10k_2g00 details: Port ath10k_2g00 is Link DOWN.
+1685630645200:  ShelfMgr.cc 1811: ShelfMgr::receiveEvent:  event_type: 0 id: 4083 type: 2 eid: 1.1.14.0.0 entity-name: ath10k_2g00 details: Port ath10k_2g00 is Link DOWN. size: 1001 max: 1000 event:  event_type: 0 id: 4083 type: 2 eid: 1.1.14.0.0 entity-name: ath10k_2g00 details: Port ath10k_2g00 is Link DOWN. dbg: EventHandler
+1685630645200:  ShelfMgr.cc 1699: checkNewAlert: is_event: TRUE alert:  event_type: 0 id: 4083 type: 2 eid: 1.1.14.0.0 entity-name: ath10k_2g00 details: Port ath10k_2g00 is Link DOWN. debug: receiveEvent
+1685630645200:  ShelfMgr.cc 1663: Propagating Alert Deletion, removeAlert:  event_type: 0 id: 4735 type: 2 eid: 1.1.14.0.0 entity-name: ath10k_2g00 details: Port ath10k_2g00 is Link DOWN.
+1685630645200:  ShelfMgr.cc 1802: Propagating Alert, checkNewAlert:  event_type: 0 id: 4736 type: 2 eid: 1.1.14.0.0 entity-name: ath10k_2g00 details: Port ath10k_2g00 is Link DOWN.
+1685630645200:  ShelfMgr.cc 1863: Propagating Event, receiveEvent:  event_type: 0 id: 4083 type: 2 eid: 1.1.14.0.0 entity-name: ath10k_2g00 details: Port ath10k_2g00 is Link DOWN.
+1685630645204:  Port.cc 15429: 1.1.14-ath10k_2g00  setPhantom: current: TRUE new: FALSE dbg: handleIfaceRpt-4 ok-to-reset: TRUE
+1685630645204:  Port.cc 13280: Port: 1.1.14-ath10k_2g00 goes admin DOWN, dbg: handleInterfaceReport
+1685630645204:  Port.cc 13337: 1.1.14-ath10k_2g00:  Setting link state to: FALSE reason: handleInterfaceReport
+1685630645204:  Port.cc 15481: 1.1.14-ath10k_2g00: setReset state, old: 0 new: 3 debug: handleInterfaceReport
+1685630647316:  client2.cc 5115: client::setPortConfig, shelf: 1 card: 1 port: ath10k_2g00 ip_address: NA netmask: NA gw: NA cmd_flags: NA cur_flags: 0 mac -:NA:-  MTU: NA tx_q_len: NA should_create: 0 interest_flags: 8388610 dns-servers: NA iff-specified: TRUE cur-flags-msk: NA ipsec-concentrator: NA ipsec-passwd: NA ipsec-local-id: NA ipsec-remote-id: NA dbg: gen-cmds-cli
+1685630647316:  Card.cc 8607: Card::setPortConfig, port: ath10k_2g00 ip: NA netmask: NA gw: NA interesting_flags: 8388610 mac: NA mtu: NA tx_qlen: NA alias: NA should_create: 0 br_port_priority: NA br_port_cost: NA ipv6_global: NA ipv6_link: NA ipv6_gw: NA br_flags: NA current_flags: 0 cpu_mask: NA dns-servers: NA command_flags: NA sta-br-id: NA dhclient-id: NA current-flags-msk: NA dhcp-vendor-id: NA ipsec-concentrator: NA ipsec-passwd: NA dhcp-hostname: NA
+1685630647316:  Card.cc 9241: 1.1.14-ath10k_2g00 admin-down-cfg: TRUE down-rpt: TRUE staged-ifup-cfg: FALSE
+1685630647316:  Card.cc 9277: 1.1.14-ath10k_2g00 2: admin-down-cfg: TRUE down-rpt: TRUE staged-ifup-cfg: TRUE
+1685630652922:  LFCtrlHandler.cc 4186: LFCtrlHandler: Creating new port, pn: NULL eidp: Shelf: 1, Card: 1, Port: 15 name_40: _vrf14  pname: _vrf14
+1685630652922:  Port.cc 15429: 1.1.15-_vrf14  setPhantom: current: TRUE new: FALSE dbg: handleIfaceRpt-4 ok-to-reset: TRUE
+1685630652922:  Card.cc 2505: ##Port: 1.1.17-Unknown [17] does not exist on remote, but does locally..removing.
+1685630653009:  Port.cc 13337: 1.1.15-_vrf14:  Setting link state to: TRUE reason: handleInterfaceReport
+1685630653009:  Port.cc 15481: 1.1.15-_vrf14: setReset state, old: 0 new: 3 debug: handleInterfaceReport
+1685630653009:  Port2.cc 8228: _vrf14:  handleInterfaceReport, Link state changed to: TRUE
+1685630653694:  Port.cc 13239: Port: 1.1.14-ath10k_2g00 goes admin UP, dbg: handleInterfaceReport
+WARNING:  making string of size 100000
+1685630657952:  ShelfMgr.cc 1699: checkNewAlert: is_event: FALSE alert:  event_type: 0 id: 4737 type: 2 eid: 1.1.14.0.0 entity-name: ath10k_2g00 details: Port ath10k_2g00 is Link DOWN. debug: AlertHandler
+1685630657952:  ShelfMgr.cc 1663: Propagating Alert Deletion, removeAlert:  event_type: 0 id: 4736 type: 2 eid: 1.1.14.0.0 entity-name: ath10k_2g00 details: Port ath10k_2g00 is Link DOWN.
+1685630657952:  ShelfMgr.cc 1811: ShelfMgr::receiveEvent:  event_type: 1 id: 4084 type: 2 eid: 1.1.14.0.0 entity-name: ath10k_2g00 details: Port ath10k_2g00 is Link UP. size: 1001 max: 1000 event:  event_type: 1 id: 4084 type: 2 eid: 1.1.14.0.0 entity-name: ath10k_2g00 details: Port ath10k_2g00 is Link UP. dbg: EventHandler
+1685630657952:  ShelfMgr.cc 1699: checkNewAlert: is_event: TRUE alert:  event_type: 1 id: 4084 type: 2 eid: 1.1.14.0.0 entity-name: ath10k_2g00 details: Port ath10k_2g00 is Link UP. debug: receiveEvent
+1685630657952:  ShelfMgr.cc 1863: Propagating Event, receiveEvent:  event_type: 1 id: 4084 type: 2 eid: 1.1.14.0.0 entity-name: ath10k_2g00 details: Port ath10k_2g00 is Link UP.
+1685630658035:  ShelfMgr.cc 1811: ShelfMgr::receiveEvent:  event_type: 8 id: 4085 type: 2 eid: 1.1.14.0.0 entity-name: ath10k_2g00 details: IFNAME=ath10k_2g00 <3>CTRL-EVENT-CONNECTED - Connection to 00:06:ae:6d:f0:ba completed [id=27 id_str=] size: 1001 max: 1000 event:  event_type: 8 id: 4085 type: 2 eid: 1.1.14.0.0 entity-name: ath10k_2g00 details: IFNAME=ath10k_2g00 <3>CTRL-EVENT-CONNECTED - Connection to 00:06:ae:6d:f0:ba completed [id=27 id_str=] dbg: EventHandler
+1685630658035:  ShelfMgr.cc 1699: checkNewAlert: is_event: TRUE alert:  event_type: 8 id: 4085 type: 2 eid: 1.1.14.0.0 entity-name: ath10k_2g00 details: IFNAME=ath10k_2g00 <3>CTRL-EVENT-CONNECTED - Connection to 00:06:ae:6d:f0:ba completed [id=27 id_str=] debug: receiveEvent
+1685630658035:  ShelfMgr.cc 1863: Propagating Event, receiveEvent:  event_type: 8 id: 4085 type: 2 eid: 1.1.14.0.0 entity-name: ath10k_2g00 details: IFNAME=ath10k_2g00 <3>CTRL-EVENT-CONNECTED - Connection to 00:06:ae:6d:f0:ba completed [id=27 id_str=]
+1685630658036:  Port.cc 13337: 1.1.14-ath10k_2g00:  Setting link state to: TRUE reason: handleInterfaceReport
+1685630658036:  Port2.cc 8228: ath10k_2g00:  handleInterfaceReport, Link state changed to: TRUE
+1685630659109:  ShelfMgr.cc 1811: ShelfMgr::receiveEvent:  event_type: 51 id: 4086 type: 2 eid: 1.1.13.0.0 entity-name: eth1.200 details: DHCPACK on 172.18.100.204 to 00:0a:52:06:8e:e3 via eth1.200 size: 1001 max: 1000 event:  event_type: 51 id: 4086 type: 2 eid: 1.1.13.0.0 entity-name: eth1.200 details: DHCPACK on 172.18.100.204 to 00:0a:52:06:8e:e3 via eth1.200 dbg: EventHandler
+1685630659109:  ShelfMgr.cc 1699: checkNewAlert: is_event: TRUE alert:  event_type: 51 id: 4086 type: 2 eid: 1.1.13.0.0 entity-name: eth1.200 details: DHCPACK on 172.18.100.204 to 00:0a:52:06:8e:e3 via eth1.200 debug: receiveEvent
+1685630659109:  ShelfMgr.cc 1863: Propagating Event, receiveEvent:  event_type: 51 id: 4086 type: 2 eid: 1.1.13.0.0 entity-name: eth1.200 details: DHCPACK on 172.18.100.204 to 00:0a:52:06:8e:e3 via eth1.200
+1685630659164:  ShelfMgr.cc 1811: ShelfMgr::receiveEvent:  event_type: 50 id: 4087 type: 2 eid: 1.1.14.0.0 entity-name: ath10k_2g00 details: Port ath10k_2g00 IP changed from 0.0.0.0 to 172.18.100.204 size: 1001 max: 1000 event:  event_type: 50 id: 4087 type: 2 eid: 1.1.14.0.0 entity-name: ath10k_2g00 details: Port ath10k_2g00 IP changed from 0.0.0.0 to 172.18.100.204 dbg: EventHandler
+1685630659164:  ShelfMgr.cc 1699: checkNewAlert: is_event: TRUE alert:  event_type: 50 id: 4087 type: 2 eid: 1.1.14.0.0 entity-name: ath10k_2g00 details: Port ath10k_2g00 IP changed from 0.0.0.0 to 172.18.100.204 debug: receiveEvent
+1685630659164:  ShelfMgr.cc 1863: Propagating Event, receiveEvent:  event_type: 50 id: 4087 type: 2 eid: 1.1.14.0.0 entity-name: ath10k_2g00 details: Port ath10k_2g00 IP changed from 0.0.0.0 to 172.18.100.204
+1685630659164:  Port.cc 15481: 1.1.14-ath10k_2g00: setReset state, old: 3 new: 2 debug: handleInterfaceReport
+1685630659448:  Port.cc 2400: setDfltGwRpt from: 0.0.0.0 to: 172.18.0.1 for port: 1.1.14-ath10k_2g00
+1685630659448:  Port.cc 15481: 1.1.14-ath10k_2g00: setReset state, old: 2 new: 3 debug: handleInterfaceReport
+1685630660452:  client2.cc 5115: client::setPortConfig, shelf: 1 card: 1 port: moni3a ip_address: NA netmask: NA gw: NA cmd_flags: NA cur_flags: 1 mac -:NA:-  MTU: NA tx_q_len: NA should_create: 0 interest_flags: 8388610 dns-servers: NA iff-specified: TRUE cur-flags-msk: NA ipsec-concentrator: NA ipsec-passwd: NA ipsec-local-id: NA ipsec-remote-id: NA dbg: gen-cmds-cli
+1685630660452:  Card.cc 8607: Card::setPortConfig, port: moni3a ip: NA netmask: NA gw: NA interesting_flags: 8388610 mac: NA mtu: NA tx_qlen: NA alias: NA should_create: 0 br_port_priority: NA br_port_cost: NA ipv6_global: NA ipv6_link: NA ipv6_gw: NA br_flags: NA current_flags: 1 cpu_mask: NA dns-servers: NA command_flags: NA sta-br-id: NA dhclient-id: NA current-flags-msk: NA dhcp-vendor-id: NA ipsec-concentrator: NA ipsec-passwd: NA dhcp-hostname: NA
+1685630660452:  Card.cc 9241: 1.1.12-moni3a admin-down-cfg: FALSE down-rpt: FALSE staged-ifup-cfg: FALSE
+1685630660452:  Card.cc 9265: 1.1.12-moni3a admin-down-cfg: FALSE down-rpt: FALSE cur-flags-down: TRUE
+1685630660452:  Port.cc 1833: 1.1.12-moni3a: setOsAdminDownCfg: TRUE dbg: setPortCfg (IF_down)
+1685630660452:  Card.cc 9277: 1.1.12-moni3a 2: admin-down-cfg: TRUE down-rpt: FALSE staged-ifup-cfg: FALSE
+1685630660492:  client.cc 381: client: Admin had error -:Important message from card: Shelf: 1, Card: 1 -:[Port Config] Shelf: 1, Card: 1, Port: 12 (moni3a)  ERROR:  system command "echo 0 0 0 1 > /debug/ieee80211/wiphy3/mt76/he_sniffer_params" had return code: 1
+:-
+:-
+1685630660492:  LFCtrlHandler.cc 3600: Important message from card: Shelf: 1, Card: 1 -:[Port Config] Shelf: 1, Card: 1, Port: 12 (moni3a)  ERROR:  system command "echo 0 0 0 1 > /debug/ieee80211/wiphy3/mt76/he_sniffer_params" had return code: 1
+:-
+1685630662538:  Card.cc 4226: Card::deleteVLAN, port: moni3a debug: client::remVLAN ifindex: 639 type: MONITOR
+1685630662538:  Port.cc 11667: Port: 1.1.12-moni3a(0x2515900)  1.1.12-moni3a setting ok-to-delete to: 1  debug: deleteVLAN
+1685630662579:  ShelfMgr.cc 1699: checkNewAlert: is_event: FALSE alert:  event_type: 0 id: 4738 type: 2 eid: 1.1.12.0.0 entity-name: moni3a details: Port moni3a is Link DOWN. debug: AlertHandler
+1685630662579:  ShelfMgr.cc 1802: Propagating Alert, checkNewAlert:  event_type: 0 id: 4739 type: 2 eid: 1.1.12.0.0 entity-name: moni3a details: Port moni3a is Link DOWN.
+1685630662579:  ShelfMgr.cc 1811: ShelfMgr::receiveEvent:  event_type: 0 id: 4088 type: 2 eid: 1.1.12.0.0 entity-name: moni3a details: Port moni3a is Link DOWN. size: 1001 max: 1000 event:  event_type: 0 id: 4088 type: 2 eid: 1.1.12.0.0 entity-name: moni3a details: Port moni3a is Link DOWN. dbg: EventHandler
+1685630662579:  ShelfMgr.cc 1699: checkNewAlert: is_event: TRUE alert:  event_type: 0 id: 4088 type: 2 eid: 1.1.12.0.0 entity-name: moni3a details: Port moni3a is Link DOWN. debug: receiveEvent
+1685630662579:  ShelfMgr.cc 1663: Propagating Alert Deletion, removeAlert:  event_type: 0 id: 4739 type: 2 eid: 1.1.12.0.0 entity-name: moni3a details: Port moni3a is Link DOWN.
+1685630662579:  ShelfMgr.cc 1802: Propagating Alert, checkNewAlert:  event_type: 0 id: 4740 type: 2 eid: 1.1.12.0.0 entity-name: moni3a details: Port moni3a is Link DOWN.
+1685630662579:  ShelfMgr.cc 1863: Propagating Event, receiveEvent:  event_type: 0 id: 4088 type: 2 eid: 1.1.12.0.0 entity-name: moni3a details: Port moni3a is Link DOWN.
+1685630662579:  ShelfMgr.cc 1699: checkNewAlert: is_event: FALSE alert:  event_type: 0 id: 4741 type: 2 eid: 1.1.12.0.0 entity-name: moni3a details: Port moni3a is Link DOWN. debug: AlertHandler
+1685630662579:  ShelfMgr.cc 1663: Propagating Alert Deletion, removeAlert:  event_type: 0 id: 4740 type: 2 eid: 1.1.12.0.0 entity-name: moni3a details: Port moni3a is Link DOWN.
+1685630662579:  Card.cc 2475: Port [12] (1.1.12-moni3a) does not exist on remote, but does locally..removing.
+1685630662579:  Port.cc 15429: 1.1.12-moni3a  setPhantom: current: FALSE new: TRUE dbg: handlePortListing ok-to-reset: FALSE
+1685630662579:  Card.cc 2505: ##Port: 1.1.17-Unknown [17] does not exist on remote, but does locally..removing.
+1685630663027:  Card.cc 4226: Card::deleteVLAN, port: ath10k_2g00 debug: client::remVLAN ifindex: 642 type: STA
+1685630663027:  Port.cc 11667: Port: 1.1.14-ath10k_2g00(0x23159f0)  1.1.14-ath10k_2g00 setting ok-to-delete to: 1  debug: deleteVLAN
+1685630663217:  ShelfMgr.cc 1699: checkNewAlert: is_event: FALSE alert:  event_type: 0 id: 4742 type: 2 eid: 1.1.14.0.0 entity-name: ath10k_2g00 details: Port ath10k_2g00 is Link DOWN. debug: AlertHandler
+1685630663217:  ShelfMgr.cc 1802: Propagating Alert, checkNewAlert:  event_type: 0 id: 4743 type: 2 eid: 1.1.14.0.0 entity-name: ath10k_2g00 details: Port ath10k_2g00 is Link DOWN.
+1685630663217:  ShelfMgr.cc 1811: ShelfMgr::receiveEvent:  event_type: 0 id: 4089 type: 2 eid: 1.1.14.0.0 entity-name: ath10k_2g00 details: Port ath10k_2g00 is Link DOWN. size: 1001 max: 1000 event:  event_type: 0 id: 4089 type: 2 eid: 1.1.14.0.0 entity-name: ath10k_2g00 details: Port ath10k_2g00 is Link DOWN. dbg: EventHandler
+1685630663217:  ShelfMgr.cc 1699: checkNewAlert: is_event: TRUE alert:  event_type: 0 id: 4089 type: 2 eid: 1.1.14.0.0 entity-name: ath10k_2g00 details: Port ath10k_2g00 is Link DOWN. debug: receiveEvent
+1685630663217:  ShelfMgr.cc 1663: Propagating Alert Deletion, removeAlert:  event_type: 0 id: 4743 type: 2 eid: 1.1.14.0.0 entity-name: ath10k_2g00 details: Port ath10k_2g00 is Link DOWN.
+1685630663217:  ShelfMgr.cc 1802: Propagating Alert, checkNewAlert:  event_type: 0 id: 4744 type: 2 eid: 1.1.14.0.0 entity-name: ath10k_2g00 details: Port ath10k_2g00 is Link DOWN.
+1685630663217:  ShelfMgr.cc 1863: Propagating Event, receiveEvent:  event_type: 0 id: 4089 type: 2 eid: 1.1.14.0.0 entity-name: ath10k_2g00 details: Port ath10k_2g00 is Link DOWN.
+1685630663217:  ShelfMgr.cc 1811: ShelfMgr::receiveEvent:  event_type: 7 id: 4090 type: 2 eid: 1.1.14.0.0 entity-name: ath10k_2g00 details: ath10k_2g00 (phy #0): disconnected (local request) reason: 3: Deauthenticated because sending station is leaving (or ha size: 1001 max: 1000 event:  event_type: 7 id: 4090 type: 2 eid: 1.1.14.0.0 entity-name: ath10k_2g00 details: ath10k_2g00 (phy #0): disconnected (local request) reason: 3: Deauthenticated because sending station is leaving (or ha dbg: EventHandler
+1685630663217:  ShelfMgr.cc 1699: checkNewAlert: is_event: TRUE alert:  event_type: 7 id: 4090 type: 2 eid: 1.1.14.0.0 entity-name: ath10k_2g00 details: ath10k_2g00 (phy #0): disconnected (local request) reason: 3: Deauthenticated because sending station is leaving (or ha debug: receiveEvent
+1685630663217:  ShelfMgr.cc 1863: Propagating Event, receiveEvent:  event_type: 7 id: 4090 type: 2 eid: 1.1.14.0.0 entity-name: ath10k_2g00 details: ath10k_2g00 (phy #0): disconnected (local request) reason: 3: Deauthenticated because sending station is leaving (or ha
+1685630663314:  ShelfMgr.cc 1811: ShelfMgr::receiveEvent:  event_type: 50 id: 4091 type: 2 eid: 1.1.14.0.0 entity-name: ath10k_2g00 details: Port ath10k_2g00 IP changed from 172.18.100.204 to 0.0.0.0 size: 1001 max: 1000 event:  event_type: 50 id: 4091 type: 2 eid: 1.1.14.0.0 entity-name: ath10k_2g00 details: Port ath10k_2g00 IP changed from 172.18.100.204 to 0.0.0.0 dbg: EventHandler
+1685630663314:  ShelfMgr.cc 1699: checkNewAlert: is_event: TRUE alert:  event_type: 50 id: 4091 type: 2 eid: 1.1.14.0.0 entity-name: ath10k_2g00 details: Port ath10k_2g00 IP changed from 172.18.100.204 to 0.0.0.0 debug: receiveEvent
+1685630663314:  ShelfMgr.cc 1863: Propagating Event, receiveEvent:  event_type: 50 id: 4091 type: 2 eid: 1.1.14.0.0 entity-name: ath10k_2g00 details: Port ath10k_2g00 IP changed from 172.18.100.204 to 0.0.0.0
+1685630663314:  Port.cc 13280: Port: 1.1.14-ath10k_2g00 goes admin DOWN, dbg: handleInterfaceReport
+1685630663314:  Port.cc 13337: 1.1.14-ath10k_2g00:  Setting link state to: FALSE reason: handleInterfaceReport
+1685630663314:  Port2.cc 8228: ath10k_2g00:  handleInterfaceReport, Link state changed to: FALSE
+1685630663314:  ShelfMgr.cc 1699: checkNewAlert: is_event: FALSE alert:  event_type: 0 id: 4745 type: 2 eid: 1.1.14.0.0 entity-name: ath10k_2g00 details: Port ath10k_2g00 is Link DOWN. debug: AlertHandler
+1685630663314:  ShelfMgr.cc 1663: Propagating Alert Deletion, removeAlert:  event_type: 0 id: 4744 type: 2 eid: 1.1.14.0.0 entity-name: ath10k_2g00 details: Port ath10k_2g00 is Link DOWN.
+1685630663314:  Card.cc 2475: Port [14] (1.1.14-ath10k_2g00) does not exist on remote, but does locally..removing.
+1685630663314:  Port.cc 15429: 1.1.14-ath10k_2g00  setPhantom: current: FALSE new: TRUE dbg: handlePortListing ok-to-reset: FALSE
+1685630663314:  Card.cc 2475: Port [15] (1.1.15-_vrf14) does not exist on remote, but does locally..removing.
+1685630663314:  Port.cc 15429: 1.1.15-_vrf14  setPhantom: current: FALSE new: TRUE dbg: handlePortListing ok-to-reset: FALSE
+1685630663314:  Port.cc 11667: Port: 1.1.15-_vrf14(0x2326430)  1.1.15-_vrf14 setting ok-to-delete to: 1  debug: setPhantom, auto-managed

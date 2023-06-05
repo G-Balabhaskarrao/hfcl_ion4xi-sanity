@@ -1,0 +1,7 @@
+Command Response: 
+Command Type: PUT
+Response URI: https://prov-qa01.cicd.lab.wlan.tip.build:16005/api/v1/inventory/02000029fd96
+Response Headers: {'Authorization': 'Bearer 48dd6c01e9258ed35adb8c2d4604afa60f0d585d328c5962e1aa415c62a101df', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}
+TimeStamp: 2023-06-01 13:37:54.031505
+Response Code: 200
+Response Body: {'contact': '', 'created': 0, 'description': 'For testing API through automation after editing', 'devClass': 'any', 'deviceConfiguration': '', 'deviceRules': {'firmwareUpgrade': 'inherit', 'rcOnly': 'inherit', 'rrm': 'inherit'}, 'deviceType': 'edgecore_eap101', 'doNotAllowOverrides': False, 'entity': '', 'geoCode': '', 'id': '', 'locale': '', 'location': '', 'managementPolicy': '', 'modified': 0, 'name': 'Testing_to_add_device_through_automation', 'notes': [], 'qrCode': '', 'realMacAddress': '', 'serialNumber': '', 'state': '', 'subscriber': '', 'tags': [], 'venue': ''}

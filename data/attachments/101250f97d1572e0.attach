@@ -1,0 +1,7 @@
+Command Response: 
+Command Type: GET
+Response URI: https://gw-qa01.cicd.lab.wlan.tip.build:16002/api/v1/device/0006ae6df0db/rtty
+Response Headers: {'Authorization': 'Bearer 48dd6c01e9258ed35adb8c2d4604afa60f0d585d328c5962e1aa415c62a101df', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}
+TimeStamp: 2023-06-01 13:31:12.808565
+Response Code: 200
+Response Body: {'commandUUID': '0f86dd94-a637-4d6b-9b74-63ee541a965d', 'connectionId': '55520ae468f428655117119a1aa2ec9f', 'password': '', 'port': 5912, 'serialNumber': '0006ae6df0db', 'server': 'gw-qa01.cicd.lab.wlan.tip.build', 'started': 1685626271, 'timeout': 60, 'token': '20e3487a441f84b7f724c6437b0767c6', 'viewport': 5913}

@@ -1,0 +1,11 @@
+2023-06-01 19:08:09 [32mINFO[0m Sending Command: 
+TimeStamp: 2023-06-01 13:38:09.904886
+URI: https://prov-qa01.cicd.lab.wlan.tip.build:16005/api/v1/location
+Headers: {'Authorization': 'Bearer 48dd6c01e9258ed35adb8c2d4604afa60f0d585d328c5962e1aa415c62a101df', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}
+2023-06-01 19:08:10 [32mINFO[0m Command Response: 
+Command Type: GET
+Response URI: https://prov-qa01.cicd.lab.wlan.tip.build:16005/api/v1/location
+Response Headers: {'Authorization': 'Bearer 48dd6c01e9258ed35adb8c2d4604afa60f0d585d328c5962e1aa415c62a101df', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}
+TimeStamp: 2023-06-01 13:38:10.852589
+Response Code: 200
+Response Body: {'locations': [{'addressLines': ['Rushikonda ', 'Near IT Sez Road'], 'buildingName': 'LOTUS APRATMENT ', 'city': 'VISAKAPATANAM', 'country': 'IN', 'created': 1683109768, 'description': '', 'entity': 'a624dcf9-a878-422e-a79f-d9730dc9d5ed', 'geoCode': '', 'id': '3cdfc7c6-a6d2-4ec1-8b4c-9cd3142782c0', 'inUse': [], 'managementPolicy': '', 'mobiles': [], 'modified': 1683111859, 'name': 'TestLocation', 'notes': [], 'phones': ['9985509155'], 'postal': '530048', 'state': 'ANDHRA PRADESH', 'tags': [], 'type': 'SERVICE'}]}

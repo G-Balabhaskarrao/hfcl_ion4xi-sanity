@@ -1,0 +1,7 @@
+Command Response: 
+Command Type: GET
+Response URI: https://sec-qa01.cicd.lab.wlan.tip.build:16001/api/v1/system
+Response Headers: {'Authorization': 'Bearer 48dd6c01e9258ed35adb8c2d4604afa60f0d585d328c5962e1aa415c62a101df', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}
+TimeStamp: 2023-06-01 13:38:29.781214
+Response Code: 200
+Response Body: {'UI': 'https://webui-qa01.cicd.lab.wlan.tip.build', 'certificates': [{'expiresOn': 1692101865, 'filename': 'tls.crt'}], 'hostname': 'owsec-785cdc4f9b-6mdrh', 'os': 'Linux', 'processors': 4, 'start': 1685024563, 'uptime': 602146, 'version': '2.10.0(21) - 776ecab'}

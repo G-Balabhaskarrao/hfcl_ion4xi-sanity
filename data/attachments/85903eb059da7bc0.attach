@@ -1,0 +1,22 @@
+Thu Jun  1 16:10:23 2023 user.notice root: start testcase: OT6M151XK
+Thu Jun  1 16:10:28 2023 daemon.notice netifd: Network device 'eth0' link is down
+Thu Jun  1 16:10:28 2023 kern.info kernel: [ 7991.798157] nss-dp 3a001600.dp1 eth0: PHY Link is down
+Thu Jun  1 16:10:28 2023 kern.info kernel: [ 7991.798415] up: port 1(eth0) entered disabled state
+Thu Jun  1 16:10:31 2023 daemon.notice netifd: Network device 'eth0' link is up
+Thu Jun  1 16:10:31 2023 kern.info kernel: [ 7994.798168] nss-dp 3a001600.dp1 eth0: PHY Link up speed: 1000
+Thu Jun  1 16:10:31 2023 kern.info kernel: [ 7994.798251] up: port 1(eth0) entered forwarding state
+Thu Jun  1 16:10:31 2023 kern.info kernel: [ 7994.802953] up: port 1(eth0) entered forwarding state
+Thu Jun  1 16:10:39 2023 kern.info kernel: [ 8002.828041] up: port 1(eth0) entered forwarding state
+Thu Jun  1 16:10:47 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJzdWOtuqzgQfhfv/lua+G7gBfYhqgq5YBrrEGANpOeoyrvvDKRtyK1pT7uVtlEVY49nPs83M4zzRIbBFyRlOlZaKGVERDoXvK1ISiil2jpdlLS4JzDf296R9IkMte/xe+3WTfiFo77pcYcUmhkZyzgiZXAgy7VKEsqkjEhu85UDS1wZyiWlEbkfytIFnItjLYyU24hUTW6r3q/dC6RYmogM7TQXU8ZQyMKmW7qgoEmyCAYiVkbhgEqRqLuI9G7dumD7IcC2W80ize9Af7CFbzqYeSL5yta1A9RMJtHzEy7hM1OoBA7xz+DqHM54q4xUkTIG53fC2aMv+hWiAns/s7Z5dAEOCHi7IWwc7gLhdgUD0la2L5uwXnZNvszp+Ld49KUnB1gVB8/YGg9I1N8EQO9DnQONxAFILhmPuOT8GKT8HZB/sSOY4hUmR5igxNe9C6XN3eTg2iJlwB3dUDJR2/umhqnlq+QSl3y7kRhGtiiC67pxP2GGL5hecG4Wcsk0AQOVs52bIkFjBBWrvM0gXDd4pOcNdMHI9jVkmBYoWXc7wVF3vBg/qDNvBgTTof0A/rH5D9fDk6IxT7SYnPY8ySQErwHfgeT9rx6BGk21loLryb+7WU4hD0TM4lHUhdCghUlk7wnWitC0LSbBtLj/uB4gFXLbQbJxzKCmqnwHHsS9W4yLFw+zDaMXfMwu+tiAy5S53sXmyMUQcRddXHlX91NQrG0+VhbQnjqaxnmqi9SZHcDsVASgtWjf9N0orOfCpYtpOn34qLssU5hD/aAeQ7wJIwbi+hUdjwqeBcSuRndGe9CohSxMqU4LlTpxHtqIhtKZ8sfK1mxKh67zxXToseqg8/8MrgQbfyynOgTBv72mQEyJhuXgPMXL0dxINY5gGb+yx9aKrM3UQ7YBZLC4bgqMGdui3p0knl
+Thu Jun  1 16:11:31 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 8.8.8.8
+Thu Jun  1 16:11:31 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 8.8.8.8
+Thu Jun  1 16:11:31 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"healthcheck","params":{"serial":"0006ae6df0db","uuid":1685635573,"sanity":100,"data":{"unit":{"memory":40}}}}
+Thu Jun  1 16:11:40 2023 daemon.info hostapd: wlan0: STA 00:0a:52:06:38:e3 IEEE 802.11: associated (aid 1)
+Thu Jun  1 16:11:40 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 00:0a:52:06:38:e3
+Thu Jun  1 16:11:40 2023 daemon.info hostapd: wlan0: STA 00:0a:52:06:38:e3 RADIUS: starting accounting session 76FDA0DA423A8A03
+Thu Jun  1 16:11:40 2023 daemon.info hostapd: wlan0: STA 00:0a:52:06:38:e3 WPA: pairwise key handshake completed (RSN)
+Thu Jun  1 16:11:47 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJzdWNtyozgQ/Rftvi2xdUEX+IH9iFTKJYOIqcHAcnFmasr/vt2COGAbx5md7FRNXCmD1God9enuA/5O+j5PScyUkUpIqUVAWtfktiAxoZQq61Sa0XRLYLyznSPxd9KXeYffe7evmm941VUdrgiFYjo0oQlI1jiw5UpqrZnkAUlssnOwE5ea8pDSgGz7LHMNjhmjhA7DY0CKKrFFl+/dCVJEdUD6ehgzVDM0srDoka6o/wvggmsjePA68hSQzu1r19iub2DZo2KB4k/gv7FpXrUw8p0kO1uWDlCzMApe73AK75mUT/4Q//SuTOCMj1KHMoDT4PhovHnJ026HqGC/r5u6enENHBDwtn1zcLgKjOsdXJC6sF1WNft1WyXrZIC5esmznJxhxVhtbYkHJPJvAqCnUOdAA3EGkoeMBzzk/BJk+F9A/sUuYIo3mBxhgpO87FyT2cQNAS4tUgbc0QMlA7VdXpUwtH6zXONUXh9CTCObpo1rW7+eMM1XTK0416twzRSBDQpnWzdkgsIMSndJvYF0PeCRXhfQFSPHt5RhKkLLsh0NvW+z8h/0mVQ9gmlx/wbiY5MvroM7SQ2PNB+C9jrIQkheA7EDy+23DoFqRZUKRcSUNx1HOYU6UEpG3tQ1TYU7DBRM7mAubaq6xiIYJqe3+x5KIbEtFBsPEWlR5C1EENceMS9OEWYHRm/EmN2MsYaQSX1/iPVFiAXlN0Nc5K7shqTY28R3FvAeOxqbJFZp7PQIcHMtA3C3YLr1kzdWc+PMGRoPH+59Z1kMY+gf3GOKV43HQFy3o/6oEFlA7EoMZzCBRi1UYUxVLEzsxDI0j4aymfOXwpZ0qNpLf6m8wx+98MeG8mrbPB2C6LsYkvln4zLY44/10NegmI73NJyhcLG9LKfM2m/nUwevYBq/Ni+1FZt6I583B0
+Thu Jun  1 16:12:27 2023 daemon.notice netifd: up0v0 (1203): udhcpc: sending renew to 172.16.0.1
+Thu Jun  1 16:12:27 2023 daemon.notice netifd: up0v0 (1203): udhcpc: lease of 172.16.227.4 obtained, lease time 600
+Thu Jun  1 16:12:36 2023 daemon.notice hostapd: wlan0: AP-STA-DISCONNECTED 00:0a:52:06:38:e3
+Thu Jun  1 16:12:37 2023 user.notice root: stop testcase: OT6M151XK

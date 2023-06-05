@@ -1,0 +1,31 @@
+Thu Jun  1 15:13:41 2023 user.notice root: start testcase: J67STTEZD
+Thu Jun  1 15:13:43 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJzdl+1yqzYQhu9F7b8SW98S3EAvIpPxKCBq5mCgAuJzJuN77y44DeDguGlOOxP7B6DPd/fZXcQz6fsiIwnTVmnBrLIRaX0oXEkSQinVzussp9kjgfbOdZ4kz6Svig6vB3+oww+86+oOZ0ihmZFWwiJ58DCWa0NVzCmNSOrSvYeduNKWQVNEHvs89wHbrNXCSHmKSFmnruyKg3+RxCUXEembsU0qa3GQg0n3dEOpNTaO4IZTRS3eDL+HiHT+0Pjguj7AtHtNI80eYP3gsqJuoeWZpHtXVR5UMxlHL0/Yhc9MqYfBiD97X6Vg470yUkXKGGw/D94di6zbg3wwpvu+a+qjD2CgAVf14cnjLBjc7OGGNKXr8joctm2dbtNR5uZY5AVZaFUcPOMqNJCo3wmInkjVM6E6sguRXAoTcSnNpUj5b0T+xi5kileZHGXCIkXV+ZC71I8OrhwiA3b0iZIRbVfUFTRtX0dusatoniSGkcuy4Nt2mE+Y4RumN5ybjdwyTWCD0rvWj5GgMaayfdrsIFyf0KSXCXTDyGkaMho8mlXteeCwtt0Mf1wzLQtfdaPig0uHsIfVE08TmyY6S7w5K9y9JQ93Q//VYViD+G5PB6mu7WBHD+ZS9E1a92hzi2YGwODSbx5nKGpYLMXI5qWRSRXDP8KRjz863NCo2CgZU+CLQ8+tLLbCWKHNMNSHUOMOI+nJE/RloW4azLWxc/p46CHjUtBLkhgTtS7LogVQOPeE4XcGmdXHil1DyVZRxugru2EbtuUSY/pvPJDiEIltkY0EhvzE+b8Gn8Pyv2zHjIUwOd2SSmNIYuKsq9wO2w1q8Q668bI7Nm7nXbNTf0DHoc7QZNfgmudREBdUJ85jUOQ0SR1ZrxAF7gVzjqWr0GNr+JlWdM6eQ4GcgmdQT7VkM+oKUjzWn8T8Te
+Thu Jun  1 15:14:13 2023 daemon.info dnsmasq-dhcp[24948]: DHCPDISCOVER(down1v0) b6:41:b6:20:d0:7b
+Thu Jun  1 15:14:13 2023 daemon.info dnsmasq-dhcp[24948]: DHCPOFFER(down1v0) 192.168.1.74 b6:41:b6:20:d0:7b
+Thu Jun  1 15:14:13 2023 daemon.info dnsmasq-dhcp[24948]: DHCPDISCOVER(down1v0) b6:41:b6:20:d0:7b
+Thu Jun  1 15:14:13 2023 daemon.info dnsmasq-dhcp[24948]: DHCPOFFER(down1v0) 192.168.1.74 b6:41:b6:20:d0:7b
+Thu Jun  1 15:14:13 2023 daemon.info dnsmasq-dhcp[24948]: DHCPDISCOVER(down1v0) b6:41:b6:20:d0:7b
+Thu Jun  1 15:14:13 2023 daemon.info dnsmasq-dhcp[24948]: DHCPOFFER(down1v0) 192.168.1.74 b6:41:b6:20:d0:7b
+Thu Jun  1 15:14:18 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 192.168.1.1
+Thu Jun  1 15:14:18 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 8.8.8.8
+Thu Jun  1 15:14:18 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"healthcheck","params":{"serial":"0006ae6df0db","uuid":1685631858,"sanity":100,"data":{"unit":{"memory":39}}}}
+Thu Jun  1 15:14:37 2023 daemon.info hostapd: wlan1-2: STA 00:0a:52:06:61:e3 IEEE 802.11: authenticated
+Thu Jun  1 15:14:37 2023 daemon.info hostapd: wlan1-2: STA 00:0a:52:06:61:e3 IEEE 802.11: associated (aid 1)
+Thu Jun  1 15:14:37 2023 daemon.notice hostapd: wlan1-2: CTRL-EVENT-EAP-STARTED 00:0a:52:06:61:e3
+Thu Jun  1 15:14:37 2023 daemon.notice hostapd: wlan1-2: CTRL-EVENT-EAP-PROPOSED-METHOD vendor=0 method=1
+Thu Jun  1 15:14:37 2023 daemon.notice hostapd: wlan1-2: CTRL-EVENT-EAP-SUCCESS2 00:0a:52:06:61:e3
+Thu Jun  1 15:14:37 2023 daemon.info hostapd: wlan1-2: STA 00:0a:52:06:61:e3 WPA: pairwise key handshake completed (RSN)
+Thu Jun  1 15:14:37 2023 daemon.notice hostapd: wlan1-2: AP-STA-CONNECTED 00:0a:52:06:61:e3
+Thu Jun  1 15:14:37 2023 daemon.info hostapd: wlan1-2: STA 00:0a:52:06:61:e3 RADIUS: starting accounting session E1C77D73B5B41688
+Thu Jun  1 15:14:37 2023 daemon.info hostapd: wlan1-2: STA 00:0a:52:06:61:e3 IEEE 802.1X: authenticated - EAP type: 21 (TTLS)
+Thu Jun  1 15:14:40 2023 daemon.info dnsmasq-dhcp[24948]: DHCPDISCOVER(down1v0) 00:0a:52:06:61:e3
+Thu Jun  1 15:14:40 2023 daemon.info dnsmasq-dhcp[24948]: DHCPOFFER(down1v0) 192.168.1.246 00:0a:52:06:61:e3
+Thu Jun  1 15:14:41 2023 daemon.info dnsmasq-dhcp[24948]: DHCPREQUEST(down1v0) 192.168.1.246 00:0a:52:06:61:e3
+Thu Jun  1 15:14:41 2023 daemon.info dnsmasq-dhcp[24948]: DHCPACK(down1v0) 192.168.1.246 00:0a:52:06:61:e3
+Thu Jun  1 15:14:41 2023 daemon.err dnsmasq[24948]: Failed to send UBus event: Success
+Thu Jun  1 15:14:43 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJzdWOtyqzYQfhe1v1rH1l2CF+hDZDIeBeSYORioAPucyfjduwskAXyJJ03amSQ/EJJ299N+u8vKz6Rts5TETFulBbPKLkjtQ+ZyEhNKqXZepxuaPhKYb1zjSfxM2iJr8LnzuzL8wlFTNighhWZGWglKNsHDXq4NF0pwmEhcsvVgiSttNWV6QR7bzcYHnLNWCyPlcUHyMnF5k+38CyQurViQturnpEbdeelA6J4uKWVSqwUM4CkjHHR/DwvS+F3lg2vaAGL3mi40ewD9waVZWcPMM0m2rig8oGYg+fKGS/jOlHroDvF364sEznivjFQLZQzOD5vXhyxttgCfgr2f66o8+AAHNOCqNuw9SsHmagsDUuWu2ZRht6rLZJX0MJeHbJORGVbFwTOuwAMS9RcB0COoegJUL+wMJJfCLLiU5hSk/Dcg/2QnMMUbTI4wQUlWND5sXOJ7BxcOKQPu6J6SntomKwuYWr3tXOFSVu0lhpFL0+DrupMnzPAl00vOzVKumCZgIPeu9n0kaArnSbdJtYZw3eORXgTokpHjOGQ4eDQt6mFjp9suu3/UmeSZL5oe8c4lXdiD9tjT2CaxTmNvBoTrc/DQGvqvDJ0O4pst7aC6ugGLHo5L0TdJ2eKZazxmABpc8sOjhKKGRZHquXmZZFJFWsoF7nz81aBBoyKjrDCKdVuHWRZZyZjkutvqQyjRQs/06A3W0lBWFeZavzh+3bWQcQngJXFEEWmeZzUQhbJHDL+ByLQ8FOwalewilRH6yi7Zkq24fGWyd7qr6+ypQCykS3klqUVNr2RQB0kRUx1rFnsBK4NuFHhVzKWGlW1ZNwPaP8jxYRQGmosLXJ+oP8P1xMyY7kPuCnbHzzEOx0p7U13RQaf8HvwGjP626ssQxP7xlvrQ5xlWg8uuX3XmOgpwBMv4WB8qt/
+Thu Jun  1 15:15:26 2023 daemon.info dnsmasq-dhcp[24948]: DHCPRELEASE(down1v0) 192.168.1.246 00:0a:52:06:61:e3
+Thu Jun  1 15:15:26 2023 daemon.err dnsmasq[24948]: Failed to send UBus event: Success
+Thu Jun  1 15:15:26 2023 daemon.notice hostapd: wlan1-2: AP-STA-DISCONNECTED 00:0a:52:06:61:e3
+Thu Jun  1 15:15:26 2023 daemon.info hostapd: wlan1-2: STA 00:0a:52:06:61:e3 RADIUS: stopped accounting session E1C77D73B5B41688
+Thu Jun  1 15:15:28 2023 user.notice root: stop testcase: J67STTEZD

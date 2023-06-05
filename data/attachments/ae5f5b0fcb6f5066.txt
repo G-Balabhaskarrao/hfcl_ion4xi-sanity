@@ -1,0 +1,177 @@
+2023-06-01 19:00:23 [32mINFO[0m Setting up the Controller metadata for tip_2x Library: {
+  "url": "https://sec-qa01.cicd.lab.wlan.tip.build:16001",
+  "username": "tip@ucentral.com",
+  "password": "OpenWifi%123"
+}
+2023-06-01 19:00:23 [32mINFO[0m Setting up the DUT metadata for tip_2x Library: [
+  {
+    "model": "hfcl_ion4xi",
+    "supported_bands": [
+      "2G",
+      "5G"
+    ],
+    "supported_modes": [
+      "BRIDGE",
+      "NAT",
+      "VLAN"
+    ],
+    "wan_port": "1.1.eth1",
+    "lan_port": null,
+    "ssid": {
+      "mode": "BRIDGE",
+      "ssid_data": {
+        "0": {
+          "ssid": "ssid_wpa2_5g",
+          "encryption": "wpa2",
+          "password": "something",
+          "band": "fiveg",
+          "bssid": "90:3C:B3:6C:43:05"
+        },
+        "1": {
+          "ssid": "ssid_wpa2_2g",
+          "encryption": "wpa2",
+          "password": "something",
+          "band": "twog",
+          "bssid": "90:3C:B3:6C:43:04"
+        }
+      },
+      "radio_data": {
+        "2G": {
+          "channel": 1,
+          "bandwidth": 20,
+          "frequency": 2412
+        },
+        "5G": {
+          "channel": 52,
+          "bandwidth": 80,
+          "frequency": 5290
+        },
+        "6G": {
+          "channel": null,
+          "bandwidth": null,
+          "frequency": null
+        }
+      }
+    },
+    "mode": "wifi6",
+    "identifier": "0006ae6df0db",
+    "method": "serial",
+    "host_ip": "192.168.180.214",
+    "host_username": "lanforge",
+    "host_password": "lanforge",
+    "host_ssh_port": 22,
+    "serial_tty": "/dev/ttyUSB0",
+    "firmware_version": "next-latest"
+  }
+]
+2023-06-01 19:00:23 [32mINFO[0m Number of DUT's in lab_info.json: 1
+2023-06-01 19:00:23 [32mINFO[0m Sending Command: 
+TimeStamp: 2023-06-01 13:30:23.471896
+URI: https://sec-qa01.cicd.lab.wlan.tip.build:16001/api/v1/oauth2
+Data: {"userId": "tip@ucentral.com", "password": "OpenWifi%123"}
+Headers: {'Authorization': 'Bearer ', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}
+2023-06-01 19:00:24 [32mINFO[0m Command Response: 
+Command Type: POST
+Response URI: https://sec-qa01.cicd.lab.wlan.tip.build:16001/api/v1/oauth2
+Response Headers: 
+TimeStamp: 2023-06-01 13:30:24.585519
+Response Code: 200
+Response Body: {'access_token': '48dd6c01e9258ed35adb8c2d4604afa60f0d585d328c5962e1aa415c62a101df', 'aclTemplate': {'Delete': True, 'PortalLogin': True, 'Read': True, 'ReadWrite': True, 'ReadWriteCreate': True}, 'created': 1685626224, 'errorCode': 0, 'expires_in': 2592000, 'idle_timeout': 300, 'lastRefresh': 0, 'refresh_token': 'deabe38767e212d4b1e914d102cb2a0650e057d065df6f924be7330e28a4c58d', 'token_type': 'Bearer', 'userMustChangePassword': False, 'username': 'tip@ucentral.com'}
+2023-06-01 19:00:24 [32mINFO[0m Sending Command: 
+TimeStamp: 2023-06-01 13:30:24.585942
+URI: https://sec-qa01.cicd.lab.wlan.tip.build:16001/api/v1/systemEndpoints
+Headers: {'Authorization': 'Bearer 48dd6c01e9258ed35adb8c2d4604afa60f0d585d328c5962e1aa415c62a101df', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}
+2023-06-01 19:00:25 [32mINFO[0m Command Response: 
+Command Type: GET
+Response URI: https://sec-qa01.cicd.lab.wlan.tip.build:16001/api/v1/systemEndpoints
+Response Headers: {'Authorization': 'Bearer 48dd6c01e9258ed35adb8c2d4604afa60f0d585d328c5962e1aa415c62a101df', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}
+TimeStamp: 2023-06-01 13:30:25.624110
+Response Code: 200
+Response Body: {'endpoints': [{'authenticationType': 'internal_v1', 'id': 1108530243880924160, 'type': 'owrrm', 'uri': 'https://rrm-qa01.cicd.lab.wlan.tip.build:16789', 'vendor': 'OpenWiFi'}, {'authenticationType': 'internal_v1', 'id': 1679206586355803729, 'type': 'owanalytics', 'uri': 'https://analytics-qa01.cicd.lab.wlan.tip.build:16009', 'vendor': 'OpenWiFi'}, {'authenticationType': 'internal_v1', 'id': 1679176023574458512, 'type': 'owfms', 'uri': 'https://fms-qa01.cicd.lab.wlan.tip.build:16004', 'vendor': 'OpenWiFi'}, {'authenticationType': 'internal_v1', 'id': 1685110661078149376, 'type': 'owgw', 'uri': 'https://gw-qa01.cicd.lab.wlan.tip.build:16002', 'vendor': 'OpenWiFi'}, {'authenticationType': 'internal_v1', 'id': 1685080374477778307, 'type': 'owprov', 'uri': 'https://prov-qa01.cicd.lab.wlan.tip.build:16005', 'vendor': 'OpenWiFi'}, {'authenticationType': 'internal_v1', 'id': 1679417283512587899, 'type': 'owsub', 'uri': 'https://sub-qa01.cicd.lab.wlan.tip.build:16006', 'vendor': 'OpenWiFi'}]}
+2023-06-01 19:00:25 [32mINFO[0m Sending Command: 
+TimeStamp: 2023-06-01 13:30:25.624658
+URI: https://fms-qa01.cicd.lab.wlan.tip.build:16004/api/v1/system?command=info
+Headers: {'Authorization': 'Bearer 48dd6c01e9258ed35adb8c2d4604afa60f0d585d328c5962e1aa415c62a101df', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}
+2023-06-01 19:00:26 [32mINFO[0m Command Response: 
+Command Type: GET
+Response URI: https://fms-qa01.cicd.lab.wlan.tip.build:16004/api/v1/system?command=info
+Response Headers: {'Authorization': 'Bearer 48dd6c01e9258ed35adb8c2d4604afa60f0d585d328c5962e1aa415c62a101df', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}
+TimeStamp: 2023-06-01 13:30:26.574509
+Response Code: 200
+Response Body: {'UI': 'https://webui-qa01.cicd.lab.wlan.tip.build', 'certificates': [{'expiresOn': 1692101865, 'filename': 'tls.crt'}], 'hostname': 'owfms-5f9d966ccf-sb2jx', 'os': 'Linux', 'processors': 4, 'start': 1685024558, 'uptime': 601667, 'version': '2.10.0(17) - bd5ae33'}
+2023-06-01 19:00:26 [32mINFO[0m Sending Command: 
+TimeStamp: 2023-06-01 13:30:26.575225
+URI: https://gw-qa01.cicd.lab.wlan.tip.build:16002/api/v1/system?command=info
+Headers: {'Authorization': 'Bearer 48dd6c01e9258ed35adb8c2d4604afa60f0d585d328c5962e1aa415c62a101df', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}
+2023-06-01 19:00:27 [32mINFO[0m Command Response: 
+Command Type: GET
+Response URI: https://gw-qa01.cicd.lab.wlan.tip.build:16002/api/v1/system?command=info
+Response Headers: {'Authorization': 'Bearer 48dd6c01e9258ed35adb8c2d4604afa60f0d585d328c5962e1aa415c62a101df', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}
+TimeStamp: 2023-06-01 13:30:27.640287
+Response Code: 200
+Response Body: {'UI': 'https://webui-qa01.cicd.lab.wlan.tip.build', 'certificates': [{'expiresOn': 1746450444, 'filename': 'restapi-cert.pem'}, {'expiresOn': 1746450444, 'filename': 'websocket-cert.pem'}, {'expiresOn': 1692101865, 'filename': 'tls.crt'}], 'hostname': 'owgw-5fc74c8f8f-qzwj4', 'os': 'Linux', 'processors': 4, 'start': 1685024552, 'uptime': 601675, 'version': '2.10.0(57) - 1ca7645'}
+2023-06-01 19:00:27 [32mINFO[0m Sending Command: 
+TimeStamp: 2023-06-01 13:30:27.641148
+URI: https://sec-qa01.cicd.lab.wlan.tip.build:16001/api/v1/system?command=info
+Headers: {'Authorization': 'Bearer 48dd6c01e9258ed35adb8c2d4604afa60f0d585d328c5962e1aa415c62a101df', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}
+2023-06-01 19:00:28 [32mINFO[0m Command Response: 
+Command Type: GET
+Response URI: https://sec-qa01.cicd.lab.wlan.tip.build:16001/api/v1/system?command=info
+Response Headers: {'Authorization': 'Bearer 48dd6c01e9258ed35adb8c2d4604afa60f0d585d328c5962e1aa415c62a101df', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}
+TimeStamp: 2023-06-01 13:30:28.616532
+Response Code: 200
+Response Body: {'UI': 'https://webui-qa01.cicd.lab.wlan.tip.build', 'certificates': [{'expiresOn': 1692101865, 'filename': 'tls.crt'}], 'hostname': 'owsec-785cdc4f9b-6mdrh', 'os': 'Linux', 'processors': 4, 'start': 1685024563, 'uptime': 601665, 'version': '2.10.0(21) - 776ecab'}
+2023-06-01 19:00:28 [32mINFO[0m Sending Command: 
+TimeStamp: 2023-06-01 13:30:28.617188
+URI: https://prov-qa01.cicd.lab.wlan.tip.build:16005/api/v1/system?command=info
+Headers: {'Authorization': 'Bearer 48dd6c01e9258ed35adb8c2d4604afa60f0d585d328c5962e1aa415c62a101df', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}
+2023-06-01 19:00:29 [32mINFO[0m Command Response: 
+Command Type: GET
+Response URI: https://prov-qa01.cicd.lab.wlan.tip.build:16005/api/v1/system?command=info
+Response Headers: {'Authorization': 'Bearer 48dd6c01e9258ed35adb8c2d4604afa60f0d585d328c5962e1aa415c62a101df', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}
+TimeStamp: 2023-06-01 13:30:29.594436
+Response Code: 200
+Response Body: {'UI': 'https://webui-qa01.cicd.lab.wlan.tip.build', 'certificates': [{'expiresOn': 1692101865, 'filename': 'tls.crt'}], 'hostname': 'owprov-6999647866-9zxbp', 'os': 'Linux', 'processors': 4, 'start': 1685024559, 'uptime': 601670, 'version': '2.10.0(28) - 7b3de5d'}
+2023-06-01 19:00:29 [32mINFO[0m Executing Command on AP: cat /tmp/ucentral.version
+2023-06-01 19:00:29 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:00:29 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:00:29 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:00:29 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:00:29 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:00:29 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "cat /tmp/ucentral.version" 
+2023-06-01 19:00:29 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "cat /tmp/ucentral.version" 
+2023-06-01 19:00:29 [32mINFO[0m Output for command: cat /tmp/ucentral.version
+OpenWrt 21.02-SNAPSHOT r16399+164-c67509efd7 / TIP-v2.9.0-85ff703
+2023-06-01 19:00:29 [32mINFO[0m Sending Command: 
+TimeStamp: 2023-06-01 13:30:29.955198
+URI: https://gw-qa01.cicd.lab.wlan.tip.build:16002/api/v1/system?command=info
+Headers: {'Authorization': 'Bearer 48dd6c01e9258ed35adb8c2d4604afa60f0d585d328c5962e1aa415c62a101df', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}
+2023-06-01 19:00:31 [32mINFO[0m Command Response: 
+Command Type: GET
+Response URI: https://gw-qa01.cicd.lab.wlan.tip.build:16002/api/v1/system?command=info
+Response Headers: {'Authorization': 'Bearer 48dd6c01e9258ed35adb8c2d4604afa60f0d585d328c5962e1aa415c62a101df', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}
+TimeStamp: 2023-06-01 13:30:31.031372
+Response Code: 200
+Response Body: {'UI': 'https://webui-qa01.cicd.lab.wlan.tip.build', 'certificates': [{'expiresOn': 1746450444, 'filename': 'restapi-cert.pem'}, {'expiresOn': 1746450444, 'filename': 'websocket-cert.pem'}, {'expiresOn': 1692101865, 'filename': 'tls.crt'}], 'hostname': 'owgw-5fc74c8f8f-qzwj4', 'os': 'Linux', 'processors': 4, 'start': 1685024552, 'uptime': 601678, 'version': '2.10.0(57) - 1ca7645'}
+2023-06-01 19:00:31 [32mINFO[0m Sending Command: 
+TimeStamp: 2023-06-01 13:30:31.032191
+URI: https://fms-qa01.cicd.lab.wlan.tip.build:16004/api/v1/system?command=info
+Headers: {'Authorization': 'Bearer 48dd6c01e9258ed35adb8c2d4604afa60f0d585d328c5962e1aa415c62a101df', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}
+2023-06-01 19:00:32 [32mINFO[0m Command Response: 
+Command Type: GET
+Response URI: https://fms-qa01.cicd.lab.wlan.tip.build:16004/api/v1/system?command=info
+Response Headers: {'Authorization': 'Bearer 48dd6c01e9258ed35adb8c2d4604afa60f0d585d328c5962e1aa415c62a101df', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}
+TimeStamp: 2023-06-01 13:30:32.092620
+Response Code: 200
+Response Body: {'UI': 'https://webui-qa01.cicd.lab.wlan.tip.build', 'certificates': [{'expiresOn': 1692101865, 'filename': 'tls.crt'}], 'hostname': 'owfms-5f9d966ccf-sb2jx', 'os': 'Linux', 'processors': 4, 'start': 1685024558, 'uptime': 601673, 'version': '2.10.0(17) - bd5ae33'}
+2023-06-01 19:00:32 [32mINFO[0m Sending Command: 
+TimeStamp: 2023-06-01 13:30:32.093491
+URI: https://prov-qa01.cicd.lab.wlan.tip.build:16005/api/v1/system?command=info
+Headers: {'Authorization': 'Bearer 48dd6c01e9258ed35adb8c2d4604afa60f0d585d328c5962e1aa415c62a101df', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}
+2023-06-01 19:00:33 [32mINFO[0m Command Response: 
+Command Type: GET
+Response URI: https://prov-qa01.cicd.lab.wlan.tip.build:16005/api/v1/system?command=info
+Response Headers: {'Authorization': 'Bearer 48dd6c01e9258ed35adb8c2d4604afa60f0d585d328c5962e1aa415c62a101df', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}
+TimeStamp: 2023-06-01 13:30:33.154675
+Response Code: 200
+Response Body: {'UI': 'https://webui-qa01.cicd.lab.wlan.tip.build', 'certificates': [{'expiresOn': 1692101865, 'filename': 'tls.crt'}], 'hostname': 'owprov-6999647866-9zxbp', 'os': 'Linux', 'processors': 4, 'start': 1685024559, 'uptime': 601673, 'version': '2.10.0(28) - 7b3de5d'}

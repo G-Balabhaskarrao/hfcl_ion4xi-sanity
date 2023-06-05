@@ -1,0 +1,11 @@
+Thu Jun  1 14:15:50 2023 user.notice root: start testcase: O739Y5S1C
+Thu Jun  1 14:16:37 2023 daemon.info hostapd: wlan1-1: STA 00:0a:52:06:64:e3 IEEE 802.11: authenticated
+Thu Jun  1 14:16:37 2023 daemon.info hostapd: wlan1-1: STA 00:0a:52:06:64:e3 IEEE 802.11: associated (aid 1)
+Thu Jun  1 14:16:37 2023 daemon.notice hostapd: wlan1-1: CTRL-EVENT-EAP-STARTED 00:0a:52:06:64:e3
+Thu Jun  1 14:16:37 2023 daemon.notice hostapd: wlan1-1: CTRL-EVENT-EAP-PROPOSED-METHOD vendor=0 method=1
+Thu Jun  1 14:16:37 2023 daemon.notice hostapd: wlan1-1: CTRL-EVENT-EAP-SUCCESS2 00:0a:52:06:64:e3
+Thu Jun  1 14:16:37 2023 daemon.info hostapd: wlan1-1: STA 00:0a:52:06:64:e3 WPA: pairwise key handshake completed (RSN)
+Thu Jun  1 14:16:37 2023 daemon.notice hostapd: wlan1-1: AP-STA-CONNECTED 00:0a:52:06:64:e3
+Thu Jun  1 14:16:37 2023 daemon.info hostapd: wlan1-1: STA 00:0a:52:06:64:e3 RADIUS: starting accounting session 389CDC401DD64BDC
+Thu Jun  1 14:16:37 2023 daemon.info hostapd: wlan1-1: STA 00:0a:52:06:64:e3 IEEE 802.1X: authenticated - EAP type: 13 (TLS)
+Thu Jun  1 14:17:25 2023 user.notice root: stop testcase: O739Y5S1C

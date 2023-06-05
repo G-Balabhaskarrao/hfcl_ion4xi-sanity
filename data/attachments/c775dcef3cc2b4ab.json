@@ -1,0 +1,1 @@
+"{'0006ae6df0db': {'ssid_data': {0: {'ssid': 'ssid_wpa2e_2g', 'encryption': 'eap', 'password': '[BLANK]', 'band': '2G', 'bssid': '00:06:AE:6D:F0:BA'}}, 'radio_data': {'2G': {'channel': 1, 'bandwidth': 40, 'frequency': 2422}, '5G': {'channel': None, 'bandwidth': None, 'frequency': None}, '6G': {'channel': None, 'bandwidth': None, 'frequency': None}}}}"

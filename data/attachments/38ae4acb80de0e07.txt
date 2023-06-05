@@ -1,0 +1,3 @@
+:~# uci show ucentral.config.server
+ucentral.config.server='gw-qa01.cicd.lab.wlan.tip.build'
+

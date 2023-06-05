@@ -1,0 +1,14 @@
+Thu Jun  1 14:14:03 2023 user.notice root: start testcase: ESSGZVR22
+Thu Jun  1 14:14:55 2023 daemon.info hostapd: wlan0: STA 00:0a:52:06:7e:e3 IEEE 802.11: authenticated
+Thu Jun  1 14:14:55 2023 daemon.info hostapd: wlan0: STA 00:0a:52:06:7e:e3 IEEE 802.11: associated (aid 1)
+Thu Jun  1 14:14:55 2023 daemon.notice hostapd: wlan0: CTRL-EVENT-EAP-STARTED 00:0a:52:06:7e:e3
+Thu Jun  1 14:14:55 2023 daemon.notice hostapd: wlan0: CTRL-EVENT-EAP-PROPOSED-METHOD vendor=0 method=1
+Thu Jun  1 14:14:55 2023 daemon.notice hostapd: wlan0: CTRL-EVENT-EAP-SUCCESS2 00:0a:52:06:7e:e3
+Thu Jun  1 14:14:55 2023 daemon.info hostapd: wlan0: STA 00:0a:52:06:7e:e3 WPA: pairwise key handshake completed (WPA)
+Thu Jun  1 14:14:55 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 00:0a:52:06:7e:e3
+Thu Jun  1 14:14:55 2023 daemon.info hostapd: wlan0: STA 00:0a:52:06:7e:e3 RADIUS: starting accounting session 7D3B04A6F8481AA2
+Thu Jun  1 14:14:55 2023 daemon.info hostapd: wlan0: STA 00:0a:52:06:7e:e3 IEEE 802.1X: authenticated - EAP type: 13 (TLS)
+Thu Jun  1 14:14:55 2023 daemon.info hostapd: wlan0: STA 00:0a:52:06:7e:e3 WPA: group key handshake completed (WPA)
+Thu Jun  1 14:15:41 2023 daemon.notice hostapd: wlan0: AP-STA-DISCONNECTED 00:0a:52:06:7e:e3
+Thu Jun  1 14:15:41 2023 daemon.info hostapd: wlan0: STA 00:0a:52:06:7e:e3 RADIUS: stopped accounting session 7D3B04A6F8481AA2
+Thu Jun  1 14:15:43 2023 user.notice root: stop testcase: ESSGZVR22

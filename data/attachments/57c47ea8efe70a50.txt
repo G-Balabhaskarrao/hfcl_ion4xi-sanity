@@ -1,0 +1,30 @@
+2023-06-01 19:00:33 [32mINFO[0m Executing Command on AP: ubus call ucentral status
+2023-06-01 19:00:33 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:00:33 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:00:33 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:00:33 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:00:33 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:00:33 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "ubus call ucentral status" 
+2023-06-01 19:00:33 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "ubus call ucentral status" 
+2023-06-01 19:00:33 [32mINFO[0m Output for command: ubus call ucentral status
+{
+	"connected": 988,
+	"latest": 1685625574,
+	"active": 1685625574
+}
+
+2023-06-01 19:00:33 [32mINFO[0m Executing Command on AP: uci show ucentral.config.server
+2023-06-01 19:00:33 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:00:33 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:00:33 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:00:33 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:00:33 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:00:33 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "uci show ucentral.config.server" 
+2023-06-01 19:00:33 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "uci show ucentral.config.server" 
+2023-06-01 19:00:33 [32mINFO[0m Output for command: uci show ucentral.config.server
+ucentral.config.server='gw-qa01.cicd.lab.wlan.tip.build'
+
+2023-06-01 19:00:33 [32mINFO[0m Connected With Expected HOST
+ Current GW HOST: 'gw-qa01.cicd.lab.wlan.tip.build'
+
+ EXPECTED GW HOST: gw-qa01.cicd.lab.wlan.tip.build

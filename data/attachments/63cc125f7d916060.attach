@@ -1,0 +1,28 @@
+Thu Jun  1 16:15:17 2023 user.notice root: start testcase: BGH3O70KE
+Thu Jun  1 16:15:20 2023 daemon.notice hostapd: wlan1: AP-STA-DISCONNECTED 00:0a:52:06:d5:e3
+Thu Jun  1 16:15:20 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:d5:e3 IEEE 802.11: disassociated due to inactivity
+Thu Jun  1 16:15:21 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:d5:e3 IEEE 802.11: deauthenticated due to inactivity (timer DEAUTH/REMOVE)
+Thu Jun  1 16:15:23 2023 daemon.notice netifd: Network device 'eth0' link is down
+Thu Jun  1 16:15:23 2023 kern.info kernel: [ 8286.837495] nss-dp 3a001600.dp1 eth0: PHY Link is down
+Thu Jun  1 16:15:23 2023 kern.info kernel: [ 8286.837822] up: port 1(eth0) entered disabled state
+Thu Jun  1 16:15:25 2023 daemon.notice netifd: Network device 'eth0' link is up
+Thu Jun  1 16:15:25 2023 kern.info kernel: [ 8288.837507] nss-dp 3a001600.dp1 eth0: PHY Link up speed: 1000
+Thu Jun  1 16:15:25 2023 kern.info kernel: [ 8288.837595] up: port 1(eth0) entered forwarding state
+Thu Jun  1 16:15:25 2023 kern.info kernel: [ 8288.842290] up: port 1(eth0) entered forwarding state
+Thu Jun  1 16:15:31 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 8.8.8.8
+Thu Jun  1 16:15:31 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 8.8.8.8
+Thu Jun  1 16:15:31 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"healthcheck","params":{"serial":"0006ae6df0db","uuid":1685635573,"sanity":100,"data":{"unit":{"memory":40}}}}
+Thu Jun  1 16:15:33 2023 kern.info kernel: [ 8296.867377] up: port 1(eth0) entered forwarding state
+Thu Jun  1 16:15:47 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJzdV+tyqzYQfhe1/0ps3SV4gT5EJuORQdTMwUAF2OdMxu/eXXAajC9x0qRn5pjxoMtq9e1+uyvxTPq+yEjCtFVaKGVERFofCleShFBKtfM6y2m2JjDeuc6T5Jn0VdHhe+u3dfiBra7ucIUUmhlppY1IHjzIcq1MLJTQEUlduvGwE1eGcklpRNZ9nvuAY9ZqYaQ8RKSsU1d2xda/QNJMmoj0zThmBeMo5GDRI10APgu6ocFiKgU2ht9TRDq/bXxwXR9g2aNmkeZPoD+4rKhbGHkm6cZVlQfUTMbRSw+nsM+UehqM+Lv3VQo2PiojVaSMwfGj8GpfZN0GUIEx3fdVU+99AAMBb9uHncdVINxsoEGa0nV5HbbLtk6X6QhzsS/ygsywKjBw7So0kKg/CYCeQj0FGokZSC7BP1xyfg5S/heQf7AzmOIVJkeYoKSoOh9yl/rRwZVDyoA7uqNkpLYr6gqGlq+SS5wqmp3EMHJZFnzbDusJM3zB9IJzs5BLpglsUHrX+jESNEZQtkmbFYTrDk16WUAXjBxeQ4bFAryWVe1RcNBtF8ODOtO6RzAt7h/APy795jvoKWoFZUenvQxCMFLBwXSQXP/oEKjRVGupdWwH0eMop0bGlsVsEPUh1LjDqG3Sg7ks1E2DSTBOTrvbHlIhdS0kG8cQrcuyaMGDuPaAcfGvh9mO0Rs+Zjd9bMBlytzvYnPmYgW5d8vFZeGrbgyKrUuHygLaE08TmyY6S7w5AlxdigDcLZpu/TQI61Ph3FuajA8fdOd5AmOoH9RjiNdhwEB8t6GDqeBZQOwrdCf027bIRpBDlUBn/R58DnB/W451A4L1cE9Cj4mB6XudkuWw3UANtmAaX6t948SqWam/VrvSVTC5rTPk2DWo9ygJ7qM6cR59l9MkdeR6rSpwP1izB3UYItfinW
+Thu Jun  1 16:16:38 2023 daemon.info hostapd: wlan0-1: STA 00:0a:52:06:ac:e3 IEEE 802.11: associated (aid 1)
+Thu Jun  1 16:16:38 2023 daemon.notice hostapd: wlan0-1: AP-STA-CONNECTED 00:0a:52:06:ac:e3
+Thu Jun  1 16:16:38 2023 daemon.info hostapd: wlan0-1: STA 00:0a:52:06:ac:e3 RADIUS: starting accounting session 4FD888CD9AD53D7B
+Thu Jun  1 16:16:38 2023 daemon.info hostapd: wlan0-1: STA 00:0a:52:06:ac:e3 WPA: pairwise key handshake completed (RSN)
+Thu Jun  1 16:16:47 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJzdWP9uozgQfhff/Xck8W8bXuAeoqoiB0yDSoAzkO5qlXe/GUhbSJM022tvpW1UxYztmW/mmxmb/CB9X2QkYdoqLZQyIiKtD4UrSUIopdp5neU02xCQd67zJPlB+qro8Hvnd3X4jqOu7nCHFJoZaaWNSB48rOVaxUpwSyOSunTrwRJXhnJJQbLp89wHlFmrhZHyEJGyTl3ZFTv/DElzaiLSN6PMCsNxkYNNd3QJAKW1EQyYYFZGgwT+7iPS+V3jg+v6ANvuNIs0uwf9wWVF3YLkB0m3rqo8oGYyjp6fcAqfmVL3gxP/9L5Kwcc7ZaSKlDEoPy5ePxVZtwVU4Ez3bd3UTz6Ag4C37cPe4y5Y3GxhQJrSdXkddqu2TlfpCHP5VOQFOcGqwMGNq9BBov4mAHoKdQ40EicguWQ84pLztyDlfwH5F3sDU7zC5AgTlBRV50PuUj8GuHJIGXBH95SM1HZFXYFo9bpyhVNFs5eYRi7Lgm/bYT9hhi+ZXnJulnLFNAEDpXetHzNBYwZl27RZQ7ru0aXnDXTJyOE1ZVgcQ9Syqj0uHHTb5fBBnWndI5gW7QeIj0sffQdPilpBmRyD9ixk0lDBIV1g5eZ7h0CNplpLHZsxvkcpZK2iVHExLPUh1GhhXDJ5grks1E2DRTBOTh93PZRC6looNrSZ1mVZtBBB3HvAvHiJMNszeiXG7GqMDYRMmdtDbN6EWFNxNcRl4atuTIqdS4fOAtoTTxObJjpLvDkCXJ/LALQWTU3fD4v1fHHuLU3GDx9053kCMtQP6jHF6zBgIL7b0sFViCwg9hWGM5pAow6qMKE6cWnixWVoAxoqZsqfSlfRBRsLom2LbHR76DsY/j+Dz8HKH6uxE0H6H25pEWOpYUO4TPJqMDeQjSOYxq/1U+PEulmrh/UesMHkrs4wa1yDeo
+Thu Jun  1 16:17:28 2023 daemon.notice netifd: up0v0 (1203): udhcpc: sending renew to 172.16.0.1
+Thu Jun  1 16:17:28 2023 daemon.notice netifd: up0v0 (1203): udhcpc: lease of 172.16.227.4 obtained, lease time 600
+Thu Jun  1 16:17:31 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 8.8.8.8
+Thu Jun  1 16:17:32 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 8.8.8.8
+Thu Jun  1 16:17:32 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"healthcheck","params":{"serial":"0006ae6df0db","uuid":1685635573,"sanity":100,"data":{"unit":{"memory":40}}}}
+Thu Jun  1 16:17:33 2023 daemon.notice hostapd: wlan0-1: AP-STA-DISCONNECTED 00:0a:52:06:ac:e3
+Thu Jun  1 16:17:35 2023 user.notice root: stop testcase: BGH3O70KE

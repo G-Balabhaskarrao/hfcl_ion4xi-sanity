@@ -1,0 +1,23 @@
+2023-06-01 19:08:06 [32mINFO[0m Sending Command: 
+TimeStamp: 2023-06-01 13:38:06.579601
+URI: https://prov-qa01.cicd.lab.wlan.tip.build:16005/api/v1/contact/cf7775b2-4a56-4d97-baee-ab1d94c8b5dd
+Data: {"accessPIN": "", "description": "", "entity": "0000-0000-0000", "firstname": "ProvTesting", "initials": "", "lastname": "Through Automation", "mobiles": [], "name": "Prov-Testing-Automation API's", "notes": [], "phones": [], "primaryEmail": "tip@ucentral.com", "salutation": "", "secondaryEmail": "", "title": "Testing_contact", "type": "USER"}
+Headers: {'Authorization': 'Bearer 48dd6c01e9258ed35adb8c2d4604afa60f0d585d328c5962e1aa415c62a101df', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}
+2023-06-01 19:08:07 [32mINFO[0m Command Response: 
+Command Type: PUT
+Response URI: https://prov-qa01.cicd.lab.wlan.tip.build:16005/api/v1/contact/cf7775b2-4a56-4d97-baee-ab1d94c8b5dd
+Response Headers: {'Authorization': 'Bearer 48dd6c01e9258ed35adb8c2d4604afa60f0d585d328c5962e1aa415c62a101df', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}
+TimeStamp: 2023-06-01 13:38:07.935163
+Response Code: 200
+Response Body: {'accessPIN': '', 'created': 1685626685, 'description': '', 'entity': '0000-0000-0000', 'firstname': 'ProvTesting', 'id': 'cf7775b2-4a56-4d97-baee-ab1d94c8b5dd', 'inUse': [], 'initials': '', 'lastname': 'Through Automation', 'managementPolicy': '', 'mobiles': [], 'modified': 1685626687, 'name': "Prov-Testing-Automation API's", 'notes': [], 'phones': [], 'primaryEmail': 'tip@ucentral.com', 'salutation': '', 'secondaryEmail': '', 'tags': [], 'title': 'Testing_contact', 'type': 'USER', 'visual': ''}
+2023-06-01 19:08:07 [32mINFO[0m Sending Command: 
+TimeStamp: 2023-06-01 13:38:07.935885
+URI: https://prov-qa01.cicd.lab.wlan.tip.build:16005/api/v1/contact/cf7775b2-4a56-4d97-baee-ab1d94c8b5dd
+Headers: {'Authorization': 'Bearer 48dd6c01e9258ed35adb8c2d4604afa60f0d585d328c5962e1aa415c62a101df', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}
+2023-06-01 19:08:08 [32mINFO[0m Command Response: 
+Command Type: GET
+Response URI: https://prov-qa01.cicd.lab.wlan.tip.build:16005/api/v1/contact/cf7775b2-4a56-4d97-baee-ab1d94c8b5dd
+Response Headers: {'Authorization': 'Bearer 48dd6c01e9258ed35adb8c2d4604afa60f0d585d328c5962e1aa415c62a101df', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}
+TimeStamp: 2023-06-01 13:38:08.872763
+Response Code: 200
+Response Body: {'accessPIN': '', 'created': 1685626685, 'description': '', 'entity': '0000-0000-0000', 'firstname': 'ProvTesting', 'id': 'cf7775b2-4a56-4d97-baee-ab1d94c8b5dd', 'inUse': [], 'initials': '', 'lastname': 'Through Automation', 'managementPolicy': '', 'mobiles': [], 'modified': 1685626687, 'name': "Prov-Testing-Automation API's", 'notes': [], 'phones': [], 'primaryEmail': 'tip@ucentral.com', 'salutation': '', 'secondaryEmail': '', 'tags': [], 'title': 'Testing_contact', 'type': 'USER', 'visual': ''}

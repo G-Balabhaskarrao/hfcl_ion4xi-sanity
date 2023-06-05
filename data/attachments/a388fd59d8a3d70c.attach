@@ -1,0 +1,6 @@
+Thu Jun  1 13:39:12 2023 daemon.notice hostapd: wlan0: DFS-CAC-START freq=5260 chan=52 sec_chan=1, width=1, seg0=58, seg1=0, cac_time=60s
+Thu Jun  1 13:40:12 2023 daemon.notice hostapd: wlan0: DFS-CAC-COMPLETED success=1 freq=5260 ht_enabled=0 chan_offset=0 chan_width=3 cf1=5290 cf2=0
+Thu Jun  1 13:40:13 2023 daemon.notice hostapd: wlan0: interface state DFS->ENABLED
+Thu Jun  1 13:41:49 2023 daemon.notice hostapd: wlan0: DFS-RADAR-DETECTED freq=5260 ht_enabled=0 chan_offset=0 chan_width=3 cf1=5290 cf2=0
+Thu Jun  1 13:41:49 2023 daemon.notice hostapd: wlan0: DFS-NEW-CHANNEL freq=5180 chan=36 sec_chan=1
+

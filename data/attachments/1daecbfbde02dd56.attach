@@ -1,0 +1,61 @@
+Thu Jun  1 14:34:10 2023 user.notice root: start testcase: RCQKYZG4D
+Thu Jun  1 14:35:24 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:a7:e3 IEEE 802.11: authenticated
+Thu Jun  1 14:35:24 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:a7:e3 IEEE 802.11: associated (aid 1)
+Thu Jun  1 14:35:24 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 00:0a:52:06:a7:e3
+Thu Jun  1 14:35:24 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:a7:e3 RADIUS: starting accounting session 8B0E5FBB21FBA273
+Thu Jun  1 14:35:24 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:a7:e3 WPA: pairwise key handshake completed (RSN)
+Thu Jun  1 14:35:43 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 8.8.8.8
+Thu Jun  1 14:35:43 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"healthcheck","params":{"serial":"0006ae6df0db","uuid":1685629945,"sanity":67,"data":{"unit":{"memory":38},"interfaces":{"down1v0":{"dhcp":false,"location":"/interfaces/1","warning":["DHCP did not offer any leases"]}}}}}
+Thu Jun  1 14:36:13 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:a7:e3 IEEE 802.11: authenticated
+Thu Jun  1 14:36:14 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:a7:e3 IEEE 802.11: associated (aid 1)
+Thu Jun  1 14:36:14 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:a7:e3 RADIUS: starting accounting session 8B0E5FBB21FBA273
+Thu Jun  1 14:36:14 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:a7:e3 WPA: pairwise key handshake completed (RSN)
+Thu Jun  1 14:36:18 2023 daemon.notice hostapd: wlan1: AP-STA-DISCONNECTED 00:0a:52:06:a7:e3
+Thu Jun  1 14:37:01 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:7c:e3 IEEE 802.11: authenticated
+Thu Jun  1 14:37:01 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:7c:e3 IEEE 802.11: associated (aid 1)
+Thu Jun  1 14:37:01 2023 daemon.notice hostapd: Assigned VLAN ID 100 from wpa_psk_file to 00:0a:52:06:7c:e3
+Thu Jun  1 14:37:01 2023 daemon.notice netifd: Network device 'wlan1-v100' link is up
+Thu Jun  1 14:37:01 2023 kern.info kernel: [ 2385.279699] device wlan1-v100 entered promiscuous mode
+Thu Jun  1 14:37:01 2023 kern.info kernel: [ 2385.279793] up: port 4(wlan1-v100) entered forwarding state
+Thu Jun  1 14:37:01 2023 kern.info kernel: [ 2385.283792] up: port 4(wlan1-v100) entered forwarding state
+Thu Jun  1 14:37:01 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 00:0a:52:06:7c:e3
+Thu Jun  1 14:37:01 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:7c:e3 RADIUS: starting accounting session 69245A3B0FCFF3BF
+Thu Jun  1 14:37:01 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:7c:e3 WPA: pairwise key handshake completed (RSN)
+Thu Jun  1 14:37:09 2023 kern.info kernel: [ 2393.286622] up: port 4(wlan1-v100) entered forwarding state
+Thu Jun  1 14:37:41 2023 daemon.notice netifd: up0v0 (4163): udhcpc: sending renew to 172.16.0.1
+Thu Jun  1 14:37:41 2023 daemon.notice netifd: up0v0 (4163): udhcpc: lease of 172.16.227.4 obtained, lease time 600
+Thu Jun  1 14:37:43 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 8.8.8.8
+Thu Jun  1 14:37:43 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"healthcheck","params":{"serial":"0006ae6df0db","uuid":1685629945,"sanity":67,"data":{"unit":{"memory":38},"interfaces":{"down1v0":{"dhcp":false,"location":"/interfaces/1","warning":["DHCP did not offer any leases"]}}}}}
+Thu Jun  1 14:37:51 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:7c:e3 IEEE 802.11: authenticated
+Thu Jun  1 14:37:52 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:7c:e3 IEEE 802.11: associated (aid 1)
+Thu Jun  1 14:37:52 2023 daemon.notice netifd: Network device 'wlan1-v100' link is down
+Thu Jun  1 14:37:52 2023 kern.info kernel: [ 2436.368366] up: port 4(wlan1-v100) entered disabled state
+Thu Jun  1 14:37:52 2023 kern.info kernel: [ 2436.397129] device wlan1-v100 left promiscuous mode
+Thu Jun  1 14:37:52 2023 kern.info kernel: [ 2436.397164] up: port 4(wlan1-v100) entered disabled state
+Thu Jun  1 14:37:52 2023 daemon.notice hostapd: Assigned VLAN ID 100 from wpa_psk_file to 00:0a:52:06:7c:e3
+Thu Jun  1 14:37:52 2023 daemon.notice netifd: Network device 'wlan1-v100' link is up
+Thu Jun  1 14:37:52 2023 kern.info kernel: [ 2436.522190] device wlan1-v100 entered promiscuous mode
+Thu Jun  1 14:37:52 2023 kern.info kernel: [ 2436.522279] up: port 4(wlan1-v100) entered forwarding state
+Thu Jun  1 14:37:52 2023 kern.info kernel: [ 2436.526276] up: port 4(wlan1-v100) entered forwarding state
+Thu Jun  1 14:37:52 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:7c:e3 RADIUS: starting accounting session 69245A3B0FCFF3BF
+Thu Jun  1 14:37:52 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:7c:e3 WPA: pairwise key handshake completed (RSN)
+Thu Jun  1 14:38:00 2023 kern.info kernel: [ 2444.526556] up: port 4(wlan1-v100) entered forwarding state
+Thu Jun  1 14:39:26 2023 daemon.notice hostapd: wlan1: AP-STA-DISCONNECTED 00:0a:52:06:7c:e3
+Thu Jun  1 14:39:26 2023 daemon.notice netifd: Network device 'wlan1-v100' link is down
+Thu Jun  1 14:39:26 2023 kern.info kernel: [ 2530.028252] up: port 4(wlan1-v100) entered disabled state
+Thu Jun  1 14:39:26 2023 kern.info kernel: [ 2530.077005] device wlan1-v100 left promiscuous mode
+Thu Jun  1 14:39:26 2023 kern.info kernel: [ 2530.077042] up: port 4(wlan1-v100) entered disabled state
+Thu Jun  1 14:39:36 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:7c:e3 IEEE 802.11: authenticated
+Thu Jun  1 14:39:36 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:7c:e3 IEEE 802.11: associated (aid 1)
+Thu Jun  1 14:39:36 2023 daemon.notice hostapd: Assigned VLAN ID 100 from wpa_psk_file to 00:0a:52:06:7c:e3
+Thu Jun  1 14:39:36 2023 daemon.notice netifd: Network device 'wlan1-v100' link is up
+Thu Jun  1 14:39:36 2023 kern.info kernel: [ 2540.107444] device wlan1-v100 entered promiscuous mode
+Thu Jun  1 14:39:36 2023 kern.info kernel: [ 2540.107540] up: port 4(wlan1-v100) entered forwarding state
+Thu Jun  1 14:39:36 2023 kern.info kernel: [ 2540.111542] up: port 4(wlan1-v100) entered forwarding state
+Thu Jun  1 14:39:36 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 00:0a:52:06:7c:e3
+Thu Jun  1 14:39:36 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:7c:e3 RADIUS: starting accounting session 49AA5CAE0DCB8253
+Thu Jun  1 14:39:36 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:7c:e3 WPA: pairwise key handshake completed (RSN)
+Thu Jun  1 14:39:43 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 8.8.8.8
+Thu Jun  1 14:39:43 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"healthcheck","params":{"serial":"0006ae6df0db","uuid":1685629945,"sanity":67,"data":{"unit":{"memory":38},"interfaces":{"down1v0":{"dhcp":false,"location":"/interfaces/1","warning":["DHCP did not offer any leases"]}}}}}
+Thu Jun  1 14:39:44 2023 kern.info kernel: [ 2548.126422] up: port 4(wlan1-v100) entered forwarding state
+Thu Jun  1 14:41:10 2023 user.notice root: stop testcase: RCQKYZG4D

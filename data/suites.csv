@@ -1,0 +1,421 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Jun 01 19:00:29 IST 2023","Thu Jun 01 19:00:33 IST 2023","3201","Test Connectivity","test_connectivity","TestResources","","","Cloud Controller Connectivity","Test case to verify cloud Controller Connectivity
+           Unique marker: pytest -m ""test_cloud_controller""
+        "
+"passed","Thu Jun 01 22:13:22 IST 2023","Thu Jun 01 22:15:39 IST 2023","136483","Multi VLAN Test","VLAN Mode","5Ghz","","","Test VLAN with WPA2 Personal Security Mode","
+            To verify that a client operating with WPA2(personal) security will connect or not using Multi VLANS
+            pytest -m ""multi_vlan and wpa2_personal and fiveg and ow_sanity_lf""
+        "
+"passed","Thu Jun 01 19:07:57 IST 2023","Thu Jun 01 19:07:58 IST 2023","1199","SDK Tests","Provisioning Service Tests","Provisioning Service Entity API tests","","","Read All Entities","
+        Test to Read all entities in Provision service
+        Unique marker:pytest -m ""provi_api_readAll_entity_test""
+        "
+"passed","Thu Jun 01 22:26:14 IST 2023","Thu Jun 01 22:29:42 IST 2023","208108","Multi VLAN Test","VLAN Mode","2.4 Ghz","","","Test Disabled VLAN with WPA2 Security Mode","
+            To verify that a client operating with wpa2(personal) security will connect or not by disabling VLAN.
+            Unique marker:pytest -m ""disable_vlan_twog and twog and wpa2_personal and ow_sanity_lf""
+        "
+"failed","Thu Jun 01 20:04:10 IST 2023","Thu Jun 01 20:11:08 IST 2023","418585","MultiPsk Test","BRIDGE Mode","WPA2 Security","","","Test for Client Connect with 1 VLAN","
+                    To verify a client operating on BRIDGE Mode Multipsk Test with wpa encryption 2.4 GHz Band is connecting or not.
+                    pytest -m ""ow_sanity_lf and vlan1 and wpa2 and multipsk""
+        "
+"passed","Thu Jun 01 20:43:41 IST 2023","Thu Jun 01 20:45:27 IST 2023","105717","Client Connectivity Tests","NAT Mode","EAP TTLS Client Connectivity : Suite-A","","","Test for wpa3 enterprise 2.4 GHz"," wpa enterprise 2g
+            pytest -m ""client_connectivity_tests and nat and enterprise and ttls and wpa3_enterprise and twog""
+        "
+"passed","Thu Jun 01 20:30:23 IST 2023","Thu Jun 01 20:33:57 IST 2023","213962","Rate Limiting With Radius Test","BRIDGE Mode","WPA2 Enterprise Security","","","Test for Download per SSID per Station 2.4GHz",""
+"passed","Thu Jun 01 19:00:33 IST 2023","Thu Jun 01 19:00:34 IST 2023","965","Test Connectivity","test_connectivity","TestResources","","","Check AP is restricted",""
+"passed","Thu Jun 01 21:05:43 IST 2023","Thu Jun 01 21:08:54 IST 2023","191381","MultiPsk Test","NAT Mode","WPA2 Security","","","Test for Client Connect with 2 VLAN's","
+            To verify the client operating on NAT Mode Multipsk Test with WPA encryption 2.4 GHz Band
+            Unique marker: pytest -m ""multi_psk_tests and nat and wpa2_personal and vlan2 and twog""
+        "
+"passed","Thu Jun 01 20:53:42 IST 2023","Thu Jun 01 20:55:25 IST 2023","103674","Client Connectivity Tests","NAT Mode","EAP TTLS Client Connectivity : Suite-B","","","Test for wpa3 enterprise mixed 2.4 GHz"," wpa enterprise 2g
+            pytest -m ""client_connectivity_tests and nat and enterprise and ttls and wpa3_enterprise_mixed and twog""
+        "
+"passed","Thu Jun 01 19:07:52 IST 2023","Thu Jun 01 19:07:54 IST 2023","2070","SDK Tests","Provisioning Service Tests","Provisioning Service Inventory API tests","","","Edit Inventory device","
+        Test to Edit a device in inventory of Provision Service
+        Unique marker: pytest -m ""owprov_api_edit_inventory""
+        "
+"passed","Thu Jun 01 20:36:08 IST 2023","Thu Jun 01 20:37:43 IST 2023","94170","Client Connectivity Tests","NAT Mode","EAP TTLS Client Connectivity : Suite-A","","","Test for wpa enterprise 2.4 GHz"," wpa enterprise 2g
+            pytest -m ""client_connectivity_tests and nat and enterprise and ttls and wpa_enterprise and twog""
+        "
+"passed","Thu Jun 01 19:54:47 IST 2023","Thu Jun 01 19:56:46 IST 2023","119231","Client Connectivity Tests","BRIDGE Mode","EAP TLS Client Connectivity : Suite-B","","","Bridge Mode Client Connectivity Test with WAP-WPA2-Enterprise-TLS in 2.4GHz Band","
+        To verify that a client created on 2G radio connects to AP in Bridge mode with WAP-WPA2-Enterprise  TLS security
+          Unique Marker:  pytest -m ""client_connectivity_tests and wpa_wpa2_enterprise_mixed and enterprise and ow_sanity_lf and tls and bridge and twog""
+        "
+"passed","Thu Jun 01 21:37:59 IST 2023","Thu Jun 01 21:40:15 IST 2023","135560","Client Connectivity Tests","VLAN Mode","General security mode Client Connectivity","","","VLAN Mode Client Connectivity Test with WPA3-Personal Encryption 2.4GHz Band","
+            To verify that a client created on 2G radio connects to AP in VLAN mode (i.e VLAN-100) with WPA3-Personal authentication
+           Unique Marker: pytest -m ""client_connectivity_tests and vlan and general and wpa3_personal and twog""
+        "
+"passed","Thu Jun 01 19:00:42 IST 2023","Thu Jun 01 19:00:44 IST 2023","1797","SDK Tests","Gateway Service Tests","TestUcentralGatewayService","","","Get OW Gateway Commands","
+        Test to verify OW gateway commands executed
+        Unique marker: pytest -m ""gw_commands""
+        "
+"passed","Thu Jun 01 19:08:09 IST 2023","Thu Jun 01 19:08:10 IST 2023","948","SDK Tests","Provisioning Service Tests","Provisioning Service Location API tests","","","Get All Locations","
+        Test to get the information of all locations using Provision services
+        Unique marker:pytest -m ""prov_api_location""
+        "
+"passed","Thu Jun 01 19:58:43 IST 2023","Thu Jun 01 20:00:18 IST 2023","94784","Client Connectivity Tests","BRIDGE Mode","EAP TLS Client Connectivity : Suite-B","","","Bridge Mode Client Connectivity Test with WAP3-Enterprise-Mixed-TLS in 2.4GHz Band","
+                       To verify that a client created on 2G radio connects to AP in Bridge mode with WAP3-Enterprise-Mixed  TLS security
+                         Unique Marker: pytest -m ""client_connectivity_tests and wpa3_enterprise_mixed and enterprise and ow_sanity_lf and tls and bridge and twog""
+                       "
+"passed","Thu Jun 01 21:28:54 IST 2023","Thu Jun 01 21:31:10 IST 2023","136358","Client Connectivity Tests","VLAN Mode","General security mode Client Connectivity","","","VLAN Mode Client Connectivity Test with WPA Encryption 5GHz Band","
+            To verify that a client created on 5G radio connects to AP in VLAN mode (i.e VLAN-100) with WPA authentication
+          Unique Marker: pytest -m ""client_connectivity_tests and vlan and general and wpa and fiveg""
+        "
+"passed","Thu Jun 01 19:08:10 IST 2023","Thu Jun 01 19:08:14 IST 2023","3514","SDK Tests","Provisioning Service Tests","Provisioning Service Location API tests","","","Create Location","
+            Test to create location in provision Service
+            Unique marker:pytest -m ""prov_api_create_location_test""
+        "
+"passed","Thu Jun 01 20:16:29 IST 2023","Thu Jun 01 20:18:32 IST 2023","122837","MultiPsk Test","BRIDGE Mode","WPA Security","","","Test for Client Connect with 1 VLAN","
+                    To verify a client operating on BRIDGE Mode Multipsk Test with wpa encryption 2.4 GHz Band is connecting or not
+                    pytest -m ""ow_sanity_lf and vlan1 and bridgemode""
+        "
+"passed","Thu Jun 01 19:08:24 IST 2023","Thu Jun 01 19:08:26 IST 2023","2046","SDK Tests","Provisioning Service Tests","Provisioning Service Venue API tests","","","Delete Venue","
+        Test to Delete venue in Provision Service
+        Unique Marker:pytest -m ""prov_api_delete_venue_test""
+        "
+"passed","Thu Jun 01 21:24:04 IST 2023","Thu Jun 01 21:26:18 IST 2023","133808","Client Connectivity Tests","VLAN Mode","General security mode Client Connectivity","","","VLAN Mode Client Connectivity Test with Open Encryption 5GHz Band","
+            To verify that a client created on 5G radio connects to AP in VLAN mode (VLAM-100) with open authentication
+           Unique Marker: pytest -m ""client_connectivity_tests and vlan and general and open and fiveg""
+        "
+"passed","Thu Jun 01 21:47:42 IST 2023","Thu Jun 01 21:50:00 IST 2023","137705","Client Connectivity Tests","VLAN Mode","General security mode Client Connectivity","","","VLAN Mode Client Connectivity Test with WPA-WPA2-Personal-Mixed Encryption 2.4GHz Band","
+            To verify that a client created on 2G radio connects to AP in VLAN mode (i.e VLAN-100) with WPA-WPA2-Personal-Mixed authentication
+            Unique Marker: pytest -m ""client_connectivity_tests and vlan and general and wpa_wpa2_personal_mixed and twog""
+        "
+"passed","Thu Jun 01 19:01:09 IST 2023","Thu Jun 01 19:01:10 IST 2023","973","SDK Tests","Gateway Service Tests","TestUcentralGatewayService","","","Telemetry Device","
+            Test to Request telemetry from device present in Gateway UI
+            Unique marker:pytest -m ""gw_telemetry_device""
+        "
+"passed","Thu Jun 01 20:00:27 IST 2023","Thu Jun 01 20:02:03 IST 2023","96661","Client Connectivity Tests","BRIDGE Mode","EAP TLS Client Connectivity : Suite-B","","","Bridge Mode Client Connectivity Test with WAP3-Enterprise-Mixed-TLS in 5GHz Band","
+         To verify that a client created on 5G radio connects to AP in Bridge mode with WAP3-Enterprise-Mixed  TLS security
+         Unique Marker: pytest -m ""client_connectivity_tests and wpa3_enterprise_mixed and enterprise and ow_sanity_lf and tls and bridge and fiveg""
+                              "
+"passed","Thu Jun 01 19:08:14 IST 2023","Thu Jun 01 19:08:15 IST 2023","1041","SDK Tests","Provisioning Service Tests","Provisioning Service Location API tests","","","Read Location","
+        Test to Read location in Provision Services
+        Unique marker:pytest -m ""prov_api_read_loaction_test""
+        "
+"passed","Thu Jun 01 19:08:03 IST 2023","Thu Jun 01 19:08:04 IST 2023","936","SDK Tests","Provisioning Service Tests","Provisioning Service Contact API tests","","","Get All Contacts","
+        Test to get all contacts in Provision services
+        Unique marker:pytest -m ""prov_api_contact_test""
+        "
+"passed","Thu Jun 01 19:08:04 IST 2023","Thu Jun 01 19:08:05 IST 2023","958","SDK Tests","Provisioning Service Tests","Provisioning Service Contact API tests","","","Create Contact","
+            Test to create Contact in provision Service
+            Unique marker: pytest -m ""prov_api_contact_test""
+        "
+"passed","Thu Jun 01 19:01:27 IST 2023","Thu Jun 01 19:07:49 IST 2023","382078","SDK Tests","Gateway Service Tests","TestUcentralGatewayService","","","Asb script on restricted AP",""
+"passed","Thu Jun 01 19:00:33 IST 2023","Thu Jun 01 19:00:33 IST 2023","724","Test Connectivity","test_connectivity","TestResources","","","Cloud Access Point Connectivity","Test case to verify Access Points Connectivity
+        Unique marker: pytest -m ""test_access_points_connectivity""
+        "
+"passed","Thu Jun 01 21:31:18 IST 2023","Thu Jun 01 21:33:31 IST 2023","133201","Client Connectivity Tests","VLAN Mode","General security mode Client Connectivity","","","VLAN Mode Client Connectivity Test with WPA2-Personal Encryption 2.4GHz Band","
+            To verify that a client created on 2G radio connects to AP in VLAN mode with WPA2-Personal authentication
+           Unique Marker: pytest -m ""client_connectivity_tests and vlan and general and wpa2_personal and twog""
+        "
+"passed","Thu Jun 01 22:31:48 IST 2023","Thu Jun 01 22:32:55 IST 2023","66422","Rate Limiting Tests","VLAN Mode","WPA2 Personal Security","","","Test for Upload and Download batch size 1,2,5 2.4 GHz","
+            To verfiy a client operating with WPA2 Personal security can limit the UP & DW traffic or not.
+            pytest -m ""rate_limiting_tests and vlan and wpa2_personal and twog and upload_download and batch_size_125""
+        "
+"passed","Thu Jun 01 20:37:51 IST 2023","Thu Jun 01 20:39:37 IST 2023","105570","Client Connectivity Tests","NAT Mode","EAP TTLS Client Connectivity : Suite-A","","","Test for wpa enterprise 5 GHz"," wpa enterprise 5g
+            pytest -m ""client_connectivity_tests and nat and enterprise and ttls and wpa_enterprise and fiveg""
+        "
+"passed","Thu Jun 01 20:50:03 IST 2023","Thu Jun 01 20:51:42 IST 2023","98705","Client Connectivity Tests","NAT Mode","EAP TTLS Client Connectivity : Suite-B","","","Test for wpa wpa2 enterprise 2.4 GHz"," wpa enterprise 2g
+            pytest -m ""client_connectivity_tests and nat and enterprise and ttls and wpa_wpa2_enterprise_mixed and twog""
+        "
+"passed","Thu Jun 01 19:08:18 IST 2023","Thu Jun 01 19:08:19 IST 2023","981","SDK Tests","Provisioning Service Tests","Provisioning Service Venue API tests","","","Get All Venues","
+        Test to get all venues in provision services
+        Unique marker:pytest -m ""prov_api_all_venue""
+        "
+"passed","Thu Jun 01 19:07:55 IST 2023","Thu Jun 01 19:07:57 IST 2023","1165","SDK Tests","Provisioning Service Tests","Provisioning Service System commands API tests","","","System Info OW Prov Service",""
+"skipped","Thu Jun 01 21:42:44 IST 2023","Thu Jun 01 21:42:44 IST 2023","1","Client Connectivity Tests","VLAN Mode","General security mode Client Connectivity","","","VLAN Mode Client Connectivity Test with WPA3-Personal Encryption 6GHz Band","
+            To verify that a client created on 6G radio connects to AP in VLAN mode (i.e VLAN-100) with WPA3-Personal authentication
+           Unique Marker: pytest -m ""client_connectivity_tests and vlan and general and wpa3_personal and sixg""
+        "
+"passed","Thu Jun 01 19:00:49 IST 2023","Thu Jun 01 19:00:50 IST 2023","1272","SDK Tests","Gateway Service Tests","TestUcentralGatewayService","","","Ping Device","
+            Test to Ping device present in Gateway UI
+            Unique marker:pytest -m ""gw_ping_device""
+        "
+"passed","Thu Jun 01 19:08:26 IST 2023","Thu Jun 01 19:08:27 IST 2023","975","SDK Tests","Security Service Tests","TestUcentralSecService","","","Get System Endpoints","
+            Test the system endpoints to verify list of services that are present
+            Unique marker:pytest -m ""system endpoints""
+        "
+"passed","Thu Jun 01 21:50:08 IST 2023","Thu Jun 01 21:52:21 IST 2023","132647","Client Connectivity Tests","VLAN Mode","General security mode Client Connectivity","","","VLAN Mode Client Connectivity Test with WPA-WPA2-Personal-Mixed Encryption 5GHz Band","
+            To verify that a client created on 5G radio connects to AP in VLAN mode (i.e VLAN-100) with WPA-WPA2-Personal-Mixed  authentication
+            Unique Marker: pytest -m ""client_connectivity_tests and vlan and general and wpa_wpa2_personal_mixed and fiveg""
+        "
+"passed","Thu Jun 01 19:08:22 IST 2023","Thu Jun 01 19:08:24 IST 2023","1906","SDK Tests","Provisioning Service Tests","Provisioning Service Venue API tests","","","Edit Venue","
+        Test to Edit venues in Provision Services
+        Unique marker:pytest -m ""prov_api_edit_venue_test""
+        "
+"passed","Thu Jun 01 19:00:44 IST 2023","Thu Jun 01 19:00:45 IST 2023","999","SDK Tests","Gateway Service Tests","TestUcentralGatewayService","","","Get Device Logs","
+            Test the device logs present in Gateway UI
+            Unique marker:pytest -m ""gw_device_logs""
+        "
+"passed","Thu Jun 01 19:08:06 IST 2023","Thu Jun 01 19:08:08 IST 2023","2294","SDK Tests","Provisioning Service Tests","Provisioning Service Contact API tests","","","Edit Contact","
+        Test to edit a contact in Provision service
+        Unique marker: pytest -m ""prov_api_edit_contact_test""
+        "
+"passed","Thu Jun 01 22:11:02 IST 2023","Thu Jun 01 22:13:14 IST 2023","131953","Multi VLAN Test","VLAN Mode","5Ghz","","","Test VLAN with WPA Security Mode","
+            To verify that a client operating with WPA security will connect or not using Multi VLAN's
+            pytest -m ""multi_vlan and wpa and fiveg and ow_sanity_lf""
+        "
+"passed","Thu Jun 01 19:00:45 IST 2023","Thu Jun 01 19:00:46 IST 2023","1008","SDK Tests","Gateway Service Tests","TestUcentralGatewayService","","","Get Health Checks","
+            Test the device health checks present in Gateway UI
+            Unique marker:pytest -m ""gw_device_health_checks""
+        "
+"passed","Thu Jun 01 20:18:40 IST 2023","Thu Jun 01 20:21:50 IST 2023","189724","MultiPsk Test","BRIDGE Mode","WPA Security","","","Test for Client Connect with 2 VLAN's","
+            to verify a client operating on BRIDGE Mode Multipsk Test with wpa encryption 2.4 GHz Band is connecting or not
+            pytest -m ""ow_sanity_lf and vlan2 and bridgemode""
+        "
+"passed","Thu Jun 01 19:00:52 IST 2023","Thu Jun 01 19:00:54 IST 2023","2324","SDK Tests","Gateway Service Tests","TestUcentralGatewayService","","","Trace Command","
+            Test to trace device present in Gateway UI
+            Unique marker:pytest -m ""gw_trace_device""
+        "
+"passed","Thu Jun 01 21:42:53 IST 2023","Thu Jun 01 21:45:09 IST 2023","136092","Client Connectivity Tests","VLAN Mode","General security mode Client Connectivity","","","VLAN Mode Client Connectivity Test with WPA3-Personal-Mixed Encryption 2.4GHz Band","
+            To verify that a client created on 2G radio connects to AP in VLAN mode (i.e VLAN-100) with WPA3-Personal-Mixed authentication
+            Unique Marker: pytest -m ""client_connectivity_tests and vlan and general and wpa3_personal_mixed and twog""
+        "
+"passed","Thu Jun 01 21:26:27 IST 2023","Thu Jun 01 21:28:45 IST 2023","138674","Client Connectivity Tests","VLAN Mode","General security mode Client Connectivity","","","VLAN Mode Client Connectivity Test with WPA Encryption 2.4GHz Band","
+            To verify that a client created on 2G radio connects to AP in VLAN mode (i.e VLAN-100) with WPA personal authentication
+            Unique Marker: pytest -m ""client_connectivity_tests and vlan and general and wpa and twog""
+        "
+"passed","Thu Jun 01 21:54:26 IST 2023","Thu Jun 01 21:56:33 IST 2023","126456","Dynamic VLAN Test","WPA2 Enterprise Security","5 GHz Band","","","Test for dynamic precedence over ssid","
+                pytest -m ""dynamic_precedence_over_ssid and wpa2_enterprise and vlan and fiveg""
+        "
+"passed","Thu Jun 01 19:00:48 IST 2023","Thu Jun 01 19:00:49 IST 2023","967","SDK Tests","Gateway Service Tests","TestUcentralGatewayService","","","Get Device Status","
+            Test the device status present in Gateway UI
+            Unique marker: pytest -m ""gw_device_status""
+        "
+"passed","Thu Jun 01 19:00:50 IST 2023","Thu Jun 01 19:00:52 IST 2023","1299","SDK Tests","Gateway Service Tests","TestUcentralGatewayService","","","Blink LED API","
+            Test to Blink led on device present in Gateway UI
+            Unique marker: pytest -m ""gw_led_blink_device""
+        "
+"failed","Thu Jun 01 20:59:25 IST 2023","Thu Jun 01 21:05:35 IST 2023","369958","MultiPsk Test","NAT Mode","WPA2 Security","","","Test for Client Connect with 1 VLAN","
+                    To verify a client operating on NAT Mode Multipsk Test with wpa encryption 2.4 GHz Band is connecting or not.
+                    Unique Marker:pytest -m ""multi_psk_tests and NAT and wpa_personal and vlan1 and twog""
+        "
+"passed","Thu Jun 01 20:45:35 IST 2023","Thu Jun 01 20:47:19 IST 2023","104610","Client Connectivity Tests","NAT Mode","EAP TTLS Client Connectivity : Suite-A","","","Test for wpa3 enterprise 5 GHz"," wpa enterprise 2g
+            pytest -m ""client_connectivity_tests and nat and enterprise and ttls and wpa3_enterprise and fiveg""
+        "
+"passed","Thu Jun 01 19:08:02 IST 2023","Thu Jun 01 19:08:03 IST 2023","1118","SDK Tests","Provisioning Service Tests","Provisioning Service Entity API tests","","","Delete Entity","
+        Test to Delete an entity in Provision service
+        Unique marker:pytest -m ""prov_api_delete_entity_test""
+        "
+"passed","Thu Jun 01 21:13:28 IST 2023","Thu Jun 01 21:16:42 IST 2023","194474","MultiPsk Test","NAT Mode","WPA Security","","","Test for Client Connect with 2 VLAN's","
+            To verify a client operating on NAT Mode Multipsk Test with wpa encryption 2.4 GHz Band is connecting or not.
+            pytest -m ""multi_psk_tests and NAT and wpa and vlan2 and twog""
+        "
+"passed","Thu Jun 01 19:08:05 IST 2023","Thu Jun 01 19:08:06 IST 2023","952","SDK Tests","Provisioning Service Tests","Provisioning Service Contact API tests","","","Read Contact","
+        Test to Read a contact in Provision Services
+        Unique marker:pytest -m ""prov_read_contact_test""
+        "
+"passed","Thu Jun 01 22:15:47 IST 2023","Thu Jun 01 22:19:17 IST 2023","209919","Multi VLAN Test","VLAN Mode","5Ghz","","","Test Disabled VLAN with WPA2 Security Mode","
+            To verify that a client operating with WPA2 security will connect or not by disabling the VLAN
+            pytest -m ""disable_vlan_fiveg and wpa2_personal and fiveg and ow_sanity_lf""
+        "
+"passed","Thu Jun 01 21:45:17 IST 2023","Thu Jun 01 21:47:34 IST 2023","137102","Client Connectivity Tests","VLAN Mode","General security mode Client Connectivity","","","VLAN Mode Client Connectivity Test with WPA3-Personal-Mixed Encryption 5GHz Band","
+            To verify that a client created on 5G radio connects to AP in VLAN mode (i.e VLAN-100) with WPA3-Personal-Mixed authentication
+           Unique Marker: pytest -m ""client_connectivity_tests and vlan and general and wpa3_personal_mixed and fiveg""
+        "
+"passed","Thu Jun 01 21:18:58 IST 2023","Thu Jun 01 21:19:37 IST 2023","39625","Rate Limiting Tests","NAT Mode","WPA2 Personal Security","","","Test for Upload and Download batch size 1,2,5 2.4 GHz","
+            To verfiy a client operating with WPA2 Personal security can limit the UP & DW traffic or not.
+            Unique marker:pytest -m ""rate_limiting_tests and wpa2_personal and nat and ow_sanity_lf and twog and upload_download and batch_size_125""
+
+        "
+"passed","Thu Jun 01 21:11:09 IST 2023","Thu Jun 01 21:13:20 IST 2023","130838","MultiPsk Test","NAT Mode","WPA Security","","","Test for Client Connect with 1 VLAN","
+                    To verify the client operating on NAT Mode Multipsk Test with wpa encryption 2.4 GHz Band is connecting or not.
+                    pytest -m ""multi_psk_tests and NAT and wpa_personal and vlan1 and twog""
+        "
+"passed","Thu Jun 01 22:23:49 IST 2023","Thu Jun 01 22:26:05 IST 2023","136620","Multi VLAN Test","VLAN Mode","2.4 Ghz","","","Test VLAN with WPA2 Personal Security Mode","
+                    Multi VLAN Test with wpa2_personal encryption 2.4 GHz Band
+                    pytest -m ""multi_vlan_tests and wpa2_personal and twog""
+        "
+"passed","Thu Jun 01 20:26:40 IST 2023","Thu Jun 01 20:30:14 IST 2023","213995","Rate Limiting With Radius Test","BRIDGE Mode","WPA2 Enterprise Security","","","Test for Upload per SSID 2.4 GHz",""
+"passed","Thu Jun 01 19:00:54 IST 2023","Thu Jun 01 19:01:06 IST 2023","11529","SDK Tests","Gateway Service Tests","TestUcentralGatewayService","","","Wi-Fi Scan Device","
+            Test to Wi-Fi scan device present in Gateway UI
+            Unique marker:pytest -m ""gw_wifi_scan_device""
+        "
+"passed","Thu Jun 01 20:55:33 IST 2023","Thu Jun 01 20:57:12 IST 2023","99014","Client Connectivity Tests","NAT Mode","EAP TTLS Client Connectivity : Suite-B","","","Test for wpa3 enterprise mixed 5 GHz"," wpa enterprise 2g
+            pytest -m ""client_connectivity_tests and nat and enterprise and ttls and wpa3_enterprise_mixed and fiveg""
+        "
+"passed","Thu Jun 01 21:21:48 IST 2023","Thu Jun 01 21:23:56 IST 2023","128374","Client Connectivity Tests","VLAN Mode","General security mode Client Connectivity","","","VLAN Mode Client Connectivity Test with Open Encryption 2.4GHz Band","
+            To verify that a client created on 2G radio connects to AP in VLAN mode (i.e VLAN-100) with open authentication
+           Unique Marker: pytest -m ""client_connectivity_tests and vlan and general and open and twog""
+        "
+"passed","Thu Jun 01 21:58:37 IST 2023","Thu Jun 01 22:00:41 IST 2023","123345","Dynamic VLAN Test","WPA2 Enterprise Security","5 GHz Band","","","Test for ssid vlan in the absence of radius vlan identifier","
+                pytest -m ""absence_of_radius_vlan_identifier and wpa2_enterprise and vlan and fiveg""
+        "
+"passed","Thu Jun 01 19:00:34 IST 2023","Thu Jun 01 19:00:35 IST 2023","997","SDK Tests","Gateway Service Tests","TestUcentralGatewayService","","","Get All Devices","
+            Test the list of devices endpoint
+            Unique marker: pytest -m ""get_all_devices""
+        "
+"passed","Thu Jun 01 19:07:54 IST 2023","Thu Jun 01 19:07:55 IST 2023","991","SDK Tests","Provisioning Service Tests","Provisioning Service Inventory API tests","","","Delete Inventory device","
+        Test to Delete a device in Inventory of Provision service
+        Unique marker:owprov_api_delete_inventory
+        "
+"passed","Thu Jun 01 20:39:45 IST 2023","Thu Jun 01 20:41:43 IST 2023","117870","Client Connectivity Tests","NAT Mode","EAP TTLS Client Connectivity : Suite-A","","","Test for wpa2 enterprise 2.4 GHz"," wpa enterprise 2g
+            pytest -m ""client_connectivity_tests and nat and enterprise and ttls and wpa2_enterprise and twog""
+        "
+"passed","Thu Jun 01 19:00:41 IST 2023","Thu Jun 01 19:00:42 IST 2023","1165","SDK Tests","Gateway Service Tests","TestUcentralGatewayService","","","System Info OW Gateway Service","
+        Test to verify OW gateway services
+        Unique marker: pytest -m ""OW_gateway_service""
+        "
+"passed","Thu Jun 01 19:37:59 IST 2023","Thu Jun 01 19:40:09 IST 2023","130449","Throughput Benchmark Test","5 GHz Band","BRIDGE Mode","","","Single client TCP Download wifi capacity 80Mhz Bw"," Single client TCP download Wifi Capacity Test 5GHz band 80MHz bandwidth wpa2 personal security BRIDGE mode
+            pytest -m ""ow_sanity_lf and channel_36""
+        "
+"passed","Thu Jun 01 19:49:16 IST 2023","Thu Jun 01 19:50:54 IST 2023","97463","Client Connectivity Tests","BRIDGE Mode","EAP TLS Client Connectivity : Suite-A","","","Bridge Mode Client Connectivity Test with WPA3-Enterprise-TLS in 2.4GHz Band","
+        To verify that a client created on 2G radio connects to AP in Bridge mode with WPA3 enterprise TLS security
+                 Unique Marker: pytest -m ""To verify that a client created on 2G radio connects to AP in Bridge mode with WPA3 enterprise TLS security""
+                "
+"passed","Thu Jun 01 21:33:40 IST 2023","Thu Jun 01 21:35:52 IST 2023","132078","Client Connectivity Tests","VLAN Mode","General security mode Client Connectivity","","","VLAN Mode Client Connectivity Test with WPA2-Personal Encryption 5GHz Band","
+            To verify that a client created on 5G radio connects to AP in VLAN mode (i.e VLAN-100) with WPA2-Personal authentication
+           Unique Marker: pytest -m ""client_connectivity_tests and vlan and general and wpa2_personal and fiveg""
+        "
+"passed","Thu Jun 01 19:08:08 IST 2023","Thu Jun 01 19:08:09 IST 2023","1028","SDK Tests","Provisioning Service Tests","Provisioning Service Contact API tests","","","Delete Contact","
+        Test to Delete a contact in provision service
+        Unique marker: pytest -m ""prov_api_delete_contact_test""
+        "
+"passed","Thu Jun 01 19:07:49 IST 2023","Thu Jun 01 19:07:50 IST 2023","1019","SDK Tests","Provisioning Service Tests","Provisioning Service Inventory API tests","","","Get All Inventory List","
+            Test to get the information of all device present in Inventory of Provisioning UI
+            Unique marker:pytest -m ""prov_api_all_inventory""
+        "
+"passed","Thu Jun 01 19:08:19 IST 2023","Thu Jun 01 19:08:21 IST 2023","2049","SDK Tests","Provisioning Service Tests","Provisioning Service Venue API tests","","","Create Venue","
+            Test the create venue in provision Service
+            Unique marker: pytest -m ""prov_api_create_venue_test""
+        "
+"passed","Thu Jun 01 19:08:00 IST 2023","Thu Jun 01 19:08:02 IST 2023","2164","SDK Tests","Provisioning Service Tests","Provisioning Service Entity API tests","","","Edit Entity","
+        Test to Edit an entity in Provision Service
+        Unique marker: pytest -m ""prov_api_edit_entity_test""
+        "
+"passed","Thu Jun 01 20:23:55 IST 2023","Thu Jun 01 20:24:34 IST 2023","39244","Rate Limiting Tests","BRIDGE Mode","WPA2 Personal Security","","","Test for Upload and Download batch size 1,2,5 2.4 GHz","
+            To verfiy a client operating with WPA2 Personal security can limit the UP & DW traffic or not.
+            pytest -m ""rate_limiting_tests and wpa2_personal and bridge and ow_sanity_lf and twog and upload_download and batch_size_125""
+
+        "
+"passed","Thu Jun 01 19:08:17 IST 2023","Thu Jun 01 19:08:18 IST 2023","1073","SDK Tests","Provisioning Service Tests","Provisioning Service Location API tests","","","Delete Location","
+        Test to Delete location in provision service
+        Unique marker: pytest -m ""prov_api_delete_location_test""
+
+        "
+"passed","Thu Jun 01 19:00:35 IST 2023","Thu Jun 01 19:00:41 IST 2023","5541","SDK Tests","Gateway Service Tests","TestUcentralGatewayService","","","CRUD Device","
+            Test to create,read,edit and delete device endpoint
+            Unique marker: pytest -m ""CRUD""
+        "
+"passed","Thu Jun 01 19:10:54 IST 2023","Thu Jun 01 19:15:41 IST 2023","286701","DFS Test","BRIDGE Mode(80 MHz)","Channel-52","","","Verify DFS Test of Channel 52 and Bandwidth 80MHz in 5GHz Band","
+        To verify that a 5G client operating on channel 52 shifts to a non-DFS channel if radar is detected
+        Unique Marker: pytest -m ""bandwidth_80MHz and ow_sanity_lf and dfs_channel_52_bw_80""
+        "
+"passed","Thu Jun 01 19:33:01 IST 2023","Thu Jun 01 19:35:53 IST 2023","172491","Throughput Benchmark Test","2.4 GHz Band","BRIDGE Mode","","","Single client TCP Download wifi capacity 40Mhz Bw"," Single client TCP download Wifi Capacity Test 2.4GHz band 40MHz bandwidth wpa2 personal security BRIDGE mode
+            pytest -m ""ow_sanity_lf and channel_11""
+        "
+"passed","Thu Jun 01 19:01:12 IST 2023","Thu Jun 01 19:01:27 IST 2023","14901","SDK Tests","Gateway Service Tests","TestUcentralGatewayService","","","Asb script on non restricted AP",""
+"passed","Thu Jun 01 20:51:50 IST 2023","Thu Jun 01 20:53:34 IST 2023","103737","Client Connectivity Tests","NAT Mode","EAP TTLS Client Connectivity : Suite-B","","","Test for wpa wpa2 enterprise 5 GHz"," wpa enterprise 2g
+            pytest -m ""client_connectivity_tests and nat and enterprise and ttls and wpa_wpa2_enterprise_mixed and fiveg""
+        "
+"passed","Thu Jun 01 19:07:58 IST 2023","Thu Jun 01 19:07:59 IST 2023","1089","SDK Tests","Provisioning Service Tests","Provisioning Service Entity API tests","","","Create Entity","
+            Test to create an Entity in provision Service
+            Unique marker: pytest -m ""prov_api_create_entity_test""
+        "
+"passed","Thu Jun 01 19:51:02 IST 2023","Thu Jun 01 19:52:38 IST 2023","95819","Client Connectivity Tests","BRIDGE Mode","EAP TLS Client Connectivity : Suite-A","","","Bridge Mode Client Connectivity Test with WPA3-Enterprise-TLS in 5GHz Band","
+        To verify that a client created on 5G radio connects to AP in Bridge mode with WPA3 enterprise TLS security
+        Unique Marker: pytest -m ""client_connectivity_tests and enterprise and wpa3_enterprise and ow_sanity_lf and tls and bridge and fiveg""
+                "
+"passed","Thu Jun 01 19:08:15 IST 2023","Thu Jun 01 19:08:17 IST 2023","2212","SDK Tests","Provisioning Service Tests","Provisioning Service Location API tests","","","Edit Location","
+        Test to Edit the locations in Provision services
+        Unique markers: pytest -m ""prov_api_edit_location_test""
+        "
+"passed","Thu Jun 01 22:21:24 IST 2023","Thu Jun 01 22:23:41 IST 2023","136482","Multi VLAN Test","VLAN Mode","2.4 Ghz","","","Test VLAN with WPA Security Mode","
+                    Multi VLAN Test with wpa encryption 2.4 GHz Band
+                    pytest -m ""multi_vlan_tests and wpa and twog""
+        "
+"passed","Thu Jun 01 19:07:51 IST 2023","Thu Jun 01 19:07:52 IST 2023","965","SDK Tests","Provisioning Service Tests","Provisioning Service Inventory API tests","","","Read Inventory device","
+        Test to Read a device from Inventory of Provision service
+        Unique marker: pytest -m ""owprov_api_read_inventory""
+        "
+"passed","Thu Jun 01 22:02:46 IST 2023","Thu Jun 01 22:04:51 IST 2023","125480","Dynamic VLAN Test","WPA2 Enterprise Security","2.4 GHz Band","","","Verify that Dynamic VLAN takes precedence over configured SSID VLAN","
+                To Verify that Dynamic VLAN takes precedence over configured SSID VLAN
+              Unique Marker:  pytest -m ""dynamic_precedence_over_ssid and wpa2_enterprise and vlan""
+
+        "
+"passed","Thu Jun 01 19:07:59 IST 2023","Thu Jun 01 19:08:00 IST 2023","1003","SDK Tests","Provisioning Service Tests","Provisioning Service Entity API tests","","","Read Entity","
+        Test to Read an entity in provision service
+        Unique marker: pytest -m ""prov_api_read_entity_test""
+        "
+"passed","Thu Jun 01 19:08:27 IST 2023","Thu Jun 01 19:08:28 IST 2023","1076","SDK Tests","Security Service Tests","TestUcentralSecService","","","Get Security Version","
+            Test the system endpoint to verify the version of the service
+            Unique marker:pytest -m ""security_version""
+        "
+"passed","Thu Jun 01 20:41:51 IST 2023","Thu Jun 01 20:43:33 IST 2023","101701","Client Connectivity Tests","NAT Mode","EAP TTLS Client Connectivity : Suite-A","","","Test for wpa2 enterprise 5 GHz"," wpa enterprise 2g
+            pytest -m ""client_connectivity_tests and nat and enterprise and ttls and wpa2_enterprise and fiveg""
+        "
+"passed","Thu Jun 01 19:08:28 IST 2023","Thu Jun 01 19:08:29 IST 2023","1042","SDK Tests","Security Service Tests","TestUcentralSecService","","","Get Security Service Uptime","
+            Test the system endpoint to verify the uptime of the service
+            WIFI-3451
+        "
+"passed","Thu Jun 01 19:56:54 IST 2023","Thu Jun 01 19:58:35 IST 2023","100617","Client Connectivity Tests","BRIDGE Mode","EAP TLS Client Connectivity : Suite-B","","","Bridge Mode Client Connectivity Test with WAP-WPA2-Enterprise-TLS in 5GHz Band","
+               To verify that a client created on 5G radio connects to AP in Bridge mode with WAP-WPA2-Enterprise  TLS security
+                 Unique Marker:  pytest -m ""client_connectivity_tests and wpa_wpa2_enterprise_mixed and enterprise and ow_sanity_lf and tls and bridge and fiveg""
+               "
+"passed","Thu Jun 01 19:00:47 IST 2023","Thu Jun 01 19:00:48 IST 2023","1320","SDK Tests","Gateway Service Tests","TestUcentralGatewayService","","","Get Statistics","
+            Test the device statistics present in Gateway UI
+            Unique marker: pytest -m ""gw_device_statistics""
+        "
+"passed","Thu Jun 01 19:08:21 IST 2023","Thu Jun 01 19:08:22 IST 2023","993","SDK Tests","Provisioning Service Tests","Provisioning Service Venue API tests","","","Read Venue","
+        Test to Read venues in Provision services
+        Unique marker:pytest -m ""prov_api_read_venue_test""
+        "
+"passed","Thu Jun 01 19:07:50 IST 2023","Thu Jun 01 19:07:51 IST 2023","1139","SDK Tests","Provisioning Service Tests","Provisioning Service Inventory API tests","","","Create Inventory device","
+            Test the create device in Inventory of provision Inventory
+            Unique marker: pytest -m ""owprov_api_create_inventory""
+        "
+"passed","Thu Jun 01 22:06:56 IST 2023","Thu Jun 01 22:08:56 IST 2023","119371","Dynamic VLAN Test","WPA2 Enterprise Security","2.4 GHz Band","","","Verify that SSID VLAN is used in the absence of radius VLAN tunnel type identifiers","
+
+        To verify that SSID VLAN is used in the absence of radius VLAN tunnel type identifiers
+               Unique Marker:  pytest -m "" absence_of_radius_vlan_identifier and wpa2_enterprise and vlan""
+
+        "
+"passed","Thu Jun 01 19:00:46 IST 2023","Thu Jun 01 19:00:47 IST 2023","1026","SDK Tests","Gateway Service Tests","TestUcentralGatewayService","","","Get Capabilities","
+            Test the device capabilities present in Gateway UI
+            Unique marker:pytest -m ""gw_device_capabilities""
+        "
+"passed","Thu Jun 01 19:44:03 IST 2023","Thu Jun 01 19:45:42 IST 2023","98734","Client Connectivity Tests","BRIDGE Mode","EAP TLS Client Connectivity : Suite-A","","","Bridge Mode Client Connectivity Test with WPA-Enterprise-TLS in 5GHz Band","
+        To verify that a client created on 5G radio connects to AP in Bridge mode with WPA enterprise TLS security
+        Unique Marker: pytest -m ""client_connectivity_tests and enterprise and wpa_enterprise and ow_sanity_lf and tls and bridge and fiveg""
+                "
+"passed","Thu Jun 01 19:45:50 IST 2023","Thu Jun 01 19:47:24 IST 2023","93635","Client Connectivity Tests","BRIDGE Mode","EAP TLS Client Connectivity : Suite-A","","","Bridge Mode Client Connectivity Test with WPA2-Enterprise-TLS in 2.4GHz Band","
+        To verify that a client created on 2G radio connects to AP in Bridge mode with WPA2 enterprise TLS security
+        Unique Marker: pytest -m ""client_connectivity_tests and enterprise and wpa2_enterprise and ow_sanity_lf and tls and bridge and twog""
+                "
+"passed","Thu Jun 01 21:40:23 IST 2023","Thu Jun 01 21:42:36 IST 2023","133508","Client Connectivity Tests","VLAN Mode","General security mode Client Connectivity","","","VLAN Mode Client Connectivity Test with WPA3-Personal Encryption 5GHz Band","
+            To verify that a client created on 5G radio connects to AP in VLAN mode (i.e VLAN-100) with WPA3-Personal authentication
+           Unique Marker: pytest -m ""client_connectivity_tests and vlan and general and wpa3_personal and fiveg""
+        "
+"passed","Thu Jun 01 19:42:16 IST 2023","Thu Jun 01 19:43:55 IST 2023","98493","Client Connectivity Tests","BRIDGE Mode","EAP TLS Client Connectivity : Suite-A","","","Bridge Mode Client Connectivity Test with WPA-Enterprise-TLS in 2.4GHz Band","
+         To verify that a client created on 2G radio connects to AP in Bridge mode with WPA enterprise TLS security
+         Unique Marker: pytest -m ""client_connectivity_tests and enterprise and wpa_enterprise and ow_sanity_lf and tls and bridge and twog""
+                "
+"passed","Thu Jun 01 19:18:16 IST 2023","Thu Jun 01 19:23:01 IST 2023","284820","DFS Test","BRIDGE Mode(80 MHz)","Channel-100","","","Verify DFS Test of Channel 100 and Bandwidth 80MHz in 5GHz Band","
+        To verify that a 5G client operating on channel 100 shifts to a non-DFS channel if radar is detected
+        Unique Marker: pytest -m ""bandwidth_80MHz and ow_sanity_lf and dfs_channel_100_bw_80""
+        "
+"passed","Thu Jun 01 20:11:17 IST 2023","Thu Jun 01 20:14:24 IST 2023","187250","MultiPsk Test","BRIDGE Mode","WPA2 Security","","","Test for Client Connect with 2 VLAN's","
+            To verify a client operating on BRIDGE Mode Multipsk Test with wpa encryption 2.4 GHz Band is connecting or not.
+            pytest -m ""multi_psk_tests and bridge and wpa2_personal and vlan2 and twog""
+        "
+"passed","Thu Jun 01 19:25:36 IST 2023","Thu Jun 01 19:30:25 IST 2023","288827","DFS Test","BRIDGE Mode(80 MHz)","Channel-132","","","Verify DFS Test of Channel 132 and Bandwidth 80MHz in 5GHz Band","
+        To verify that a 5G client operating on channel 132 shifts to a non-DFS channel if radar is detected
+        Unique Marker: pytest -m ""bandwidth_80MHz and ow_sanity_lf and dfs_channel_132_bw_80""
+
+        "
+"passed","Thu Jun 01 19:01:10 IST 2023","Thu Jun 01 19:01:12 IST 2023","2402","SDK Tests","Gateway Service Tests","TestUcentralGatewayService","","","RTTY API","
+            Test the device rtty parameters in Gateway UI
+        "
+"passed","Thu Jun 01 19:01:07 IST 2023","Thu Jun 01 19:01:09 IST 2023","1822","SDK Tests","Gateway Service Tests","TestUcentralGatewayService","","","Get Event Queue of Device","
+            Test to Request Event Queue from device present in Gateway UI
+            Unique marker:pytest -m ""gw_event_queue_device""
+        "
+"passed","Thu Jun 01 19:01:06 IST 2023","Thu Jun 01 19:01:07 IST 2023","1489","SDK Tests","Gateway Service Tests","TestUcentralGatewayService","","","Request Message Device","
+            Test to Request specific msg from device present in Gateway UI
+            Unique marker:pytest -m ""gw_request_msg_device""
+        "
+"passed","Thu Jun 01 19:47:32 IST 2023","Thu Jun 01 19:49:08 IST 2023","95627","Client Connectivity Tests","BRIDGE Mode","EAP TLS Client Connectivity : Suite-A","","","Bridge Mode Client Connectivity Test with WPA2-Enterprise-TLS in 5GHz Band","
+        To verify that a client created on 5G radio connects to AP in Bridge mode with WAP2 enterprise TLS security
+        Unique Marker: pytest -m ""client_connectivity_tests and enterprise and wpa2_enterprise and ow_sanity_lf and tls and bridge and fiveg""
+                "

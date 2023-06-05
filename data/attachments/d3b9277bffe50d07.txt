@@ -1,0 +1,1398 @@
+2023-06-01 19:08:29 [32mINFO[0m Profiles: {'handler': 'candela.lanforge.HttpProfiles$JsonResponse', 'uri': 'profile/:name', 'candela.lanforge.HttpProfiles': {'duration': '0'}, 'profiles': [{'Ram-WPA2': {'antennas': '2', 'bandwidth': 'AUTO', 'eap-id': '', 'entity id': 'Ram-WPA2', 'frequency': 'Auto', 'instances': '1', 'mode': 'Auto', 'name': 'Ram-WPA2', 'notes': '', 'password': 'Password@123', 'pattern': '', 'ssid': '', 'type': 'STA'}}, {'STA-AC': {'antennas': '0', 'bandwidth': 'AUTO', 'eap-id': '', 'entity id': 'STA-AC', 'frequency': 'Auto', 'instances': '1', 'mode': '802.11abgn-AC', 'name': 'STA-AC', 'notes': '', 'password': '', 'pattern': '', 'ssid': '', 'type': 'STA'}}, {'STA-AUTO': {'antennas': '0', 'bandwidth': 'AUTO', 'eap-id': '', 'entity id': 'STA-AUTO', 'frequency': 'Auto', 'instances': '1', 'mode': 'Auto', 'name': 'STA-AUTO', 'notes': '', 'password': '', 'pattern': '', 'ssid': '', 'type': 'STA'}}, {'STA-AX': {'antennas': '0', 'bandwidth': 'AUTO', 'eap-id': '', 'entity id': 'STA-AX', 'frequency': 'Auto', 'instances': '1', 'mode': '802.11abgn-AX', 'name': 'STA-AX', 'notes': '', 'password': '', 'pattern': '', 'ssid': '', 'type': 'STA'}}, {'STA-abg': {'antennas': '0', 'bandwidth': 'AUTO', 'eap-id': '', 'entity id': 'STA-abg', 'frequency': 'Auto', 'instances': '1', 'mode': '802.11abg', 'name': 'STA-abg', 'notes': '', 'password': '', 'pattern': '', 'ssid': '', 'type': 'STA'}}, {'STA-n': {'antennas': '0', 'bandwidth': 'AUTO', 'eap-id': '', 'entity id': 'STA-n', 'frequency': 'Auto', 'instances': '1', 'mode': '802.11abgn', 'name': 'STA-n', 'notes': '', 'password': '', 'pattern': '', 'ssid': '', 'type': 'STA'}}, {'as-is': {'antennas': '0', 'bandwidth': 'AUTO', 'eap-id': '', 'entity id': 'as-is', 'frequency': 'Auto', 'instances': '1', 'mode': 'Auto', 'name': 'as-is', 'notes': '', 'password': '', 'pattern': '', 'ssid': '', 'type': 'as_is'}}, {'bridged-AP': {'antennas': '0', 'bandwidth': 'AUTO', 'eap-id': '', 'entity id': 'bridged-AP', 'frequency': '5180', 'instances': '1', 'mode': 'Auto', 'name': 'bridged-AP', 'notes': '', 'password': '', 'pattern': '', 'ssid': 'bridged-AP', 'type': 'Bridged_AP'}}, {'clients': {'antennas': '0', 'bandwidth': 'AUTO', 'eap-id': '', 'entity id': 'clients', 'frequency': 'Auto', 'instances': '1', 'mode': 'Auto', 'name': 'clients', 'notes': '', 'password': '', 'pattern': '', 'ssid': '', 'type': 'Client'}}, {'hfclnew': {'antennas': '0', 'bandwidth': 'AUTO', 'eap-id': '', 'entity id': 'hfclnew', 'frequency': 'Auto', 'instances': '1', 'mode': 'Auto', 'name': 'hfclnew', 'notes': '', 'password': '', 'pattern': '', 'ssid': 'hfcltest1', 'type': 'STA'}}, {'monitor': {'antennas': '0', 'bandwidth': 'AUTO', 'eap-id': '', 'entity id': 'monitor', 'frequency': 'Auto', 'instances': '1', 'mode': 'Auto', 'name': 'monitor', 'notes': '', 'password': '', 'pattern': '', 'ssid': '', 'type': 'Monitor'}}, {'peer': {'antennas': '0', 'bandwidth': 'AUTO', 'eap-id': '', 'entity id': 'peer', 'frequency': 'Auto', 'instances': '1', 'mode': 'Auto', 'name': 'peer', 'notes': '', 'password': '', 'pattern': '', 'ssid': '', 'type': 'Peer'}}, {'rdd': {'antennas': '0', 'bandwidth': 'AUTO', 'eap-id': '', 'entity id': 'rdd', 'frequency': 'Auto', 'instances': '1', 'mode': 'Auto', 'name': 'rdd', 'notes': '', 'password': '', 'pattern': '', 'ssid': '', 'type': 'RDD'}}, {'routed-AP': {'antennas': '0', 'bandwidth': 'AUTO', 'eap-id': '', 'entity id': 'routed-AP', 'frequency': '5180', 'instances': '1', 'mode': 'Auto', 'name': 'routed-AP', 'notes': '', 'password': '', 'pattern': '', 'ssid': 'routed-AP', 'type': 'Routed_AP'}}, {'test1': {'antennas': '0', 'bandwidth': 'AUTO', 'eap-id': '', 'entity id': 'test1', 'frequency': 'Auto', 'instances': '1', 'mode': 'Auto', 'name': 'test1', 'notes': '', 'password': '', 'pattern': '', 'ssid': 'hfcltest1', 'type': 'STA'}}, {'uplink-nat': {'antennas': '0', 'bandwidth': 'AUTO', 'eap-id': '', 'entity id': 'uplink-nat', 'frequency': '0', 'instances': '0', 'mode': 'Auto', 'name': 'uplink-nat', 'notes': '', 'password': '', 'pattern': '', 'ssid': '', 'type': 'Uplink'}}, {'upstream': {'antennas': '0', 'bandwidth': 'AUTO', 'eap-id': '', 'entity id': 'upstream', 'frequency': 'Auto', 'instances': '1', 'mode': 'Auto', 'name': 'upstream', 'notes': '', 'password': '', 'pattern': '', 'ssid': '', 'type': 'Upstream'}}, {'upstream-dhcp': {'antennas': '0', 'bandwidth': 'AUTO', 'eap-id': '', 'entity id': 'upstream-dhcp', 'frequency': '0', 'instances': '0', 'mode': 'Auto', 'name': 'upstream-dhcp', 'notes': '', 'password': '', 'pattern': '', 'ssid': '', 'type': 'Upstream'}}, {'vlan_dhcp_profile': {'antennas': '0', 'bandwidth': 'AUTO', 'eap-id': '', 'entity id': 'vlan_dhcp_profile', 'frequency': '0', 'instances': '0', 'mode': 'Auto', 'name': 'vlan_dhcp_profile', 'notes': '', 'password': '', 'pattern': '', 'ssid': '', 'type': 'Vlan'}}, {'voice': {'antennas': '0', 'bandwidth': 'AUTO', 'eap-id': '', 'entity id': 'voice', 'frequency': 'Auto', 'instances': '1', 'mode': 'Auto', 'name': 'voice', 'notes': '', 'password': 'password', 'pattern': '', 'ssid': 'vlan_test', 'type': 'STA'}}]}
+2023-06-01 19:08:29 [32mINFO[0m upstream_dhcp profile: Available
+2023-06-01 19:08:30 [32mINFO[0m Available Ports: ['1.1.eth0', '1.1.eth1', '1.1.eth2', '1.1.eth3', '1.2.eth0', '1.2.eth1', '1.3.eth0', '1.3.eth1', '1.3.eth2', '1.3.eth3']
+2023-06-01 19:08:30 [32mINFO[0m WAN Port is Available on LANforge Port Manager: 1.1.eth1
+2023-06-01 19:08:30 [32mINFO[0m Radio Information is Extracted
+2023-06-01 19:08:30 [32mINFO[0m Available Radios: ['1.1.wiphy0', '1.1.wiphy1', '1.1.wiphy2', '1.1.wiphy3', '1.1.wiphy4', '1.1.wiphy5', '1.2.wiphy0', '1.2.wiphy1', '1.2.wiphy2', '1.2.wiphy3', '1.3.wiphy0', '1.3.wiphy1', '1.3.wiphy2', '1.3.wiphy3', '1.3.wiphy4', '1.3.wiphy5', '1.3.wiphy6', '1.3.wiphy7']  -  Phantom Radios: []
+2023-06-01 19:08:30 [32mINFO[0m max_possible_stations: 630
+2023-06-01 19:08:30 [32mINFO[0m max_2g_stations: 374
+2023-06-01 19:08:30 [32mINFO[0m max_5g_stations: 374
+2023-06-01 19:08:30 [32mINFO[0m max_6g_stations: 4
+2023-06-01 19:08:30 [32mINFO[0m max_ax_stations: 118
+2023-06-01 19:08:30 [32mINFO[0m max_ac_stations: 512
+2023-06-01 19:08:30 [32mINFO[0m Scenario name: dhcp-bridge
+2023-06-01 19:08:31 [32mINFO[0m creating dhcp-bridge scenario using raw lines
+2023-06-01 19:08:31 [32mINFO[0m Raw Lines type: default
+2023-06-01 19:08:31 [32mINFO[0m Raw Lines: [['profile_link 1.1 upstream-dhcp 1 NA NA eth1,AUTO -1 NA'], ["profile_link 1.1 uplink-nat 1 'DUT: upstream LAN 192.168.180.1/24' NA eth3,eth1 -1 NA"]]
+2023-06-01 19:08:31 [32mINFO[0m [{'handler': 'candela.lanforge.GenericJsonResponder', 'uri': 'gui-json/:cmd', 'LAST': {'cmd': 'NA', 'command': 'cv sync', 'duration': 11, 'response': 'YES'}, 'warnings': ['YES']}]
+2023-06-01 19:08:33 [32mINFO[0m Applying dhcp-bridge scenario
+2023-06-01 19:08:33 [32mINFO[0m Applying dhcp-bridge scenario
+2023-06-01 19:08:33 [32mINFO[0m Building scenario
+2023-06-01 19:08:33 [32mINFO[0m is-built: False 
+2023-06-01 19:08:33 [32mINFO[0m Waiting 0/300 for Chamber-View to be built.
+2023-06-01 19:08:34 [32mINFO[0m is-built: False 
+2023-06-01 19:08:34 [32mINFO[0m Waiting 1/300 for Chamber-View to be built.
+2023-06-01 19:08:36 [32mINFO[0m is-built: True 
+2023-06-01 19:08:36 [32mINFO[0m [{'handler': 'candela.lanforge.GenericJsonResponder', 'uri': 'gui-json/:cmd', 'LAST': {'cmd': 'NA', 'command': 'cv sync', 'duration': 11, 'response': 'YES'}, 'warnings': ['YES']}]
+2023-06-01 19:08:38 [32mINFO[0m [{'handler': 'candela.lanforge.GenericJsonResponder', 'uri': 'gui-json/:cmd', 'LAST': {'cmd': 'NA', 'command': 'cv sync', 'duration': 11, 'response': 'YES'}, 'warnings': ['YES']}]
+2023-06-01 19:08:53 [32mINFO[0m DUT Data: [{'model': 'hfcl_ion4xi', 'supported_bands': ['2G', '5G'], 'supported_modes': ['BRIDGE', 'NAT', 'VLAN'], 'wan_port': '1.1.eth1', 'lan_port': None, 'ssid': {'mode': 'BRIDGE', 'ssid_data': {'0': {'ssid': 'ssid_wpa2_5g', 'encryption': 'wpa2', 'password': 'something', 'band': 'fiveg', 'bssid': '90:3C:B3:6C:43:05'}, '1': {'ssid': 'ssid_wpa2_2g', 'encryption': 'wpa2', 'password': 'something', 'band': 'twog', 'bssid': '90:3C:B3:6C:43:04'}}, 'radio_data': {'2G': {'channel': 1, 'bandwidth': 20, 'frequency': 2412}, '5G': {'channel': 52, 'bandwidth': 80, 'frequency': 5290}, '6G': {'channel': None, 'bandwidth': None, 'frequency': None}}}, 'mode': 'wifi6', 'identifier': '0006ae6df0db', 'method': 'serial', 'host_ip': '192.168.180.214', 'host_username': 'lanforge', 'host_password': 'lanforge', 'host_ssh_port': 22, 'serial_tty': '/dev/ttyUSB0', 'firmware_version': 'next-latest'}]
+2023-06-01 19:08:53 [32mINFO[0m Creating DUT
+2023-06-01 19:08:53 [32mINFO[0m requested_combination: [['5G', 'wpa2_personal'], ['5G', 'wpa2_personal'], ['5G', 'wpa2_personal'], ['2G', 'wpa2_personal'], ['5G', 'wpa2_personal'], ['2G', 'wpa_enterprise'], ['5G', 'wpa_enterprise'], ['2G', 'wpa2_enterprise'], ['5G', 'wpa2_enterprise'], ['2G', 'wpa3_enterprise'], ['5G', 'wpa3_enterprise'], ['2G', 'wpa_wpa2_enterprise_mixed'], ['5G', 'wpa_wpa2_enterprise_mixed'], ['2G', 'wpa3_enterprise_mixed'], ['5G', 'wpa3_enterprise_mixed'], ['wpa2_personal', '2G'], ['wpa2_personal', '2G'], ['wpa', '2G'], ['wpa', '2G'], ['2G', 'wpa2_personal'], ['2G', 'wpa2_enterprise'], ['2G', 'wpa2_enterprise'], ['2G', 'wpa_enterprise'], ['5G', 'wpa_enterprise'], ['2G', 'wpa2_enterprise'], ['5G', 'wpa2_enterprise'], ['2G', 'wpa3_enterprise'], ['5G', 'wpa3_enterprise'], ['2G', 'wpa_wpa2_enterprise_mixed'], ['5G', 'wpa_wpa2_enterprise_mixed'], ['2G', 'wpa3_enterprise_mixed'], ['5G', 'wpa3_enterprise_mixed'], ['wpa2_personal', '2G'], ['wpa2_personal', '2G'], ['wpa', '2G'], ['wpa', '2G'], ['2G', 'wpa2_personal'], ['2G', 'open'], ['5G', 'open'], ['2G', 'wpa'], ['5G', 'wpa'], ['2G', 'wpa2_personal'], ['5G', 'wpa2_personal'], ['2G', 'wpa3_personal'], ['5G', 'wpa3_personal'], ['6G', 'wpa3_personal'], ['2G', 'wpa3_personal_mixed'], ['5G', 'wpa3_personal_mixed'], ['2G', 'wpa_wpa2_personal_mixed'], ['5G', 'wpa_wpa2_personal_mixed'], ['5G', 'wpa2_enterprise'], ['5G', 'wpa2_enterprise'], ['2G', 'wpa2_enterprise'], ['2G', 'wpa2_enterprise'], ['5G', 'wpa', '5G'], ['5G', 'wpa2_personal', '5G'], ['5G', 'wpa2_personal', '5G'], ['2G', 'wpa', '2G'], ['2G', 'wpa2_personal', '2G'], ['2G', 'wpa2_personal', '2G'], ['2G', 'wpa2_personal']]
+2023-06-01 19:08:53 [32mINFO[0m Base dict: {'2G': ['psk2', 'wpa', 'wpa2', 'wpa3', 'wpa-mixed', 'wpa3-mixed', 'psk2', 'psk2', 'psk', 'psk', 'psk2', 'wpa2', 'wpa2', 'wpa', 'wpa2', 'wpa3', 'wpa-mixed', 'wpa3-mixed', 'psk2', 'psk2', 'psk', 'psk', 'psk2', 'none', 'psk', 'psk2', 'sae', 'sae-mixed', 'psk-mixed', 'wpa2', 'wpa2', 'psk', 'psk2', 'psk2', 'psk2'], '5G': ['psk2', 'psk2', 'psk2', 'psk2', 'wpa', 'wpa2', 'wpa3', 'wpa-mixed', 'wpa3-mixed', 'wpa', 'wpa2', 'wpa3', 'wpa-mixed', 'wpa3-mixed', 'none', 'psk', 'psk2', 'sae', 'sae-mixed', 'psk-mixed', 'wpa2', 'wpa2', 'psk', 'psk2', 'psk2'], '6G': ['sae'], '5G-lower': [], '5G-upper': []}
+2023-06-01 19:08:53 [32mINFO[0m Selected Configuration: {
+  "mode": "BRIDGE",
+  "ssid_modes": {
+    "wpa2_personal": [
+      {
+        "ssid_name": "ssid_wpa2_5g",
+        "appliedRadios": [
+          "5G"
+        ],
+        "security_key": "something",
+        "security": "psk2"
+      }
+    ]
+  },
+  "rf": {
+    "5G": {
+      "band": "5G",
+      "country": "CA",
+      "allow-dfs": true,
+      "channel-mode": "VHT",
+      "channel-width": 80,
+      "channel": 52
+    }
+  },
+  "radius": false
+}
+2023-06-01 19:08:53 [32mINFO[0m Configuration That is getting pushed: {
+  "uuid": 1,
+  "radios": [
+    {
+      "band": "2G",
+      "country": "US",
+      "channel-mode": "HE",
+      "channel": "auto"
+    },
+    {
+      "band": "5G",
+      "country": "CA",
+      "allow-dfs": true,
+      "channel-mode": "VHT",
+      "channel": 52,
+      "channel-width": 80
+    },
+    {
+      "band": "6G",
+      "country": "US",
+      "channel-mode": "HE",
+      "channel": "auto"
+    }
+  ],
+  "interfaces": [
+    {
+      "name": "WAN",
+      "role": "upstream",
+      "services": [
+        "ssh",
+        "lldp",
+        "dhcp-snooping"
+      ],
+      "ethernet": [
+        {
+          "select-ports": [
+            "WAN*"
+          ]
+        }
+      ],
+      "ipv4": {
+        "addressing": "dynamic"
+      },
+      "ssids": [
+        {
+          "name": "ssid_wpa2_5g",
+          "bss-mode": "ap",
+          "wifi-bands": [
+            "5G"
+          ],
+          "services": [
+            "wifi-frames"
+          ],
+          "encryption": {
+            "proto": "psk2",
+            "key": "something",
+            "ieee80211w": "optional"
+          }
+        }
+      ]
+    },
+    {
+      "name": "LAN",
+      "role": "downstream",
+      "services": [
+        "ssh",
+        "lldp",
+        "dhcp-snooping"
+      ],
+      "ethernet": [
+        {
+          "select-ports": [
+            "LAN*"
+          ]
+        }
+      ],
+      "ipv4": {
+        "addressing": "static",
+        "subnet": "192.168.1.1/24",
+        "dhcp": {
+          "lease-first": 10,
+          "lease-count": 10000,
+          "lease-time": "6h"
+        }
+      }
+    }
+  ],
+  "metrics": {
+    "statistics": {
+      "interval": 60,
+      "types": [
+        "ssids",
+        "lldp",
+        "clients"
+      ]
+    },
+    "health": {
+      "interval": 120
+    },
+    "wifi-frames": {
+      "filters": [
+        "probe",
+        "auth",
+        "assoc",
+        "disassoc",
+        "deauth",
+        "local-deauth",
+        "inactive-deauth",
+        "key-mismatch",
+        "beacon-report",
+        "radar-detected"
+      ]
+    },
+    "dhcp-snooping": {
+      "filters": [
+        "ack",
+        "discover",
+        "offer",
+        "request",
+        "solicit",
+        "reply",
+        "renew"
+      ]
+    }
+  },
+  "services": {
+    "lldp": {
+      "describe": "TIP OpenWiFi",
+      "location": "QA"
+    },
+    "ssh": {
+      "port": 22
+    }
+  }
+}
+2023-06-01 19:08:53 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:08:53 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:08:53 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:08:54 [32mINFO[0m Expected Serial Console Port, /dev/ttyUSB0 is available on 192.168.180.214
+2023-06-01 19:08:54 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:08:54 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:08:54 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:08:54 [32mINFO[0m Executing Command on AP: ubus call ucentral status
+2023-06-01 19:08:54 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:08:54 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:08:54 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:08:54 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:08:54 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:08:54 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "ubus call ucentral status" 
+2023-06-01 19:08:54 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "ubus call ucentral status" 
+2023-06-01 19:08:54 [32mINFO[0m Output for command: ubus call ucentral status
+{
+	"connected": 192,
+	"latest": 1685625574,
+	"active": 1685625574
+}
+
+2023-06-01 19:08:54 [32mINFO[0m Executing Command on AP: cd
+2023-06-01 19:08:54 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:08:54 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:08:54 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:08:54 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:08:54 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:08:55 [32mINFO[0m Executing Command on AP: [ -f /etc/ucentral/cas.pem ] && echo "True" || echo "False"
+2023-06-01 19:08:55 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:08:55 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:08:55 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:08:55 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:08:55 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:08:55 [32mINFO[0m Executing Command on AP: [ -f /etc/ucentral/dev-id ] && echo "True" || echo "False"
+2023-06-01 19:08:55 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:08:55 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:08:55 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:08:55 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:08:55 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:08:55 [32mINFO[0m Executing Command on AP: [ -f /etc/ucentral/key.pem ] && echo "True" || echo "False"
+2023-06-01 19:08:55 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:08:55 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:08:55 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:08:55 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:08:55 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:08:56 [32mINFO[0m Executing Command on AP: [ -f /etc/ucentral/cert.pem ] && echo "True" || echo "False"
+2023-06-01 19:08:56 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:08:56 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:08:56 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:08:56 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:08:56 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:08:56 [32mINFO[0m Executing Command on AP: ubus call ucentral status
+2023-06-01 19:08:56 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:08:56 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:08:56 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:08:56 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:08:56 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:08:56 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "ubus call ucentral status" 
+2023-06-01 19:08:56 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "ubus call ucentral status" 
+2023-06-01 19:08:56 [32mINFO[0m Output for command: ubus call ucentral status
+{
+	"connected": 195,
+	"latest": 1685625574,
+	"active": 1685625574
+}
+
+2023-06-01 19:08:56 [32mINFO[0m Executing Command on AP: wifi status
+2023-06-01 19:08:56 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:08:56 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:08:56 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:08:56 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:08:57 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:08:57 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "wifi status" 
+2023-06-01 19:08:57 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "wifi status" 
+2023-06-01 19:08:57 [32mINFO[0m Output for command: wifi status
+{
+	"radio0": {
+		"up": true,
+		"pending": false,
+		"autostart": true,
+		"disabled": false,
+		"retry_setup_failed": false,
+		"config": {
+			"path": "platform/soc/c000000.wifi",
+			"band": "5g",
+			"htmode": "HE80",
+			"channel": "0",
+			"txantenna": 3,
+			"rxantenna": 3,
+			"beacon_int": 100,
+			"country": "US",
+			"legacy_rates": false,
+			"maxassoc_ignore_probe": false,
+			"noscan": "1",
+			"noscan": true,
+			"acs_exclude_dfs": false,
+			"channels": [
+				"36",
+				"44",
+				"52",
+				"60",
+				"100",
+				"108",
+				"116",
+				"124",
+				"132",
+				"140",
+				"149",
+				"157",
+				"165",
+				"173",
+				"184",
+				"192"
+			],
+			"disabled": false
+		},
+		"interfaces": [
+			
+		]
+	},
+	"radio1": {
+		"up": true,
+		"pending": false,
+		"autostart": true,
+		"disabled": false,
+		"retry_setup_failed": false,
+		"config": {
+			"path": "platform/soc/c000000.wifi+1",
+			"band": "2g",
+			"htmode": "HE40",
+			"channel": "0",
+			"txantenna": 3,
+			"rxantenna": 3,
+			"beacon_int": 100,
+			"country": "US",
+			"legacy_rates": false,
+			"maxassoc_ignore_probe": false,
+			"noscan": "1",
+			"noscan": true,
+			"acs_exclude_dfs": false,
+			"disabled": false
+		},
+		"interfaces": [
+			{
+				"section": "down1v0_0_0",
+				"ifname": "wlan1",
+				"config": {
+					"uci_section": "down1v0_0_0",
+					"ssid": "MDU-Wi-Fi-2g",
+					"mode": "ap",
+					"wds": false,
+					"wpa_disable_eapol_key_retries": false,
+					"disassoc_low_ack": false,
+					"auth_cache": true,
+					"ieee80211w": 1,
+					"encryption": "psk2",
+					"key": "OpenWifi",
+					"proxy_arp": true,
+					"hidden": false,
+					"time_advertisement": 0,
+					"isolate": false,
+					"uapsd": false,
+					"multicast_to_unicast": true,
+					"dtim_period": 2,
+					"network": [
+						"down1v0"
+					],
+					"mode": "ap",
+					"proxy_arp": true,
+					"isolate": false,
+					"multicast_to_unicast": true
+				},
+				"vlans": [
+					{
+						"section": "@wifi-vlan[0]",
+						"ifname": "wlan1-v#",
+						"config": {
+							"iface": "down1v0_0_0",
+							"name": "v#",
+							"vid": "*"
+						}
+					}
+				],
+				"stations": [
+					{
+						"section": "@wifi-station[0]",
+						"config": {
+							"iface": "down1v0_0_0",
+							"key": "OpenWifi2",
+							"vid": "200"
+						}
+					},
+					{
+						"section": "@wifi-station[1]",
+						"config": {
+							"iface": "down1v0_0_0",
+							"key": "OpenWifi1",
+							"vid": "100"
+						}
+					}
+				]
+			}
+		]
+	}
+}
+
+2023-06-01 19:08:57 [32mINFO[0m Executing Command on AP: wifi status
+2023-06-01 19:08:57 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:08:57 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:08:57 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:08:57 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:08:57 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:08:57 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "wifi status" 
+2023-06-01 19:08:58 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "wifi status" 
+2023-06-01 19:08:58 [32mINFO[0m Output for command: wifi status
+{
+	"radio0": {
+		"up": true,
+		"pending": false,
+		"autostart": true,
+		"disabled": false,
+		"retry_setup_failed": false,
+		"config": {
+			"path": "platform/soc/c000000.wifi",
+			"band": "5g",
+			"htmode": "HE80",
+			"channel": "0",
+			"txantenna": 3,
+			"rxantenna": 3,
+			"beacon_int": 100,
+			"country": "US",
+			"legacy_rates": false,
+			"maxassoc_ignore_probe": false,
+			"noscan": "1",
+			"noscan": true,
+			"acs_exclude_dfs": false,
+			"channels": [
+				"36",
+				"44",
+				"52",
+				"60",
+				"100",
+				"108",
+				"116",
+				"124",
+				"132",
+				"140",
+				"149",
+				"157",
+				"165",
+				"173",
+				"184",
+				"192"
+			],
+			"disabled": false
+		},
+		"interfaces": [
+			
+		]
+	},
+	"radio1": {
+		"up": true,
+		"pending": false,
+		"autostart": true,
+		"disabled": false,
+		"retry_setup_failed": false,
+		"config": {
+			"path": "platform/soc/c000000.wifi+1",
+			"band": "2g",
+			"htmode": "HE40",
+			"channel": "0",
+			"txantenna": 3,
+			"rxantenna": 3,
+			"beacon_int": 100,
+			"country": "US",
+			"legacy_rates": false,
+			"maxassoc_ignore_probe": false,
+			"noscan": "1",
+			"noscan": true,
+			"acs_exclude_dfs": false,
+			"disabled": false
+		},
+		"interfaces": [
+			{
+				"section": "down1v0_0_0",
+				"ifname": "wlan1",
+				"config": {
+					"uci_section": "down1v0_0_0",
+					"ssid": "MDU-Wi-Fi-2g",
+					"mode": "ap",
+					"wds": false,
+					"wpa_disable_eapol_key_retries": false,
+					"disassoc_low_ack": false,
+					"auth_cache": true,
+					"ieee80211w": 1,
+					"encryption": "psk2",
+					"key": "OpenWifi",
+					"proxy_arp": true,
+					"hidden": false,
+					"time_advertisement": 0,
+					"isolate": false,
+					"uapsd": false,
+					"multicast_to_unicast": true,
+					"dtim_period": 2,
+					"network": [
+						"down1v0"
+					],
+					"mode": "ap",
+					"proxy_arp": true,
+					"isolate": false,
+					"multicast_to_unicast": true
+				},
+				"vlans": [
+					{
+						"section": "@wifi-vlan[0]",
+						"ifname": "wlan1-v#",
+						"config": {
+							"iface": "down1v0_0_0",
+							"name": "v#",
+							"vid": "*"
+						}
+					}
+				],
+				"stations": [
+					{
+						"section": "@wifi-station[0]",
+						"config": {
+							"iface": "down1v0_0_0",
+							"key": "OpenWifi2",
+							"vid": "200"
+						}
+					},
+					{
+						"section": "@wifi-station[1]",
+						"config": {
+							"iface": "down1v0_0_0",
+							"key": "OpenWifi1",
+							"vid": "100"
+						}
+					}
+				]
+			}
+		]
+	}
+}
+
+2023-06-01 19:08:58 [32mINFO[0m Executing Command on AP: logger start testcase: 3Z20SKX9R
+2023-06-01 19:08:58 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:08:58 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:08:58 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:08:58 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:08:58 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:08:58 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "logger start testcase: 3Z20SKX9R" 
+2023-06-01 19:08:58 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "logger start testcase: 3Z20SKX9R" 
+2023-06-01 19:08:58 [32mINFO[0m Output for command: logger start testcase: 3Z20SKX9R
+
+2023-06-01 19:08:58 [32mINFO[0m Executing Command on AP: ubus call ucentral status
+2023-06-01 19:08:58 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:08:58 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:08:58 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:08:58 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:08:58 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:08:58 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "ubus call ucentral status" 
+2023-06-01 19:08:58 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "ubus call ucentral status" 
+2023-06-01 19:08:58 [32mINFO[0m Output for command: ubus call ucentral status
+{
+	"connected": 196,
+	"latest": 1685625574,
+	"active": 1685625574
+}
+
+2023-06-01 19:08:58 [32mINFO[0m Executing Command on AP: logread
+2023-06-01 19:08:58 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:08:58 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:08:58 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:08:58 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:08:58 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:09:05 [32mINFO[0m Sending Command: 
+TimeStamp: 2023-06-01 13:39:05.678944
+URI: https://gw-qa01.cicd.lab.wlan.tip.build:16002/api/v1/device/0006ae6df0db/configure
+Data: {
+  "configuration": {
+    "uuid": 1,
+    "radios": [
+      {
+        "band": "2G",
+        "country": "US",
+        "channel-mode": "HE",
+        "channel": "auto"
+      },
+      {
+        "band": "5G",
+        "country": "CA",
+        "allow-dfs": true,
+        "channel-mode": "VHT",
+        "channel": 52,
+        "channel-width": 80
+      },
+      {
+        "band": "6G",
+        "country": "US",
+        "channel-mode": "HE",
+        "channel": "auto"
+      }
+    ],
+    "interfaces": [
+      {
+        "name": "WAN",
+        "role": "upstream",
+        "services": [
+          "ssh",
+          "lldp",
+          "dhcp-snooping"
+        ],
+        "ethernet": [
+          {
+            "select-ports": [
+              "WAN*"
+            ]
+          }
+        ],
+        "ipv4": {
+          "addressing": "dynamic"
+        },
+        "ssids": [
+          {
+            "name": "ssid_wpa2_5g",
+            "bss-mode": "ap",
+            "wifi-bands": [
+              "5G"
+            ],
+            "services": [
+              "wifi-frames"
+            ],
+            "encryption": {
+              "proto": "psk2",
+              "key": "something",
+              "ieee80211w": "optional"
+            }
+          }
+        ]
+      },
+      {
+        "name": "LAN",
+        "role": "downstream",
+        "services": [
+          "ssh",
+          "lldp",
+          "dhcp-snooping"
+        ],
+        "ethernet": [
+          {
+            "select-ports": [
+              "LAN*"
+            ]
+          }
+        ],
+        "ipv4": {
+          "addressing": "static",
+          "subnet": "192.168.1.1/24",
+          "dhcp": {
+            "lease-first": 10,
+            "lease-count": 10000,
+            "lease-time": "6h"
+          }
+        }
+      }
+    ],
+    "metrics": {
+      "statistics": {
+        "interval": 60,
+        "types": [
+          "ssids",
+          "lldp",
+          "clients"
+        ]
+      },
+      "health": {
+        "interval": 120
+      },
+      "wifi-frames": {
+        "filters": [
+          "probe",
+          "auth",
+          "assoc",
+          "disassoc",
+          "deauth",
+          "local-deauth",
+          "inactive-deauth",
+          "key-mismatch",
+          "beacon-report",
+          "radar-detected"
+        ]
+      },
+      "dhcp-snooping": {
+        "filters": [
+          "ack",
+          "discover",
+          "offer",
+          "request",
+          "solicit",
+          "reply",
+          "renew"
+        ]
+      }
+    },
+    "services": {
+      "lldp": {
+        "describe": "TIP OpenWiFi",
+        "location": "QA"
+      },
+      "ssh": {
+        "port": 22
+      }
+    }
+  },
+  "serialNumber": "0006ae6df0db",
+  "UUID": 1
+}
+Headers: {'Authorization': 'Bearer 48dd6c01e9258ed35adb8c2d4604afa60f0d585d328c5962e1aa415c62a101df', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}
+2023-06-01 19:09:13 [32mINFO[0m Command Response: 
+Command Type: POST
+Response URI: https://gw-qa01.cicd.lab.wlan.tip.build:16002/api/v1/device/0006ae6df0db/configure
+Response Headers: {'Authorization': 'Bearer 48dd6c01e9258ed35adb8c2d4604afa60f0d585d328c5962e1aa415c62a101df', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}
+TimeStamp: 2023-06-01 13:39:13.450044
+Response Code: 200
+Response Body: {'UUID': '0cd7fc61-9b62-474f-bf62-eb7123d9a6f1', 'attachFile': 0, 'command': 'configure', 'completed': 1685626753, 'custom': 0, 'deferred': False, 'details': {'config': {'interfaces': [{'ethernet': [{'select-ports': ['WAN*']}], 'ipv4': {'addressing': 'dynamic'}, 'name': 'WAN', 'role': 'upstream', 'services': ['ssh', 'lldp', 'dhcp-snooping'], 'ssids': [{'bss-mode': 'ap', 'encryption': {'ieee80211w': 'optional', 'key': 'something', 'proto': 'psk2'}, 'name': 'ssid_wpa2_5g', 'services': ['wifi-frames'], 'wifi-bands': ['5G']}]}, {'ethernet': [{'select-ports': ['LAN*']}], 'ipv4': {'addressing': 'static', 'dhcp': {'lease-count': 10000, 'lease-first': 10, 'lease-time': '6h'}, 'subnet': '192.168.1.1/24'}, 'name': 'LAN', 'role': 'downstream', 'services': ['ssh', 'lldp', 'dhcp-snooping']}], 'metrics': {'dhcp-snooping': {'filters': ['ack', 'discover', 'offer', 'request', 'solicit', 'reply', 'renew']}, 'health': {'interval': 120}, 'statistics': {'interval': 60, 'types': ['ssids', 'lldp', 'clients']}, 'wifi-frames': {'filters': ['probe', 'auth', 'assoc', 'disassoc', 'deauth', 'local-deauth', 'inactive-deauth', 'key-mismatch', 'beacon-report', 'radar-detected']}}, 'radios': [{'band': '2G', 'channel': 'auto', 'channel-mode': 'HE', 'country': 'US'}, {'allow-dfs': True, 'band': '5G', 'channel': 52, 'channel-mode': 'VHT', 'channel-width': 80, 'country': 'CA'}, {'band': '6G', 'channel': 'auto', 'channel-mode': 'HE', 'country': 'US'}], 'services': {'lldp': {'describe': 'TIP OpenWiFi', 'location': 'QA'}, 'ssh': {'port': 22}}, 'uuid': 1685626746}, 'serial': '0006ae6df0db', 'uuid': 1685626746, 'when': 0}, 'errorCode': 1, 'errorText': 'Failed', 'executed': 1685626753, 'executionTime': 6735.10034, 'lastTry': 0, 'results': {'serial': '0006ae6df0db', 'status': {'error': 1, 'rejected': ['[W] (In /radios/0) Selected radio does not support requested HT mode HE80, falling back to HE40', "[W] (In /radios/2) Can't find any suitable radio phy for band 6G radio settings"], 'text': 'Failed'}, 'uuid': 1685626746}, 'serialNumber': '0006ae6df0db', 'status': 'completed', 'submitted': 1685626746, 'submittedBy': 'tip@ucentral.com', 'waitingForFile': 0, 'when': 0}
+2023-06-01 19:09:13 [32mINFO[0m Response<Response [200]>
+2023-06-01 19:09:13 [32mINFO[0m Response for Config apply: 200
+2023-06-01 19:09:13 [32mINFO[0m Executing Command on AP: ubus call ucentral status
+2023-06-01 19:09:13 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:09:13 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:09:13 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:09:13 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:09:13 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:09:13 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "ubus call ucentral status" 
+2023-06-01 19:09:13 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "ubus call ucentral status" 
+2023-06-01 19:09:13 [32mINFO[0m Output for command: ubus call ucentral status
+{
+	"connected": 212,
+	"latest": 1685626746,
+	"active": 1685626746
+}
+
+2023-06-01 19:09:18 [32mINFO[0m Executing Command on AP: ubus call ucentral status
+2023-06-01 19:09:18 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:09:18 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:09:18 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:09:18 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:09:19 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:09:19 [32mINFO[0m Executing Command on AP: ubus call ucentral status
+2023-06-01 19:09:19 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:09:19 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:09:19 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:09:19 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:09:19 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:09:19 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "ubus call ucentral status" 
+2023-06-01 19:09:19 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "ubus call ucentral status" 
+2023-06-01 19:09:19 [32mINFO[0m Output for command: ubus call ucentral status
+{
+	"connected": 217,
+	"latest": 1685626746,
+	"active": 1685626746
+}
+
+2023-06-01 19:09:19 [32mINFO[0m Executing Command on AP: cat /etc/ucentral/ucentral.cfg.1685626746
+2023-06-01 19:09:19 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:09:19 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:09:19 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:09:19 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:09:19 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:09:19 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "cat /etc/ucentral/ucentral.cfg.1685626746" 
+2023-06-01 19:09:20 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "cat /etc/ucentral/ucentral.cfg.1685626746" 
+2023-06-01 19:09:20 [32mINFO[0m Output for command: cat /etc/ucentral/ucentral.cfg.1685626746
+{"interfaces":[{"ethernet":[{"select-ports":["WAN*"]}],"ipv4":{"addressing":"dynamic"},"name":"WAN","role":"upstream","services":["ssh","lldp","dhcp-snooping"],"ssids":[{"bss-mode":"ap","encryption":{"ieee80211w":"optional","key":"something","proto":"psk2"},"name":"ssid_wpa2_5g","services":["wifi-frames"],"wifi-bands":["5G"]}]},{"ethernet":[{"select-ports":["LAN*"]}],"ipv4":{"addressing":"static","dhcp":{"lease-count":10000,"lease-first":10,"lease-time":"6h"},"subnet":"192.168.1.1/24"},"name":"LAN","role":"downstream","services":["ssh","lldp","dhcp-snooping"]}],"metrics":{"dhcp-snooping":{"filters":["ack","discover","offer","request","solicit","reply","renew"]},"health":{"interval":120},"statistics":{"interval":60,"types":["ssids","lldp","clients"]},"wifi-frames":{"filters":["probe","auth","assoc","disassoc","deauth","local-deauth","inactive-deauth","key-mismatch","beacon-report","radar-detected"]}},"radios":[{"band":"2G","channel":"auto","channel-mode":"HE","country":"US"},{"allow-dfs":true,"band":"5G","channel":52,"channel-mode":"VHT","channel-width":80,"country":"CA"},{"band":"6G","channel":"auto","channel-mode":"HE","country":"US"}],"services":{"lldp":{"describe":"TIP OpenWiFi","location":"QA"},"ssh":{"port":22}},"uuid":1685626746}
+2023-06-01 19:09:20 [32mINFO[0m Latest config is : {'interfaces': [{'ethernet': [{'select-ports': ['WAN*']}], 'ipv4': {'addressing': 'dynamic'}, 'name': 'WAN', 'role': 'upstream', 'services': ['ssh', 'lldp', 'dhcp-snooping'], 'ssids': [{'bss-mode': 'ap', 'encryption': {'ieee80211w': 'optional', 'key': 'something', 'proto': 'psk2'}, 'name': 'ssid_wpa2_5g', 'services': ['wifi-frames'], 'wifi-bands': ['5G']}]}, {'ethernet': [{'select-ports': ['LAN*']}], 'ipv4': {'addressing': 'static', 'dhcp': {'lease-count': 10000, 'lease-first': 10, 'lease-time': '6h'}, 'subnet': '192.168.1.1/24'}, 'name': 'LAN', 'role': 'downstream', 'services': ['ssh', 'lldp', 'dhcp-snooping']}], 'metrics': {'dhcp-snooping': {'filters': ['ack', 'discover', 'offer', 'request', 'solicit', 'reply', 'renew']}, 'health': {'interval': 120}, 'statistics': {'interval': 60, 'types': ['ssids', 'lldp', 'clients']}, 'wifi-frames': {'filters': ['probe', 'auth', 'assoc', 'disassoc', 'deauth', 'local-deauth', 'inactive-deauth', 'key-mismatch', 'beacon-report', 'radar-detected']}}, 'radios': [{'band': '2G', 'channel': 'auto', 'channel-mode': 'HE', 'country': 'US'}, {'allow-dfs': True, 'band': '5G', 'channel': 52, 'channel-mode': 'VHT', 'channel-width': 80, 'country': 'CA'}, {'band': '6G', 'channel': 'auto', 'channel-mode': 'HE', 'country': 'US'}], 'services': {'lldp': {'describe': 'TIP OpenWiFi', 'location': 'QA'}, 'ssh': {'port': 22}}, 'uuid': 1685626746}
+2023-06-01 19:09:20 [32mINFO[0m Executing Command on AP: ubus call ucentral status
+2023-06-01 19:09:20 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:09:20 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:09:20 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:09:20 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:09:20 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:09:20 [32mINFO[0m Executing Command on AP: ubus call ucentral status
+2023-06-01 19:09:20 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:09:20 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:09:20 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:09:20 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:09:20 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:09:30 [32mINFO[0m active_uuid: 1685626746
+2023-06-01 19:09:30 [32mINFO[0m latest_uuid: 1685626746
+2023-06-01 19:09:30 [32mINFO[0m Executing Command on AP: ubus call ucentral status
+2023-06-01 19:09:30 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:09:30 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:09:30 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:09:30 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:09:30 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:09:41 [32mINFO[0m active_uuid: 1685626746
+2023-06-01 19:09:41 [32mINFO[0m latest_uuid: 1685626746
+2023-06-01 19:09:41 [32mINFO[0m Executing Command on AP: ubus call ucentral status
+2023-06-01 19:09:41 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:09:41 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:09:41 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:09:41 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:09:41 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:09:51 [32mINFO[0m active_uuid: 1685626746
+2023-06-01 19:09:51 [32mINFO[0m latest_uuid: 1685626746
+2023-06-01 19:09:51 [32mINFO[0m Executing Command on AP: ubus call ucentral status
+2023-06-01 19:09:51 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:09:51 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:09:51 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:09:51 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:09:51 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:10:01 [32mINFO[0m active_uuid: 1685626746
+2023-06-01 19:10:01 [32mINFO[0m latest_uuid: 1685626746
+2023-06-01 19:10:01 [32mINFO[0m Executing Command on AP: ubus call ucentral status
+2023-06-01 19:10:01 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:10:01 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:10:01 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:10:01 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:10:02 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:10:12 [32mINFO[0m active_uuid: 1685626746
+2023-06-01 19:10:12 [32mINFO[0m latest_uuid: 1685626746
+2023-06-01 19:10:12 [32mINFO[0m Executing Command on AP: ubus call ucentral status
+2023-06-01 19:10:12 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:10:12 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:10:12 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:10:12 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:10:12 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:10:12 [32mINFO[0m Executing Command on AP: ubus call ucentral status
+2023-06-01 19:10:12 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:10:12 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:10:12 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:10:12 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:10:12 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:10:12 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "ubus call ucentral status" 
+2023-06-01 19:10:12 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "ubus call ucentral status" 
+2023-06-01 19:10:12 [32mINFO[0m Output for command: ubus call ucentral status
+{
+	"connected": 271,
+	"latest": 1685626746,
+	"active": 1685626746
+}
+
+2023-06-01 19:10:12 [32mINFO[0m Executing Command on AP: cat /etc/ucentral/ucentral.cfg.1685626746
+2023-06-01 19:10:12 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:10:12 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:10:12 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:10:13 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:10:13 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:10:13 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "cat /etc/ucentral/ucentral.cfg.1685626746" 
+2023-06-01 19:10:13 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "cat /etc/ucentral/ucentral.cfg.1685626746" 
+2023-06-01 19:10:13 [32mINFO[0m Output for command: cat /etc/ucentral/ucentral.cfg.1685626746
+{"interfaces":[{"ethernet":[{"select-ports":["WAN*"]}],"ipv4":{"addressing":"dynamic"},"name":"WAN","role":"upstream","services":["ssh","lldp","dhcp-snooping"],"ssids":[{"bss-mode":"ap","encryption":{"ieee80211w":"optional","key":"something","proto":"psk2"},"name":"ssid_wpa2_5g","services":["wifi-frames"],"wifi-bands":["5G"]}]},{"ethernet":[{"select-ports":["LAN*"]}],"ipv4":{"addressing":"static","dhcp":{"lease-count":10000,"lease-first":10,"lease-time":"6h"},"subnet":"192.168.1.1/24"},"name":"LAN","role":"downstream","services":["ssh","lldp","dhcp-snooping"]}],"metrics":{"dhcp-snooping":{"filters":["ack","discover","offer","request","solicit","reply","renew"]},"health":{"interval":120},"statistics":{"interval":60,"types":["ssids","lldp","clients"]},"wifi-frames":{"filters":["probe","auth","assoc","disassoc","deauth","local-deauth","inactive-deauth","key-mismatch","beacon-report","radar-detected"]}},"radios":[{"band":"2G","channel":"auto","channel-mode":"HE","country":"US"},{"allow-dfs":true,"band":"5G","channel":52,"channel-mode":"VHT","channel-width":80,"country":"CA"},{"band":"6G","channel":"auto","channel-mode":"HE","country":"US"}],"services":{"lldp":{"describe":"TIP OpenWiFi","location":"QA"},"ssh":{"port":22}},"uuid":1685626746}
+2023-06-01 19:10:13 [32mINFO[0m Active config is : {'interfaces': [{'ethernet': [{'select-ports': ['WAN*']}], 'ipv4': {'addressing': 'dynamic'}, 'name': 'WAN', 'role': 'upstream', 'services': ['ssh', 'lldp', 'dhcp-snooping'], 'ssids': [{'bss-mode': 'ap', 'encryption': {'ieee80211w': 'optional', 'key': 'something', 'proto': 'psk2'}, 'name': 'ssid_wpa2_5g', 'services': ['wifi-frames'], 'wifi-bands': ['5G']}]}, {'ethernet': [{'select-ports': ['LAN*']}], 'ipv4': {'addressing': 'static', 'dhcp': {'lease-count': 10000, 'lease-first': 10, 'lease-time': '6h'}, 'subnet': '192.168.1.1/24'}, 'name': 'LAN', 'role': 'downstream', 'services': ['ssh', 'lldp', 'dhcp-snooping']}], 'metrics': {'dhcp-snooping': {'filters': ['ack', 'discover', 'offer', 'request', 'solicit', 'reply', 'renew']}, 'health': {'interval': 120}, 'statistics': {'interval': 60, 'types': ['ssids', 'lldp', 'clients']}, 'wifi-frames': {'filters': ['probe', 'auth', 'assoc', 'disassoc', 'deauth', 'local-deauth', 'inactive-deauth', 'key-mismatch', 'beacon-report', 'radar-detected']}}, 'radios': [{'band': '2G', 'channel': 'auto', 'channel-mode': 'HE', 'country': 'US'}, {'allow-dfs': True, 'band': '5G', 'channel': 52, 'channel-mode': 'VHT', 'channel-width': 80, 'country': 'CA'}, {'band': '6G', 'channel': 'auto', 'channel-mode': 'HE', 'country': 'US'}], 'services': {'lldp': {'describe': 'TIP OpenWiFi', 'location': 'QA'}, 'ssh': {'port': 22}}, 'uuid': 1685626746}
+2023-06-01 19:10:13 [32mINFO[0m Config is Properly Applied on AP, Waiting for 30 Seconds for All interfaces to come up
+2023-06-01 19:10:43 [32mINFO[0m Executing Command on AP: ubus call ucentral status
+2023-06-01 19:10:43 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:10:43 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:10:43 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:10:43 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:10:43 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:10:43 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "ubus call ucentral status" 
+2023-06-01 19:10:43 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "ubus call ucentral status" 
+2023-06-01 19:10:43 [32mINFO[0m Output for command: ubus call ucentral status
+{
+	"connected": 301,
+	"latest": 1685626746,
+	"active": 1685626746
+}
+
+2023-06-01 19:10:43 [32mINFO[0m Executing Command on AP: /etc/init.d/maverick status
+2023-06-01 19:10:43 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:10:43 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:10:43 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:10:43 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:10:43 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:10:43 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "/etc/init.d/maverick status" 
+2023-06-01 19:10:44 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "/etc/init.d/maverick status" 
+2023-06-01 19:10:44 [32mINFO[0m Output for command: /etc/init.d/maverick status
+running
+
+2023-06-01 19:10:44 [31m[1mERROR[0m Maverick is running!!!
+2023-06-01 19:10:44 [32mINFO[0m Executing Command on AP: ifconfig up0v0
+2023-06-01 19:10:44 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:10:44 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:10:44 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:10:44 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:10:44 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:10:44 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "ifconfig up0v0" 
+2023-06-01 19:10:44 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "ifconfig up0v0" 
+2023-06-01 19:10:44 [32mINFO[0m Output for command: ifconfig up0v0
+up0v0     Link encap:Ethernet  HWaddr 00:06:AE:6D:F0:DB  
+          inet addr:172.16.227.4  Bcast:172.16.255.255  Mask:255.255.0.0
+          inet6 addr: fe80::206:aeff:fe6d:f0db/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:41 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:40 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:4561 (4.4 KiB)  TX bytes:5511 (5.3 KiB)
+
+
+2023-06-01 19:10:44 [32mINFO[0m Executing Command on AP: ip neigh show dev up0v0 REACHABLE
+2023-06-01 19:10:44 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:10:44 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:10:44 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:10:44 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:10:44 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:10:44 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "ip neigh show dev up0v0 REACHABLE" 
+2023-06-01 19:10:44 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "ip neigh show dev up0v0 REACHABLE" 
+2023-06-01 19:10:44 [32mINFO[0m Output for command: ip neigh show dev up0v0 REACHABLE
+172.16.0.1 lladdr 00:60:e0:8c:6d:e7 ref 1 used 0/0/0 probes 1 REACHABLE
+
+2023-06-01 19:10:44 [32mINFO[0m Executing Command on AP: wifi status
+2023-06-01 19:10:44 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:10:44 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:10:44 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:10:44 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:10:45 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:10:45 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "wifi status" 
+2023-06-01 19:10:45 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "wifi status" 
+2023-06-01 19:10:45 [32mINFO[0m Output for command: wifi status
+{
+	"radio0": {
+		"up": true,
+		"pending": false,
+		"autostart": true,
+		"disabled": false,
+		"retry_setup_failed": false,
+		"config": {
+			"path": "platform/soc/c000000.wifi",
+			"band": "5g",
+			"htmode": "VHT80",
+			"channel": "52",
+			"txantenna": 3,
+			"rxantenna": 3,
+			"beacon_int": 100,
+			"country": "CA",
+			"legacy_rates": false,
+			"maxassoc_ignore_probe": false,
+			"noscan": "1",
+			"noscan": true,
+			"acs_exclude_dfs": false,
+			"channels": [
+				"36",
+				"44",
+				"52",
+				"60",
+				"100",
+				"108",
+				"116",
+				"124",
+				"132",
+				"140",
+				"149",
+				"157",
+				"165",
+				"173",
+				"184",
+				"192"
+			],
+			"disabled": false
+		},
+		"interfaces": [
+			{
+				"section": "up0v0_0_0",
+				"ifname": "wlan0",
+				"config": {
+					"uci_section": "up0v0_0_0",
+					"ssid": "ssid_wpa2_5g",
+					"mode": "ap",
+					"wds": false,
+					"wpa_disable_eapol_key_retries": false,
+					"disassoc_low_ack": false,
+					"auth_cache": true,
+					"ieee80211w": 1,
+					"encryption": "psk2",
+					"key": "something",
+					"proxy_arp": true,
+					"hidden": false,
+					"time_advertisement": 0,
+					"isolate": false,
+					"uapsd": false,
+					"multicast_to_unicast": true,
+					"dtim_period": 2,
+					"network": [
+						"up0v0"
+					],
+					"mode": "ap",
+					"proxy_arp": true,
+					"isolate": false,
+					"multicast_to_unicast": true
+				},
+				"vlans": [
+					{
+						"section": "@wifi-vlan[0]",
+						"ifname": "wlan0-v#",
+						"config": {
+							"iface": "up0v0_0_0",
+							"name": "v#",
+							"vid": "*"
+						}
+					}
+				],
+				"stations": [
+					
+				]
+			}
+		]
+	},
+	"radio1": {
+		"up": true,
+		"pending": false,
+		"autostart": true,
+		"disabled": false,
+		"retry_setup_failed": false,
+		"config": {
+			"path": "platform/soc/c000000.wifi+1",
+			"band": "2g",
+			"htmode": "HE40",
+			"channel": "0",
+			"txantenna": 3,
+			"rxantenna": 3,
+			"beacon_int": 100,
+			"country": "US",
+			"legacy_rates": false,
+			"maxassoc_ignore_probe": false,
+			"noscan": "1",
+			"noscan": true,
+			"acs_exclude_dfs": false,
+			"disabled": false
+		},
+		"interfaces": [
+			
+		]
+	}
+}
+
+2023-06-01 19:10:45 [32mINFO[0m Executing Command on AP: wifi status
+2023-06-01 19:10:45 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:10:45 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:10:45 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:10:45 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:10:45 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:10:45 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "wifi status" 
+2023-06-01 19:10:45 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "wifi status" 
+2023-06-01 19:10:45 [32mINFO[0m Output for command: wifi status
+{
+	"radio0": {
+		"up": true,
+		"pending": false,
+		"autostart": true,
+		"disabled": false,
+		"retry_setup_failed": false,
+		"config": {
+			"path": "platform/soc/c000000.wifi",
+			"band": "5g",
+			"htmode": "VHT80",
+			"channel": "52",
+			"txantenna": 3,
+			"rxantenna": 3,
+			"beacon_int": 100,
+			"country": "CA",
+			"legacy_rates": false,
+			"maxassoc_ignore_probe": false,
+			"noscan": "1",
+			"noscan": true,
+			"acs_exclude_dfs": false,
+			"channels": [
+				"36",
+				"44",
+				"52",
+				"60",
+				"100",
+				"108",
+				"116",
+				"124",
+				"132",
+				"140",
+				"149",
+				"157",
+				"165",
+				"173",
+				"184",
+				"192"
+			],
+			"disabled": false
+		},
+		"interfaces": [
+			{
+				"section": "up0v0_0_0",
+				"ifname": "wlan0",
+				"config": {
+					"uci_section": "up0v0_0_0",
+					"ssid": "ssid_wpa2_5g",
+					"mode": "ap",
+					"wds": false,
+					"wpa_disable_eapol_key_retries": false,
+					"disassoc_low_ack": false,
+					"auth_cache": true,
+					"ieee80211w": 1,
+					"encryption": "psk2",
+					"key": "something",
+					"proxy_arp": true,
+					"hidden": false,
+					"time_advertisement": 0,
+					"isolate": false,
+					"uapsd": false,
+					"multicast_to_unicast": true,
+					"dtim_period": 2,
+					"network": [
+						"up0v0"
+					],
+					"mode": "ap",
+					"proxy_arp": true,
+					"isolate": false,
+					"multicast_to_unicast": true
+				},
+				"vlans": [
+					{
+						"section": "@wifi-vlan[0]",
+						"ifname": "wlan0-v#",
+						"config": {
+							"iface": "up0v0_0_0",
+							"name": "v#",
+							"vid": "*"
+						}
+					}
+				],
+				"stations": [
+					
+				]
+			}
+		]
+	},
+	"radio1": {
+		"up": true,
+		"pending": false,
+		"autostart": true,
+		"disabled": false,
+		"retry_setup_failed": false,
+		"config": {
+			"path": "platform/soc/c000000.wifi+1",
+			"band": "2g",
+			"htmode": "HE40",
+			"channel": "0",
+			"txantenna": 3,
+			"rxantenna": 3,
+			"beacon_int": 100,
+			"country": "US",
+			"legacy_rates": false,
+			"maxassoc_ignore_probe": false,
+			"noscan": "1",
+			"noscan": true,
+			"acs_exclude_dfs": false,
+			"disabled": false
+		},
+		"interfaces": [
+			
+		]
+	}
+}
+
+2023-06-01 19:10:45 [32mINFO[0m Checking Wifi Status after Config Apply...
+2023-06-01 19:10:45 [32mINFO[0m radio0 is up and running
+2023-06-01 19:10:45 [32mINFO[0m radio1 is up and running
+2023-06-01 19:10:45 [32mINFO[0m Executing Command on AP: logger stop testcase: 3Z20SKX9R
+2023-06-01 19:10:45 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:10:45 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:10:46 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:10:46 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:10:46 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:10:46 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "logger stop testcase: 3Z20SKX9R" 
+2023-06-01 19:10:46 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "logger stop testcase: 3Z20SKX9R" 
+2023-06-01 19:10:46 [32mINFO[0m Output for command: logger stop testcase: 3Z20SKX9R
+
+2023-06-01 19:10:46 [32mINFO[0m Executing Command on AP: logread
+2023-06-01 19:10:46 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:10:46 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:10:46 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:10:46 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:10:46 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:10:53 [32mINFO[0m Executing Command on AP: iwinfo
+2023-06-01 19:10:53 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:10:53 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:10:53 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:10:53 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:10:53 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:10:53 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "iwinfo" 
+2023-06-01 19:10:53 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "iwinfo" 
+2023-06-01 19:10:53 [32mINFO[0m Output for command: iwinfo
+wlan0     ESSID: "ssid_wpa2_5g"
+          Access Point: 00:06:AE:6D:F0:CA
+          Mode: Master  Channel: 52 (5.260 GHz)
+          Center Channel 1: 58 2: unknown
+          Tx-Power: 24 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: -106 dBm
+          Bit Rate: unknown
+          Encryption: WPA2 PSK (CCMP)
+          Type: nl80211  HW Mode(s): 802.11nacax
+          Hardware: unknown [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+
+2023-06-01 19:10:53 [32mINFO[0m Executing Command on AP: iw dev | grep channel
+2023-06-01 19:10:53 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:10:53 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:10:53 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:10:53 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:10:53 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:10:53 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "iw dev | grep channel" 
+2023-06-01 19:10:53 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "iw dev | grep channel" 
+2023-06-01 19:10:53 [32mINFO[0m Output for command: iw dev | grep channel
+		channel 52 (5260 MHz), width: 80 MHz, center1: 5290 MHz
+
+2023-06-01 19:10:53 [32mINFO[0m dut_data after config applied: {'0006ae6df0db': {'ssid_data': {0: {'ssid': 'ssid_wpa2_5g', 'encryption': 'wpa2', 'password': 'something', 'band': '5G', 'bssid': '00:06:AE:6D:F0:CA'}}, 'radio_data': {'2G': {'channel': None, 'bandwidth': None, 'frequency': None}, '5G': {'channel': 52, 'bandwidth': 80, 'frequency': 5290}, '6G': {'channel': None, 'bandwidth': None, 'frequency': None}}}}
+2023-06-01 19:10:53 [32mINFO[0m Executing Command on AP: logger start testcase: R6XZAZGLZ
+2023-06-01 19:10:53 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:10:53 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:10:54 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:10:54 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:10:54 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:10:54 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "logger start testcase: R6XZAZGLZ" 
+2023-06-01 19:10:54 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "logger start testcase: R6XZAZGLZ" 
+2023-06-01 19:10:54 [32mINFO[0m Output for command: logger start testcase: R6XZAZGLZ
+2023-06-01 19:10:54 [32mINFO[0m DUT DATA: {'0006ae6df0db': {'ssid_data': {0: {'ssid': 'ssid_wpa2_5g', 'encryption': 'wpa2', 'password': 'something', 'band': '5G', 'bssid': '00:06:AE:6D:F0:CA'}}, 'radio_data': {'2G': {'channel': None, 'bandwidth': None, 'frequency': None}, '5G': {'channel': 52, 'bandwidth': 80, 'frequency': 5290}, '6G': {'channel': None, 'bandwidth': None, 'frequency': None}}}}
+2023-06-01 19:10:54 [32mINFO[0m Checking existing stations and layer3 connections...
+2023-06-01 19:10:54 [32mINFO[0m Existing stations are not available
+2023-06-01 19:10:54 [32mINFO[0m Existing layer3 and endp  are not available
+2023-06-01 19:10:54 [32mINFO[0m dut_data_ in setup_interfaces: {'0006ae6df0db': {'ssid_data': {0: {'ssid': 'ssid_wpa2_5g', 'encryption': 'wpa2', 'password': 'something', 'band': '5G', 'bssid': '00:06:AE:6D:F0:CA'}}, 'radio_data': {'2G': {'channel': None, 'bandwidth': None, 'frequency': None}, '5G': {'channel': 52, 'bandwidth': 80, 'frequency': 5290}, '6G': {'channel': None, 'bandwidth': None, 'frequency': None}}}}
+2023-06-01 19:10:54 [32mINFO[0m All 5g radios['1.1.wiphy0', '1.1.wiphy1', '1.1.wiphy2', '1.1.wiphy3', '1.1.wiphy4', '1.1.wiphy5', '1.2.wiphy1', '1.2.wiphy3', '1.3.wiphy5', '1.3.wiphy7', '1.3.wiphy0', '1.3.wiphy1', '1.3.wiphy2', '1.3.wiphy3']
+2023-06-01 19:10:54 [32mINFO[0m DUT profile add-ssid: name: 0006ae6df0db ssid_idx: 0 ssid: ssid_wpa2_5g passwd: something bssid:  ssid_flags: 32 ssid_flags_mask: 4294967295
+2023-06-01 19:10:54 [31m[1mERROR[0m 
+ = = LANforge Error Messages = =
+ = = URL: http://192.168.180.214:8080/cli-json/add_dut_ssid
+  X-Error-00: Error: [-22]: 22  Invalid argument OpId: 25349: add_dut_ssid 0006ae6df0db 0 ssid_wpa2_5g something  32 4294967295
+  X-Error-01: [add DUT SSID]: ERROR:  Not enough HEX values in the input string.
+ = = = = = = = = = = = = = = = =
+2023-06-01 19:10:54 [32mINFO[0m Setup interface data:
+"{'0006ae6df0db': {'ssid': 'ssid_wpa2_5g', 'bssid': '', 'passkey': 'something', 'encryption': 'wpa2', 'upstream_port': '1.1.eth1', 'upstream_resource': '1', 'upstream': 'eth1', 'station_data': {'1.1.wiphy0': ['1.1.ath10k_5g00']}, 'sniff_radio_2g': None, 'sniff_radio_5g': '1.1.wiphy3', 'sniff_radio_6g': None, 'sta_prefix': 'ath10k_5g0', 'channel': 52}}"
+2023-06-01 19:11:05 [32mINFO[0m started-sniffer
+2023-06-01 19:11:05 [32mINFO[0m scan ssid radio: 1.1.wiphy0
+2023-06-01 19:11:05 [32mINFO[0m scan station: ['1.1.sta00100']
+2023-06-01 19:11:07 [32mINFO[0m Found 0 out of 1 ports in 0 out of 150.0 tries in wait_until_ports_appear
+2023-06-01 19:11:07 [32mINFO[0m All 1 ports appeared
+2023-06-01 19:11:07 [32mINFO[0m All 1 ports appeared
+2023-06-01 19:11:29 [32mINFO[0m Cleaning up stations
+2023-06-01 19:11:30 [32mINFO[0m LFUtils: Waiting until 1 ports disappear...
+2023-06-01 19:11:30 [32mINFO[0m LFUtils::wait_until_ports_disappear:: Request returned None: [http://192.168.180.214:8080/port/1/1/sta00100?fields=alias]
+2023-06-01 19:11:30 [32mINFO[0m LFUtils: Waiting until 1 ports disappear...
+2023-06-01 19:11:30 [32mINFO[0m LFUtils::wait_until_ports_disappear:: Request returned None: [http://192.168.180.214:8080/port/1/1/sta00100?fields=alias]
+2023-06-01 19:11:30 [32mINFO[0m ssid scan data: [['', 'age', 'auth', 'beacon', 'bss', 'channel', 'country', 'entity id', 'frequency', 'info', 'signal', 'ssid'], ['4', '3135', 'Open', '100', '00:06:ae:63:3c:a6', '161', 'IN', '1.1.wiphy0', '5805', '2x2 MCS 0-11 AX', '-84.0', 'test_bsnl'], ['5', '3133', 'WPA', '100', '00:06:ae:63:3c:a7', '161', 'IN', '1.1.wiphy0', '5805', '802.11a', '-83.0', 'TEST_POC'], ['6', '3133', 'Open', '100', '00:06:ae:63:3c:a8', '161', 'IN', '1.1.wiphy0', '5805', '2x2 MCS 0-11 AX', '-84.0', 'test_today'], ['7', '6914', 'Open', '100', '00:06:ae:63:58:58', '5', 'IN', '1.1.wiphy0', '2432', '2x2 MCS 0-11 AX', '-60.0', 'NAT_test'], ['8', '3440', 'Open', '100', '00:06:ae:63:58:68', '144', 'IN', '1.1.wiphy0', '5720', '2x2 MCS 0-11 AX', '-77.0', 'NAT_test'], ['12', '2590', 'Open', '100', '00:06:ae:69:b0:a8', '36', 'IN', '1.1.wiphy0', '5180', '2x2 MCS 0-11 AX', '-81.0', 'bsnl_testing_4x'], ['13', '2597', 'Open', '100', '00:06:ae:6d:aa:5a', '1', 'BR', '1.1.wiphy0', '2412', '2x2 MCS 0-9 AX', '-68.0', 'NMDB-HFCL-PRD'], ['14', '2596', 'Open', '100', '00:06:ae:6d:aa:5b', '1', 'BR', '1.1.wiphy0', '2412', '2x2 MCS 0-9 AX', '-68.0', 'NMDB-HFCL-HML'], ['15', '2596', 'Open', '100', '00:06:ae:6d:aa:6a', '64', 'BR', '1.1.wiphy0', '5320', '2x2 MCS 0-11 AX', '-79.0', 'NMDB-HFCL-PRD'], ['16', '5355', 'Open', '100', '00:06:ae:6d:aa:6b', '64', 'BR', '1.1.wiphy0', '5320', '2x2 MCS 0-11 AX', '-79.0', 'NMDB-HFCL-HML'], ['18', '2586', 'WPA2', '100', '00:06:ae:6d:f0:ca', '52', 'CA', '1.1.wiphy0', '5260', '2x2 MCS 0-9 AC', '-46.0', 'ssid_wpa2_5g'], ['19', '3139', 'Open', '100', '00:06:ae:8a:f7:d2', '161', 'IN', '1.1.wiphy0', '5805', '2x2 MCS 0-11 AX', '-88.0', 'global_ssid'], ['20', '7247', 'Open', '100', '00:06:ae:8a:f7:db', '1', 'IN', '1.1.wiphy0', '2412', '2x2 MCS 0-11 AX', '-71.0', 'global_ssid'], ['21', '5339', 'Open', '100', '00:06:ae:8a:fd:d7', '64', 'na', '1.1.wiphy0', '5320', '2x2 MCS 0-11 AX', '-79.0', 'global_ssid'], ['22', '5338', 'Open', '100', '00:06:ae:8a:fd:d9', '64', 'na', '1.1.wiphy0', '5320', '2x2 MCS 0-11 AX', '-79.0', 'ask4_isolate'], ['23', '5337', 'Open', '100', '00:06:ae:8a:fd:da', '64', 'na', '1.1.wiphy0', '5320', '2x2 MCS 0-11 AX', '-78.0', 'basicwifi'], ['24', '16381', 'Open', '100', '00:06:ae:8a:fd:e0', '6', 'GB', '1.1.wiphy0', '2437', '2x2 MCS 0-11 AX', '-73.0', 'global_ssid'], ['25', '16380', 'Open', '100', '00:06:ae:8a:fd:e2', '6', 'GB', '1.1.wiphy0', '2437', '2x2 MCS 0-11 AX', '-73.0', 'ask4_isolate'], ['26', '6647', 'Open', '100', '00:06:ae:8a:fd:e3', '6', 'GB', '1.1.wiphy0', '2437', '2x2 MCS 0-11 AX', '-73.0', 'basicwifi'], ['29', '7214', 'WPA2', '100', '00:06:ae:aa:ff:1f', '1', 'NA', '1.1.wiphy0', '2412', '2x2 MCS 0-11 AX', '-80.0', 'EasyMesh11ax68048801'], ['30', '7211', 'WPA2', '100', '00:06:ae:aa:ff:20', '1', 'NA', '1.1.wiphy0', '2412', '2x2 MCS 0-11 AX', '-79.0', 'EasyMesh'], ['31', '7215', 'WPA2', '100', '00:06:ae:aa:ff:21', '1', 'NA', '1.1.wiphy0', '2412', '2x2 MCS 0-11 AX', '-80.0', 'test_long'], ['36', '7208', 'WPA2', '100', '00:06:ae:c6:d7:67', '1', 'IN', '1.1.wiphy0', '2412', '2x2 MCS 0-11 AX', '-74.0', 'GlideDPSK'], ['40', '3735', 'WPA2', '100', '00:06:ae:c6:d7:77', '136', 'IN', '1.1.wiphy0', '5680', '2x2 MCS 0-11 AX', '-87.0', 'GlideDPSK'], ['49', '4948', 'WPA2', '100', '00:06:ae:ca:ff:b8', '100', 'IN', '1.1.wiphy0', '5500', '2x2 MCS 0-11 AX', '-85.0', 'EasyMesh'], ['50', '4948', 'WPA2', '100', '00:06:ae:ca:ff:b9', '100', 'IN', '1.1.wiphy0', '5500', '2x2 MCS 0-11 AX', '-85.0', 'EasyMesh11ax75037331'], ['51', '4946', 'WPA2', '100', '00:06:ae:ca:ff:ba', '100', 'IN', '1.1.wiphy0', '5500', '2x2 MCS 0-11 AX', '-85.0', 'nat_ssid'], ['52', '6265', 'WPA2', '100', '00:06:ae:ca:ff:c0', '11', 'NA', '1.1.wiphy0', '2462', '2x2 MCS 0-11 AX', '-71.0', 'EasyMesh11ax75037331'], ['53', '6265', 'WPA2', '100', '00:06:ae:ca:ff:c1', '11', 'NA', '1.1.wiphy0', '2462', '2x2 MCS 0-11 AX', '-70.0', 'EasyMesh'], ['54', '6262', 'WPA2', '100', '00:06:ae:ca:ff:c2', '11', 'NA', '1.1.wiphy0', '2462', '2x2 MCS 0-11 AX', '-70.0', 'nat_ssid'], ['55', '2591', 'WPA2', '100', '00:06:ae:fb:fd:80', '6', 'NA', '1.1.wiphy0', '2437', '2x2 MCS 0-11 AX', '-67.0', 'EasyMesh'], ['56', '2590', 'WPA2', '100', '00:06:ae:fb:fd:81', '6', 'NA', '1.1.wiphy0', '2437', '2x2 MCS 0-11 AX', '-68.0', 'IO_Lab'], ['57', '2594', 'Open', '100', '00:06:ae:fb:fd:82', '6', 'NA', '1.1.wiphy0', '2437', '2x2 MCS 0-11 AX', '-66.0', 'global_ssid'], ['58', '16366', 'WPA2', '100', '00:06:ae:fb:fd:83', '6', 'NA', '1.1.wiphy0', '2437', '2x2 MCS 0-11 AX', '-79.0', 'EasyMesh11ax68048801'], ['59', '16365', 'WPA2', '100', '00:06:ae:fb:fd:84', '6', 'NA', '1.1.wiphy0', '2437', '2x2 MCS 0-11 AX', '-79.0', 'EasyMesh'], ['60', '16360', 'WPA2', '100', '00:06:ae:fb:fd:85', '6', 'NA', '1.1.wiphy0', '2437', '2x2 MCS 0-11 AX', '-80.0', 'test_long'], ['61', '2586', 'WPA2', '100', '00:06:ae:fb:fd:bf', '6', 'NA', '1.1.wiphy0', '2437', '2x2 MCS 0-11 AX', '-67.0', 'EasyMesh11ax26414117'], ['62', '14343', 'WPA2', '100', '00:06:ae:fb:fd:c8', '108', 'IN', '1.1.wiphy0', '5540', '2x2 MCS 0-11 AX', '-89.0', 'EasyMesh'], ['63', '4615', 'WPA2', '100', '00:06:ae:fb:fd:c9', '108', 'IN', '1.1.wiphy0', '5540', '2x2 MCS 0-11 AX', '-90.0', 'IO_Lab'], ['64', '4608', 'WPA2', '100', '00:06:ae:fb:fd:ca', '108', 'IN', '1.1.wiphy0', '5540', '2x2 MCS 0-11 AX', '-89.0', 'EasyMesh11ax26414117'], ['65', '4607', 'Open', '100', '00:06:ae:fb:fd:cb', '108', 'IN', '1.1.wiphy0', '5540', '2x2 MCS 0-11 AX', '-88.0', 'global_ssid'], ['66', '2584', 'WPA2', '100', '00:06:ae:fb:fe:33', '6', 'NA', '1.1.wiphy0', '2437', '2x2 MCS 0-11 AX', '-67.0', 'EasyMesh11ax26414117'], ['67', '6579', 'WPA2', '100', '00:06:ae:fb:fe:34', '6', 'NA', '1.1.wiphy0', '2437', '2x2 MCS 0-11 AX', '-67.0', 'EasyMesh'], ['68', '2589', 'WPA2', '100', '00:06:ae:fb:fe:35', '6', 'NA', '1.1.wiphy0', '2437', '2x2 MCS 0-11 AX', '-68.0', 'IO_Lab'], ['69', '2593', 'Open', '100', '00:06:ae:fb:fe:36', '6', 'NA', '1.1.wiphy0', '2437', '2x2 MCS 0-11 AX', '-68.0', 'global_ssid'], ['70', '4644', 'WPA2', '100', '00:06:ae:fb:fe:3c', '108', 'IN', '1.1.wiphy0', '5540', '2x2 MCS 0-11 AX', '-85.0', 'EasyMesh'], ['71', '4643', 'WPA2', '100', '00:06:ae:fb:fe:3d', '108', 'IN', '1.1.wiphy0', '5540', '2x2 MCS 0-11 AX', '-84.0', 'IO_Lab'], ['72', '4642', 'Open', '100', '00:06:ae:fb:fe:3e', '108', 'IN', '1.1.wiphy0', '5540', '2x2 MCS 0-11 AX', '-84.0', 'global_ssid'], ['74', '16900', 'WPA2', '100', '00:06:ae:fb:fe:e8', '1', 'NA', '1.1.wiphy0', '2412', '2x2 MCS 0-11 AX', '-80.0', 'EasyMesh'], ['75', '7160', 'WPA2', '100', '00:06:ae:fb:fe:e9', '1', 'NA', '1.1.wiphy0', '2412', '2x2 MCS 0-11 AX', '-80.0', 'test_long'], ['76', '12811', 'WPA2', '100', '00:06:ae:fb:fe:f0', '161', 'IN', '1.1.wiphy0', '5805', '2x2 MCS 0-11 AX', '-90.0', 'EasyMesh'], ['79', '16897', 'WPA2', '100', '00:06:ae:fb:ff:47', '1', 'NA', '1.1.wiphy0', '2412', '2x2 MCS 0-11 AX', '-58.0', 'EasyMesh11ax26414117'], ['80', '16893', 'WPA2', '100', '00:06:ae:fb:ff:48', '1', 'NA', '1.1.wiphy0', '2412', '2x2 MCS 0-11 AX', '-58.0', 'EasyMesh'], ['83', '4655', 'WPA2', '100', '00:06:ae:fb:ff:50', '108', 'IN', '1.1.wiphy0', '5540', '2x2 MCS 0-11 AX', '-77.0', 'EasyMesh'], ['84', '4654', 'WPA2', '100', '00:06:ae:fb:ff:52', '108', 'IN', '1.1.wiphy0', '5540', '2x2 MCS 0-11 AX', '-77.0', 'IO_Lab'], ['85', '4652', 'WPA2', '100', '00:06:ae:fb:ff:53', '108', 'IN', '1.1.wiphy0', '5540', '2x2 MCS 0-11 AX', '-77.0', 'EasyMesh11ax26414117'], ['86', '4652', 'Open', '100', '00:06:ae:fb:ff:54', '108', 'IN', '1.1.wiphy0', '5540', '2x2 MCS 0-11 AX', '-77.0', 'global_ssid'], ['88', '6361', 'Open', '100', '00:06:ae:ff:f4:24', '10', 'IN', '1.1.wiphy0', '2457', '4x4 MCS 0-11 AX', '-63.0', 'HFCL_Connect'], ['89', '2581', 'WPA2', '100', '00:06:ae:ff:f4:25', '10', 'IN', '1.1.wiphy0', '2457', '4x4 MCS 0-11 AX', '-63.0', 'HFCL_Connect_Sanity_5G'], ['90', '2593', 'WPA2', '100', '00:06:ae:ff:f4:26', '10', 'IN', '1.1.wiphy0', '2457', '4x4 MCS 0-11 AX', '-63.0', 'HFCL_Connect_Sanity_2.4G'], ['91', '2580', 'WPA2', '100', '00:06:ae:ff:f4:27', '10', 'IN', '1.1.wiphy0', '2457', '4x4 MCS 0-11 AX', '-63.0', 'IO_Lab'], ['92', '3412', 'Open', '100', '00:06:ae:ff:f4:34', '144', 'IN', '1.1.wiphy0', '5720', '8x8 MCS 0-11 AX', '-85.0', 'HFCL_Connect'], ['93', '3440', 'WPA2', '100', '00:06:ae:ff:f4:35', '144', 'IN', '1.1.wiphy0', '5720', '8x8 MCS 0-11 AX', '-85.0', 'HFCL_Connect_Sanity_5G'], ['94', '3438', 'WPA2', '100', '00:06:ae:ff:f4:36', '144', 'IN', '1.1.wiphy0', '5720', '8x8 MCS 0-11 AX', '-85.0', 'HFCL_Connect_Sanity_2.4G'], ['95', '3437', 'WPA2', '100', '00:06:ae:ff:f4:37', '144', 'IN', '1.1.wiphy0', '5720', '8x8 MCS 0-11 AX', '-85.0', 'IO_Lab'], ['96', '16898', 'WEP 1X', '102', '00:f6:63:9f:75:e0', '1', 'IN', '1.1.wiphy0', '2412', '3x3 MIMO', '-78.0', 'radius_infotel'], ['111', '16913', 'WEP 1X', '100', '10:b3:d5:32:e9:60', '1', 'IN', '1.1.wiphy0', '2412', '3x3 MIMO', '-79.0', 'radius_infotel'], ['113', '16909', 'WPA2', '100', '10:b3:d5:32:e9:62', '1', 'IN', '1.1.wiphy0', '2412', '3x3 MIMO', '-79.0', 'orbit'], ['115', '16896', 'Open', '100', '10:b3:d5:32:e9:64', '1', 'IN', '1.1.wiphy0', '2412', '3x3 MIMO', '-78.0', 'hfcl_guest'], ['118', '7251', 'WPA2', '100', '10:b3:d5:32:e9:68', '1', 'IN', '1.1.wiphy0', '2412', '3x3 MIMO', '-79.0', 'desire_infotel'], ['119', '7244', 'Open', '100', '10:b3:d5:32:e9:69', '1', 'IN', '1.1.wiphy0', '2412', '3x3 MIMO', '-78.0', 'exicom_guest'], ['132', '5628', 'Open', '100', '20:db:ab:3c:27:b0', '56', 'IN', '1.1.wiphy0', '5280', '2x2 MCS 0-9 AC', '-83.0', 'JioNet'], ['133', '5679', 'WEP 1X', '100', '20:db:ab:3c:27:b1', '56', 'IN', '1.1.wiphy0', '5280', '2x2 MCS 0-9 AC', '-83.0', 'JioPrivateNet'], ['134', '16253', 'WEP 1X', '100', '20:db:ab:3c:27:be', '6', 'IN', '1.1.wiphy0', '2437', '2x2 MIMO', '-71.0', 'JioPrivateNet'], ['135', '6663', 'Open', '100', '20:db:ab:3c:27:bf', '6', 'IN', '1.1.wiphy0', '2437', '2x2 MIMO', '-73.0', 'JioNet']]
+2023-06-01 19:11:32 [32mINFO[0m Found 0 out of 1 ports in 0 out of 150.0 tries in wait_until_ports_appear
+2023-06-01 19:11:32 [32mINFO[0m All 1 ports appeared
+2023-06-01 19:11:46 [32mINFO[0m station info: {'1.1.ath10k_5g00': {'4way time (us)': 0, 'channel': '52', 'cx time (us)': 0, 'dhcp (ms)': 1037, 'ip': '172.16.253.209', 'signal': '-45 dBm', 'mode': '802.11an-AC 80 2x2'}}
+2023-06-01 19:11:46 [32mINFO[0m 
+╒═════════════════╤══════════════════╤═══════════╤════════════════╤═════════════╤════════════════╤══════════╤════════════════════╤═════════════╕
+│ station name    │   4way time (us) │   channel │   cx time (us) │   dhcp (ms) │ ip             │ signal   │ mode               │ Pass/Fail   │
+╞═════════════════╪══════════════════╪═══════════╪════════════════╪═════════════╪════════════════╪══════════╪════════════════════╪═════════════╡
+│ 1.1.ath10k_5g00 │                0 │        52 │              0 │        1037 │ 172.16.253.209 │ -45 dBm  │ 802.11an-AC 80 2x2 │ Pass        │
+╘═════════════════╧══════════════════╧═══════════╧════════════════╧═════════════╧════════════════╧══════════╧════════════════════╧═════════════╛
+2023-06-01 19:11:46 [32mINFO[0m Cleaning up sniffer interface If available on PORT Manager
+2023-06-01 19:11:48 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:11:48 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:11:48 [32mINFO[0m pcap file name: sniff_radio.pcap
+2023-06-01 19:11:48 [32mINFO[0m pass_fail result: [True]
+2023-06-01 19:11:48 [32mINFO[0m ALL Stations got IP's
+2023-06-01 19:11:48 [32mINFO[0m Resource ID and Management port Mapping: {'1': '192.168.180.214', '2': '192.168.180.215', '3': '192.168.180.216'}
+2023-06-01 19:11:48 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:11:48 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:11:48 [32mINFO[0m AP channel: 52
+2023-06-01 19:11:48 [32mINFO[0m station channel before dfs: 52
+2023-06-01 19:11:48 [32mINFO[0m AP idx: 0
+2023-06-01 19:11:48 [32mINFO[0m Executing Command on AP: [ -f /sys/kernel/debug/ath11k/qcn6122_2/mac0/dfs_simulate_radar ] && echo "True" || echo "False"
+2023-06-01 19:11:48 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:11:48 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:11:49 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:11:49 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:11:49 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:11:49 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "[ -f /sys/kernel/debug/ath11k/qcn6122_2/mac0/dfs_simulate_radar ] && echo "True" || echo "False"" 
+2023-06-01 19:11:49 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "[ -f /sys/kernel/debug/ath11k/qcn6122_2/mac0/dfs_simulate_radar ] && echo "True" || echo "False"" 
+2023-06-01 19:11:49 [32mINFO[0m Output for command: [ -f /sys/kernel/debug/ath11k/qcn6122_2/mac0/dfs_simulate_radar ] && echo "True" || echo "False"
+
+adar ] && echo True || echo False
+False
+
+2023-06-01 19:11:49 [32mINFO[0m Status count: 0
+2023-06-01 19:11:49 [32mINFO[0m Executing Command on AP: cd  && cd /sys/kernel/debug/ath11k/ && cd ipq* && cd mac0 && ls && echo 1 > dfs_simulate_radar
+2023-06-01 19:11:49 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:11:49 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:11:49 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:11:49 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:11:49 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:11:49 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "cd  && cd /sys/kernel/debug/ath11k/ && cd ipq* && cd mac0 && ls && echo 1 > dfs_simulate_radar" 
+2023-06-01 19:11:49 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "cd  && cd /sys/kernel/debug/ath11k/ && cd ipq* && cd mac0 && ls && echo 1 > dfs_simulate_radar" 
+2023-06-01 19:11:49 [32mINFO[0m Output for command: cd  && cd /sys/kernel/debug/ath11k/ && cd ipq* && cd mac0 && ls && echo 1 > dfs_simulate_radar
+
+& ls && echo 1 > dfs_simulate_radar
+[0;0mani_enable[m              [0;0mdfs_simulate_radar[m      [0;0mhtt_stats_reset[m
+[0;0mani_level[m               [0;0mdisable_dynamic_bw[m      [0;0mhtt_stats_type[m
+[0;0mani_listen_period[m       [0;0mdump_mgmt_stats[m         [0;0mmedium_busy[m
+[0;0mani_poll_period[m         [0;0menable_dbr_debug[m        [0;0mpktlog_filter[m
+[0;0mathdiag[m                 [0;0menable_m3_dump[m          [0;0mps_state_enable[m
+[0;0mbtcoex[m                  [0;0mext_rx_stats[m            [0;0mps_timekeeper_enable[m
+[0;0mbtcoex_algorithm[m        [0;0mext_tx_stats[m            [0;0mreset_ps_duration[m
+[0;0mbtcoex_duty_cycle[m       [1;34mfw_stats[m                [0;0mtpc_stats[m
+[0;0mdfs_block_radar_events[m  [0;0mhtt_stats[m               [0;0mtpc_stats_type[m
+
+2023-06-01 19:12:19 [32mINFO[0m station info: {'1.1.ath10k_5g00': {'4way time (us)': 22908, 'channel': '36', 'cx time (us)': 109705, 'dhcp (ms)': 1037, 'ip': '172.16.253.209', 'signal': '-44 dBm', 'mode': '802.11an-AC 80 2x2'}}
+2023-06-01 19:12:19 [32mINFO[0m 
+╒═════════════════╤══════════════════╤═══════════╤════════════════╤═════════════╤════════════════╤══════════╤════════════════════╕
+│ station name    │   4way time (us) │   channel │   cx time (us) │   dhcp (ms) │ ip             │ signal   │ mode               │
+╞═════════════════╪══════════════════╪═══════════╪════════════════╪═════════════╪════════════════╪══════════╪════════════════════╡
+│ 1.1.ath10k_5g00 │            22908 │        36 │         109705 │        1037 │ 172.16.253.209 │ -44 dBm  │ 802.11an-AC 80 2x2 │
+╘═════════════════╧══════════════════╧═══════════╧════════════════╧═════════════╧════════════════╧══════════╧════════════════════╛
+2023-06-01 19:12:19 [32mINFO[0m url: /port/1/1/ath10k_5g00?fields=channel
+2023-06-01 19:12:19 [32mINFO[0m dfs_table_data: {'station name': ['1.1.ath10k_5g00'], 'Before': ['52'], 'After': ['36'], 'Pass/Fail': ['Pass']}
+2023-06-01 19:12:19 [32mINFO[0m 
+╒═════════════════╤══════════╤═════════╤═════════════╕
+│ station name    │   Before │   After │ Pass/Fail   │
+╞═════════════════╪══════════╪═════════╪═════════════╡
+│ 1.1.ath10k_5g00 │       52 │      36 │ Pass        │
+╘═════════════════╧══════════╧═════════╧═════════════╛
+2023-06-01 19:12:19 [32mINFO[0m channel after dfs: 36
+2023-06-01 19:12:19 [32mINFO[0m Executing Command on AP: [ -f /sys/kernel/debug/ath11k/qcn6122_2/mac0/dfs_simulate_radar ] && echo "True" || echo "False"
+2023-06-01 19:12:19 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:12:19 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:12:19 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:12:19 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:12:19 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:12:19 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "[ -f /sys/kernel/debug/ath11k/qcn6122_2/mac0/dfs_simulate_radar ] && echo "True" || echo "False"" 
+2023-06-01 19:12:20 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "[ -f /sys/kernel/debug/ath11k/qcn6122_2/mac0/dfs_simulate_radar ] && echo "True" || echo "False"" 
+2023-06-01 19:12:20 [32mINFO[0m Output for command: [ -f /sys/kernel/debug/ath11k/qcn6122_2/mac0/dfs_simulate_radar ] && echo "True" || echo "False"
+
+debug/ath11k/qcn6122_2/mac0/dfs_simulate_radar ] && echo True || echo False
+False
+
+2023-06-01 19:12:20 [32mINFO[0m Status count: 0
+2023-06-01 19:12:20 [32mINFO[0m Executing Command on AP: cd  && cd /sys/kernel/debug/ath11k/ && cd ipq* && cd mac0 && logread | grep DFS
+2023-06-01 19:12:20 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:12:20 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:12:20 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:12:20 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:12:20 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:12:20 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "cd  && cd /sys/kernel/debug/ath11k/ && cd ipq* && cd mac0 && logread | grep DFS" 
+2023-06-01 19:12:20 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "cd  && cd /sys/kernel/debug/ath11k/ && cd ipq* && cd mac0 && logread | grep DFS" 
+2023-06-01 19:12:20 [32mINFO[0m Output for command: cd  && cd /sys/kernel/debug/ath11k/ && cd ipq* && cd mac0 && logread | grep DFS
+
+rnel/debug/ath11k/ && cd ipq* && cd mac0 && logread | grep DFS
+Thu Jun  1 13:39:12 2023 daemon.notice hostapd: wlan0: interface state COUNTRY_UPDATE->DFS
+Thu Jun  1 13:39:12 2023 daemon.notice hostapd: wlan0: DFS-CAC-START freq=5260 chan=52 sec_chan=1, width=1, seg0=58, seg1=0, cac_time=60s
+Thu Jun  1 13:40:12 2023 daemon.notice hostapd: wlan0: DFS-CAC-COMPLETED success=1 freq=5260 ht_enabled=0 chan_offset=0 chan_width=3 cf1=5290 cf2=0
+Thu Jun  1 13:40:13 2023 daemon.notice hostapd: wlan0: interface state DFS->ENABLED
+Thu Jun  1 13:41:49 2023 daemon.notice hostapd: wlan0: DFS-RADAR-DETECTED freq=5260 ht_enabled=0 chan_offset=0 chan_width=3 cf1=5290 cf2=0
+Thu Jun  1 13:41:49 2023 daemon.notice hostapd: wlan0: DFS-NEW-CHANNEL freq=5180 chan=36 sec_chan=1
+
+2023-06-01 19:12:20 [32mINFO[0m Simulate radar logs: Thu Jun  1 13:39:12 2023 daemon.notice hostapd: wlan0: DFS-CAC-START freq=5260 chan=52 sec_chan=1, width=1, seg0=58, seg1=0, cac_time=60s
+Thu Jun  1 13:40:12 2023 daemon.notice hostapd: wlan0: DFS-CAC-COMPLETED success=1 freq=5260 ht_enabled=0 chan_offset=0 chan_width=3 cf1=5290 cf2=0
+Thu Jun  1 13:40:13 2023 daemon.notice hostapd: wlan0: interface state DFS->ENABLED
+Thu Jun  1 13:41:49 2023 daemon.notice hostapd: wlan0: DFS-RADAR-DETECTED freq=5260 ht_enabled=0 chan_offset=0 chan_width=3 cf1=5290 cf2=0
+Thu Jun  1 13:41:49 2023 daemon.notice hostapd: wlan0: DFS-NEW-CHANNEL freq=5180 chan=36 sec_chan=1
+
+
+2023-06-01 19:12:20 [32mINFO[0m Executing Command on AP: reboot
+2023-06-01 19:12:20 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:12:20 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:12:20 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:12:20 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:12:20 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:15:41 [32mINFO[0m Executing Command on AP: ubus call ucentral status
+2023-06-01 19:15:41 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:15:41 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:15:41 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:15:41 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:15:41 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:15:41 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "ubus call ucentral status" 
+2023-06-01 19:16:11 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "ubus call ucentral status" 
+2023-06-01 19:16:11 [32mINFO[0m Output for command: ubus call ucentral status
+{
+	"connected": 191,
+	"latest": 1685626746,
+	"active": 1685626746
+}
+
+2023-06-01 19:16:11 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:16:11 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:16:11 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:16:11 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:16:11 [32mINFO[0m Executing Command on AP: logger stop testcase: R6XZAZGLZ
+2023-06-01 19:16:11 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:16:11 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:16:12 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:16:12 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:16:12 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:16:12 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "logger stop testcase: R6XZAZGLZ" 
+2023-06-01 19:16:12 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "logger stop testcase: R6XZAZGLZ" 
+2023-06-01 19:16:12 [32mINFO[0m Output for command: logger stop testcase: R6XZAZGLZ
+
+2023-06-01 19:16:12 [32mINFO[0m Executing Command on AP: logread
+2023-06-01 19:16:12 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:16:12 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:16:12 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:16:12 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:16:12 [32mINFO[0m Authentication (password) successful!

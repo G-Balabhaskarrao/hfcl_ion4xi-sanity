@@ -1,0 +1,4 @@
+Sending Command: 
+TimeStamp: 2023-06-01 13:30:26.575309
+URI: https://gw-qa01.cicd.lab.wlan.tip.build:16002/api/v1/system?command=info
+Headers: {'Authorization': 'Bearer 48dd6c01e9258ed35adb8c2d4604afa60f0d585d328c5962e1aa415c62a101df', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}

@@ -1,0 +1,144 @@
+{
+  "interfaces": [
+    {
+      "ethernet": [
+        {
+          "select-ports": [
+            "WAN*"
+          ]
+        }
+      ],
+      "ipv4": {
+        "addressing": "dynamic"
+      },
+      "name": "WAN",
+      "role": "upstream",
+      "services": [
+        "ssh",
+        "lldp",
+        "dhcp-snooping"
+      ]
+    },
+    {
+      "ethernet": [
+        {
+          "select-ports": [
+            "LAN*"
+          ]
+        }
+      ],
+      "ipv4": {
+        "addressing": "static",
+        "dhcp": {
+          "lease-count": 10000,
+          "lease-first": 10,
+          "lease-time": "6h"
+        },
+        "subnet": "192.168.1.1/24"
+      },
+      "name": "LAN",
+      "role": "downstream",
+      "services": [
+        "ssh",
+        "lldp",
+        "dhcp-snooping"
+      ],
+      "ssids": [
+        {
+          "bss-mode": "ap",
+          "encryption": {
+            "ieee80211w": "optional",
+            "key": "OpenWifi",
+            "proto": "psk"
+          },
+          "multi-psk": [
+            {
+              "key": "OpenWifi1",
+              "vlan-id": 100
+            },
+            {
+              "key": "OpenWifi2",
+              "vlan-id": 200
+            }
+          ],
+          "name": "MDU-Wi-Fi-2g",
+          "services": [
+            "wifi-frames"
+          ],
+          "wifi-bands": [
+            "2G"
+          ]
+        }
+      ]
+    }
+  ],
+  "metrics": {
+    "dhcp-snooping": {
+      "filters": [
+        "ack",
+        "discover",
+        "offer",
+        "request",
+        "solicit",
+        "reply",
+        "renew"
+      ]
+    },
+    "health": {
+      "interval": 120
+    },
+    "statistics": {
+      "interval": 60,
+      "types": [
+        "ssids",
+        "lldp",
+        "clients"
+      ]
+    },
+    "wifi-frames": {
+      "filters": [
+        "probe",
+        "auth",
+        "assoc",
+        "disassoc",
+        "deauth",
+        "local-deauth",
+        "inactive-deauth",
+        "key-mismatch",
+        "beacon-report",
+        "radar-detected"
+      ]
+    }
+  },
+  "radios": [
+    {
+      "band": "2G",
+      "channel": "auto",
+      "channel-mode": "HE",
+      "country": "US"
+    },
+    {
+      "allow-dfs": true,
+      "band": "5G",
+      "channel": "auto",
+      "channel-mode": "HE",
+      "country": "US"
+    },
+    {
+      "band": "6G",
+      "channel": "auto",
+      "channel-mode": "HE",
+      "country": "US"
+    }
+  ],
+  "services": {
+    "lldp": {
+      "describe": "TIP OpenWiFi",
+      "location": "QA"
+    },
+    "ssh": {
+      "port": 22
+    }
+  },
+  "uuid": 1685633954
+}

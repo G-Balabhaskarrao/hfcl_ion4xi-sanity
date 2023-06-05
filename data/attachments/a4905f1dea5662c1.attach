@@ -1,0 +1,35 @@
+Thu Jun  1 15:00:23 2023 user.notice root: start testcase: 5H6N123JX
+Thu Jun  1 15:00:37 2023 daemon.notice hostapd: wlan1: RADIUS No response from Accounting server 192.168.180.214:1813 - failover
+Thu Jun  1 15:00:37 2023 daemon.info hostapd: wlan1: RADIUS Accounting server 192.168.180.214:1813
+Thu Jun  1 15:00:37 2023 daemon.notice hostapd: RADIUS: Removing un-ACKed message due to too many failed retransmit attempts
+Thu Jun  1 15:01:17 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:1d:e3 IEEE 802.11: authenticated
+Thu Jun  1 15:01:17 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:1d:e3 IEEE 802.11: associated (aid 2)
+Thu Jun  1 15:01:17 2023 daemon.notice hostapd: wlan1: CTRL-EVENT-EAP-STARTED 00:0a:52:06:1d:e3
+Thu Jun  1 15:01:17 2023 daemon.notice hostapd: wlan1: CTRL-EVENT-EAP-PROPOSED-METHOD vendor=0 method=1
+Thu Jun  1 15:01:17 2023 daemon.notice hostapd: wlan1: CTRL-EVENT-EAP-SUCCESS2 00:0a:52:06:1d:e3
+Thu Jun  1 15:01:17 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:1d:e3 WPA: pairwise key handshake completed (RSN)
+Thu Jun  1 15:01:17 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 00:0a:52:06:1d:e3
+Thu Jun  1 15:01:17 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:1d:e3 RADIUS: starting accounting session 269EAA328DF94F88
+Thu Jun  1 15:01:17 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:1d:e3 IEEE 802.1X: authenticated - EAP type: 21 (TTLS)
+Thu Jun  1 15:02:01 2023 daemon.notice hostapd: wlan1: RADIUS No response from Accounting server 192.168.180.214:1813 - failover
+Thu Jun  1 15:02:01 2023 daemon.info hostapd: wlan1: RADIUS Accounting server 192.168.180.214:1813
+Thu Jun  1 15:02:01 2023 daemon.notice hostapd: RADIUS: Removing un-ACKed message due to too many failed retransmit attempts
+Thu Jun  1 15:02:01 2023 daemon.notice hostapd: RADIUS: Removing un-ACKed message due to too many failed retransmit attempts
+Thu Jun  1 15:02:03 2023 daemon.notice hostapd: wlan1: AP-STA-DISCONNECTED 00:0a:52:06:1d:e3
+Thu Jun  1 15:02:03 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:1d:e3 RADIUS: stopped accounting session 269EAA328DF94F88
+Thu Jun  1 15:02:13 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 8.8.8.8
+Thu Jun  1 15:02:13 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"healthcheck","params":{"serial":"0006ae6df0db","uuid":1685631295,"sanity":67,"data":{"unit":{"memory":40},"interfaces":{"down1v0":{"dhcp":false,"location":"/interfaces/1","warning":["DHCP did not offer any leases"]}}}}}
+Thu Jun  1 15:02:25 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:1d:e3 IEEE 802.11: authenticated
+Thu Jun  1 15:02:25 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:1d:e3 IEEE 802.11: associated (aid 2)
+Thu Jun  1 15:02:25 2023 daemon.notice hostapd: wlan1: CTRL-EVENT-EAP-STARTED 00:0a:52:06:1d:e3
+Thu Jun  1 15:02:25 2023 daemon.notice hostapd: wlan1: CTRL-EVENT-EAP-PROPOSED-METHOD vendor=0 method=1
+Thu Jun  1 15:02:25 2023 daemon.notice hostapd: wlan1: CTRL-EVENT-EAP-SUCCESS2 00:0a:52:06:1d:e3
+Thu Jun  1 15:02:25 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:1d:e3 WPA: pairwise key handshake completed (RSN)
+Thu Jun  1 15:02:25 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 00:0a:52:06:1d:e3
+Thu Jun  1 15:02:25 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:1d:e3 RADIUS: starting accounting session 5FECB6116A8BF62F
+Thu Jun  1 15:02:25 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:1d:e3 IEEE 802.1X: authenticated - EAP type: 21 (TTLS)
+Thu Jun  1 15:02:42 2023 daemon.notice netifd: up0v0 (4163): udhcpc: sending renew to 172.16.0.1
+Thu Jun  1 15:02:42 2023 daemon.notice netifd: up0v0 (4163): udhcpc: lease of 172.16.227.4 obtained, lease time 600
+Thu Jun  1 15:02:48 2023 daemon.notice hostapd: wlan1: RADIUS No response from Accounting server 192.168.180.214:1813 - failover
+Thu Jun  1 15:02:48 2023 daemon.info hostapd: wlan1: RADIUS Accounting server 192.168.180.214:1813
+Thu Jun  1 15:03:58 2023 user.notice root: stop testcase: 5H6N123JX

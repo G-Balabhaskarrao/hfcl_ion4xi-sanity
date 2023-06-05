@@ -1,0 +1,38 @@
+Thu Jun  1 16:24:26 2023 user.notice root: start testcase: CWGIHTT9T
+Thu Jun  1 16:24:32 2023 daemon.notice netifd: Network device 'eth0' link is down
+Thu Jun  1 16:24:32 2023 kern.info kernel: [ 8835.876345] nss-dp 3a001600.dp1 eth0: PHY Link is down
+Thu Jun  1 16:24:32 2023 kern.info kernel: [ 8835.876594] up: port 1(eth0) entered disabled state
+Thu Jun  1 16:24:34 2023 daemon.notice netifd: Network device 'eth0' link is up
+Thu Jun  1 16:24:34 2023 kern.info kernel: [ 8837.876360] nss-dp 3a001600.dp1 eth0: PHY Link up speed: 1000
+Thu Jun  1 16:24:34 2023 kern.info kernel: [ 8837.876431] up: port 1(eth0) entered forwarding state
+Thu Jun  1 16:24:34 2023 kern.info kernel: [ 8837.881128] up: port 1(eth0) entered forwarding state
+Thu Jun  1 16:24:42 2023 kern.info kernel: [ 8845.906232] up: port 1(eth0) entered forwarding state
+Thu Jun  1 16:24:48 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJy1VVty2zAMvAvbT9UGKb6kC/QQGY+HoahaU71KUXY7Gd+9gOQ0jtt48pHGHyJBEFgsFswTm+emYiXXVulcKy0yNoXYuJaVDAC0C7qqoXpkaE8uBVY+sblvEn270A3xF63SkOiGzDU30kqbsToG9BXagBB5rjPmnT8EzCSUtho4Wh7nug6RbNbq3Eh5zlg7eNempgt/IGmL0eZxtVmrBDk5vPQAGzBcFJDhQuZSWVpwEEruMpZCN4bo0hzx2oOGTPMdxo+uaoYJLU/MH1zfB0TNZZE97+iI9lyp3VLEjzn0Hmt8UEaqTBlD9ovz/tRU6YCoAPP93I/DKUQs0CBVczwGuoXO4wEXbGxdqofYbafBbz0sf5tTUzfsBisV+Oh6KpCpr2x3xhBNn0KsnQ8r8t4RF0gKHIGtnKVm6NG0ffHc0lEzHiX1x1VVDNO03GfciA3XGyHMRm65ZpigDW4KK8UasJrq4Mc96uBIBT1fgA1n55deCGk4evbTxXGJbTfLj2L6YSYwE+WPyI7z30PCnQKbQ3Gh7NnIpcEeYqfR8/FXIqBGg9ZKCupO+mMVYJTQVurFNcQ4UIY12tUOz6o4jCOpaz283nYzasy7CVVMOf3Qts2EDNLd8zm7YpgfOdzhmN/l2CBlyryfYvMXxUjVXYrbJvRpFUXn/DKyGL0MUFpf6qoM5gJw/y8FULbsOvVucdavnetgoVx/Yold1yXaKD6GJ4EPccHAQjrAUioyi4hDT3TifpqaagW5jB+R9TmGGuF+2q4DiWI9v2dS1sGguXi7Jdsl3SJ/WuExffan0YmwV9/Q3A0VddeNFPHig8SBLl0g1moovWNvj39DmfDOqXU9pXlL6TcaF+Ja3vBK1aIQHyRo+EvPd2ZRaHyhbyaxMAqugXLLpTL0YL/g5cbKQpqPwszz/F+o26
+Thu Jun  1 16:25:05 2023 daemon.notice netifd: up1v100 (4801): udhcpc: sending renew to 172.17.0.1
+Thu Jun  1 16:25:05 2023 daemon.notice netifd: up1v100 (4801): udhcpc: lease of 172.17.0.57 obtained, lease time 600
+Thu Jun  1 16:25:43 2023 daemon.info hostapd: wlan0: STA 00:0a:52:06:6e:e3 IEEE 802.11: authenticated
+Thu Jun  1 16:25:43 2023 daemon.info hostapd: wlan0: STA 00:0a:52:06:6e:e3 IEEE 802.11: associated (aid 1)
+Thu Jun  1 16:25:43 2023 daemon.notice hostapd: wlan0: CTRL-EVENT-EAP-STARTED 00:0a:52:06:6e:e3
+Thu Jun  1 16:25:43 2023 daemon.notice hostapd: wlan0: CTRL-EVENT-EAP-PROPOSED-METHOD vendor=0 method=1
+Thu Jun  1 16:25:45 2023 daemon.info hostapd: wlan0: STA 00:0a:52:06:6e:e3 RADIUS: VLAN ID 200
+Thu Jun  1 16:25:45 2023 daemon.notice hostapd: wlan0: CTRL-EVENT-EAP-SUCCESS2 00:0a:52:06:6e:e3
+Thu Jun  1 16:25:45 2023 daemon.notice netifd: Network device 'wlan0-v200' link is up
+Thu Jun  1 16:25:45 2023 kern.info kernel: [ 8909.100663] device wlan0-v200 entered promiscuous mode
+Thu Jun  1 16:25:45 2023 kern.info kernel: [ 8909.100765] up: port 4(wlan0-v200) entered forwarding state
+Thu Jun  1 16:25:45 2023 kern.info kernel: [ 8909.104752] up: port 4(wlan0-v200) entered forwarding state
+Thu Jun  1 16:25:45 2023 daemon.info hostapd: wlan0: STA 00:0a:52:06:6e:e3 WPA: pairwise key handshake completed (RSN)
+Thu Jun  1 16:25:45 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 00:0a:52:06:6e:e3
+Thu Jun  1 16:25:45 2023 daemon.info hostapd: wlan0: STA 00:0a:52:06:6e:e3 RADIUS: starting accounting session C3F63C7993867736
+Thu Jun  1 16:25:45 2023 daemon.info hostapd: wlan0: STA 00:0a:52:06:6e:e3 IEEE 802.1X: authenticated - EAP type: 21 (TTLS)
+Thu Jun  1 16:25:48 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJy1Vttu2zgQ/Rd2HxWbFK/WD/QjgsCgKSomKktairJbBP73nRGdRHYTowWy9oOo4XAuZ2YO9UKmKdSkYspIxZVUZUFGH4NtSUUopcp6VTe03hGQJ5s8qV7I1IWEz4M/9PEXrlKf8ITgimlhhClIEz3olkoZTbURBXHW7T14KqUyijJVkN3UND6izBjFtRDngrS9s20KB/8WkkZr05BlZsNKVLJw6JGuaCkEEwUsONN8gwsq+EY+FST5w+CjTVOEY4+KFYo9gf1o69CPIHkhbm+7zkPUTGyK1zfcwncm0Qgk8e/kOwc5PkotZCG1RvlFeXsKddpDVBT8/dwO/clHSFADVFM8ejwFysMeFmRobWr6eFiPvVs7Ov9Wp9AEchOrhAR3tsMEifxOns5gInTJx8Y6nyPvLGIBoNAjJRmzFPoOROt3zTVuheEosD62rqMfx/k8YbpcMbUqS70Sa6YIOGi9HX2GWFHIpt67YQt9cMSEXg/QFSPn91qUkjPQ7MaL4mzbrOY/2nT9hMGM6D8COtb98AneJDWcUZUhexUyoamQUAfQ3P1KGKhWVClplNaz6kVaUi15aZSYVX2MPXrIBVi8wV4d+2HA7sqby9fDBD3m7AhdzA1G2rZhBATx7PlcLBBmR0bvYMzuYqwBMqn/HGL9G8RM8LsQt8F3KTfFwbp5ZMF65WllXKXqyutLgNuPOgC9FUvXT7OyulZuvKFV/pez7aapQIb2wTw2eB/nGIhPezqnCshCxL5DOItFaNRCe1dUVcpXnn8emlkB6iso9ZX5U2s7mgdiHEOd054HGuH/J/oGvHxb5xGH9j//yezlUcNJ+7zI69ndPFC4gm18bE+DLf1WPoP40NfYL3ZAixcdzFdV1mMdGlo5Sz4nFDtCaGF2ntO6ZwR5OEf5EaSuB2pyCTtdIHNYl8
+Thu Jun  1 16:25:53 2023 kern.info kernel: [ 8917.106091] up: port 4(wlan0-v200) entered forwarding state
+Thu Jun  1 16:26:00 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 8.8.8.8
+Thu Jun  1 16:26:00 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 8.8.8.8
+Thu Jun  1 16:26:00 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"healthcheck","params":{"serial":"0006ae6df0db","uuid":1685636562,"sanity":100,"data":{"unit":{"memory":39}}}}
+Thu Jun  1 16:26:31 2023 daemon.notice hostapd: wlan0: AP-STA-DISCONNECTED 00:0a:52:06:6e:e3
+Thu Jun  1 16:26:31 2023 daemon.info hostapd: wlan0: STA 00:0a:52:06:6e:e3 RADIUS: stopped accounting session C3F63C7993867736
+Thu Jun  1 16:26:31 2023 daemon.notice netifd: Network device 'wlan0-v200' link is down
+Thu Jun  1 16:26:31 2023 kern.info kernel: [ 8954.917789] up: port 4(wlan0-v200) entered disabled state
+Thu Jun  1 16:26:31 2023 kern.info kernel: [ 8954.966538] device wlan0-v200 left promiscuous mode
+Thu Jun  1 16:26:31 2023 kern.info kernel: [ 8954.966574] up: port 4(wlan0-v200) entered disabled state
+Thu Jun  1 16:26:34 2023 user.notice root: stop testcase: CWGIHTT9T

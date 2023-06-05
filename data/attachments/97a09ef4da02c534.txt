@@ -1,0 +1,45 @@
+2023-06-01 21:42:44 [32mINFO[0m Executing Command on AP: logger start testcase: LZ7EL16LE
+2023-06-01 21:42:44 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 21:42:44 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 21:42:44 [32mINFO[0m Authentication (password) successful!
+2023-06-01 21:42:44 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 21:42:44 [32mINFO[0m Authentication (password) successful!
+2023-06-01 21:42:44 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "logger start testcase: LZ7EL16LE" 
+2023-06-01 21:42:44 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "logger start testcase: LZ7EL16LE" 
+2023-06-01 21:42:44 [32mINFO[0m Output for command: logger start testcase: LZ7EL16LE
+2023-06-01 21:42:44 [31m[1mERROR[0m AP is not supporting 6G Band
+2023-06-01 21:42:44 [32mINFO[0m Executing Command on AP: ubus call ucentral status
+2023-06-01 21:42:44 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 21:42:44 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 21:42:44 [32mINFO[0m Authentication (password) successful!
+2023-06-01 21:42:45 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 21:42:45 [32mINFO[0m Authentication (password) successful!
+2023-06-01 21:42:45 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "ubus call ucentral status" 
+2023-06-01 21:42:45 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "ubus call ucentral status" 
+2023-06-01 21:42:45 [32mINFO[0m Output for command: ubus call ucentral status
+{
+	"connected": 4951,
+	"latest": 1685635573,
+	"active": 1685635573
+}
+
+2023-06-01 21:42:45 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 21:42:45 [32mINFO[0m Authentication (password) successful!
+2023-06-01 21:42:45 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 21:42:45 [32mINFO[0m Authentication (password) successful!
+2023-06-01 21:42:45 [32mINFO[0m Executing Command on AP: logger stop testcase: LZ7EL16LE
+2023-06-01 21:42:45 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 21:42:45 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 21:42:45 [32mINFO[0m Authentication (password) successful!
+2023-06-01 21:42:45 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 21:42:45 [32mINFO[0m Authentication (password) successful!
+2023-06-01 21:42:45 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "logger stop testcase: LZ7EL16LE" 
+2023-06-01 21:42:46 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "logger stop testcase: LZ7EL16LE" 
+2023-06-01 21:42:46 [32mINFO[0m Output for command: logger stop testcase: LZ7EL16LE
+
+2023-06-01 21:42:46 [32mINFO[0m Executing Command on AP: logread
+2023-06-01 21:42:46 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 21:42:46 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 21:42:46 [32mINFO[0m Authentication (password) successful!
+2023-06-01 21:42:46 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 21:42:46 [32mINFO[0m Authentication (password) successful!

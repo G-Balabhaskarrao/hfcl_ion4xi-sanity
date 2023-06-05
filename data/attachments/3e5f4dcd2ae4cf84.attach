@@ -1,0 +1,7 @@
+Command Response: 
+Command Type: POST
+Response URI: https://gw-qa01.cicd.lab.wlan.tip.build:16002/api/v1/device/0006ae6df0db/eventqueue
+Response Headers: {'Authorization': 'Bearer 48dd6c01e9258ed35adb8c2d4604afa60f0d585d328c5962e1aa415c62a101df', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}
+TimeStamp: 2023-06-01 13:31:09.429745
+Response Code: 200
+Response Body: {'UUID': 'e0d33305-b8ac-44e3-9a1b-04136a2e44b3', 'attachFile': 0, 'command': 'event', 'completed': 1685626269, 'custom': 0, 'deferred': False, 'details': {'serial': '0006ae6df0db', 'types': ['dhcp']}, 'errorCode': 0, 'errorText': 'Success', 'executed': 1685626269, 'executionTime': 271.177719, 'lastTry': 0, 'results': {'events': {}, 'serial': '0006ae6df0db', 'status': {'error': 0, 'text': 'Success'}, 'uuid': 1685625574}, 'serialNumber': '0006ae6df0db', 'status': 'completed', 'submitted': 1685626268, 'submittedBy': 'tip@ucentral.com', 'waitingForFile': 0, 'when': 0}

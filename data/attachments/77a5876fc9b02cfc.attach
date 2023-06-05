@@ -1,0 +1,31 @@
+Thu Jun  1 15:09:45 2023 user.notice root: start testcase: CPXL1LP9C
+Thu Jun  1 15:09:57 2023 daemon.info dnsmasq-dhcp[24948]: DHCPDISCOVER(down1v0) b6:41:b6:20:d0:7b
+Thu Jun  1 15:09:57 2023 daemon.info dnsmasq-dhcp[24948]: DHCPOFFER(down1v0) 192.168.1.74 b6:41:b6:20:d0:7b
+Thu Jun  1 15:09:57 2023 daemon.info dnsmasq-dhcp[24948]: DHCPDISCOVER(down1v0) b6:41:b6:20:d0:7b
+Thu Jun  1 15:09:57 2023 daemon.info dnsmasq-dhcp[24948]: DHCPOFFER(down1v0) 192.168.1.74 b6:41:b6:20:d0:7b
+Thu Jun  1 15:09:57 2023 daemon.info dnsmasq-dhcp[24948]: DHCPDISCOVER(down1v0) b6:41:b6:20:d0:7b
+Thu Jun  1 15:09:57 2023 daemon.info dnsmasq-dhcp[24948]: DHCPOFFER(down1v0) 192.168.1.74 b6:41:b6:20:d0:7b
+Thu Jun  1 15:10:02 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 192.168.1.1
+Thu Jun  1 15:10:02 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 8.8.8.8
+Thu Jun  1 15:10:02 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"healthcheck","params":{"serial":"0006ae6df0db","uuid":1685631858,"sanity":100,"data":{"unit":{"memory":39}}}}
+Thu Jun  1 15:10:43 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJzdV+FymzgQfhfd/SuxtZIQghfoQ2QyHgXEmSkGToi4nYzf/XbBabATXCdNrzO1fyBW0urb71utxCMbhqpgGWgTawkmNhHrna9szTLGOdfW6aLkxT1De7DBseyRDU0V6Llzu9Z/o1ZoA81QUkOijEInpXc4VuiEx6ngPGK5zbcOVxKxNoCmiN0PZek82YzRMlHqELG6zW0dqp17giSEkhEbusmmFE9okMVJt3zFx1+EDSFToakBICTcRSy4Xee8DYPHabeaRxru0L+3RdX2aHlk+dY2jUPUoNLo6Y266B3i+G4M4t/BNTnGeBsnKo7iJCH7cfBmXxVhi/AxmPB107V75zFARNgP/sHRLBzcbbHButqGsvW7dd/m63wCvtpXZcXOsMYCmbENBcjizwxBz6DqE6A6MmcgkawkEkolL0GqnwH5CV7AlM8wBcFEJ1UTnC9t7iaCG0uSoXb8gbNJ2lC1DZrWzyPX1FV1D4rSyBaFd30/zmeQiBXolRDJSq1BM1ygdrZ3UyZoyqlim3cbTNcHCulpAl8BO8xSRhrAkU1/HDj6NqvxTz7zunJNmBDvbD6mPXrPHM9Mnukic8kR4eY1eLQa8df60QdzYctHqLYPuKLDcDlxk7cDxdxTmB5lsPkXRzNiro2SYtLmyQgq1kIjbBx5/y3QgkmcqlimioIJ362Qog31FuNQ531LK0xKz96wr/Bt19Femzrnr7sBd1yOeFmW0kZt67rqUSiae6D0OwpZtPsGLkkJi1KmxJVZwQrWQlFOf5dHGsTe91UxKTDuT5r/t3cluv9rPe1YTJPDNVtpSknaOMso1+NyI1pqYTc9NvvObpztNvE/2LFrCwrZduTzOArzguvMOkqKkme5ZcsVoqK1cM6+tg0xtiQ/6Jifai8E6LnwgPVUq1PVYzCJMB+k+auS/4
+Thu Jun  1 15:10:53 2023 daemon.info hostapd: wlan1-1: STA 00:0a:52:06:78:e3 IEEE 802.11: authenticated
+Thu Jun  1 15:10:53 2023 daemon.info hostapd: wlan1-1: STA 00:0a:52:06:78:e3 IEEE 802.11: associated (aid 1)
+Thu Jun  1 15:10:54 2023 daemon.notice hostapd: wlan1-1: CTRL-EVENT-EAP-STARTED 00:0a:52:06:78:e3
+Thu Jun  1 15:10:54 2023 daemon.notice hostapd: wlan1-1: CTRL-EVENT-EAP-PROPOSED-METHOD vendor=0 method=1
+Thu Jun  1 15:10:54 2023 daemon.notice hostapd: wlan1-1: CTRL-EVENT-EAP-SUCCESS2 00:0a:52:06:78:e3
+Thu Jun  1 15:10:54 2023 daemon.info hostapd: wlan1-1: STA 00:0a:52:06:78:e3 WPA: pairwise key handshake completed (RSN)
+Thu Jun  1 15:10:54 2023 daemon.notice hostapd: wlan1-1: AP-STA-CONNECTED 00:0a:52:06:78:e3
+Thu Jun  1 15:10:54 2023 daemon.info hostapd: wlan1-1: STA 00:0a:52:06:78:e3 RADIUS: starting accounting session 11C1BF8EA9B8D392
+Thu Jun  1 15:10:54 2023 daemon.info hostapd: wlan1-1: STA 00:0a:52:06:78:e3 IEEE 802.1X: authenticated - EAP type: 21 (TTLS)
+Thu Jun  1 15:10:57 2023 daemon.info dnsmasq-dhcp[24948]: DHCPDISCOVER(down1v0) 00:0a:52:06:78:e3
+Thu Jun  1 15:10:57 2023 daemon.info dnsmasq-dhcp[24948]: DHCPOFFER(down1v0) 192.168.1.68 00:0a:52:06:78:e3
+Thu Jun  1 15:10:57 2023 daemon.info dnsmasq-dhcp[24948]: DHCPREQUEST(down1v0) 192.168.1.68 00:0a:52:06:78:e3
+Thu Jun  1 15:10:57 2023 daemon.info dnsmasq-dhcp[24948]: DHCPACK(down1v0) 192.168.1.68 00:0a:52:06:78:e3
+Thu Jun  1 15:10:57 2023 daemon.err dnsmasq[24948]: Failed to send UBus event: Success
+Thu Jun  1 15:11:42 2023 daemon.info dnsmasq-dhcp[24948]: DHCPRELEASE(down1v0) 192.168.1.68 00:0a:52:06:78:e3
+Thu Jun  1 15:11:42 2023 daemon.err dnsmasq[24948]: Failed to send UBus event: Success
+Thu Jun  1 15:11:42 2023 daemon.notice hostapd: wlan1-1: AP-STA-DISCONNECTED 00:0a:52:06:78:e3
+Thu Jun  1 15:11:42 2023 daemon.info hostapd: wlan1-1: STA 00:0a:52:06:78:e3 RADIUS: stopped accounting session 11C1BF8EA9B8D392
+Thu Jun  1 15:11:43 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJzdV+1yozYUfRe1/0psfX/wAn2ITMajgKiZxUAFxLuT8bv3XnAmGC/ebJptZ2L/AKQr6dxzji7imQxDmZOUaau0YFbZhHQhlr4iKaGUah90XtD8kUB77/tA0mcy1GWP10M4NPEb3vVNjyOk0MxIK2GSIgaI5dpQ5TilCcl8tg+wElfaMmhKyONQFCFim7VaGClPCamazFd9eQgvkLigIiFDO7VJqQ0GeRh0Tzd0/CVwwyyFHmxRwrCHhPTh0Ibo+yHCsHtNE80eYP7o87LpoOWZZHtf1wFQM+mSlyfswmem1MOYxN9DqDPI8V4ZqRJlDLafg3fHMu/3AB+S6b/u2uYYIiQICLshPgUcBcHtHm5IW/m+aOJh2zXZNpuAb45lUZIFVsWBGV9jgkT9SQD0DKq+AKoTuwDJpTAJl9Jcg5T/BuQf7AqmeIXJESZMUtZ9iIXPwkRw7VEy0I4+UTJJ25dNDU3b18gtdpXtk0Qb+TyPoevG8YQZvmF6w7nZyC3TBBaogu/C5ASNnsr3WbsDuz5hSi8D6IaR09wykkFk3Z0Dx7ntZvzjnFlVhrqfEB98NtoeZk8DTW2W6jwN5oxw9z14uBry18RxDhL6PR2h+q6HFQOkS5GbrBkw5w7TjCCDz74EHKGooVzoSZuXRiaVcWA3jHz81uOCRjlNJdVMjKHnVua0tZJaM4aGGBtcYVJ69gR9eWzaFvfa1Dl/PAyw4zLAS1KHG7WpqrIDoXDsCe13FjJvjjW7JSVbldIhV3bDNmzLJXp6Jg/4vevKfFJg3J84/vcYCpj+t+20Y8Emp7dspcmSuHHWUW7H5Ua0eAfdeNkdW78Lvt2pv6Dj0OSYsm9xznMU+ILq1Ac0RUHTzJP1ClHiWjDmWPkaGVuTn2lFL7XnnLu58AzqqUYLz1RXnEKt/iDNvyv5f6
+Thu Jun  1 15:11:44 2023 user.notice root: stop testcase: CPXL1LP9C

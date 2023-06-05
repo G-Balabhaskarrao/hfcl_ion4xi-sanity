@@ -1,0 +1,4 @@
+Thu Jun  1 14:03:01 2023 user.notice root: start testcase: KULV2I8O0
+Thu Jun  1 14:04:34 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 8.8.8.8
+Thu Jun  1 14:04:34 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"healthcheck","params":{"serial":"0006ae6df0db","uuid":1685628076,"sanity":67,"data":{"unit":{"memory":38},"interfaces":{"down1v0":{"dhcp":false,"location":"/interfaces/1","warning":["DHCP did not offer any leases"]}}}}}
+Thu Jun  1 14:05:55 2023 user.notice root: stop testcase: KULV2I8O0

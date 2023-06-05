@@ -1,0 +1,16 @@
+:~# iwinfo
+wlan0     ESSID: "ssid_wpa2_5g"
+          Access Point: 00:06:AE:6D:F0:CA
+          Mode: Master  Channel: 100 (5.500 GHz)
+          Center Channel 1: 106 2: unknown
+          Tx-Power: 24 dBm  Link Quality: 57/70
+          Signal: -53 dBm  Noise: -107 dBm
+          Bit Rate: 520.0 MBit/s
+          Encryption: WPA2 PSK (CCMP)
+          Type: nl80211  HW Mode(s): 802.11nacax
+          Hardware: unknown [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+

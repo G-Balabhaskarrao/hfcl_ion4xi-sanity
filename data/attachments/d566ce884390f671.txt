@@ -1,0 +1,8 @@
+2023-06-01 19:08:24 [32mINFO[0m Sending Command: 
+TimeStamp: 2023-06-01 13:38:24.636457
+URI: https://prov-qa01.cicd.lab.wlan.tip.build:16005/api/v1/venue/c56426af-1abd-481d-9162-acda8b16b6ce
+Headers: {'Authorization': 'Bearer 48dd6c01e9258ed35adb8c2d4604afa60f0d585d328c5962e1aa415c62a101df', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}
+2023-06-01 19:08:25 [32mINFO[0m Sending Command: 
+TimeStamp: 2023-06-01 13:38:25.674314
+URI: https://prov-qa01.cicd.lab.wlan.tip.build:16005/api/v1/entity/7683cce1-e025-49f0-9627-538e75e75260
+Headers: {'Authorization': 'Bearer 48dd6c01e9258ed35adb8c2d4604afa60f0d585d328c5962e1aa415c62a101df', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}

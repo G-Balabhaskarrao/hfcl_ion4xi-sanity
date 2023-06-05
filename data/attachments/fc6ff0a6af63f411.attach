@@ -1,0 +1,7 @@
+Command Response: 
+Command Type: GET
+Response URI: https://prov-qa01.cicd.lab.wlan.tip.build:16005/api/v1/location/5b0a9362-decb-42fc-9910-ce552e6c4ddd
+Response Headers: {'Authorization': 'Bearer 48dd6c01e9258ed35adb8c2d4604afa60f0d585d328c5962e1aa415c62a101df', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}
+TimeStamp: 2023-06-01 13:38:17.624926
+Response Code: 200
+Response Body: {'addressLines': ['Madhurawada', ''], 'buildingName': '', 'city': 'Visakhapatnam', 'country': 'IN', 'created': 1685626694, 'description': 'Candela Testing', 'entity': '0000-0000-0000', 'geoCode': '', 'id': '5b0a9362-decb-42fc-9910-ce552e6c4ddd', 'inUse': [], 'managementPolicy': '', 'mobiles': [], 'modified': 1685626696, 'name': 'Candela IND', 'notes': [{'created': 1685626694, 'createdBy': 'tip@ucentral.com', 'note': 'Testing purposes'}], 'phones': [], 'postal': '530048', 'state': 'Andhra Pradesh', 'tags': [], 'type': 'SERVICE'}

@@ -1,0 +1,6 @@
+2023-06-01 19:01:13 [32mINFO[0m AP is in not restricted and we can trigger script
+2023-06-01 19:01:16 [32mINFO[0m Sending Command: 
+TimeStamp: 2023-06-01 13:31:16.141053
+URI: https://gw-qa01.cicd.lab.wlan.tip.build:16002/api/v1/file/e0ab2b4e-4e3a-498d-8f58-a6a12dfcf646?serialNumber=0006ae6df0db
+Headers: {'Authorization': 'Bearer 48dd6c01e9258ed35adb8c2d4604afa60f0d585d328c5962e1aa415c62a101df', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}
+2023-06-01 19:01:27 [33mWARNING[0m Received response with both Content-Length and Transfer-Encoding set. This is expressly forbidden by RFC 7230 sec 3.3.2. Ignoring Content-Length and attempting to process response as Transfer-Encoding: chunked.

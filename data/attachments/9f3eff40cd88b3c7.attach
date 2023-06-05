@@ -1,0 +1,28 @@
+Thu Jun  1 17:01:48 2023 user.notice root: start testcase: AN95BCQ8A
+Thu Jun  1 17:01:50 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJy1Vu1u2zoMfRfd/ZuXiLK+4hfYQxRFoNjyYtRfV5aTDUXe/ZJ2ujhtU2S4XRLAEkVRh4eHcp7ZOFYFy0BbpVNreZqwwYfK1SxjnHPtvC5KXuwY2qOLnmXPbGyrSM/GN134RaPYRdohUw1GWmkTVgaPvkKTQWqZsNzle48nCWWEwIMSthvL0geyWatTdDslrO5yV8eq8b8hbQBdx/5sA24UeTnc9cBXXAmTqgQHOt1oTQNujd08Jiz6pvfBxTHgvgfNEw2PeEBwRdUNaHlm+d61rUfYIDfJy4yWaA5KPU5Z/Dv6NsckH5SRKlHGkP3svD1WRdwjfoQYf2777ugDZmiQqzEcPO1C536PA9bXLpZdaNZDl69zPn1Wx6qs2CusSiA1rqUEmfrOEPQS6jXQJH0FUkgQiZBCvAUp/w/Ir/AGZnqBKQgmBqna6EPpcj8T3DqqGRaPHzibaxurrkXT+uK5pqWqP0jSkSuK4Idh2s/AiBXolRBmJdegGR5Qezf4WQqaYz7FPu+3qNcDpfSyga+AnS6akXqD8iva4ew4xbar6Usx824kMAOdH5Aflz/5iDPFbSotzKS9GEEa4IDx0HP3KxJQo7k23IqNmVzPVsGNViBJGejqQ+johLkEixmuFaHre+qCeXE5bUbshdwN2G2KJNrVdTUgg7T3RLr4zTAcgH/AMVXvhQ+Mm9eVb+NcpMblU6sjoZnnmc0zXWTenIuyfa8iRPDjtK6v10tveTZ/xRSuLDO0UUiMSCrrwnQs83HPp4JiclgX31JGOB+GqphxTY1KNfkSfIkI/1nPrYt6Od3TU7M2qYNus7KejpvYoREu02N77J3Yqh/bXcCFpiuIYtdTzLMXssV15jxRVfIsd+z2VVHRWbjnWLuWKnRLbvxaaBKWGuNLaYHg/LNkxd9T1U3q4Q7qp5
+Thu Jun  1 17:01:54 2023 daemon.notice netifd: Network device 'eth0' link is down
+Thu Jun  1 17:01:54 2023 kern.info kernel: [11078.140244] nss-dp 3a001600.dp1 eth0: PHY Link is down
+Thu Jun  1 17:01:54 2023 kern.info kernel: [11078.140612] up: port 1(eth0) entered disabled state
+Thu Jun  1 17:01:56 2023 daemon.notice netifd: Network device 'eth0' link is up
+Thu Jun  1 17:01:56 2023 kern.info kernel: [11080.140271] nss-dp 3a001600.dp1 eth0: PHY Link up speed: 1000
+Thu Jun  1 17:01:56 2023 kern.info kernel: [11080.140345] up: port 1(eth0) entered forwarding state
+Thu Jun  1 17:01:56 2023 kern.info kernel: [11080.145041] up: port 1(eth0) entered forwarding state
+Thu Jun  1 17:01:58 2023 daemon.notice netifd: up1v100 (4801): udhcpc: sending select for 172.17.0.57
+Thu Jun  1 17:01:58 2023 daemon.notice netifd: up1v100 (4801): udhcpc: lease of 172.17.0.57 obtained, lease time 600
+Thu Jun  1 17:01:58 2023 daemon.notice netifd: Interface 'up1v100' is now up
+Thu Jun  1 17:01:58 2023 daemon.info dnsmasq[25323]: reading /tmp/resolv.conf.d/resolv.conf.auto
+Thu Jun  1 17:01:58 2023 daemon.info dnsmasq[25323]: using only locally-known addresses for domain test
+Thu Jun  1 17:01:58 2023 daemon.info dnsmasq[25323]: using only locally-known addresses for domain onion
+Thu Jun  1 17:01:58 2023 daemon.info dnsmasq[25323]: using only locally-known addresses for domain localhost
+Thu Jun  1 17:01:58 2023 daemon.info dnsmasq[25323]: using only locally-known addresses for domain local
+Thu Jun  1 17:01:58 2023 daemon.info dnsmasq[25323]: using only locally-known addresses for domain invalid
+Thu Jun  1 17:01:58 2023 daemon.info dnsmasq[25323]: using only locally-known addresses for domain bind
+Thu Jun  1 17:01:58 2023 daemon.info dnsmasq[25323]: using only locally-known addresses for domain lan
+Thu Jun  1 17:01:58 2023 daemon.info dnsmasq[25323]: using nameserver 8.8.8.8#53
+Thu Jun  1 17:01:58 2023 daemon.info dnsmasq[25323]: using nameserver 8.8.8.8#53
+Thu Jun  1 17:01:58 2023 user.notice firewall: Reloading firewall due to ifup of up1v100 (up1v100)
+Thu Jun  1 17:02:04 2023 kern.info kernel: [11088.160111] up: port 1(eth0) entered forwarding state
+Thu Jun  1 17:02:28 2023 daemon.notice netifd: up0v0 (1203): udhcpc: sending renew to 172.16.0.1
+Thu Jun  1 17:02:28 2023 daemon.notice netifd: up0v0 (1203): udhcpc: lease of 172.16.227.4 obtained, lease time 600
+Thu Jun  1 17:02:50 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJy1VtuO4zYM/Re1b/Um1F32D/QjBoNAseXGWN8q28kuBvn3knZmc5lJEKCzyYMlihKPDg9pv7FpqgqWceO0kc6BTNgQYuVrljEAMD6YooRiy9A++jGw7I1NbTXSswlNF3/SaOxG2qGk4VY55RJWxoC+whhwTpEh9/kuYCShrRAYKGHbqSxDJJtzRlqljgmru9zXY9WEX5BSi65Tf7JxLjV5edz1AivQQiib4MBIZR0NwFmXviZsDE0foh+niPteDCSGv2KA6IuqG9DyxvKdb9uAsLlKk/cZLdGca/063+LfKbQ5XvJFW6UTbS3ZT86bQ1WMO8SPEMcfm747hIg3tMjVFPeBdqFzv8MB62s/ll1s1kOXr3OYf6tDVVbsBqsWSI1v6YJM/80Q9CXUa6CJvAEpFBeJUEJ8BKn+D8i/+AeY8gxTEEw8pGrHEEufh4Xg1lPOMHmwB7bkdqy6Fk3rs+ealqp+r0hHvihiGIZ5P+NWrLhZCWFXas0NwwB18ENYpGAA71Ps8n6Det3Tld43wIqz41kzymqFnu1wcpzPdqv5T2fm3URgBoofkR+ffw8jzjQ4qVK+kPZu5MpyIO7Qc/tzJKDWgLGQgpSz68kqwBqNpZDOriHGjiIsKbiY4VoRu76nKlgWL6fNhLWQ+wGrzQhCWtfVgAzS3iPp4hfDfM/hAcf8IccWKdP2eYrtLcUk2QcE11Vox0USjc/nxoJnZwEyl2emyII9wdt8ln+K9Tqvm+v1MjjIlr+YjyvLDG10JJ5Imu7iHJaFcQfz3ZBKBBla4g/nw1AVC665LRA7f8ZQIsI/1kujQHUen6ngpRKoXu/nYD2Hm3NBI1ymx+bQe7HR/2y2ERearqCE+p7OPHkhW2AyH4iqErLcs/uNqaJYuOdQ+5b0cE/ccC1r7S4VDZdCRsUDfJGI4T
+Thu Jun  1 17:02:56 2023 user.notice root: stop testcase: AN95BCQ8A

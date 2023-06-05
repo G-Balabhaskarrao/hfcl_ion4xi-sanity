@@ -1,0 +1,61 @@
+Thu Jun  1 14:48:40 2023 user.notice root: start testcase: KYLM4RZE6
+Thu Jun  1 14:48:46 2023 daemon.notice netifd: Network device 'eth0' link is down
+Thu Jun  1 14:48:46 2023 kern.info kernel: [ 3090.495240] nss-dp 3a001600.dp1 eth0: PHY Link is down
+Thu Jun  1 14:48:46 2023 kern.info kernel: [ 3090.495500] up: port 1(eth0) entered disabled state
+Thu Jun  1 14:48:48 2023 daemon.notice netifd: Network device 'eth0' link is up
+Thu Jun  1 14:48:48 2023 kern.info kernel: [ 3092.495249] nss-dp 3a001600.dp1 eth0: PHY Link up speed: 1000
+Thu Jun  1 14:48:48 2023 kern.info kernel: [ 3092.495319] up: port 1(eth0) entered forwarding state
+Thu Jun  1 14:48:48 2023 kern.info kernel: [ 3092.500013] up: port 1(eth0) entered forwarding state
+Thu Jun  1 14:48:56 2023 kern.info kernel: [ 3100.525124] up: port 1(eth0) entered forwarding state
+Thu Jun  1 14:49:55 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:b9:e3 IEEE 802.11: authenticated
+Thu Jun  1 14:49:55 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:b9:e3 IEEE 802.11: associated (aid 1)
+Thu Jun  1 14:49:55 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 00:0a:52:06:b9:e3
+Thu Jun  1 14:49:55 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:b9:e3 RADIUS: starting accounting session 53AE80DAB189360B
+Thu Jun  1 14:49:55 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:b9:e3 WPA: pairwise key handshake completed (WPA)
+Thu Jun  1 14:49:55 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:b9:e3 WPA: group key handshake completed (WPA)
+Thu Jun  1 14:50:00 2023 daemon.notice hostapd: wlan1: AP-STA-DISCONNECTED 00:0a:52:06:b9:e3
+Thu Jun  1 14:50:03 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 8.8.8.8
+Thu Jun  1 14:50:03 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"healthcheck","params":{"serial":"0006ae6df0db","uuid":1685630685,"sanity":67,"data":{"unit":{"memory":38},"interfaces":{"down1v0":{"dhcp":false,"location":"/interfaces/1","warning":["DHCP did not offer any leases"]}}}}}
+Thu Jun  1 14:50:03 2023 daemon.info ucentral: connection closed
+Thu Jun  1 14:50:03 2023 daemon.info ucentral: next reconnect in 10s
+Thu Jun  1 14:50:13 2023 daemon.info ucentral: trying to connect
+Thu Jun  1 14:50:14 2023 daemon.info ucentral: connection established
+Thu Jun  1 14:50:14 2023 daemon.info ucentral:  Peer Cert Valid to  : Sun May  4 13:07:24 2025
+Thu Jun  1 14:50:14 2023 daemon.info ucentral:  Peer Cert issuer    : /C=US/O=Telecom Infra Project, Inc./OU=TIP
+Thu Jun  1 14:50:14 2023 daemon.info ucentral:  Peer Cert CN        : *.cicd.lab.wlan.tip.build
+Thu Jun  1 14:50:14 2023 daemon.info ucentral: server is using a wildcard certificate
+Thu Jun  1 14:50:14 2023 daemon.debug ucentral: xmit connect
+Thu Jun  1 14:50:14 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"connect","params":{"serial":"0006ae6df0db","firmware":"OpenWrt 21.02-SNAPSHOT r16399+164-c67509efd7 / TIP-v2.9.0-85ff703","uuid":1685630685,"capabilities":{"secure-rtty":true,"compatible":"hfcl_ion4xi","model":"HFCL ION4Xi","platform":"ap","network":{"wan":["eth0","eth1"]},"macaddr":{"wan":"00:06:ae:6d:f0:db","lan":"00:06:ae:6d:f0:dc"},"label_macaddr":"00:06:ae:6d:f0:db","switch":{"switch0":{"enable":false,"reset":false}},"wifi":{"platform/soc/c000000.wifi":{"tx_ant":3,"rx_ant":3,"frequencies":[5180,5200,5220,5240,5260,5280,5300,5320,5500,5520,5540,5560,5580,5600,5620,5640,5660,5680,5700,5720,5745,5765,5785,5805,5825],"channels":[36,40,44,48,52,56,60,64,100,104,108,112,116,120,124,128,132,136,140,144,149,153,157,161,165],"dfs_channels":[52,56,60,64,100,104,108,112,116,120,124,128,132,136,140,144],"htmode":["HT20","HT40","VHT20","VHT40","VHT80","HE20","HE40","HE80","HE160","HE80+80"],"band":["5G"],"ht_capa":6639,"vht_capa":1939470770,"he_phy_capa":[
+Thu Jun  1 14:50:48 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:fb:e3 IEEE 802.11: authenticated
+Thu Jun  1 14:50:48 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:fb:e3 IEEE 802.11: associated (aid 1)
+Thu Jun  1 14:50:48 2023 daemon.notice hostapd: Assigned VLAN ID 100 from wpa_psk_file to 00:0a:52:06:fb:e3
+Thu Jun  1 14:50:48 2023 daemon.notice netifd: Network device 'wlan1-v100' link is up
+Thu Jun  1 14:50:48 2023 kern.info kernel: [ 3212.317428] device wlan1-v100 entered promiscuous mode
+Thu Jun  1 14:50:48 2023 kern.info kernel: [ 3212.317524] up: port 4(wlan1-v100) entered forwarding state
+Thu Jun  1 14:50:48 2023 kern.info kernel: [ 3212.321518] up: port 4(wlan1-v100) entered forwarding state
+Thu Jun  1 14:50:48 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 00:0a:52:06:fb:e3
+Thu Jun  1 14:50:48 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:fb:e3 RADIUS: starting accounting session 186A261A7415EBFF
+Thu Jun  1 14:50:48 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:fb:e3 WPA: pairwise key handshake completed (WPA)
+Thu Jun  1 14:50:48 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:fb:e3 WPA: group key handshake completed (WPA)
+Thu Jun  1 14:50:53 2023 daemon.notice hostapd: wlan1: AP-STA-DISCONNECTED 00:0a:52:06:fb:e3
+Thu Jun  1 14:50:53 2023 daemon.notice netifd: Network device 'wlan1-v100' link is down
+Thu Jun  1 14:50:53 2023 kern.info kernel: [ 3216.887149] up: port 4(wlan1-v100) entered disabled state
+Thu Jun  1 14:50:53 2023 kern.info kernel: [ 3216.925376] device wlan1-v100 left promiscuous mode
+Thu Jun  1 14:50:53 2023 kern.info kernel: [ 3216.925413] up: port 4(wlan1-v100) entered disabled state
+Thu Jun  1 14:51:43 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:e4:e3 IEEE 802.11: authenticated
+Thu Jun  1 14:51:43 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:e4:e3 IEEE 802.11: associated (aid 1)
+Thu Jun  1 14:51:43 2023 daemon.notice hostapd: Assigned VLAN ID 200 from wpa_psk_file to 00:0a:52:06:e4:e3
+Thu Jun  1 14:51:43 2023 daemon.notice netifd: Network device 'wlan1-v200' link is up
+Thu Jun  1 14:51:43 2023 kern.info kernel: [ 3266.746381] device wlan1-v200 entered promiscuous mode
+Thu Jun  1 14:51:43 2023 kern.info kernel: [ 3266.746473] up: port 4(wlan1-v200) entered forwarding state
+Thu Jun  1 14:51:43 2023 kern.info kernel: [ 3266.750424] up: port 4(wlan1-v200) entered forwarding state
+Thu Jun  1 14:51:43 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 00:0a:52:06:e4:e3
+Thu Jun  1 14:51:43 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:e4:e3 RADIUS: starting accounting session 4EF5A7FD3684440B
+Thu Jun  1 14:51:43 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:e4:e3 WPA: pairwise key handshake completed (WPA)
+Thu Jun  1 14:51:43 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:e4:e3 WPA: group key handshake completed (WPA)
+Thu Jun  1 14:51:49 2023 daemon.notice hostapd: wlan1: AP-STA-DISCONNECTED 00:0a:52:06:e4:e3
+Thu Jun  1 14:51:49 2023 daemon.notice netifd: Network device 'wlan1-v200' link is down
+Thu Jun  1 14:51:49 2023 kern.info kernel: [ 3272.796858] up: port 4(wlan1-v200) entered disabled state
+Thu Jun  1 14:51:49 2023 kern.info kernel: [ 3272.855233] device wlan1-v200 left promiscuous mode
+Thu Jun  1 14:51:49 2023 kern.info kernel: [ 3272.855275] up: port 4(wlan1-v200) entered disabled state
+Thu Jun  1 14:51:51 2023 user.notice root: stop testcase: KYLM4RZE6

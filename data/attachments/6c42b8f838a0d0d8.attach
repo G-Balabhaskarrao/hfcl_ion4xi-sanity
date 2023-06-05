@@ -1,0 +1,25 @@
+Thu Jun  1 15:06:08 2023 user.notice root: start testcase: 856T09BO0
+Thu Jun  1 15:06:42 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJzdV21ymzAQvYvafyVYEpIQXKCHyGQ8MoiaKV8VIk4m47t3F5wG2yV10qSZafIDkHZXb9/bleQHMgxlTlKmtFQR01IHpLeuNBVJCaVUGavyguYbAuPeeEvSBzI0pcdnbevW3eObbz16iEixWGgBQQpnwZarmDLNBQ1IZrKthZW4VJolHEY2Q1FYh2NaqygWYh+Qqs1M5cvaPkLilPKADN00JpiK0ciA0zUNGY9kFAc0pCrRXOJLJJTSNwHxtu6sM35w4HataKDYDcR3Ji/bHkYeSLY1TWMBNRNJ8PiFU/jNpLwZk/gx2CaDHK9lLGQg4xjHD8brXZn7LcCHZPzdumt31kGCgLAf3K1FLzDutvBCusr4onX1qm+zVUbHv3BXFiU5wSoh3Y1pMEEivxIAPYOqjoCqQJ+A5ALo4ELE5yDF34D8ws5gRk8wOcKEIGXjrStMZieCG4OSgXb0lpJJWl+2DQytnixXOFV2twLLyOS5s30/+hMW85CpkPM4FCumCCxQWdPbqRIUhXzybdatoVxvMaVHBygLsp+XjGBg2fQHwzG2Dsd/jJlVpW38hLg22Vj2ED21NNVZqvLUxgeE69/Bw9WQv9aNMYj1WzpCNb2HFS2kS5GbrB0w5x7TdCCDyb5b9JBUiUSoSZvHQSYkTxh0EVhu7j0uGMuESc4pFCGaHkahkaIkiRQfTa1zLa4wKT37grnctV2HvTZNzj/rATouA7wkTbBR26oqexAKffdYfgch83bXsOekZItSJsiVDlnIVlxgTf+ShwnA3vdlPikw9if6f3a2gPCfVlPHQpnsL2mlqSSxcZZRrsblRrT4BtP4WO86s7amW8tvMFG3OaZsOox5sIK6oCo1FouioGlmyPIOUeJa4LOrTIOMLclPj4XnfK45nUsdCSreSOXfivwPmY/Omed/oJ
+Thu Jun  1 15:06:54 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:1d:e3 IEEE 802.11: authenticated
+Thu Jun  1 15:06:54 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:1d:e3 IEEE 802.11: associated (aid 1)
+Thu Jun  1 15:06:54 2023 daemon.notice hostapd: wlan1: CTRL-EVENT-EAP-STARTED 00:0a:52:06:1d:e3
+Thu Jun  1 15:06:54 2023 daemon.notice hostapd: wlan1: CTRL-EVENT-EAP-PROPOSED-METHOD vendor=0 method=1
+Thu Jun  1 15:06:54 2023 daemon.notice hostapd: wlan1: CTRL-EVENT-EAP-SUCCESS2 00:0a:52:06:1d:e3
+Thu Jun  1 15:06:54 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:1d:e3 WPA: pairwise key handshake completed (WPA)
+Thu Jun  1 15:06:54 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 00:0a:52:06:1d:e3
+Thu Jun  1 15:06:54 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:1d:e3 RADIUS: starting accounting session 3111E8AEADE0ECEB
+Thu Jun  1 15:06:54 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:1d:e3 IEEE 802.1X: authenticated - EAP type: 21 (TTLS)
+Thu Jun  1 15:06:54 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:1d:e3 WPA: group key handshake completed (WPA)
+Thu Jun  1 15:06:57 2023 daemon.info dnsmasq-dhcp[24948]: DHCPDISCOVER(down1v0) 00:0a:52:06:1d:e3
+Thu Jun  1 15:06:57 2023 daemon.info dnsmasq-dhcp[24948]: DHCPOFFER(down1v0) 192.168.1.229 00:0a:52:06:1d:e3
+Thu Jun  1 15:06:57 2023 daemon.info dnsmasq-dhcp[24948]: DHCPREQUEST(down1v0) 192.168.1.229 00:0a:52:06:1d:e3
+Thu Jun  1 15:06:57 2023 daemon.info dnsmasq-dhcp[24948]: DHCPACK(down1v0) 192.168.1.229 00:0a:52:06:1d:e3
+Thu Jun  1 15:06:57 2023 daemon.err dnsmasq[24948]: Failed to send UBus event: Success
+Thu Jun  1 15:07:42 2023 daemon.info dnsmasq-dhcp[24948]: DHCPRELEASE(down1v0) 192.168.1.229 00:0a:52:06:1d:e3
+Thu Jun  1 15:07:42 2023 daemon.err dnsmasq[24948]: Failed to send UBus event: Success
+Thu Jun  1 15:07:42 2023 daemon.notice hostapd: wlan1: AP-STA-DISCONNECTED 00:0a:52:06:1d:e3
+Thu Jun  1 15:07:42 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:1d:e3 RADIUS: stopped accounting session 3111E8AEADE0ECEB
+Thu Jun  1 15:07:42 2023 daemon.notice netifd: up0v0 (4163): udhcpc: sending renew to 172.16.0.1
+Thu Jun  1 15:07:42 2023 daemon.notice netifd: up0v0 (4163): udhcpc: lease of 172.16.227.4 obtained, lease time 600
+Thu Jun  1 15:07:43 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJzdV21yozgQvYt2/y2xJaFPLrCHSKVcCog1NRgYIeKZSvnu2w3OBNsh42SyO1WxfyCkVuv1e92SeCTDUBUkY8pIlTIjTUJ6HypXk4xQSpXzqihpcU+gP7roSfZIhqaK+Nz5XRu+Yyu2EWeIVDEtjAAnZfBgy5WyDLpEQnKXbz2sxKUyzHKakPuhLH3APmNUCkaHhNRt7upY7fwTJE5VmpChm/oE5xqNHEy6pSsquFU2gYYUnFJscGOovUtI9LvOBxeHANNuFU0UuwP/wRVV20PPI8m3rmk8oGbCJk9vOITvTMq7MYivg29yiPFWaiETqTX2H403+6qIW4APwcRvm67d+wABAsJ+CA8eZ4Fxt4UG6WoXyzbs1n2br3M6/lb7qqzIGVbJgRnXYIBE/k0A9AyqOgGqEnMGkotUJ1wIfQlS/ArIv9gFzPQZJkeY4KRqog+ly/1EcONQMtCOPlAySRurtoGu9bPlGoeq7kFgGrmiCL7vx/mEab5iagWKr8SaKQIL1N71fsoEBXKTYpt3G0jXBwzpaQJdMXKYpwxlYNn0R8PRt1mNf/SZ15Vv4oR45/Ix7cF75mlm8kwVmddHhJuX4OFqyF8bRh/Exy0dobo+wooewqXITd4OGHOPYQaQweVfPM6QVCnNj9o8dTIhhbQgEVjef4+4oJY2pVxrzNX4o5fZ1FglGR1NfQgtrjB5m73BWBHarsNamwbnr7sBKi4HvCSzFJHWddWDUDj3gOl3FLJo9w17TUq2KKVFrsyKrdiaC8zpH/JwCvne91UxKTDWJ87/M/gS3P+xnioW0uRwTSlNKYmFs4xyPS43osUWDONjs+/cxrtuI/+BgV1bYMiuQ59HK8gLqjLnMSlKmuWOLO8QFa4Fc/a1a5CxJfnPhE/lXHM6l1pYKz5I5RdF/h+ZTy+Z5z+hnr
+Thu Jun  1 15:07:44 2023 user.notice root: stop testcase: 856T09BO0

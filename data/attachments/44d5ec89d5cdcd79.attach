@@ -1,0 +1,40 @@
+Thu Jun  1 16:41:02 2023 user.notice root: start testcase: BKR6N4SI8
+Thu Jun  1 16:41:08 2023 daemon.notice netifd: Network device 'eth0' link is down
+Thu Jun  1 16:41:08 2023 kern.info kernel: [ 9832.043786] nss-dp 3a001600.dp1 eth0: PHY Link is down
+Thu Jun  1 16:41:08 2023 kern.info kernel: [ 9832.044120] up: port 1(eth0) entered disabled state
+Thu Jun  1 16:41:10 2023 daemon.notice netifd: Network device 'eth0' link is up
+Thu Jun  1 16:41:10 2023 kern.info kernel: [ 9834.043786] nss-dp 3a001600.dp1 eth0: PHY Link up speed: 1000
+Thu Jun  1 16:41:10 2023 kern.info kernel: [ 9834.043860] up: port 1(eth0) entered forwarding state
+Thu Jun  1 16:41:10 2023 kern.info kernel: [ 9834.048559] up: port 1(eth0) entered forwarding state
+Thu Jun  1 16:41:13 2023 daemon.notice netifd: up2v125 (18039): udhcpc: sending select for 172.17.0.51
+Thu Jun  1 16:41:13 2023 daemon.notice netifd: up2v125 (18039): udhcpc: lease of 172.17.0.51 obtained, lease time 600
+Thu Jun  1 16:41:13 2023 daemon.notice netifd: Interface 'up2v125' is now up
+Thu Jun  1 16:41:13 2023 daemon.info dnsmasq[19496]: reading /tmp/resolv.conf.d/resolv.conf.auto
+Thu Jun  1 16:41:13 2023 daemon.info dnsmasq[19496]: using only locally-known addresses for domain test
+Thu Jun  1 16:41:13 2023 daemon.info dnsmasq[19496]: using only locally-known addresses for domain onion
+Thu Jun  1 16:41:13 2023 daemon.info dnsmasq[19496]: using only locally-known addresses for domain localhost
+Thu Jun  1 16:41:13 2023 daemon.info dnsmasq[19496]: using only locally-known addresses for domain local
+Thu Jun  1 16:41:13 2023 daemon.info dnsmasq[19496]: using only locally-known addresses for domain invalid
+Thu Jun  1 16:41:13 2023 daemon.info dnsmasq[19496]: using only locally-known addresses for domain bind
+Thu Jun  1 16:41:13 2023 daemon.info dnsmasq[19496]: using only locally-known addresses for domain lan
+Thu Jun  1 16:41:13 2023 daemon.info dnsmasq[19496]: using nameserver 8.8.8.8#53
+Thu Jun  1 16:41:13 2023 daemon.info dnsmasq[19496]: using nameserver 8.8.8.8#53
+Thu Jun  1 16:41:13 2023 daemon.info dnsmasq[19496]: using nameserver 8.8.8.8#53
+Thu Jun  1 16:41:13 2023 user.notice firewall: Reloading firewall due to ifup of up2v125 (up2v125)
+Thu Jun  1 16:41:18 2023 kern.info kernel: [ 9842.063657] up: port 1(eth0) entered forwarding state
+Thu Jun  1 16:41:49 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJzNV9uS2zYM/Re2j1obvEv6gX7EjsfDlahaE91KSXYyO/73ApLTlbO1stm62dgPJkEQODw4EOVnNo5lzlJuYm2k1dpErPehdBVLGQAY501eQP7E0D64wbP0mY1NOdBv7es2fKHR0A60Q0nDrYpVHLEiePQVhqLGMRoylx08ZhLaKqsoz9NYFD6QLY7RS6lzxKo2c9VQ1v4fSBaSiI3dbEtiK8nJ4aZH2ICMtdURDixIrmjANZd2F7HB150PbhgDbns0EBmxw/jB5WXbo+WZZQfXNB5Rc4UZLjNaojnXejcd4q/RNxme8RFh60hbS/aL8/5U5sMB4QPm+7zv2pMPeECLVI3h6GkXOncHHLCuckPRhnrbt9k2g+mzOZVFyb7BqgUy4xo6INN/sN0ZQ5TN4EPhMj8jbxxxgaTAEdjM2VC2DZq2L55bWiq7o6L6uDwPvu+n/YxbseFmI4TdqC03DBNU3vV+ptgAniY/ZN0edXCkA33dABvOzi+1kCpBqHnTXxyn2PFm+lLMrB0JTE/5A7Ljsk9+wJmGWIpEz5R9NXJlwRoVkefTl4GAWgPGJCBMMrlerAKsTiTYeHL1IbSUYS7AYoZreWi7jtQ1Ly6n9Ygay1yPKlaWkFZV2SODtPd8jhYM8yOHFY75KscWKdP27RTbVxRzUKsUV6VvhlkUtcumlsXoqYc0zlKTp95eAO7/TQGUbTetm+v1wseQzl8xhSuKFG0UEiOSptswpWV+OMB0OiQTQfqGGMR535f5jGvqOOLn9+ALRPjbdu5B1Of5Lc0x9wK1wu0qbKd0k+JphMv0s2873+z1n2it25zq6ToKeHFBqsCkzhNPBaSZY7cbvqREuOdUuYay3NI2XKtawlLQcKVjK8ydJAyvFLzSfZIeldcohQQll0AFF1zJWF33XSy4tnAnzNy8Rr
+Thu Jun  1 16:42:18 2023 daemon.info hostapd: wlan0-1: STA 00:0a:52:06:61:e3 IEEE 802.11: authenticated
+Thu Jun  1 16:42:18 2023 daemon.info hostapd: wlan0-1: STA 00:0a:52:06:61:e3 IEEE 802.11: associated (aid 1)
+Thu Jun  1 16:42:18 2023 daemon.notice hostapd: wlan0-1: AP-STA-CONNECTED 00:0a:52:06:61:e3
+Thu Jun  1 16:42:18 2023 daemon.info hostapd: wlan0-1: STA 00:0a:52:06:61:e3 RADIUS: starting accounting session 4F088B33D45D2755
+Thu Jun  1 16:42:18 2023 daemon.info hostapd: wlan0-1: STA 00:0a:52:06:61:e3 WPA: pairwise key handshake completed (WPA)
+Thu Jun  1 16:42:18 2023 daemon.info hostapd: wlan0-1: STA 00:0a:52:06:61:e3 WPA: group key handshake completed (WPA)
+Thu Jun  1 16:42:28 2023 daemon.notice netifd: up0v0 (1203): udhcpc: sending renew to 172.16.0.1
+Thu Jun  1 16:42:28 2023 daemon.notice netifd: up0v0 (1203): udhcpc: lease of 172.16.227.4 obtained, lease time 600
+Thu Jun  1 16:42:35 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 8.8.8.8
+Thu Jun  1 16:42:35 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 8.8.8.8
+Thu Jun  1 16:42:35 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 8.8.8.8
+Thu Jun  1 16:42:35 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"healthcheck","params":{"serial":"0006ae6df0db","uuid":1685637556,"sanity":100,"data":{"unit":{"memory":40}}}}
+Thu Jun  1 16:42:49 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJzNWNty2zgM/Rd2H33hnZJ+oB+RyXgYiYo51W0pyWkn439fgHIS2YnVtM1sGj+YBEkABM4h4DyScfQFyZhOlBZGKb0ivQveViQjlFJtnS5KWtwRkA92cCR7JGPjB/yuXd2GHzga2gFPSKGZkYlMVqQMDvZyrXSquOArktt878ASV0YaiXbuxrJ0AWVJAralPK5I1ea2Gnztnl0yOl2RsZtkaSoEbrJw6IZuKOOcmhUMlNRJggOacmNuV2RwdeeCHcYAx240XWl2C/qDLXzbg+SR5HvbNA68ZhIsnGa4hHOm1G28xL+ja3K44w24rVbKGJSfNu8efDHswX0K9r7vuvbBBbiggVCN4eDwFGzu9jAgXWWHsg31tm/zbU7j3+bBl55c+KogVne2wQsS9ZXcHkGFbwYXSpu7yfPGYiwgKPRAyRSzwbcNiLYvO7e45LuDxPzYogiu7+N5wgzfML3h3GzklmkCBipnezeFWFO4TbHPux3g4IAXejpAN4wcX3IhFLpaNP1pY9SdbOIHdebtiM70aD9AdGz+zQ0wUzQRgqopZE9CJg2F2K5w592PAR01mmqdMspk3HqSQr5VCj7quNWF0KKFKQGzGawVoe06RNe0OJ/WI2Astz2gWBr0tKp8DxHEs8fjahZhdmB0IcZsMcYGQqbM+0NsXoWYabkY4sq7ZphAUds8Uha0Z45mSZ7pInPm5ODuLQSgtdu4rs/XS5fQbPrwqK4sM5ChStCImG5DNEvcsKfxdhBMcNI1GEGY970vJr8i4zA+/wRXgodfthMHAZ/H95Bj4gJS4XoWttFcRDyOYBm/dm3nmp26B2ndFphP26HC0xYIFdWZdRinkma5JdcJ79EQnHmobINWrmGbnqNa0Dmg6RmODf8oCNNXCF5gn6CGinMvuaBSzB3ljDMpkgveJZwpQz
+Thu Jun  1 16:43:13 2023 daemon.notice hostapd: wlan0-1: AP-STA-DISCONNECTED 00:0a:52:06:61:e3
+Thu Jun  1 16:43:15 2023 user.notice root: stop testcase: BKR6N4SI8

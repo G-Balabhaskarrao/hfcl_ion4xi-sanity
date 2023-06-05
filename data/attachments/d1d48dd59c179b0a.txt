@@ -1,0 +1,16 @@
+:~# iwinfo
+wlan1     ESSID: "MDU-Wi-Fi-2g"
+          Access Point: 00:06:AE:6D:F0:BA
+          Mode: Master  Channel: 6 (2.437 GHz)
+          Center Channel 1: 8 2: unknown
+          Tx-Power: 27 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: -106 dBm
+          Bit Rate: unknown
+          Encryption: WPA2 PSK (CCMP)
+          Type: nl80211  HW Mode(s): 802.11bgnax
+          Hardware: unknown [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy1
+
+

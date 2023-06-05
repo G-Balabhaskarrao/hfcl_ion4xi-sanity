@@ -1,0 +1,7 @@
+:~# ubus call ucentral status
+{
+	"connected": 271,
+	"latest": 1685626746,
+	"active": 1685626746
+}
+

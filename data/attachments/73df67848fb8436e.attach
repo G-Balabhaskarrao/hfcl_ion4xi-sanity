@@ -1,0 +1,22 @@
+Thu Jun  1 15:54:04 2023 user.notice root: start testcase: P43B1MKT0
+Thu Jun  1 15:54:10 2023 daemon.notice netifd: Network device 'eth0' link is down
+Thu Jun  1 15:54:10 2023 kern.info kernel: [ 7013.711916] nss-dp 3a001600.dp1 eth0: PHY Link is down
+Thu Jun  1 15:54:10 2023 kern.info kernel: [ 7013.712262] up: port 1(eth0) entered disabled state
+Thu Jun  1 15:54:13 2023 daemon.notice netifd: Network device 'eth0' link is up
+Thu Jun  1 15:54:13 2023 kern.info kernel: [ 7016.711929] nss-dp 3a001600.dp1 eth0: PHY Link up speed: 1000
+Thu Jun  1 15:54:13 2023 kern.info kernel: [ 7016.712015] up: port 1(eth0) entered forwarding state
+Thu Jun  1 15:54:13 2023 kern.info kernel: [ 7016.716719] up: port 1(eth0) entered forwarding state
+Thu Jun  1 15:54:21 2023 kern.info kernel: [ 7024.731791] up: port 1(eth0) entered forwarding state
+Thu Jun  1 15:54:46 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJzdWNty4ygQ/Rd231axAQG6/MB+RCqlIhKKqZElLULOTKX879uNnLF8jZPNbKrGfjCXpjmcvtD4hYyjrUjOVCpVLGSWRmQwzuqG5IRSqrRRVU2rRwLjXntD8hcyttbj79qsO/cDW77zuELEiiUiFaCkdgZkuZKKS0VpREpdrgzsBN1McAoij2NdG4djaariRIhtRJqu1I23a/MTEsxFZOynsYRKikIaFt3TBeUZz5IIGnEmJcMGlanMHiLizbo3TvvRwbJ7RSPFHkC/05XtBhh5IeVKt60B1Exk0WsPp7DPpHwIh/hnNG0JZ7yXiZCRTBIc3wkXz7byK4APmPz3ou+ejYMDJkDV6DYGV4Fwv4IG6Rvt686tl0NXLksaPotnW1tyhFVyYEa3eEAi/yYAeg71EGgUH4HkgvGIC85PQYr/AvIvdgIz3sPkCBOU2NYbV+vSTAS3Gk0GtqMbSibTetu1MLTcSy5xyvYbgW6kq8qZYQjrCUv4gqkF58lCLJkisEFj9GAmTwg+Va3KvgB33eCRXhfQBSPbvcsoBdat2mEnF1Sni/BFlWU3IpYBt3dAjy6/GQ89SVOeUjFx9jrIREJpAicHyccfHnEmiioFbkh5EN2NcpqIWCZKBlHjXIc7TBaY9WCucl3fYwxMk/PueoRIKPUAsQZWBaRNYwcgENdu0S1+Esw2jF6hmF2lOAHGZHI7w8kxwzxlVxlurGn95BJrXYa8klMNjp5TlcdZbuIdvuI8OBXUgIA6FKhNCorClwd9dZ3XJugElejUnQv7kudGtywcD9gEmKZFCqMZHkVzQ/O0zFWVm+Qynsm93oQT1AU4QSVonMMxfkVP0EB/GGw18RTSFJrrT2dqQPjHckpcEC3bWzLKFJmYPy47xTJsF5wDWzCNP0XXm7aQT8UGOIOpdVehj+kete
+Thu Jun  1 15:55:05 2023 daemon.notice netifd: up1v100 (4801): udhcpc: sending renew to 172.17.0.1
+Thu Jun  1 15:55:05 2023 daemon.notice netifd: up1v100 (4801): udhcpc: lease of 172.17.0.57 obtained, lease time 600
+Thu Jun  1 15:55:20 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 8.8.8.8
+Thu Jun  1 15:55:20 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 8.8.8.8
+Thu Jun  1 15:55:20 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"healthcheck","params":{"serial":"0006ae6df0db","uuid":1685634598,"sanity":100,"data":{"unit":{"memory":40}}}}
+Thu Jun  1 15:55:21 2023 daemon.info hostapd: wlan0: STA 00:0a:52:06:4a:e3 IEEE 802.11: authenticated
+Thu Jun  1 15:55:21 2023 daemon.info hostapd: wlan0: STA 00:0a:52:06:4a:e3 IEEE 802.11: associated (aid 1)
+Thu Jun  1 15:55:21 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 00:0a:52:06:4a:e3
+Thu Jun  1 15:55:21 2023 daemon.info hostapd: wlan0: STA 00:0a:52:06:4a:e3 RADIUS: starting accounting session D13DD0F89AB0DA03
+Thu Jun  1 15:55:46 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJzdWOtymzgUfhd2/y2xdZfgBfYhOh2PAiJmgoEV4LTT8bvvOcJxgdiOk6btTJMfFrocffrO5UN8i4ahzKOUKiMVFzIxcdQ5X9oqSiNCiLJO5QXJ7yPo723vovRbNNRlj787t2v8V2z1TY8rBFdUCyPASOEdzGVKCqo0EXGU2WzrYCcmVSIYgSn3Q1E4j33GKK6FOMRR1WS26sudO0FKhIqjoR37NKUEJ1lY9ImsCDHaJDE0mOGMYiP8fY6j3u1a520/eFj2SdFYsc9g39u8bDro+RZlW1vXDlBTkcTPTziEz1TKz+EQ/w2uzuCMn6QWMpZaY/9x8uapzPstwAdM/ZdN2zw5DwfUQNXg9w5XweR2C42orWxfNH637ppsnY0wV09lUUYLrJIBM7bGA0by3whAT6HOgcZ8AZIJymImGHsJUvwIyH/oC5j8O0yGMMFIWffOFzZzI8G1RZeB78ieRKNr+7KpoWv9feYah8p2LzCMbJ5713VhfUQ1W1G1YkyvxJqqCDaonO3cGAmKwHnybdZuIFz3eKTnBWRFo8MkZBh4N6+747xg2qzCP5rMmgGxdLi9B3ps9uh6eJLEMEP5yNlzJxUaQg4cBDPvv/aIUyuiFEuMEWHqsZcRLbiRGBgw1Xnf4A6jByZPMJb7pm0xB8bB6eNugEzIbAe5Bl4FpFVVdkAgrj1gWJwIpntKrlBMr1KsgTGpb2dYLxnmgl5luCpd3Y8hsbNZqCspsRDoKVEpT1LHj/g258GpYAYmqPmEwhkwFP5ZsFcUaeGCTTCJQd34sG/0VNmahuMBmwDT1UhhPMGjSOpIarJU5anTl/GM4RVPmXgVW7AdsAX7YH6KzfVbchXaiSphX6UqkS/OTcbc7LoyH30QSiCGwt/eFbDFX+uxKEImHm6pVmPWY226HHDrsF0IPGzBMP
+Thu Jun  1 15:56:18 2023 daemon.notice hostapd: wlan0: AP-STA-DISCONNECTED 00:0a:52:06:4a:e3
+Thu Jun  1 15:56:19 2023 user.notice root: stop testcase: P43B1MKT0

@@ -1,0 +1,19 @@
+Thu Jun  1 15:20:03 2023 user.notice root: start testcase: WVUG3GDEC
+Thu Jun  1 15:20:43 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJzdVmtu4zYQvgvbf1VkkuLLukAPEQQGI1E1sXqVouIsAt+9M5KysZ2V19ntdoHaMESR8/hmvhl6Xsg4+pLkTBmpMq4US8jggrc1yQmlVFmnyoqWjwT2o42O5C9kbH3EZ+OaLnzGVewiaohMMS2MMAmpggNZrjRnZitEQgpb7B144lLpTHMQeRyrygXcM0ZlWohjQuqusHX0jfsCyYgsIWM/70lKDQpZULqnKZ0+CSwY4xlLXnceEhJd07tg4xhA7V7RRLEHsB9s6bsBdl5Isbdt6wA1E9vk9Q2P8J1J+TAF8ffo2gJivJdayERqjfuL8O7gy7gH+BT8Pe/67uACBKghVWN4cqgFwv0eFqSvbay60GyGrtgUM8z04CtPLrBKDpmxLQZI5J8EQJ9AVWdAVWIuQHKR6YQLod+DFD8C8g/2Dmb2BpMjTDDi2+hCZQs3J7i1SBlwR58omamNvmtha/MmucEj3z8JLCNblsENw6RPmOYpUynnOhUbpgg4qJ0d3FwJCngn5b7od1CuTxjSqwJNGTm+lYzYGsho2Q6L4GTbpNMXbRa1d22cETe2mMoerOeO5qbIVZk7vSDcfQ0eesP8dWGyQVzc0wmqHSJ4dBAuxdwU3YgxDxhmABps8cmhhqRaSkQYTzaZUHxrIMMg+fg5okMNAUP18aXWll1OWaaVMGwSdSF06GEWOXmDszJ0fY+9Nh+evjYjdFwBeEm+pYi0rv0ARKHuEctvIbLsDi27RiVbpXKLuTIpS9mGC6zpL/QwDTU9DL6cGZj6E/V/D64C879t5o6FMjne0kpzSWLjrKPcTO4mtLiCY3zsDr3FH9852+/kX3DadCXGbXs0vIhCcVCVW4eVUdG8sGT9mvDoEHQOtW0xbWs1QM/Z5+KU+DO+M74c/jjVX2X6P0x/9j792a7xz678Bg
+Thu Jun  1 15:20:53 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:21:e3 IEEE 802.11: authenticated
+Thu Jun  1 15:20:53 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:21:e3 IEEE 802.11: associated (aid 1)
+Thu Jun  1 15:20:53 2023 daemon.notice hostapd: wlan1: CTRL-EVENT-EAP-STARTED 00:0a:52:06:21:e3
+Thu Jun  1 15:20:53 2023 daemon.notice hostapd: wlan1: CTRL-EVENT-EAP-PROPOSED-METHOD vendor=0 method=1
+Thu Jun  1 15:20:53 2023 daemon.notice hostapd: wlan1: CTRL-EVENT-EAP-SUCCESS2 00:0a:52:06:21:e3
+Thu Jun  1 15:20:53 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:21:e3 WPA: pairwise key handshake completed (RSN)
+Thu Jun  1 15:20:53 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 00:0a:52:06:21:e3
+Thu Jun  1 15:20:53 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:21:e3 RADIUS: starting accounting session 02242BED692D1973
+Thu Jun  1 15:20:53 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:21:e3 IEEE 802.1X: authenticated - EAP type: 21 (TTLS)
+Thu Jun  1 15:20:56 2023 daemon.info dnsmasq-dhcp[27990]: DHCPDISCOVER(down1v0) 00:0a:52:06:21:e3
+Thu Jun  1 15:20:56 2023 daemon.info dnsmasq-dhcp[27990]: DHCPOFFER(down1v0) 192.168.1.230 00:0a:52:06:21:e3
+Thu Jun  1 15:20:56 2023 daemon.info dnsmasq-dhcp[27990]: DHCPREQUEST(down1v0) 192.168.1.230 00:0a:52:06:21:e3
+Thu Jun  1 15:20:56 2023 daemon.info dnsmasq-dhcp[27990]: DHCPACK(down1v0) 192.168.1.230 00:0a:52:06:21:e3
+Thu Jun  1 15:20:56 2023 daemon.err dnsmasq[27990]: Failed to send UBus event: Success
+Thu Jun  1 15:21:41 2023 daemon.notice hostapd: wlan1: AP-STA-DISCONNECTED 00:0a:52:06:21:e3
+Thu Jun  1 15:21:41 2023 daemon.info hostapd: wlan1: STA 00:0a:52:06:21:e3 RADIUS: stopped accounting session 02242BED692D1973
+Thu Jun  1 15:21:43 2023 user.notice root: stop testcase: WVUG3GDEC

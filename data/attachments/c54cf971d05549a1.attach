@@ -1,0 +1,1 @@
+200{'UI': 'https://webui-qa01.cicd.lab.wlan.tip.build', 'certificates': [{'expiresOn': 1692101865, 'filename': 'tls.crt'}], 'hostname': 'owprov-6999647866-9zxbp', 'os': 'Linux', 'processors': 4, 'start': 1685024559, 'uptime': 601673, 'version': '2.10.0(28) - 7b3de5d'}

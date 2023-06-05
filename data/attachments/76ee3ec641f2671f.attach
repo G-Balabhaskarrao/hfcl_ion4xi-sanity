@@ -1,0 +1,27 @@
+Thu Jun  1 14:07:59 2023 user.notice root: start testcase: XFLBDR1EX
+Thu Jun  1 14:08:04 2023 daemon.notice netifd: Network device 'eth0' link is down
+Thu Jun  1 14:08:04 2023 kern.info kernel: [  648.371655] nss-dp 3a001600.dp1 eth0: PHY Link is down
+Thu Jun  1 14:08:04 2023 kern.info kernel: [  648.371989] up: port 1(eth0) entered disabled state
+Thu Jun  1 14:08:06 2023 daemon.notice netifd: Network device 'eth0' link is up
+Thu Jun  1 14:08:06 2023 kern.info kernel: [  650.371718] nss-dp 3a001600.dp1 eth0: PHY Link up speed: 1000
+Thu Jun  1 14:08:06 2023 kern.info kernel: [  650.371785] up: port 1(eth0) entered forwarding state
+Thu Jun  1 14:08:06 2023 kern.info kernel: [  650.376490] up: port 1(eth0) entered forwarding state
+Thu Jun  1 14:08:14 2023 kern.info kernel: [  658.391534] up: port 1(eth0) entered forwarding state
+Thu Jun  1 14:08:37 2023 daemon.info hostapd: wlan0: STA 00:0a:52:06:e0:e3 IEEE 802.11: authenticated
+Thu Jun  1 14:08:37 2023 daemon.info hostapd: wlan0: STA 00:0a:52:06:e0:e3 IEEE 802.11: associated (aid 1)
+Thu Jun  1 14:08:38 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 00:0a:52:06:e0:e3
+Thu Jun  1 14:08:38 2023 daemon.info hostapd: wlan0: STA 00:0a:52:06:e0:e3 RADIUS: starting accounting session C7E04C4E3160857D
+Thu Jun  1 14:08:38 2023 daemon.info hostapd: wlan0: STA 00:0a:52:06:e0:e3 WPA: pairwise key handshake completed (RSN)
+Thu Jun  1 14:09:32 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 8.8.8.8
+Thu Jun  1 14:09:32 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"healthcheck","params":{"serial":"0006ae6df0db","uuid":1685628374,"sanity":67,"data":{"unit":{"memory":39},"interfaces":{"down1v0":{"dhcp":false,"location":"/interfaces/1","warning":["DHCP did not offer any leases"]}}}}}
+Thu Jun  1 14:09:32 2023 daemon.info ucentral: connection closed
+Thu Jun  1 14:09:32 2023 daemon.info ucentral: next reconnect in 10s
+Thu Jun  1 14:09:42 2023 daemon.info ucentral: trying to connect
+Thu Jun  1 14:09:43 2023 daemon.info ucentral: connection established
+Thu Jun  1 14:09:43 2023 daemon.info ucentral:  Peer Cert Valid to  : Sun May  4 13:07:24 2025
+Thu Jun  1 14:09:43 2023 daemon.info ucentral:  Peer Cert issuer    : /C=US/O=Telecom Infra Project, Inc./OU=TIP
+Thu Jun  1 14:09:43 2023 daemon.info ucentral:  Peer Cert CN        : *.cicd.lab.wlan.tip.build
+Thu Jun  1 14:09:43 2023 daemon.info ucentral: server is using a wildcard certificate
+Thu Jun  1 14:09:43 2023 daemon.debug ucentral: xmit connect
+Thu Jun  1 14:09:43 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"connect","params":{"serial":"0006ae6df0db","firmware":"OpenWrt 21.02-SNAPSHOT r16399+164-c67509efd7 / TIP-v2.9.0-85ff703","uuid":1685628374,"capabilities":{"secure-rtty":true,"compatible":"hfcl_ion4xi","model":"HFCL ION4Xi","platform":"ap","network":{"wan":["eth0","eth1"]},"macaddr":{"wan":"00:06:ae:6d:f0:db","lan":"00:06:ae:6d:f0:dc"},"label_macaddr":"00:06:ae:6d:f0:db","switch":{"switch0":{"enable":false,"reset":false}},"wifi":{"platform/soc/c000000.wifi":{"tx_ant":3,"rx_ant":3,"frequencies":[5180,5200,5220,5240,5260,5280,5300,5320,5500,5520,5540,5560,5580,5600,5620,5640,5660,5680,5700,5720,5745,5765,5785,5805,5825],"channels":[36,40,44,48,52,56,60,64,100,104,108,112,116,120,124,128,132,136,140,144,149,153,157,161,165],"dfs_channels":[52,56,60,64,100,104,108,112,116,120,124,128,132,136,140,144],"htmode":["HT20","HT40","VHT20","VHT40","VHT80","HE20","HE40","HE80","HE160","HE80+80"],"band":["5G"],"ht_capa":6639,"vht_capa":1939470770,"he_phy_capa":[
+Thu Jun  1 14:10:10 2023 user.notice root: stop testcase: XFLBDR1EX

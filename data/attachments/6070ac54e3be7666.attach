@@ -1,0 +1,22 @@
+Thu Jun  1 16:12:53 2023 user.notice root: start testcase: V8F2T3KO4
+Thu Jun  1 16:12:58 2023 daemon.notice netifd: Network device 'eth0' link is down
+Thu Jun  1 16:12:58 2023 kern.info kernel: [ 8141.827820] nss-dp 3a001600.dp1 eth0: PHY Link is down
+Thu Jun  1 16:12:58 2023 kern.info kernel: [ 8141.828073] up: port 1(eth0) entered disabled state
+Thu Jun  1 16:13:01 2023 daemon.notice netifd: Network device 'eth0' link is up
+Thu Jun  1 16:13:01 2023 kern.info kernel: [ 8144.827829] nss-dp 3a001600.dp1 eth0: PHY Link up speed: 1000
+Thu Jun  1 16:13:01 2023 kern.info kernel: [ 8144.827908] up: port 1(eth0) entered forwarding state
+Thu Jun  1 16:13:01 2023 kern.info kernel: [ 8144.832621] up: port 1(eth0) entered forwarding state
+Thu Jun  1 16:13:09 2023 kern.info kernel: [ 8152.847696] up: port 1(eth0) entered forwarding state
+Thu Jun  1 16:13:31 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 8.8.8.8
+Thu Jun  1 16:13:31 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 8.8.8.8
+Thu Jun  1 16:13:31 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"healthcheck","params":{"serial":"0006ae6df0db","uuid":1685635573,"sanity":100,"data":{"unit":{"memory":40}}}}
+Thu Jun  1 16:13:47 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJzdWP9uozgQfhff/Xc08W8bXuAeoqqQC6ZBS4AzkO6qyrvfDKRbSJM07bW30jaqYuzx+Jv5ZsZDnsgwlDlJmLZKC6WMiEjnQ+kqkhBKqXZe5wXN7wnM9673JHkiQ132+L312yb8wFHf9LhDCs2MtNJGpAgeZLlWmsac6YhkLtt4OIkrQ7mkNCL3Q1H4gHPWamGk3EekajJX9eXWP0PSlJuIDO00Z1nMUMjBplu6okZwKSIYCG6YwgGV1oq7iPR+2/rg+iHAtlvNIs3vQH9wedl0MPNEso2raw+omYyj5ydcwmem1N1oxD+DrzOw8VYZqSJlDM4fhNPHMu83gAqM6b+nbfPoAxgIeLsh7DzuAuF2AwPSVq4vmrBdd022zuj4t3osi5IcYVUcPONqNJCovwmAnkNdAo3EEUguGY+45Pw1SPlfQP7FXsEULzA5wgQlZd37ULjMTw6uHVIG3NEdJRO1fdnUMLV+kVzjUtnuJIaRy/Pgu27cT5jhK6ZXnJuVXDNN4IDKu85PkaAxgvJN1qYQrjs06XkDXTGyfwkZZhlK1t1BcNRtV+MHdWbNgGA6PD+Af1z2zffwpKjlsY0npz1PMmmooCpCyfsfPQI1mmotFVNyFD3McmpkzCF+R1EfQoMnTBTMnmAtD03bYhJMi/PH7QCpkLmux0RCpFVVduBB3LvHuPjpYbZj9IKP2UUfG3CZMte72LxyMQTcRRdXpa/7KSi2LhsrC2hPPE1slug88eYAMD0VAXhaND/6bhTWS+HCW5pMHz7qLooE5lA/qMcQb8KIgfh+Q0dTwbOA2NfozmgGjTrIwoTqJFeJF+ehjWgoXSh/rFzNpnToujKfjB6rDjr/z+ALOOOP9VSHIPj31xSIKdGwHJyneD0eN1KNI1jGr/SxdSJtU/WQ7gAZLG6bHGPGtaj3II
+Thu Jun  1 16:14:12 2023 daemon.info hostapd: wlan1-1: STA 00:0a:52:06:9c:e3 IEEE 802.11: associated (aid 1)
+Thu Jun  1 16:14:12 2023 daemon.notice hostapd: wlan1-1: AP-STA-CONNECTED 00:0a:52:06:9c:e3
+Thu Jun  1 16:14:12 2023 daemon.info hostapd: wlan1-1: STA 00:0a:52:06:9c:e3 RADIUS: starting accounting session 22F948B40836F2FD
+Thu Jun  1 16:14:12 2023 daemon.info hostapd: wlan1-1: STA 00:0a:52:06:9c:e3 WPA: pairwise key handshake completed (RSN)
+Thu Jun  1 16:14:47 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJzdWNtyozgQ/Rftvi2xdRfwA/sRqZRLARFTg4EV4MzUlP99u4GMAV/iZJJN1caVstClddSnT6vxT9J1eUpipkOlhVJGBKRxPrcFiQmlVFun04ymjwT6W9s6Ev8kXZm3+L1zu8r/wFZbtbhCCs2MDGUYkMw7mMu1UoqFhgckscnWwU5cGcolpQF57LLMeewLQy2MlIeAFFViizbfuRdImoYmIF099IVccZxkYdE9XYGhiIpg2uj/HgLSul3tvG07D8vuNQs0fwD73qZ51UDPT5JsbVk6QM1kFLw84RA+M6Ue+kP807kygTPeKyNVoIzB/nHy5jlP2y2ggsO03zd19ew8HBDwNp3fO1wFk+stNEhd2Dar/G7dVMk6GWCunvMsJwuseMBHW+IBifqbAOgp1DnQQCxAcsl4wCXnpyDl74D8i53AFEeYHGGCkbxsnc9s4gYHlxYpA+7onpKB2javSuhaH2eucSiv9xLDyKapd03TryfM8BXTK87NSq6ZJrBB4WzjhkjQGEHpNqk3EK57PNLLArpi5HAMGYg+8FpaNuPE3na46j9oM6k6BNPg/h78Y5NvroUnRUMeRWJw2ksnk4YKCuECMx9/tAjUaKq1VJLpfurYy6mR0aAEmOq8r3CHgYLJE4ylvqprFMEwOH3cdSCFxDYtCgmRFkXegAdx7QHj4peH2Z7RKz5mV31swGXK3O5ic+JiGYqrLi5yV7ZDUOxs0mcWsB47GodJrNPYmRHg5lwE4G7BdOuHfrKeT85cSOPhw3vbWRZDH9oH8xjile8xENduaX9U8CwgdiW6M5hAoxZUGFMdpyp24jK0Hg2lM+PPhS3ZoNpTe1Fygz1+au+ODQJrmjwd3NjnMaTzT+8y2OWP9ZDZQE6HW1LOIF1MMJeDZt1v1wcPtmAYvzbPtRWbeqOeNnvABo
+Thu Jun  1 16:15:05 2023 daemon.notice netifd: up1v100 (4801): udhcpc: sending renew to 172.17.0.1
+Thu Jun  1 16:15:05 2023 daemon.notice netifd: up1v100 (4801): udhcpc: lease of 172.17.0.57 obtained, lease time 600
+Thu Jun  1 16:15:08 2023 daemon.notice hostapd: wlan1-1: AP-STA-DISCONNECTED 00:0a:52:06:9c:e3
+Thu Jun  1 16:15:10 2023 user.notice root: stop testcase: V8F2T3KO4

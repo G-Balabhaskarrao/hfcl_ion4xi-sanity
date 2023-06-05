@@ -1,0 +1,607 @@
+Thu Jun  1 16:17:50 2023 kern.info kernel: [ 8433.847278] up: port 1(eth0) entered forwarding state
+Thu Jun  1 16:17:50 2023 kern.info kernel: [ 8433.851980] up: port 1(eth0) entered forwarding state
+Thu Jun  1 16:17:50 2023 daemon.notice netifd: Network device 'eth0' link is up
+Thu Jun  1 16:17:58 2023 kern.info kernel: [ 8441.867064] up: port 1(eth0) entered forwarding state
+Thu Jun  1 16:18:47 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJzdV/1uozgQfxff/bc08beBF7iHqKrIAXNBS4A1kOyqyrvfjEmuhDRpttu9k9qowh/j8W/mNzO2n8kwlDlJmY6VFkoZEZHO+dJWJCWUUm2dzguarwmM97Z3JH0mQ132+N26beN/YKtvelwhhWZGxjKOSOEdyHKtlEhULCOS2WzjYCeuDOWS0oish6JwHsfiWAsj5SEiVZPZqi+37gRJC24iMrTjWCwTjkIWFj3SBQ1/ETaY1Co6jTxFpHfb1nnbDx6WPWoWaf4E+r3Ny6aDkWeSbWxdO0DNZBKdejiFfabUUzDi2+DqDGx8VEaqSBmD40fh1b7M+w2gAmP676u22TsPBgLebvA7h6tAuN1Ag7SV7YvGb5ddky2zEeZiXxYlmWFVYODa1mggUX8RAD2Feg40EjOQXDIeccn5JUj5KyC/sAuY4gUmR5igpKx75wubudHBtUXKgDu6o2Skti+bGoaWL5JLnCrbncQwsnnuXdeF9YQZvmB6wblZyCXTBDaonO3cGAkaIyjfZO0KwnWHJp0W0AUjh5eQ4YyB1/K6OwoG3fEi/FBn1gwIpsP9PfjHZl9dDz1FY0GFGJ12GmTSUIEMgeT6R49AjaZay1ioOIgeRzk1iibCqCDqvG9wh5GCSQ/mct+0LSbBODntbgdIhcx2kGyCI9KqKjvwIK49YFz862G2Y/SGj9lNHxtwmTL3u9jMXQyj4qaLq9LV/RgUW5uFygLaU0fTOEt1njpzBLh6LQJwt2i69VMQ1ufChYtpOv540F0UKYyhflCPId74gIG4fkODqeBZQOxqdCf0u67MR5ChSqCz/vSuALh/LMe6AcF6uCehx8TA9L1OyTJsF6jBFkzjZ7VvrVi1K/X3alfZGia3TY4c2xb1HiXBfVSn1qHvCppmllyvVSXuB2v2oA5D5Fq8My1nwc
+Thu Jun  1 16:19:04 2023 daemon.info hostapd: wlan1-2: STA 00:0a:52:06:b7:e3 IEEE 802.11: authenticated
+Thu Jun  1 16:19:04 2023 daemon.info hostapd: wlan1-2: STA 00:0a:52:06:b7:e3 IEEE 802.11: associated (aid 1)
+Thu Jun  1 16:19:04 2023 daemon.notice hostapd: wlan1-2: AP-STA-CONNECTED 00:0a:52:06:b7:e3
+Thu Jun  1 16:19:04 2023 daemon.info hostapd: wlan1-2: STA 00:0a:52:06:b7:e3 RADIUS: starting accounting session 631A0D18F0B35D16
+Thu Jun  1 16:19:04 2023 daemon.info hostapd: wlan1-2: STA 00:0a:52:06:b7:e3 WPA: pairwise key handshake completed (RSN)
+Thu Jun  1 16:19:32 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 8.8.8.8
+Thu Jun  1 16:19:32 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 8.8.8.8
+Thu Jun  1 16:19:32 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"healthcheck","params":{"serial":"0006ae6df0db","uuid":1685635573,"sanity":100,"data":{"unit":{"memory":40}}}}
+Thu Jun  1 16:19:47 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJzdWP9uozgQfhff/Xc08W87vMA9RFVFDpgGLQHOQLqrKu9+M5A2QJo0223vpG1UBcb2+Jv5ZsaePJOuy1MSM22VFkoZEZHGh9wVJCaUUu28TjOabgjIW9d6Ej+Trsxb/N75XRV+4FNbtbhCCs2MtNJGJAse5nKtFNWW6YgkLtl62IkrQ7mkNCKbLst8QJm1WhgpDxEpqsQVbb7zL5C0sCYiXT3IrFIcJzlYdE8XtP+Lzh4eItL6Xe2Da7sAy+41izR/AP3BpXnVgOSZJFtXlh5QM7mKXt5wCN+ZUg+9Ef90vkzAxntlpIqUMSg/Tl4/5Wm7BVRgTPt9XVdPPoCBgLfpwt7jKphcb+GB1IVrsyrslk2VLJMB5uIpz3Iyw4oGblyJBhL1NwHQY6hToJGYgeSS8YhLzs9Byl8B+Rc7gylOMDnCBCV52fqQucQPDi4dUgbc0T0lA7VtXpUgWp5mLnEor/cSw8ilafBN068nzPAF0wvOzUIumSawQeFd44dI0BhB6Tap1xCuezTpZQFdMHI4hQxnBryWls1xYq/bLvoP6kyqDsE0uH8A/7jkm2/hTVErqOSD016ETBoqNAhh5uZHi0CNplrLFaWyn3qUcmoUYys1TPUhVLjDQMHoDcbSUNU1JsEwOH7ddZAKiWsg2QRHpEWRN+BBXHvAuHj1MNszesXH7KqPDbhMmdtdbOYuZsaKqy4ucl+2Q1DsXNJXFtAeexrbJNZp7M0R4PqtCMDdovHWD/1kPZ2ceUvj4cN73VkWgwz1g3oM8Sr0GIhvt7Q3FTwLiH2J7oxG0KiDLIypjjcm9uIyNERj6ET3U+FKdseHfGiaPB2s7ssOev/P4DPY5I/lUIgg+g+3VIgh07AeXOZ42W/Xc41PMIxf66faiXW9Vo/rPWCDwV2VYtC4GvUeZ6LROnYeyc
+Thu Jun  1 16:19:59 2023 daemon.notice hostapd: wlan1-2: AP-STA-DISCONNECTED 00:0a:52:06:b7:e3
+Thu Jun  1 16:20:01 2023 user.notice root: stop testcase: DKMB23HRA
+Thu Jun  1 16:20:05 2023 daemon.notice netifd: up1v100 (4801): udhcpc: sending renew to 172.17.0.1
+Thu Jun  1 16:20:05 2023 daemon.notice netifd: up1v100 (4801): udhcpc: lease of 172.17.0.57 obtained, lease time 600
+Thu Jun  1 16:20:08 2023 user.notice root: start testcase: 6GUCJG8DG
+Thu Jun  1 16:20:13 2023 daemon.notice netifd: Network device 'eth0' link is down
+Thu Jun  1 16:20:13 2023 kern.info kernel: [ 8576.856876] nss-dp 3a001600.dp1 eth0: PHY Link is down
+Thu Jun  1 16:20:13 2023 kern.info kernel: [ 8576.857125] up: port 1(eth0) entered disabled state
+Thu Jun  1 16:20:16 2023 kern.info kernel: [ 8579.856884] nss-dp 3a001600.dp1 eth0: PHY Link up speed: 1000
+Thu Jun  1 16:20:16 2023 kern.info kernel: [ 8579.856964] up: port 1(eth0) entered forwarding state
+Thu Jun  1 16:20:16 2023 kern.info kernel: [ 8579.861683] up: port 1(eth0) entered forwarding state
+Thu Jun  1 16:20:16 2023 daemon.notice netifd: Network device 'eth0' link is up
+Thu Jun  1 16:20:24 2023 kern.info kernel: [ 8587.866761] up: port 1(eth0) entered forwarding state
+Thu Jun  1 16:20:47 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJzdl/9uozgQx9/Fd/8tTfzbhhe4h6iqyAFzQUuANZDsqsq73wykV0J+NNtrb6VtVIHtsf31fGZs80z6vshIwrRVWihlRERaHwpXkoRQSrXzOstptiZQ37nOk+SZ9FXR4XPrt3X4gW9d3WEPKTQz0kobkTx4sOVaxTFlUkYkdenGw0xcGcolpRFZ93nuA9ZZq4WR8hCRsk5d2RVb/yJJS2ki0jdjndWMo5GDTo90QYe/6OzlKSKd3zY+uK4P0O1Rs0jzJxg/uKyoW6h5JunGVZUH1UzG0UsJm7DMlHoaFvGt91UKa3xURqpIGYP1R+PVvsi6DaiCxXTfV0299wEWCHrbPuw89gLjZgMvpCldl9dhu2zrdJmOMhf7Ii/ITKuCBa5dhQsk6i8CoqdST4VGYiaSS/APl5yfi5T/ReQXdiZTvMrkKBMGKarOh9ylfnRw5RAZsKM7Ska0XVFXULV8tVxiU9HsJIaRy7Lg23boT5jhC6YXnJuFXDJNYILSu9aPkaAxgrJN2qwgXHe4pJcOdMHI4TVkOBfgtaxqj4bD2HYx/HDMtO5RTIvzB/CPS7/6DkqKWkGVGp32UsmkoRCpEVquf3Qo1GiqtYxjwwfTYy2nRkEcsXgw9SHUOMOIYFKCtizUTYNJMDZOi9seUiF1LSSbUKi0LIsWPIh9DxgX/3qY7Ri94WN208cGXKbM/S42cxczK8VNF5eFr7oxKLYuHXYWGD3xNLFporPEm6PA1aUIwNmi6dRPg7E+Nc69pcn448PYeZ5AHY4Pw2OI12HQQHy3ocNSwbOg2FfoTii3bZGNIoddAp31Z/A5yP1jOe4bEKyHexJ6TAxM3+tIlsN0Axp8g2Z8rPaNE6tmpf5e7UpXQeO2zpCxa3DcoyW4j+rEefRdTpPUket7VYHzQZ89DIchci3emUaI02
+Thu Jun  1 16:21:25 2023 daemon.info hostapd: wlan0-2: STA 00:0a:52:06:66:e3 IEEE 802.11: authenticated
+Thu Jun  1 16:21:25 2023 daemon.info hostapd: wlan0-2: STA 00:0a:52:06:66:e3 IEEE 802.11: associated (aid 1)
+Thu Jun  1 16:21:25 2023 daemon.notice hostapd: wlan0-2: AP-STA-CONNECTED 00:0a:52:06:66:e3
+Thu Jun  1 16:21:25 2023 daemon.info hostapd: wlan0-2: STA 00:0a:52:06:66:e3 RADIUS: starting accounting session FACBC56061CF9CF6
+Thu Jun  1 16:21:25 2023 daemon.info hostapd: wlan0-2: STA 00:0a:52:06:66:e3 WPA: pairwise key handshake completed (RSN)
+Thu Jun  1 16:21:32 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 8.8.8.8
+Thu Jun  1 16:21:32 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 8.8.8.8
+Thu Jun  1 16:21:32 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"healthcheck","params":{"serial":"0006ae6df0db","uuid":1685635573,"sanity":100,"data":{"unit":{"memory":40}}}}
+Thu Jun  1 16:21:47 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJzdWP1uozgQfxff/Xck8beBF7iHqCrkgGnQEuAMpLuq8u43A2kLpEmz3fZO2kZVzNge/zy/+SJPpO+LjMRMh0oLpYwISOt8YUsSE0qptk5nOc22BOSd7RyJn0hfFR1+792+9j9w1NUd7pBCMyNDGQYk9w7Wcq2M4srogKQ23Tk4CZ4ol5QGZNvnufMoC0MtjJTHgJR1asuu2LtnSFpRE5C+GWWhNhwXWdh0R9d0+AvOBvcB6dy+cd52vYdtd5oFmt+Dfm+zom5B8kTSna0qB6iZjILnJ5zCZ6bU/XCJf3pXpXDHO2WkCpQxKD8tTh6LrNsBKrhM9z1p6kfn4YKAt+39weEuWNzsYECa0nZ57febtk436Qhz/VjkBVlgVXDBra3wgkT9TQD0FOocaCAWILlkPOCS83OQ8ldA/sXOYIpXmBxhgpKi6pzPbepGA1cWKQPu6IGSkdquqCsQbV5XbnCqaA4S3chmmXdtO+wnzPA102vOzVpumCZwQOls60ZP0OhB2S5tEnDXA17peQNdM3J8dRnOI7BaVrWnhYPucD18UGda9wimxfM92Mem31wHT4qGgmoxGu1ZyKShIgQhrNz+6BCo0VSDkyoVDktPUk6NglBAISx13td4wkjB5AnmMl83DQbBODl93PcQCqltIdiEQqRlWbRgQdx7RL94sTA7MHrFxuyqjQ2YTJnbTWyWJmYRFVdNXBau6kan2Nt0yCygPXY0DtNYZ7EzJ4DJWx6ApwXTo++HxXq+OHchjccPH3TneQwy1A/q0cVrP2AgrtvR4apgWUDsKjRnMIFGLURhTHWsdezEZWgDGipnyh9LW9EVHwOibYtsvPaQd9D8f3qXwyl/bMZMBO5/vCVFjKGGCeEyyZvhuIFsHME0fiWPjRVJk6iH5ADYYHJfZ+g1tkG9p5V4ax1bh2
+Thu Jun  1 16:22:20 2023 daemon.notice hostapd: wlan0-2: AP-STA-DISCONNECTED 00:0a:52:06:66:e3
+Thu Jun  1 16:22:22 2023 user.notice root: stop testcase: 6GUCJG8DG
+Thu Jun  1 16:22:28 2023 daemon.notice netifd: up0v0 (1203): udhcpc: sending renew to 172.16.0.1
+Thu Jun  1 16:22:28 2023 daemon.notice netifd: up0v0 (1203): udhcpc: lease of 172.16.227.4 obtained, lease time 600
+Thu Jun  1 16:22:34 2023 user.notice root: start testcase: X9LSFB2V6
+Thu Jun  1 16:22:42 2023 daemon.debug ucentral: RX: {"id":863,"jsonrpc":"2.0","method":"configure","params":{"config":{"interfaces":[{"ethernet":[{"select-ports":["WAN*"]}],"ipv4":{"addressing":"dynamic"},"name":"WAN","role":"upstream","services":["lldp","ssh","dhcp-snooping"]},{"ethernet":[{"select-ports":["WAN*"]}],"ipv4":{"addressing":"dynamic"},"name":"WANv100","role":"upstream","services":["lldp","dhcp-snooping"],"ssids":[{"bss-mode":"ap","encryption":{"ieee80211w":"optional","key":"something","proto":"wpa2"},"name":"ssid_wpa2e_5g","radius":{"accounting":{"host":"3.20.165.131","port":1813,"secret":"testing123"},"authentication":{"host":"3.20.165.131","port":1812,"secret":"testing123"}},"services":["wifi-frames"],"wifi-bands":["5G"]}],"vlan":{"id":100}}],"metrics":{"dhcp-snooping":{"filters":["ack","discover","offer","request","solicit","reply","renew"]},"health":{"interval":120},"statistics":{"interval":60,"types":["ssids","lldp","clients"]},"wifi-frames":{"filters":["probe","auth","assoc","disassoc","deauth","local-deau
+Thu Jun  1 16:22:42 2023 daemon.info ucentral: applying cfg:1685636562
+Thu Jun  1 16:22:42 2023 daemon.info ucentral: config_init latest:1685636562 active:1685635573
+Thu Jun  1 16:22:42 2023 daemon.info ucentral: running apply task
+Thu Jun  1 16:22:43 2023 daemon.info dnsmasq[9336]: exiting on receipt of SIGTERM
+Thu Jun  1 16:22:43 2023 user.notice dnsmasq: DNS rebinding protection is active, will discard upstream RFC1918 responses!
+Thu Jun  1 16:22:43 2023 user.notice dnsmasq: Allowing 127.0.0.0/8 responses
+Thu Jun  1 16:22:43 2023 daemon.info dnsmasq[10405]: Connected to system UBus
+Thu Jun  1 16:22:43 2023 daemon.info dnsmasq[10405]: started, version 2.85 cachesize 150
+Thu Jun  1 16:22:43 2023 daemon.info dnsmasq[10405]: compile time options: IPv6 GNU-getopt no-DBus UBus no-i18n no-IDN DHCP DHCPv6 no-Lua TFTP conntrack ipset auth cryptohash DNSSEC no-ID loop-detect inotify dumpfile
+Thu Jun  1 16:22:43 2023 daemon.info dnsmasq[10405]: UBus support enabled: connected to system bus
+Thu Jun  1 16:22:43 2023 daemon.info dnsmasq[10405]: using only locally-known addresses for domain test
+Thu Jun  1 16:22:43 2023 daemon.info dnsmasq[10405]: using only locally-known addresses for domain onion
+Thu Jun  1 16:22:43 2023 daemon.info dnsmasq[10405]: using only locally-known addresses for domain localhost
+Thu Jun  1 16:22:43 2023 daemon.info dnsmasq[10405]: using only locally-known addresses for domain local
+Thu Jun  1 16:22:43 2023 daemon.info dnsmasq[10405]: using only locally-known addresses for domain invalid
+Thu Jun  1 16:22:43 2023 daemon.info dnsmasq[10405]: using only locally-known addresses for domain bind
+Thu Jun  1 16:22:43 2023 daemon.info dnsmasq[10405]: using only locally-known addresses for domain lan
+Thu Jun  1 16:22:43 2023 daemon.info dnsmasq[10405]: reading /tmp/resolv.conf.d/resolv.conf.auto
+Thu Jun  1 16:22:43 2023 daemon.info dnsmasq[10405]: using only locally-known addresses for domain test
+Thu Jun  1 16:22:43 2023 daemon.info dnsmasq[10405]: using only locally-known addresses for domain onion
+Thu Jun  1 16:22:43 2023 daemon.info dnsmasq[10405]: using only locally-known addresses for domain localhost
+Thu Jun  1 16:22:43 2023 daemon.info dnsmasq[10405]: using only locally-known addresses for domain local
+Thu Jun  1 16:22:43 2023 daemon.info dnsmasq[10405]: using only locally-known addresses for domain invalid
+Thu Jun  1 16:22:43 2023 daemon.info dnsmasq[10405]: using only locally-known addresses for domain bind
+Thu Jun  1 16:22:43 2023 daemon.info dnsmasq[10405]: using only locally-known addresses for domain lan
+Thu Jun  1 16:22:43 2023 daemon.info dnsmasq[10405]: using nameserver 8.8.8.8#53
+Thu Jun  1 16:22:43 2023 daemon.info dnsmasq[10405]: using nameserver 8.8.8.8#53
+Thu Jun  1 16:22:43 2023 daemon.info dnsmasq[10405]: read /etc/hosts - 4 addresses
+Thu Jun  1 16:22:43 2023 daemon.info dnsmasq[10405]: read /tmp/hosts/dhcp.cfg01411c - 0 addresses
+Thu Jun  1 16:22:43 2023 daemon.debug dnsmasq[10405]: UBus subscription callback: 1 subscriber(s)
+Thu Jun  1 16:22:43 2023 kern.info kernel: [ 8727.175019] device wlan0 left promiscuous mode
+Thu Jun  1 16:22:43 2023 kern.info kernel: [ 8727.175093] up: port 4(wlan0) entered disabled state
+Thu Jun  1 16:22:43 2023 daemon.notice hostapd: Remove interface 'wlan1'
+Thu Jun  1 16:22:43 2023 daemon.notice hostapd: wlan1: interface state ENABLED->DISABLED
+Thu Jun  1 16:22:43 2023 kern.info kernel: [ 8727.227582] device wlan0-1 left promiscuous mode
+Thu Jun  1 16:22:43 2023 kern.info kernel: [ 8727.227641] up: port 7(wlan0-1) entered disabled state
+Thu Jun  1 16:22:43 2023 kern.info kernel: [ 8727.276925] device wlan0-2 left promiscuous mode
+Thu Jun  1 16:22:43 2023 kern.info kernel: [ 8727.276982] up: port 8(wlan0-2) entered disabled state
+Thu Jun  1 16:22:43 2023 kern.info kernel: [ 8727.326919] device wlan1 left promiscuous mode
+Thu Jun  1 16:22:43 2023 kern.info kernel: [ 8727.326975] up: port 3(wlan1) entered disabled state
+Thu Jun  1 16:22:43 2023 kern.info kernel: [ 8727.376905] device wlan1-1 left promiscuous mode
+Thu Jun  1 16:22:43 2023 kern.info kernel: [ 8727.376961] up: port 5(wlan1-1) entered disabled state
+Thu Jun  1 16:22:43 2023 kern.info kernel: [ 8727.436913] device wlan1-2 left promiscuous mode
+Thu Jun  1 16:22:43 2023 kern.info kernel: [ 8727.436972] up: port 6(wlan1-2) entered disabled state
+Thu Jun  1 16:22:43 2023 daemon.notice hostapd: wlan1-2: AP-DISABLED
+Thu Jun  1 16:22:43 2023 daemon.notice hostapd: wlan1-2: CTRL-EVENT-TERMINATING
+Thu Jun  1 16:22:43 2023 daemon.info usteer: remove hostapd.wlan1-2
+Thu Jun  1 16:22:44 2023 user.notice root: ratelimit reload
+Thu Jun  1 16:22:44 2023 daemon.info dnsmasq[10405]: exiting on receipt of SIGTERM
+Thu Jun  1 16:22:44 2023 daemon.notice hostapd: wlan1-1: AP-DISABLED
+Thu Jun  1 16:22:44 2023 daemon.notice hostapd: wlan1-1: CTRL-EVENT-TERMINATING
+Thu Jun  1 16:22:44 2023 daemon.info usteer: remove hostapd.wlan1-1
+Thu Jun  1 16:22:44 2023 user.notice dnsmasq: DNS rebinding protection is active, will discard upstream RFC1918 responses!
+Thu Jun  1 16:22:44 2023 user.notice dnsmasq: Allowing 127.0.0.0/8 responses
+Thu Jun  1 16:22:44 2023 daemon.info dnsmasq[10732]: Connected to system UBus
+Thu Jun  1 16:22:44 2023 daemon.info dnsmasq[10732]: started, version 2.85 cachesize 150
+Thu Jun  1 16:22:44 2023 daemon.info dnsmasq[10732]: compile time options: IPv6 GNU-getopt no-DBus UBus no-i18n no-IDN DHCP DHCPv6 no-Lua TFTP conntrack ipset auth cryptohash DNSSEC no-ID loop-detect inotify dumpfile
+Thu Jun  1 16:22:44 2023 daemon.info dnsmasq[10732]: UBus support enabled: connected to system bus
+Thu Jun  1 16:22:44 2023 daemon.info dnsmasq[10732]: using only locally-known addresses for domain test
+Thu Jun  1 16:22:44 2023 daemon.info dnsmasq[10732]: using only locally-known addresses for domain onion
+Thu Jun  1 16:22:44 2023 daemon.info dnsmasq[10732]: using only locally-known addresses for domain localhost
+Thu Jun  1 16:22:44 2023 daemon.info dnsmasq[10732]: using only locally-known addresses for domain local
+Thu Jun  1 16:22:44 2023 daemon.info dnsmasq[10732]: using only locally-known addresses for domain invalid
+Thu Jun  1 16:22:44 2023 daemon.info dnsmasq[10732]: using only locally-known addresses for domain bind
+Thu Jun  1 16:22:44 2023 daemon.info dnsmasq[10732]: using only locally-known addresses for domain lan
+Thu Jun  1 16:22:44 2023 daemon.info dnsmasq[10732]: reading /tmp/resolv.conf.d/resolv.conf.auto
+Thu Jun  1 16:22:44 2023 daemon.info dnsmasq[10732]: using only locally-known addresses for domain test
+Thu Jun  1 16:22:44 2023 daemon.info dnsmasq[10732]: using only locally-known addresses for domain onion
+Thu Jun  1 16:22:44 2023 daemon.info dnsmasq[10732]: using only locally-known addresses for domain localhost
+Thu Jun  1 16:22:44 2023 daemon.info dnsmasq[10732]: using only locally-known addresses for domain local
+Thu Jun  1 16:22:44 2023 daemon.info dnsmasq[10732]: using only locally-known addresses for domain invalid
+Thu Jun  1 16:22:44 2023 daemon.info dnsmasq[10732]: using only locally-known addresses for domain bind
+Thu Jun  1 16:22:44 2023 daemon.info dnsmasq[10732]: using only locally-known addresses for domain lan
+Thu Jun  1 16:22:44 2023 daemon.info dnsmasq[10732]: using nameserver 8.8.8.8#53
+Thu Jun  1 16:22:44 2023 daemon.info dnsmasq[10732]: using nameserver 8.8.8.8#53
+Thu Jun  1 16:22:44 2023 daemon.info dnsmasq[10732]: read /etc/hosts - 4 addresses
+Thu Jun  1 16:22:44 2023 daemon.info dnsmasq[10732]: read /tmp/hosts/dhcp.cfg01411c - 0 addresses
+Thu Jun  1 16:22:44 2023 daemon.debug dnsmasq[10732]: UBus subscription callback: 1 subscriber(s)
+Thu Jun  1 16:22:44 2023 daemon.notice hostapd: nl80211: Failed to remove interface wlan1-1 from bridge up: No such device
+Thu Jun  1 16:22:44 2023 daemon.notice hostapd: wlan1: AP-DISABLED
+Thu Jun  1 16:22:44 2023 daemon.notice hostapd: wlan1: CTRL-EVENT-TERMINATING
+Thu Jun  1 16:22:44 2023 daemon.info usteer: remove hostapd.wlan1
+Thu Jun  1 16:22:44 2023 daemon.notice hostapd: nl80211: deinit ifname=wlan1 disabled_11b_rates=0
+Thu Jun  1 16:22:44 2023 daemon.notice hostapd: nl80211: Failed to remove interface wlan1 from bridge up: Invalid argument
+Thu Jun  1 16:22:44 2023 daemon.notice hostapd: Remove interface 'wlan0'
+Thu Jun  1 16:22:44 2023 daemon.notice hostapd: wlan0: interface state ENABLED->DISABLED
+Thu Jun  1 16:22:44 2023 daemon.notice hostapd: wlan0-2: AP-DISABLED
+Thu Jun  1 16:22:44 2023 daemon.notice hostapd: wlan0-2: CTRL-EVENT-TERMINATING
+Thu Jun  1 16:22:44 2023 daemon.info usteer: remove hostapd.wlan0-2
+Thu Jun  1 16:22:44 2023 daemon.notice hostapd: nl80211: Failed to remove interface wlan0-2 from bridge up: No such device
+Thu Jun  1 16:22:44 2023 daemon.notice hostapd: wlan0-1: AP-DISABLED
+Thu Jun  1 16:22:44 2023 daemon.notice hostapd: wlan0-1: CTRL-EVENT-TERMINATING
+Thu Jun  1 16:22:44 2023 daemon.info usteer: remove hostapd.wlan0-1
+Thu Jun  1 16:22:44 2023 daemon.notice netifd: Wireless device 'radio1' is now down
+Thu Jun  1 16:22:44 2023 daemon.notice hostapd: nl80211: Failed to remove interface wlan0-1 from bridge up: No such device
+Thu Jun  1 16:22:44 2023 daemon.notice netifd: Wireless device 'radio1' is now up
+Thu Jun  1 16:22:44 2023 daemon.notice hostapd: wlan0: AP-DISABLED
+Thu Jun  1 16:22:44 2023 daemon.notice hostapd: wlan0: CTRL-EVENT-TERMINATING
+Thu Jun  1 16:22:44 2023 daemon.info usteer: remove hostapd.wlan0
+Thu Jun  1 16:22:45 2023 daemon.warn lldpd[8958]: unable to unlink /var/run/lldpd.socket: No such file or directory
+Thu Jun  1 16:22:45 2023 daemon.notice hostapd: nl80211: deinit ifname=wlan0 disabled_11b_rates=0
+Thu Jun  1 16:22:45 2023 daemon.notice hostapd: nl80211: Failed to remove interface wlan0 from bridge up: Invalid argument
+Thu Jun  1 16:22:45 2023 daemon.info lldpd[11220]: no libcap support, running monitor as root
+Thu Jun  1 16:22:45 2023 daemon.info lldpd[11223]: protocol LLDP enabled
+Thu Jun  1 16:22:45 2023 daemon.info lldpd[11223]: protocol CDPv1 disabled
+Thu Jun  1 16:22:45 2023 daemon.info lldpd[11223]: protocol CDPv2 disabled
+Thu Jun  1 16:22:45 2023 daemon.info lldpd[11223]: protocol SONMP disabled
+Thu Jun  1 16:22:45 2023 daemon.info lldpd[11223]: protocol EDP disabled
+Thu Jun  1 16:22:45 2023 daemon.info lldpd[11223]: protocol FDP disabled
+Thu Jun  1 16:22:45 2023 daemon.info lldpd[11223]: libevent 2.1.12-stable initialized with epoll method
+Thu Jun  1 16:22:45 2023 authpriv.info dropbear[8979]: Early exit: Terminated by signal
+Thu Jun  1 16:22:45 2023 authpriv.info dropbear[11261]: Not backgrounding
+Thu Jun  1 16:22:45 2023 daemon.info usteer: stopping
+Thu Jun  1 16:22:45 2023 daemon.warn lldpd[11220]: unable to bind to raw socket for interface wlan0: No such device
+Thu Jun  1 16:22:45 2023 daemon.warn lldpd[11223]: unable to initialize wlan0
+Thu Jun  1 16:22:45 2023 daemon.info usteer: loaded policy "snr"
+Thu Jun  1 16:22:45 2023 daemon.notice netifd: Wireless device 'radio0' is now down
+Thu Jun  1 16:22:45 2023 daemon.info dnsmasq[10732]: exiting on receipt of SIGTERM
+Thu Jun  1 16:22:45 2023 daemon.warn lldpd[11223]: cannot get ethtool link information with GLINKSETTINGS (requires 4.9+). 25G+ speeds may be missing in MAC/PHY TLVs
+Thu Jun  1 16:22:45 2023 user.notice dnsmasq: DNS rebinding protection is active, will discard upstream RFC1918 responses!
+Thu Jun  1 16:22:45 2023 user.notice dnsmasq: Allowing 127.0.0.0/8 responses
+Thu Jun  1 16:22:45 2023 daemon.info lldpd[11220]: unable to get system name
+Thu Jun  1 16:22:45 2023 daemon.warn lldpd[11220]: unable to bind to raw socket for interface wlan0: No such device
+Thu Jun  1 16:22:45 2023 daemon.warn lldpd[11223]: unable to initialize wlan0
+Thu Jun  1 16:22:45 2023 daemon.notice hostapd: Configuration file: /var/run/hostapd-phy0.conf (phy wlan0) --> new PHY
+Thu Jun  1 16:22:45 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","id":863,"result":{"serial":"0006ae6df0db","uuid":1685636562,"status":{"error":1,"text":"Failed","rejected":["[W] (In /radios/0) Selected radio does not support requested HT mode HE80, falling back to HE40","[W] (In /radios/2) Can't find any suitable radio phy for band 6G radio settings"]}}}
+Thu Jun  1 16:22:45 2023 daemon.info ucentral: applied cfg:1685636562
+Thu Jun  1 16:22:45 2023 daemon.info dnsmasq[11624]: Connected to system UBus
+Thu Jun  1 16:22:45 2023 daemon.info dnsmasq[11624]: started, version 2.85 cachesize 150
+Thu Jun  1 16:22:45 2023 daemon.info dnsmasq[11624]: compile time options: IPv6 GNU-getopt no-DBus UBus no-i18n no-IDN DHCP DHCPv6 no-Lua TFTP conntrack ipset auth cryptohash DNSSEC no-ID loop-detect inotify dumpfile
+Thu Jun  1 16:22:45 2023 daemon.info dnsmasq[11624]: UBus support enabled: connected to system bus
+Thu Jun  1 16:22:45 2023 daemon.info dnsmasq[11624]: using only locally-known addresses for domain test
+Thu Jun  1 16:22:45 2023 daemon.info dnsmasq[11624]: using only locally-known addresses for domain onion
+Thu Jun  1 16:22:45 2023 daemon.info dnsmasq[11624]: using only locally-known addresses for domain localhost
+Thu Jun  1 16:22:45 2023 daemon.info dnsmasq[11624]: using only locally-known addresses for domain local
+Thu Jun  1 16:22:45 2023 daemon.info dnsmasq[11624]: using only locally-known addresses for domain invalid
+Thu Jun  1 16:22:45 2023 daemon.info dnsmasq[11624]: using only locally-known addresses for domain bind
+Thu Jun  1 16:22:45 2023 daemon.info dnsmasq[11624]: using only locally-known addresses for domain lan
+Thu Jun  1 16:22:45 2023 daemon.info dnsmasq[11624]: reading /tmp/resolv.conf.d/resolv.conf.auto
+Thu Jun  1 16:22:45 2023 daemon.info dnsmasq[11624]: using only locally-known addresses for domain test
+Thu Jun  1 16:22:45 2023 daemon.info dnsmasq[11624]: using only locally-known addresses for domain onion
+Thu Jun  1 16:22:45 2023 daemon.info dnsmasq[11624]: using only locally-known addresses for domain localhost
+Thu Jun  1 16:22:45 2023 daemon.info dnsmasq[11624]: using only locally-known addresses for domain local
+Thu Jun  1 16:22:45 2023 daemon.info dnsmasq[11624]: using only locally-known addresses for domain invalid
+Thu Jun  1 16:22:45 2023 daemon.info dnsmasq[11624]: using only locally-known addresses for domain bind
+Thu Jun  1 16:22:45 2023 daemon.info dnsmasq[11624]: using only locally-known addresses for domain lan
+Thu Jun  1 16:22:45 2023 daemon.info dnsmasq[11624]: using nameserver 8.8.8.8#53
+Thu Jun  1 16:22:45 2023 daemon.info dnsmasq[11624]: using nameserver 8.8.8.8#53
+Thu Jun  1 16:22:45 2023 daemon.info dnsmasq[11624]: read /etc/hosts - 4 addresses
+Thu Jun  1 16:22:45 2023 daemon.info dnsmasq[11624]: read /tmp/hosts/dhcp.cfg01411c - 0 addresses
+Thu Jun  1 16:22:45 2023 daemon.debug dnsmasq[11624]: UBus subscription callback: 1 subscriber(s)
+Thu Jun  1 16:22:45 2023 daemon.info lldpd[11220]: unable to get system name
+Thu Jun  1 16:22:45 2023 kern.info kernel: [ 8729.194288] IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Thu Jun  1 16:22:45 2023 kern.info kernel: [ 8729.195979] device wlan0 entered promiscuous mode
+Thu Jun  1 16:22:45 2023 kern.info kernel: [ 8729.199427] up: port 3(wlan0) entered forwarding state
+Thu Jun  1 16:22:45 2023 kern.info kernel: [ 8729.203931] up: port 3(wlan0) entered forwarding state
+Thu Jun  1 16:22:45 2023 daemon.notice hostapd: wlan0: interface state UNINITIALIZED->COUNTRY_UPDATE
+Thu Jun  1 16:22:45 2023 daemon.notice hostapd: ACS: Automatic channel selection started, this may take a bit
+Thu Jun  1 16:22:45 2023 daemon.notice hostapd: wlan0: interface state COUNTRY_UPDATE->ACS
+Thu Jun  1 16:22:45 2023 daemon.notice hostapd: wlan0: ACS-STARTED
+Thu Jun  1 16:22:45 2023 daemon.info lldpd[11220]: unable to get system name
+Thu Jun  1 16:22:45 2023 daemon.info lldpcli[11222]: iface-pattern set to new value eth0,eth1,eth0,eth1
+Thu Jun  1 16:22:45 2023 daemon.info lldpd[11220]: unable to get system name
+Thu Jun  1 16:22:45 2023 daemon.info lldpd[11220]: unable to get system name
+Thu Jun  1 16:22:45 2023 daemon.info lldpcli[11222]: description set to new value TIP OpenWiFi
+Thu Jun  1 16:22:45 2023 daemon.info lldpcli[11222]: system name set to new value HFCL ION4Xi
+Thu Jun  1 16:22:45 2023 daemon.info lldpcli[11222]: lldpd should resume operations
+Thu Jun  1 16:22:45 2023 kern.info kernel: [ 8729.546509] up: port 3(wlan0) entered disabled state
+Thu Jun  1 16:22:46 2023 daemon.notice netifd: Wireless device 'radio0' is now up
+Thu Jun  1 16:22:47 2023 daemon.info lldpd[11223]: interface 108 does not have a name or an address, skip
+Thu Jun  1 16:22:47 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJytVNtupDAM/Zc8U+pccAK/UlVVCkFF5aYQRq2q+ffaMKsy7e5oHyoeII4vx8fHfIh17RpRSXQFaixQZWIJsfO9qAQAoA/YtNA8C7Inn4KoPsQ6donfQxim+M5faUocYTRKa5xxmWhjIF+FaMCWGjNR+/olUCVVYAlSUp3ntW1DZJtzqK0x50z0U+371A3hAMlmYp13m7NasZOnoAfIlQGlXQY5mNJBwR8SpTSPmUhhmEP0aY0U9oAyQ/VI+bsxhdj6Oixk/RCj56yUHk4g9uqpm0Yy3X953vNVN58Md+qbJoZl2eKFtCqXmCtlc3MvUVDdPvgl7GARIBPNSz0/EaOnECnrJQByKc5fXSldSPIcl4vjltvl28M562llMAvXj29Ps69fQ6JTAU6DLajZg1EaC0bSBMjz+T0xUIuAWGip5eZ6sSoKVYquNtcQ48QVYHM5nOiuidM885z2y+NxWGlatV9ID7pgpH3fLcQgx57P2YFheZJwg2N5k2NLlBX2/ym23ymWJeqbFPddGNMuisHXm/gpexWgcnWFTRXsBeDT3xTA1bJj6cfNGa+d2+Cg2h+15W7bimycn9JTyDzFDYMI6QW2VolZQhxGpvOGEhTSWn3TQWkLOKpAOmmMLeGoAWmdKY1VvyQBqfCHBriLbny9+/p7zEuKwQ/8vfVJ79rH2PH4SKHLHDgzqYVnu859eKNxtGvfixurQFuvlPu+CiUYi0cStC5Y9uayNX9WQcsClDX2l3gwaH7uAjcrr5qFf/cD151cDfJqgvBLkOEHYIbc9818R/PYAR4mx5e8Rtsiy/P5E8AN8TY=","compress_sz":1608}}
+Thu Jun  1 16:22:49 2023 daemon.info lldpd[11223]: interface 108 does not have a name or an address, skip
+Thu Jun  1 16:22:51 2023 daemon.info lldpd[11223]: interface 108 does not have a name or an address, skip
+Thu Jun  1 16:22:53 2023 daemon.info lldpd[11223]: interface 108 does not have a name or an address, skip
+Thu Jun  1 16:22:56 2023 daemon.info lldpd[11223]: interface 108 does not have a name or an address, skip
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing noise floor
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing channel time
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing RX and busy time (at least one is required)
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing noise floor
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing channel time
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing RX and busy time (at least one is required)
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing noise floor
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing channel time
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing RX and busy time (at least one is required)
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing noise floor
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing channel time
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing RX and busy time (at least one is required)
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing noise floor
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing channel time
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing RX and busy time (at least one is required)
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing noise floor
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing channel time
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing RX and busy time (at least one is required)
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing noise floor
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing channel time
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing RX and busy time (at least one is required)
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing noise floor
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing channel time
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing RX and busy time (at least one is required)
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing noise floor
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing channel time
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing RX and busy time (at least one is required)
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing noise floor
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing channel time
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing RX and busy time (at least one is required)
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing noise floor
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing channel time
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing RX and busy time (at least one is required)
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing noise floor
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing channel time
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing RX and busy time (at least one is required)
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing noise floor
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing channel time
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing RX and busy time (at least one is required)
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing noise floor
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing channel time
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing RX and busy time (at least one is required)
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing noise floor
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing channel time
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing RX and busy time (at least one is required)
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing noise floor
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing channel time
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing RX and busy time (at least one is required)
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing noise floor
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing channel time
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing RX and busy time (at least one is required)
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing noise floor
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing channel time
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing RX and busy time (at least one is required)
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing noise floor
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing channel time
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing RX and busy time (at least one is required)
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing noise floor
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing channel time
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing RX and busy time (at least one is required)
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing noise floor
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing channel time
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing RX and busy time (at least one is required)
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing noise floor
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing channel time
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing RX and busy time (at least one is required)
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing noise floor
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing channel time
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing RX and busy time (at least one is required)
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing noise floor
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing channel time
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: ACS: Survey is missing RX and busy time (at least one is required)
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: wlan0: ACS-COMPLETED freq=5745 channel=149
+Thu Jun  1 16:22:56 2023 daemon.info hostapd: wlan0: RADIUS Authentication server 3.20.165.131:1812
+Thu Jun  1 16:22:56 2023 daemon.info hostapd: wlan0: RADIUS Accounting server 3.20.165.131:1813
+Thu Jun  1 16:22:56 2023 kern.info kernel: [ 8739.773170] ath11k c000000.wifi: bss color param 0x81000000 set on vdev 0
+Thu Jun  1 16:22:56 2023 kern.info kernel: [ 8739.773863] IPv6: ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+Thu Jun  1 16:22:56 2023 daemon.notice netifd: Network device 'wlan0' link is up
+Thu Jun  1 16:22:56 2023 kern.info kernel: [ 8739.779064] up: port 3(wlan0) entered forwarding state
+Thu Jun  1 16:22:56 2023 kern.info kernel: [ 8739.785386] up: port 3(wlan0) entered forwarding state
+Thu Jun  1 16:22:56 2023 daemon.info usteer: add hostapd.wlan0
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: wlan0: interface state ACS->ENABLED
+Thu Jun  1 16:22:56 2023 daemon.notice hostapd: wlan0: AP-ENABLED
+Thu Jun  1 16:23:04 2023 kern.info kernel: [ 8747.786431] up: port 3(wlan0) entered forwarding state
+Thu Jun  1 16:23:48 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJy1VVty2zAMvAvbT9UGKb6sC/QQGY+HkahaE71KUXY7Gd+9AOU0StJ48pHGHyJBEFgsFswjm+emYgXXVulcKy0yNvnQuJYVDAC087qqobpnaI8uelY8srlvIn073w3hN63iEOmGzDU30kqbsTp49BVaW6kFoKF05dFjJqG01cB1xu7nuvaBbNbq3Eh5yVg7lK6NTef/QtICL8/jYrNmJ8jJ4aU72IDVUpgMF7kFmxYchJL7jEXfjT64OAe8dqd5psUe4wdXNcOElkdWHl3fe0TN5S572tER7blS+1TEz9n3JdZ4p4xUmTKG7Ffnw7mp4hFRAeb7dRiHsw9YoEGq5nDydAudxyMu2Ni6WA+h205DuS0h/W3OTd2wV1gVFnjveiqQqe9sf8EQTR99qF3pF+S9Iy6QFDgBWziLzdCjafvsuaWjZjxJ6o+rquCnKd1n3IgN1xshzEZuuWaYoPVu8gvFGrCa6liOB9TBiQp6ugAbzi7PvRCSc/Tsp6tjim036Ucxy2EmMBPlD8iOKx98xJ0Cm4OxC2VPRi4NUCvJ8/53JKBGg9Yqz/kuuV6tAowSUuYyufoQBsqwNGC1w7MqDONI6loO19tuRo2VbkIV54qQtm0zIYN093LJVgzzE4cbHPObHBukTJmPU2zeUAwiv0lx2/g+LqLoXJlGFqMXHgpbFroqvLkCPPxLAZQtW6feJ2f90rn2ForlJ1Lsui7QRvExPAl8CAkD8/EIqVRkFhH7nujE/TQ11QIyjR+R9TX4GuF+2S4DiWK9fGRSlsGguXi/JduULsmfVnhMn8N5dMIf1A80d0NF3XUjRbz6IHGgC+eJtRqK0rH3x7+hTHjn3Lqe0ryndHilcb6WN6xVzQXAJwka3uj5xiwKjc/xK5Q7o2ANlFsupdm9xGus3EkjPgkzF/pfqNumf/
+Thu Jun  1 16:24:00 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 8.8.8.8
+Thu Jun  1 16:24:00 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 8.8.8.8
+Thu Jun  1 16:24:00 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"healthcheck","params":{"serial":"0006ae6df0db","uuid":1685636562,"sanity":100,"data":{"unit":{"memory":39}}}}
+Thu Jun  1 16:24:18 2023 user.notice root: stop testcase: X9LSFB2V6
+Thu Jun  1 16:24:26 2023 user.notice root: start testcase: CWGIHTT9T
+Thu Jun  1 16:24:32 2023 daemon.notice netifd: Network device 'eth0' link is down
+Thu Jun  1 16:24:32 2023 kern.info kernel: [ 8835.876345] nss-dp 3a001600.dp1 eth0: PHY Link is down
+Thu Jun  1 16:24:32 2023 kern.info kernel: [ 8835.876594] up: port 1(eth0) entered disabled state
+Thu Jun  1 16:24:34 2023 daemon.notice netifd: Network device 'eth0' link is up
+Thu Jun  1 16:24:34 2023 kern.info kernel: [ 8837.876360] nss-dp 3a001600.dp1 eth0: PHY Link up speed: 1000
+Thu Jun  1 16:24:34 2023 kern.info kernel: [ 8837.876431] up: port 1(eth0) entered forwarding state
+Thu Jun  1 16:24:34 2023 kern.info kernel: [ 8837.881128] up: port 1(eth0) entered forwarding state
+Thu Jun  1 16:24:42 2023 kern.info kernel: [ 8845.906232] up: port 1(eth0) entered forwarding state
+Thu Jun  1 16:24:48 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJy1VVty2zAMvAvbT9UGKb6kC/QQGY+HoahaU71KUXY7Gd+9gOQ0jtt48pHGHyJBEFgsFswTm+emYiXXVulcKy0yNoXYuJaVDAC0C7qqoXpkaE8uBVY+sblvEn270A3xF63SkOiGzDU30kqbsToG9BXagBB5rjPmnT8EzCSUtho4Wh7nug6RbNbq3Eh5zlg7eNempgt/IGmL0eZxtVmrBDk5vPQAGzBcFJDhQuZSWVpwEEruMpZCN4bo0hzx2oOGTPMdxo+uaoYJLU/MH1zfB0TNZZE97+iI9lyp3VLEjzn0Hmt8UEaqTBlD9ovz/tRU6YCoAPP93I/DKUQs0CBVczwGuoXO4wEXbGxdqofYbafBbz0sf5tTUzfsBisV+Oh6KpCpr2x3xhBNn0KsnQ8r8t4RF0gKHIGtnKVm6NG0ffHc0lEzHiX1x1VVDNO03GfciA3XGyHMRm65ZpigDW4KK8UasJrq4Mc96uBIBT1fgA1n55deCGk4evbTxXGJbTfLj2L6YSYwE+WPyI7z30PCnQKbQ3Gh7NnIpcEeYqfR8/FXIqBGg9ZKCupO+mMVYJTQVurFNcQ4UIY12tUOz6o4jCOpaz283nYzasy7CVVMOf3Qts2EDNLd8zm7YpgfOdzhmN/l2CBlyryfYvMXxUjVXYrbJvRpFUXn/DKyGL0MUFpf6qoM5gJw/y8FULbsOvVucdavnetgoVx/Yold1yXaKD6GJ4EPccHAQjrAUioyi4hDT3TifpqaagW5jB+R9TmGGuF+2q4DiWI9v2dS1sGguXi7Jdsl3SJ/WuExffan0YmwV9/Q3A0VddeNFPHig8SBLl0g1moovWNvj39DmfDOqXU9pXlL6TcaF+Ja3vBK1aIQHyRo+EvPd2ZRaHyhbyaxMAqugXLLpTL0YL/g5cbKQpqPwszz/F+o26
+Thu Jun  1 16:25:05 2023 daemon.notice netifd: up1v100 (4801): udhcpc: sending renew to 172.17.0.1
+Thu Jun  1 16:25:05 2023 daemon.notice netifd: up1v100 (4801): udhcpc: lease of 172.17.0.57 obtained, lease time 600
+Thu Jun  1 16:25:43 2023 daemon.info hostapd: wlan0: STA 00:0a:52:06:6e:e3 IEEE 802.11: authenticated
+Thu Jun  1 16:25:43 2023 daemon.info hostapd: wlan0: STA 00:0a:52:06:6e:e3 IEEE 802.11: associated (aid 1)
+Thu Jun  1 16:25:43 2023 daemon.notice hostapd: wlan0: CTRL-EVENT-EAP-STARTED 00:0a:52:06:6e:e3
+Thu Jun  1 16:25:43 2023 daemon.notice hostapd: wlan0: CTRL-EVENT-EAP-PROPOSED-METHOD vendor=0 method=1
+Thu Jun  1 16:25:45 2023 daemon.info hostapd: wlan0: STA 00:0a:52:06:6e:e3 RADIUS: VLAN ID 200
+Thu Jun  1 16:25:45 2023 daemon.notice hostapd: wlan0: CTRL-EVENT-EAP-SUCCESS2 00:0a:52:06:6e:e3
+Thu Jun  1 16:25:45 2023 daemon.notice netifd: Network device 'wlan0-v200' link is up
+Thu Jun  1 16:25:45 2023 kern.info kernel: [ 8909.100663] device wlan0-v200 entered promiscuous mode
+Thu Jun  1 16:25:45 2023 kern.info kernel: [ 8909.100765] up: port 4(wlan0-v200) entered forwarding state
+Thu Jun  1 16:25:45 2023 kern.info kernel: [ 8909.104752] up: port 4(wlan0-v200) entered forwarding state
+Thu Jun  1 16:25:45 2023 daemon.info hostapd: wlan0: STA 00:0a:52:06:6e:e3 WPA: pairwise key handshake completed (RSN)
+Thu Jun  1 16:25:45 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 00:0a:52:06:6e:e3
+Thu Jun  1 16:25:45 2023 daemon.info hostapd: wlan0: STA 00:0a:52:06:6e:e3 RADIUS: starting accounting session C3F63C7993867736
+Thu Jun  1 16:25:45 2023 daemon.info hostapd: wlan0: STA 00:0a:52:06:6e:e3 IEEE 802.1X: authenticated - EAP type: 21 (TTLS)
+Thu Jun  1 16:25:48 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJy1Vttu2zgQ/Rd2HxWbFK/WD/QjgsCgKSomKktairJbBP73nRGdRHYTowWy9oOo4XAuZ2YO9UKmKdSkYspIxZVUZUFGH4NtSUUopcp6VTe03hGQJ5s8qV7I1IWEz4M/9PEXrlKf8ITgimlhhClIEz3olkoZTbURBXHW7T14KqUyijJVkN3UND6izBjFtRDngrS9s20KB/8WkkZr05BlZsNKVLJw6JGuaCkEEwUsONN8gwsq+EY+FST5w+CjTVOEY4+KFYo9gf1o69CPIHkhbm+7zkPUTGyK1zfcwncm0Qgk8e/kOwc5PkotZCG1RvlFeXsKddpDVBT8/dwO/clHSFADVFM8ejwFysMeFmRobWr6eFiPvVs7Ov9Wp9AEchOrhAR3tsMEifxOns5gInTJx8Y6nyPvLGIBoNAjJRmzFPoOROt3zTVuheEosD62rqMfx/k8YbpcMbUqS70Sa6YIOGi9HX2GWFHIpt67YQt9cMSEXg/QFSPn91qUkjPQ7MaL4mzbrOY/2nT9hMGM6D8COtb98AneJDWcUZUhexUyoamQUAfQ3P1KGKhWVClplNaz6kVaUi15aZSYVX2MPXrIBVi8wV4d+2HA7sqby9fDBD3m7AhdzA1G2rZhBATx7PlcLBBmR0bvYMzuYqwBMqn/HGL9G8RM8LsQt8F3KTfFwbp5ZMF65WllXKXqyutLgNuPOgC9FUvXT7OyulZuvKFV/pez7aapQIb2wTw2eB/nGIhPezqnCshCxL5DOItFaNRCe1dUVcpXnn8emlkB6iso9ZX5U2s7mgdiHEOd054HGuH/J/oGvHxb5xGH9j//yezlUcNJ+7zI69ndPFC4gm18bE+DLf1WPoP40NfYL3ZAixcdzFdV1mMdGlo5Sz4nFDtCaGF2ntO6ZwR5OEf5EaSuB2pyCTtdIHNYl8
+Thu Jun  1 16:25:53 2023 kern.info kernel: [ 8917.106091] up: port 4(wlan0-v200) entered forwarding state
+Thu Jun  1 16:26:00 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 8.8.8.8
+Thu Jun  1 16:26:00 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 8.8.8.8
+Thu Jun  1 16:26:00 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"healthcheck","params":{"serial":"0006ae6df0db","uuid":1685636562,"sanity":100,"data":{"unit":{"memory":39}}}}
+Thu Jun  1 16:26:31 2023 daemon.notice hostapd: wlan0: AP-STA-DISCONNECTED 00:0a:52:06:6e:e3
+Thu Jun  1 16:26:31 2023 daemon.info hostapd: wlan0: STA 00:0a:52:06:6e:e3 RADIUS: stopped accounting session C3F63C7993867736
+Thu Jun  1 16:26:31 2023 daemon.notice netifd: Network device 'wlan0-v200' link is down
+Thu Jun  1 16:26:31 2023 kern.info kernel: [ 8954.917789] up: port 4(wlan0-v200) entered disabled state
+Thu Jun  1 16:26:31 2023 kern.info kernel: [ 8954.966538] device wlan0-v200 left promiscuous mode
+Thu Jun  1 16:26:31 2023 kern.info kernel: [ 8954.966574] up: port 4(wlan0-v200) entered disabled state
+Thu Jun  1 16:26:34 2023 user.notice root: stop testcase: CWGIHTT9T
+Thu Jun  1 16:26:45 2023 user.notice root: start testcase: OUHFOI94Q
+Thu Jun  1 16:26:48 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJytVdty2zgM/RduH1UbpHiTfmA/IpPxMBJVa6pbKcpuJ+N/X4ByNnLSePIQ6UEkCAIHhwfUM1uWtmYl11bpXCstMjb70LqOlQwAtPO6bqB+YmiPLnpWPrNlaCN9e9+P4Q+N4hhph8w1N9JKm7EmePQV2khhrISMVa46eswklLYauM7Y09I0PpDNWp0bKS8Z68bKdbHt/f+QLGC0ZVpttjCCnBxueoAdaFlIkeEgL5TiNACJw8eMRd9PPri4BNz2oHmmxSPGD65uxxktz6w6umHwiJrLInuZ0RLNuaIgWMSvxQ8V1vigjFSZMobsV+fDua3jEVFhefH3YRrPPmCBBqlawsnTLnSejjhgU+diM4Z+P4/VvoL07M5t07I3WBUW+OQGKpCpf9njBUO0Q/ShcZVfkQ+OuEBS4ARs5Sy244Cm/avnnpba6STpfFxdBz/PaT/jRuy43glhdnLPNcMEnXezXynWgNXUx2o6oA5OVNDLBthxdnk9C6EKjp7DfHVMse0uvRSzGhcCM1P+gOy46qePOFNgc86LlbIXI5cGpEEjej79iQTUaNBaFVqo5Hq1CjAKdapMcvUhjJRhPYDNDNfqME4TqWtd3E77BTVWuRlVnFtC2nXtjAzS3ssl2zDMTxzucMzvcmyQMmU+T7F5R7GA/C7FXeuHuIqid1VqWYxeeihtVeq69OYK8PA3BVC2bJv6MTnrW+fGWyjXV6TYTVOijeJjeBL4GBIG5uMRUqnILCL2A9GJ83lu6xVkaj8i61vwDcL9Z782JIr18plOWRuD+uLjI9mndEn+NMJl+hzOkxP+oH6guR9rOl03UcSrDxIHunSeWGugrBz7uP1byoR7zp0bKM1HSudwK3Ipt/q2Rm+FrTWIL9I0vJP0nXYUWhj+phkLg5fpBiq3XKrCii1ejtd6obj8Is
+Thu Jun  1 16:26:53 2023 daemon.debug ucentral: RX: {"id":864,"jsonrpc":"2.0","method":"configure","params":{"config":{"interfaces":[{"ethernet":[{"select-ports":["WAN*"]}],"ipv4":{"addressing":"dynamic"},"name":"WAN","role":"upstream","services":["lldp","ssh","dhcp-snooping"]},{"ethernet":[{"select-ports":["WAN*"]}],"ipv4":{"addressing":"dynamic"},"name":"WANv100","role":"upstream","services":["lldp","dhcp-snooping"],"ssids":[{"bss-mode":"ap","encryption":{"ieee80211w":"optional","key":"something","proto":"wpa2"},"name":"ssid_wpa2e_5g","radius":{"accounting":{"host":"3.20.165.131","port":1813,"secret":"testing123"},"authentication":{"host":"3.20.165.131","port":1812,"secret":"testing123"}},"services":["wifi-frames"],"wifi-bands":["5G"]}],"vlan":{"id":100}}],"metrics":{"dhcp-snooping":{"filters":["ack","discover","offer","request","solicit","reply","renew"]},"health":{"interval":120},"statistics":{"interval":60,"types":["ssids","lldp","clients"]},"wifi-frames":{"filters":["probe","auth","assoc","disassoc","deauth","local-deau
+Thu Jun  1 16:26:53 2023 daemon.info ucentral: applying cfg:1685636813
+Thu Jun  1 16:26:53 2023 daemon.info ucentral: config_init latest:1685636813 active:1685636562
+Thu Jun  1 16:26:53 2023 daemon.info ucentral: running apply task
+Thu Jun  1 16:26:54 2023 daemon.info dnsmasq[11624]: exiting on receipt of SIGTERM
+Thu Jun  1 16:26:54 2023 user.notice dnsmasq: DNS rebinding protection is active, will discard upstream RFC1918 responses!
+Thu Jun  1 16:26:54 2023 user.notice dnsmasq: Allowing 127.0.0.0/8 responses
+Thu Jun  1 16:26:54 2023 daemon.info dnsmasq[12418]: Connected to system UBus
+Thu Jun  1 16:26:54 2023 daemon.info dnsmasq[12418]: started, version 2.85 cachesize 150
+Thu Jun  1 16:26:54 2023 daemon.info dnsmasq[12418]: compile time options: IPv6 GNU-getopt no-DBus UBus no-i18n no-IDN DHCP DHCPv6 no-Lua TFTP conntrack ipset auth cryptohash DNSSEC no-ID loop-detect inotify dumpfile
+Thu Jun  1 16:26:54 2023 daemon.info dnsmasq[12418]: UBus support enabled: connected to system bus
+Thu Jun  1 16:26:54 2023 daemon.info dnsmasq[12418]: using only locally-known addresses for domain test
+Thu Jun  1 16:26:54 2023 daemon.info dnsmasq[12418]: using only locally-known addresses for domain onion
+Thu Jun  1 16:26:54 2023 daemon.info dnsmasq[12418]: using only locally-known addresses for domain localhost
+Thu Jun  1 16:26:54 2023 daemon.info dnsmasq[12418]: using only locally-known addresses for domain local
+Thu Jun  1 16:26:54 2023 daemon.info dnsmasq[12418]: using only locally-known addresses for domain invalid
+Thu Jun  1 16:26:54 2023 daemon.info dnsmasq[12418]: using only locally-known addresses for domain bind
+Thu Jun  1 16:26:54 2023 daemon.info dnsmasq[12418]: using only locally-known addresses for domain lan
+Thu Jun  1 16:26:54 2023 daemon.info dnsmasq[12418]: reading /tmp/resolv.conf.d/resolv.conf.auto
+Thu Jun  1 16:26:54 2023 daemon.info dnsmasq[12418]: using only locally-known addresses for domain test
+Thu Jun  1 16:26:54 2023 daemon.info dnsmasq[12418]: using only locally-known addresses for domain onion
+Thu Jun  1 16:26:54 2023 daemon.info dnsmasq[12418]: using only locally-known addresses for domain localhost
+Thu Jun  1 16:26:54 2023 daemon.info dnsmasq[12418]: using only locally-known addresses for domain local
+Thu Jun  1 16:26:54 2023 daemon.info dnsmasq[12418]: using only locally-known addresses for domain invalid
+Thu Jun  1 16:26:54 2023 daemon.info dnsmasq[12418]: using only locally-known addresses for domain bind
+Thu Jun  1 16:26:54 2023 daemon.info dnsmasq[12418]: using only locally-known addresses for domain lan
+Thu Jun  1 16:26:54 2023 daemon.info dnsmasq[12418]: using nameserver 8.8.8.8#53
+Thu Jun  1 16:26:54 2023 daemon.info dnsmasq[12418]: using nameserver 8.8.8.8#53
+Thu Jun  1 16:26:54 2023 daemon.info dnsmasq[12418]: read /etc/hosts - 4 addresses
+Thu Jun  1 16:26:54 2023 daemon.info dnsmasq[12418]: read /tmp/hosts/dhcp.cfg01411c - 0 addresses
+Thu Jun  1 16:26:54 2023 daemon.debug dnsmasq[12418]: UBus subscription callback: 1 subscriber(s)
+Thu Jun  1 16:26:55 2023 daemon.notice netifd: Wireless device 'radio1' is now down
+Thu Jun  1 16:26:55 2023 daemon.notice hostapd: Remove interface 'wlan0'
+Thu Jun  1 16:26:55 2023 daemon.notice hostapd: wlan0: interface state ENABLED->DISABLED
+Thu Jun  1 16:26:55 2023 daemon.notice hostapd: wlan0: AP-DISABLED
+Thu Jun  1 16:26:55 2023 daemon.notice hostapd: wlan0: CTRL-EVENT-TERMINATING
+Thu Jun  1 16:26:55 2023 daemon.info usteer: remove hostapd.wlan0
+Thu Jun  1 16:26:55 2023 daemon.notice hostapd: nl80211: deinit ifname=wlan0 disabled_11b_rates=0
+Thu Jun  1 16:26:55 2023 daemon.notice netifd: Wireless device 'radio1' is now up
+Thu Jun  1 16:26:55 2023 kern.info kernel: [ 8978.716367] device wlan0 left promiscuous mode
+Thu Jun  1 16:26:55 2023 kern.info kernel: [ 8978.716419] up: port 3(wlan0) entered disabled state
+Thu Jun  1 16:26:55 2023 user.notice root: ratelimit reload
+Thu Jun  1 16:26:55 2023 daemon.notice netifd: Network device 'wlan0' link is down
+Thu Jun  1 16:26:55 2023 daemon.info dnsmasq[12418]: exiting on receipt of SIGTERM
+Thu Jun  1 16:26:55 2023 user.notice dnsmasq: DNS rebinding protection is active, will discard upstream RFC1918 responses!
+Thu Jun  1 16:26:55 2023 user.notice dnsmasq: Allowing 127.0.0.0/8 responses
+Thu Jun  1 16:26:55 2023 daemon.info dnsmasq[12741]: Connected to system UBus
+Thu Jun  1 16:26:55 2023 daemon.info dnsmasq[12741]: started, version 2.85 cachesize 150
+Thu Jun  1 16:26:55 2023 daemon.info dnsmasq[12741]: compile time options: IPv6 GNU-getopt no-DBus UBus no-i18n no-IDN DHCP DHCPv6 no-Lua TFTP conntrack ipset auth cryptohash DNSSEC no-ID loop-detect inotify dumpfile
+Thu Jun  1 16:26:55 2023 daemon.info dnsmasq[12741]: UBus support enabled: connected to system bus
+Thu Jun  1 16:26:55 2023 daemon.info dnsmasq[12741]: using only locally-known addresses for domain test
+Thu Jun  1 16:26:55 2023 daemon.info dnsmasq[12741]: using only locally-known addresses for domain onion
+Thu Jun  1 16:26:55 2023 daemon.info dnsmasq[12741]: using only locally-known addresses for domain localhost
+Thu Jun  1 16:26:55 2023 daemon.info dnsmasq[12741]: using only locally-known addresses for domain local
+Thu Jun  1 16:26:55 2023 daemon.info dnsmasq[12741]: using only locally-known addresses for domain invalid
+Thu Jun  1 16:26:55 2023 daemon.info dnsmasq[12741]: using only locally-known addresses for domain bind
+Thu Jun  1 16:26:55 2023 daemon.info dnsmasq[12741]: using only locally-known addresses for domain lan
+Thu Jun  1 16:26:55 2023 daemon.info dnsmasq[12741]: reading /tmp/resolv.conf.d/resolv.conf.auto
+Thu Jun  1 16:26:55 2023 daemon.info dnsmasq[12741]: using only locally-known addresses for domain test
+Thu Jun  1 16:26:55 2023 daemon.info dnsmasq[12741]: using only locally-known addresses for domain onion
+Thu Jun  1 16:26:55 2023 daemon.info dnsmasq[12741]: using only locally-known addresses for domain localhost
+Thu Jun  1 16:26:55 2023 daemon.info dnsmasq[12741]: using only locally-known addresses for domain local
+Thu Jun  1 16:26:55 2023 daemon.info dnsmasq[12741]: using only locally-known addresses for domain invalid
+Thu Jun  1 16:26:55 2023 daemon.info dnsmasq[12741]: using only locally-known addresses for domain bind
+Thu Jun  1 16:26:55 2023 daemon.info dnsmasq[12741]: using only locally-known addresses for domain lan
+Thu Jun  1 16:26:55 2023 daemon.info dnsmasq[12741]: using nameserver 8.8.8.8#53
+Thu Jun  1 16:26:55 2023 daemon.info dnsmasq[12741]: using nameserver 8.8.8.8#53
+Thu Jun  1 16:26:55 2023 daemon.info dnsmasq[12741]: read /etc/hosts - 4 addresses
+Thu Jun  1 16:26:55 2023 daemon.info dnsmasq[12741]: read /tmp/hosts/dhcp.cfg01411c - 0 addresses
+Thu Jun  1 16:26:55 2023 daemon.debug dnsmasq[12741]: UBus subscription callback: 1 subscriber(s)
+Thu Jun  1 16:26:55 2023 daemon.notice netifd: Wireless device 'radio0' is now down
+Thu Jun  1 16:26:55 2023 daemon.notice hostapd: Configuration file: /var/run/hostapd-phy0.conf (phy wlan0) --> new PHY
+Thu Jun  1 16:26:55 2023 kern.info kernel: [ 8979.357926] IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Thu Jun  1 16:26:55 2023 kern.info kernel: [ 8979.359288] device wlan0 entered promiscuous mode
+Thu Jun  1 16:26:55 2023 kern.info kernel: [ 8979.362721] up: port 3(wlan0) entered forwarding state
+Thu Jun  1 16:26:55 2023 kern.info kernel: [ 8979.367615] up: port 3(wlan0) entered forwarding state
+Thu Jun  1 16:26:55 2023 daemon.notice hostapd: wlan0: interface state UNINITIALIZED->COUNTRY_UPDATE
+Thu Jun  1 16:26:55 2023 daemon.notice hostapd: ACS: Automatic channel selection started, this may take a bit
+Thu Jun  1 16:26:55 2023 daemon.notice hostapd: wlan0: interface state COUNTRY_UPDATE->ACS
+Thu Jun  1 16:26:55 2023 daemon.notice hostapd: wlan0: ACS-STARTED
+Thu Jun  1 16:26:56 2023 daemon.warn lldpd[11220]: unable to unlink /var/run/lldpd.socket: No such file or directory
+Thu Jun  1 16:26:56 2023 daemon.info lldpd[13260]: no libcap support, running monitor as root
+Thu Jun  1 16:26:56 2023 daemon.info lldpd[13263]: protocol LLDP enabled
+Thu Jun  1 16:26:56 2023 daemon.info lldpd[13263]: protocol CDPv1 disabled
+Thu Jun  1 16:26:56 2023 daemon.info lldpd[13263]: protocol CDPv2 disabled
+Thu Jun  1 16:26:56 2023 daemon.info lldpd[13263]: protocol SONMP disabled
+Thu Jun  1 16:26:56 2023 daemon.info lldpd[13263]: protocol EDP disabled
+Thu Jun  1 16:26:56 2023 daemon.info lldpd[13263]: protocol FDP disabled
+Thu Jun  1 16:26:56 2023 daemon.info lldpd[13263]: libevent 2.1.12-stable initialized with epoll method
+Thu Jun  1 16:26:56 2023 authpriv.info dropbear[11261]: Early exit: Terminated by signal
+Thu Jun  1 16:26:56 2023 authpriv.info dropbear[13290]: Not backgrounding
+Thu Jun  1 16:26:56 2023 kern.info kernel: [ 8979.815899] up: port 3(wlan0) entered disabled state
+Thu Jun  1 16:26:56 2023 daemon.info usteer: stopping
+Thu Jun  1 16:26:56 2023 daemon.info usteer: loaded policy "snr"
+Thu Jun  1 16:26:56 2023 daemon.info dnsmasq[12741]: exiting on receipt of SIGTERM
+Thu Jun  1 16:26:56 2023 user.notice dnsmasq: DNS rebinding protection is active, will discard upstream RFC1918 responses!
+Thu Jun  1 16:26:56 2023 user.notice dnsmasq: Allowing 127.0.0.0/8 responses
+Thu Jun  1 16:26:56 2023 daemon.warn lldpd[13263]: cannot get ethtool link information with GLINKSETTINGS (requires 4.9+). 25G+ speeds may be missing in MAC/PHY TLVs
+Thu Jun  1 16:26:56 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","id":864,"result":{"serial":"0006ae6df0db","uuid":1685636813,"status":{"error":1,"text":"Failed","rejected":["[W] (In /radios/0) Selected radio does not support requested HT mode HE80, falling back to HE40","[W] (In /radios/2) Can't find any suitable radio phy for band 6G radio settings"]}}}
+Thu Jun  1 16:26:56 2023 daemon.info ucentral: applied cfg:1685636813
+Thu Jun  1 16:26:56 2023 daemon.info dnsmasq[13549]: Connected to system UBus
+Thu Jun  1 16:26:56 2023 daemon.info dnsmasq[13549]: started, version 2.85 cachesize 150
+Thu Jun  1 16:26:56 2023 daemon.info dnsmasq[13549]: compile time options: IPv6 GNU-getopt no-DBus UBus no-i18n no-IDN DHCP DHCPv6 no-Lua TFTP conntrack ipset auth cryptohash DNSSEC no-ID loop-detect inotify dumpfile
+Thu Jun  1 16:26:56 2023 daemon.info dnsmasq[13549]: UBus support enabled: connected to system bus
+Thu Jun  1 16:26:56 2023 daemon.info dnsmasq[13549]: using only locally-known addresses for domain test
+Thu Jun  1 16:26:56 2023 daemon.info dnsmasq[13549]: using only locally-known addresses for domain onion
+Thu Jun  1 16:26:56 2023 daemon.info dnsmasq[13549]: using only locally-known addresses for domain localhost
+Thu Jun  1 16:26:56 2023 daemon.info dnsmasq[13549]: using only locally-known addresses for domain local
+Thu Jun  1 16:26:56 2023 daemon.info dnsmasq[13549]: using only locally-known addresses for domain invalid
+Thu Jun  1 16:26:56 2023 daemon.info dnsmasq[13549]: using only locally-known addresses for domain bind
+Thu Jun  1 16:26:56 2023 daemon.info dnsmasq[13549]: using only locally-known addresses for domain lan
+Thu Jun  1 16:26:56 2023 daemon.info dnsmasq[13549]: reading /tmp/resolv.conf.d/resolv.conf.auto
+Thu Jun  1 16:26:56 2023 daemon.info dnsmasq[13549]: using only locally-known addresses for domain test
+Thu Jun  1 16:26:56 2023 daemon.info dnsmasq[13549]: using only locally-known addresses for domain onion
+Thu Jun  1 16:26:56 2023 daemon.info dnsmasq[13549]: using only locally-known addresses for domain localhost
+Thu Jun  1 16:26:56 2023 daemon.info dnsmasq[13549]: using only locally-known addresses for domain local
+Thu Jun  1 16:26:56 2023 daemon.info dnsmasq[13549]: using only locally-known addresses for domain invalid
+Thu Jun  1 16:26:56 2023 daemon.info dnsmasq[13549]: using only locally-known addresses for domain bind
+Thu Jun  1 16:26:56 2023 daemon.info dnsmasq[13549]: using only locally-known addresses for domain lan
+Thu Jun  1 16:26:56 2023 daemon.info dnsmasq[13549]: using nameserver 8.8.8.8#53
+Thu Jun  1 16:26:56 2023 daemon.info dnsmasq[13549]: using nameserver 8.8.8.8#53
+Thu Jun  1 16:26:56 2023 daemon.info dnsmasq[13549]: read /etc/hosts - 4 addresses
+Thu Jun  1 16:26:56 2023 daemon.info dnsmasq[13549]: read /tmp/hosts/dhcp.cfg01411c - 0 addresses
+Thu Jun  1 16:26:56 2023 daemon.debug dnsmasq[13549]: UBus subscription callback: 1 subscriber(s)
+Thu Jun  1 16:26:56 2023 daemon.info lldpd[13260]: unable to get system name
+Thu Jun  1 16:26:56 2023 daemon.info lldpd[13260]: unable to get system name
+Thu Jun  1 16:26:56 2023 daemon.info lldpd[13260]: unable to get system name
+Thu Jun  1 16:26:56 2023 daemon.info lldpcli[13262]: iface-pattern set to new value eth0,eth1,eth0,eth1
+Thu Jun  1 16:26:56 2023 daemon.info lldpd[13260]: unable to get system name
+Thu Jun  1 16:26:56 2023 daemon.info lldpd[13260]: unable to get system name
+Thu Jun  1 16:26:56 2023 daemon.info lldpcli[13262]: description set to new value TIP OpenWiFi
+Thu Jun  1 16:26:56 2023 daemon.info lldpcli[13262]: system name set to new value HFCL ION4Xi
+Thu Jun  1 16:26:56 2023 daemon.info lldpcli[13262]: lldpd should resume operations
+Thu Jun  1 16:26:56 2023 daemon.notice netifd: Wireless device 'radio0' is now up
+Thu Jun  1 16:26:57 2023 daemon.info lldpd[13263]: interface 111 does not have a name or an address, skip
+Thu Jun  1 16:26:59 2023 daemon.info lldpd[13263]: interface 111 does not have a name or an address, skip
+Thu Jun  1 16:27:02 2023 daemon.info lldpd[13263]: interface 111 does not have a name or an address, skip
+Thu Jun  1 16:27:04 2023 daemon.info lldpd[13263]: interface 111 does not have a name or an address, skip
+Thu Jun  1 16:27:06 2023 daemon.info lldpd[13263]: interface 111 does not have a name or an address, skip
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing noise floor
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing channel time
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing RX and busy time (at least one is required)
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing noise floor
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing channel time
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing RX and busy time (at least one is required)
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing noise floor
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing channel time
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing RX and busy time (at least one is required)
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing noise floor
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing channel time
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing RX and busy time (at least one is required)
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing noise floor
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing channel time
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing RX and busy time (at least one is required)
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing noise floor
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing channel time
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing RX and busy time (at least one is required)
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing noise floor
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing channel time
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing RX and busy time (at least one is required)
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing noise floor
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing channel time
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing RX and busy time (at least one is required)
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing noise floor
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing channel time
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing RX and busy time (at least one is required)
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing noise floor
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing channel time
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing RX and busy time (at least one is required)
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing noise floor
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing channel time
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing RX and busy time (at least one is required)
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing noise floor
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing channel time
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing RX and busy time (at least one is required)
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing noise floor
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing channel time
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing RX and busy time (at least one is required)
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing noise floor
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing channel time
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing RX and busy time (at least one is required)
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing noise floor
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing channel time
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing RX and busy time (at least one is required)
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing noise floor
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing channel time
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing RX and busy time (at least one is required)
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing noise floor
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing channel time
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing RX and busy time (at least one is required)
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing noise floor
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing channel time
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing RX and busy time (at least one is required)
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing noise floor
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing channel time
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing RX and busy time (at least one is required)
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing noise floor
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing channel time
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing RX and busy time (at least one is required)
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing noise floor
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing channel time
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing RX and busy time (at least one is required)
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing noise floor
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing channel time
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing RX and busy time (at least one is required)
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing noise floor
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing channel time
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing RX and busy time (at least one is required)
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing noise floor
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing channel time
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: ACS: Survey is missing RX and busy time (at least one is required)
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: wlan0: ACS-COMPLETED freq=5745 channel=149
+Thu Jun  1 16:27:06 2023 daemon.info hostapd: wlan0: RADIUS Authentication server 3.20.165.131:1812
+Thu Jun  1 16:27:06 2023 daemon.info hostapd: wlan0: RADIUS Accounting server 3.20.165.131:1813
+Thu Jun  1 16:27:06 2023 kern.info kernel: [ 8989.932523] ath11k c000000.wifi: bss color param 0x81000000 set on vdev 0
+Thu Jun  1 16:27:06 2023 kern.info kernel: [ 8989.932744] IPv6: ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+Thu Jun  1 16:27:06 2023 daemon.notice netifd: Network device 'wlan0' link is up
+Thu Jun  1 16:27:06 2023 kern.info kernel: [ 8989.938591] up: port 3(wlan0) entered forwarding state
+Thu Jun  1 16:27:06 2023 kern.info kernel: [ 8989.944761] up: port 3(wlan0) entered forwarding state
+Thu Jun  1 16:27:06 2023 daemon.info usteer: add hostapd.wlan0
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: wlan0: interface state ACS->ENABLED
+Thu Jun  1 16:27:06 2023 daemon.notice hostapd: wlan0: AP-ENABLED
+Thu Jun  1 16:27:14 2023 kern.info kernel: [ 8997.945760] up: port 3(wlan0) entered forwarding state
+Thu Jun  1 16:27:28 2023 daemon.notice netifd: up0v0 (1203): udhcpc: sending renew to 172.16.0.1
+Thu Jun  1 16:27:28 2023 daemon.notice netifd: up0v0 (1203): udhcpc: lease of 172.16.227.4 obtained, lease time 600
+Thu Jun  1 16:27:48 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJy1VVlu2zAQvQvbT8Ue7pIu0EMEgcFIVE1EWynKbhH47p2RHMROGiMfqfUhcjjL45s38jOb51CzkptcG2lyLjM2+Rhcy0oGAMZ5UzdQPzK0J5c8K5/Z3IdE7853Q/xDqzQkilDScKtylWesiR59hbEgQQs0VK7ae6wktCmAc5Gxx7lpfCRbnhtplTplrB0q16bQ+VdIBoPncbUVIAU5OQy6hw1ow7XMcKFUIZYFKFnoh4wl340+ujRHDLs3kBn+gPmjq8MwoeWZVXvX9x5Rc1VkLzs6oj3XlAQv8Wv2fYV3vNdW6UxbS/az8+4Y6rRH+ID1fu/G4egjXtAiVXM8eIpC53GPCza2LjVD7LbTUG0rWH6bY2gCe4NVEzOupwsy/YM9nDBF6JOPjav8irx3xAWSAgdgK2cpDD2atq+eWzoK40FRf1xdRz9NSzzjVmy42QhhN2rLDcMCrXeTXyk2gLep99W4Qx0c6EIvAbDh7PTaC2E0R89+OjsuufPN8lDOapgJzET1I7LjqiefcKchl5zamC6MXFnQHPOh5+OfRECtAWMMojSL69kqwGrFQdvF1cc4UIW1ARc7PKvjMI6krvXwctvNqLHKTahiSdIc2jZMyCDFnk7ZBcP8wOEGx/wmxxYp0/bzFNt3FAsjb1LcBt+nVRSdq5aRxeylhzKvSlOX3p4B7v6lAKqWXZZ+WJzNtXPjcyjXRyy5m6ZEG+XH9CTwIS4YmE97WK6KzCJi3xOduJ+mUK8gl/Ejsr5H3yDcb9t1IFGsp89MyjoYNBcft2S7lFvkTys8ptfuODrhd/onmruhpu66kTKefZA4MKXzxFoDZeXYx+MfqBLGHFvXU5mPlA5vNH4lb7hUNRcAXyRoeKfnG7MojLBvJ7Gw+gooz7kyoMUVXpurQnP1RZi5lP9C3Yb+6e71X2
+Thu Jun  1 16:28:11 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 8.8.8.8
+Thu Jun  1 16:28:11 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 8.8.8.8
+Thu Jun  1 16:28:11 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"healthcheck","params":{"serial":"0006ae6df0db","uuid":1685636813,"sanity":100,"data":{"unit":{"memory":39}}}}
+Thu Jun  1 16:28:29 2023 user.notice root: stop testcase: OUHFOI94Q
+Thu Jun  1 16:28:37 2023 user.notice root: start testcase: WH3B6ZC3Y
+Thu Jun  1 16:28:43 2023 daemon.notice netifd: Network device 'eth0' link is down
+Thu Jun  1 16:28:43 2023 kern.info kernel: [ 9086.885626] nss-dp 3a001600.dp1 eth0: PHY Link is down
+Thu Jun  1 16:28:43 2023 kern.info kernel: [ 9086.885953] up: port 1(eth0) entered disabled state
+Thu Jun  1 16:28:45 2023 daemon.notice netifd: Network device 'eth0' link is up
+Thu Jun  1 16:28:45 2023 kern.info kernel: [ 9088.885633] nss-dp 3a001600.dp1 eth0: PHY Link up speed: 1000
+Thu Jun  1 16:28:45 2023 kern.info kernel: [ 9088.885704] up: port 1(eth0) entered forwarding state
+Thu Jun  1 16:28:45 2023 kern.info kernel: [ 9088.890394] up: port 1(eth0) entered forwarding state
+Thu Jun  1 16:28:48 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJy1VNtymzAQ/Re1j8TeFboAP9CPyHg8CoiaCbcKsJPJ+N+7C05D3MaTh9R+QFrt5ezRWb2IaaoKkaFJtIlNgnEkBh8qV4tMAIBx3hQlFA+C7KMbvchexNRWI38b33ThmVdjN3KEig1alagkEmXw5CuNsagxNpHIXX7wVElqkwKijMTDVJY+sC1JTGyVOkei7nJXj1Xj/0BKJWWb+sWWQirZyVHQPWwAE611RIs4lqB4Mf92kRh90/vgxilQ2L3ByOCO8gdXVN1AlheRH1zbekKNKo1ed3zEe9R6Nzfxa/JtTj3ea6t0pK1l+8V5f6qK8UDwgeo97fvu5AM1aImqKRw9R5Fzf6CF6Gs3ll1otkOXb/MF5uZUlZW4wqqZGddyg0L/ELszpaja0YfS5X5B3jrmgkiBI4iFs7HqWjJt3zy3fFT1R8X344oi+GGY4wVauUGzkdJu1BaNoAK1d4NfKDZA3RSHvN+TDo7c0GsAbFCc3+5CWkTybIeL45w72cx/zpl3E4MZuH4gdlz+6EfaaUhijJOFslcjKgtaUuvk+fA8MlBrwBgjrTaz68UqwWoVK724+hA6rrBcwGpHZ0Xo+p7VtRyut81EGsvdQCpmIHlX19VADHLs+RytGMYjwg2O8SbHlijT9vMU278ojmV8i+JhqIpFErOuGcX34EvK9227KJ1UcP6MBBfFseA+7nU7l5t1xSs65s/+1Dvp9/onmZuuYNpczxkvPgAZmMz5zBRZCVnuxMdzVXElijnVruUyH0kIrsSTrnUDa7lgapIvUgr8JZQbIpckXHON0mpcA8UElVH8Eq7w2kSlGtUXYcbY/gt1XbWPd2/PeT+MwbuG1348AH9zF0LFyiTEQ+85Mw0Cy3bqa/9Ed1ROdX3jijRKBCWvpzy1Mk3WJMSxRg1GJsm7KY9p7hWo9I
+Thu Jun  1 16:28:53 2023 kern.info kernel: [ 9096.905503] up: port 1(eth0) entered forwarding state
+Thu Jun  1 16:29:48 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJy1VVty2zAMvAvbT9UmKb6kC/QQGY+HlqiaE71KUXY6Gd+9AOU0ctN48pFaHyJBEFgsFvIzmWdfk5IpI1WuDMszMrngbUtKQilV1qm6ofWBgD3a6Ej5TObeR3x3rhvCL1zFIeINkSumhREmI01w4MuVUoZD3IxUtjo6yMSlKihjPCOHuWlcQJsxKtdCXDLSDpVto+/cH0iFgcvzuNgKJjk6Wbj0QDeUCmPyDBZc5gXDRfrtMhJdN7pg4xzg2oOimWI7iB9s7YcJLM+kOtq+d4CaiSJ72eER7pmUu1TEz9n1FdT4ILWQmdQa7Vfn/dnX8QjwKeR72o/D2QUoUANVczg5vAXO4xEWZGxtbIbQbaeh2lYLzM3ZN578hRULPNgeCyTyO9ldIITvowuNrdyCvLfIBZBCT5QsnEU/9GDavnpu8ciPJ4H9sXUd3DSl+4RpvmFqw7neiC1TBBK0zk5uoVhRqKY+VuMedHDCgl4u0A0jl9decK0ZePbT1THFNpv0YMxqmBHMhPkDsGOrRxdhJ6nJmVALZS9GJjSVHDoNnodfEYFqRUE9eS54cr1aOdVSSM6L5OpCGDDD0oDVDs7qMIwjqms5XG+7GTRW2QlULCgibVs/AYN493LJVgyzE6N3OGZ3OdZAmdQfp1i/oTgHdd+juPWuj4soOlulkYXopaOlqUpVl05fAe7/pQDMlq1T75KzunVunKHl8vAUu2lKsGF8CI8CH0LCQFw80lQqMAuIXY90wn6afL2ATOOHZH0NrgG4X7bLQIJYLx+ZlGUwcC7eb8k2pUvyxxUc42t/Hi13e/kDzN1QY3ftiBGvPkAcVaV1yFpDy8qS98ffYya4c25tj2neUzq91TjP1/KmN6rOcew/RdBv9XxnFrniqLCbSSy0ZGugzMC0FtKs8TJtRCGZ+CTMLC/+hb
+Thu Jun  1 16:29:53 2023 daemon.info hostapd: wlan0: STA 00:0a:52:06:62:e3 IEEE 802.11: authenticated
+Thu Jun  1 16:29:53 2023 daemon.info hostapd: wlan0: STA 00:0a:52:06:62:e3 IEEE 802.11: associated (aid 1)
+Thu Jun  1 16:29:53 2023 daemon.notice hostapd: wlan0: CTRL-EVENT-EAP-STARTED 00:0a:52:06:62:e3
+Thu Jun  1 16:29:53 2023 daemon.notice hostapd: wlan0: CTRL-EVENT-EAP-PROPOSED-METHOD vendor=0 method=1
+Thu Jun  1 16:29:55 2023 daemon.notice hostapd: wlan0: CTRL-EVENT-EAP-SUCCESS2 00:0a:52:06:62:e3
+Thu Jun  1 16:29:55 2023 daemon.info hostapd: wlan0: STA 00:0a:52:06:62:e3 WPA: pairwise key handshake completed (RSN)
+Thu Jun  1 16:29:55 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 00:0a:52:06:62:e3
+Thu Jun  1 16:29:55 2023 daemon.info hostapd: wlan0: STA 00:0a:52:06:62:e3 RADIUS: starting accounting session 764F9EC37D9F82CB
+Thu Jun  1 16:29:55 2023 daemon.info hostapd: wlan0: STA 00:0a:52:06:62:e3 IEEE 802.1X: authenticated - EAP type: 21 (TTLS)
+Thu Jun  1 16:30:05 2023 daemon.notice netifd: up1v100 (4801): udhcpc: sending renew to 172.17.0.1
+Thu Jun  1 16:30:05 2023 daemon.notice netifd: up1v100 (4801): udhcpc: lease of 172.17.0.57 obtained, lease time 600
+Thu Jun  1 16:30:11 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 8.8.8.8
+Thu Jun  1 16:30:11 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 8.8.8.8
+Thu Jun  1 16:30:11 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"healthcheck","params":{"serial":"0006ae6df0db","uuid":1685636813,"sanity":100,"data":{"unit":{"memory":39}}}}
+Thu Jun  1 16:30:40 2023 daemon.notice hostapd: wlan0: AP-STA-DISCONNECTED 00:0a:52:06:62:e3
+Thu Jun  1 16:30:40 2023 daemon.info hostapd: wlan0: STA 00:0a:52:06:62:e3 RADIUS: stopped accounting session 764F9EC37D9F82CB
+Thu Jun  1 16:30:42 2023 user.notice root: stop testcase: WH3B6ZC3Y
+Thu Jun  1 16:30:48 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJy1Vdtu2zAM/Rdtj26iu2T/wD6iCALVlhehvk2WkxZF/n2knaJOuwZ96JIHSxRFHh4e2i9kmkJFCqat0kJbJjIy+hhcQwpCKdXO66qm1QMBe3LJk+KFTF1I+Gx928dnXKU+4Q0pNDPSSpuROnrw5VpbypjiGSldefCQiSudgwksD1Nd+4g2a7UwUp4z0vSla1Jo/SskQzHaNCy2nCPApndw6Z5uqOCGqQwXjCuKi/m3y0jy7eCjS1OEa/eaZZrvIH50VehHsLyQ8uC6zgNqJvPsdYdHuGdK7eYi/ky+K6HGe2WkypQxaL8470+hSgeATyHf037oTz5CgQaomuLR4y1wHg6wIEPjUt3Hdjv25bZcYG5OoQ7kHVbk6sF1WCBRv8juDCFCl3ysXekX5J1DLoAUeqRk4SyFvgPT9s1zi0dhOErsj6uq6Mdxvk+Y4RumN5ybjdwyTSBB493oF4o1hWqqQznsQQdHLOj1At0wcn7rBbcCoFbdeHGcY9vN/MeYZT8hmBHzR2DHlY8+wU5RK5jWC2WvRiYNVdgH8Hx4TgjUaKpRPnZxvVg5NUoxiDG7+hh7zLA0YLWDsyr2w4DqWg7X23YCjZVuBBVLikibJozAIN49n7MVw+zI6A2O2U2ODVCmzNcpNh8ollLepLgJvkuLKFpXziML0QtPC1sWuiq8uQDc/0sBmC1bp97NzvraufaWFsufz7HrugAbxofwKPA+zhiITwc6lwrMAmLfIZ2wH8dQLSDn8UOyfkZfA9wf22UgQaznr0zKMhg4F5+3ZDunm+WPKzjGx/40OO736jeY277C7roBI158gDiqC+eRtZoWpSOfj3/ATHDn1LgO03ymdKbx3bWWOQey1xpn0oLC+VrgTDGuFf8meX9U943J5FYK/h6wsOIKca4Nl/oaci6EpPl3YWZS/A
+Thu Jun  1 16:30:53 2023 user.notice root: start testcase: S1I37IPRK

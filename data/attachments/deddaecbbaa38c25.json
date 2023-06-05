@@ -1,0 +1,1 @@
+"{'0006ae6df0db': {'ssid': 'tls_ssid_wpa3_eap_5g', 'bssid': '[BLANK]', 'passkey': '[BLANK]', 'encryption': 'wpa3', 'upstream_port': '1.1.eth1', 'upstream_resource': '1', 'upstream': 'eth1', 'station_data': {'1.1.wiphy0': ['1.1.ath10k_5g00']}, 'sniff_radio_2g': None, 'sniff_radio_5g': '1.1.wiphy3', 'sniff_radio_6g': None, 'sta_prefix': 'ath10k_5g0', 'channel': 52}}"

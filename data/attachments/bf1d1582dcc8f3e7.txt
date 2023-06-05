@@ -1,0 +1,11 @@
+2023-06-01 19:08:21 [32mINFO[0m Sending Command: 
+TimeStamp: 2023-06-01 13:38:21.734704
+URI: https://prov-qa01.cicd.lab.wlan.tip.build:16005/api/v1/venue/c56426af-1abd-481d-9162-acda8b16b6ce
+Headers: {'Authorization': 'Bearer 48dd6c01e9258ed35adb8c2d4604afa60f0d585d328c5962e1aa415c62a101df', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}
+2023-06-01 19:08:22 [32mINFO[0m Command Response: 
+Command Type: GET
+Response URI: https://prov-qa01.cicd.lab.wlan.tip.build:16005/api/v1/venue/c56426af-1abd-481d-9162-acda8b16b6ce
+Response Headers: {'Authorization': 'Bearer 48dd6c01e9258ed35adb8c2d4604afa60f0d585d328c5962e1aa415c62a101df', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}
+TimeStamp: 2023-06-01 13:38:22.726848
+Response Code: 200
+Response Body: {'boards': [], 'children': [], 'configurations': [], 'contacts': [], 'created': 1685626701, 'description': 'For testing Purposes', 'design': '', 'deviceConfiguration': [], 'deviceRules': {'firmwareUpgrade': 'inherit', 'rcOnly': 'inherit', 'rrm': 'inherit'}, 'devices': [], 'entity': '7683cce1-e025-49f0-9627-538e75e75260', 'id': 'c56426af-1abd-481d-9162-acda8b16b6ce', 'location': '', 'managementPolicies': [], 'managementPolicy': '', 'managementRoles': [], 'maps': [], 'modified': 1685626701, 'name': 'Testing Prov', 'notes': [{'created': 1685626701, 'createdBy': 'tip@ucentral.com', 'note': 'For testing Purposes'}], 'parent': '', 'sourceIP': [], 'tags': [], 'topology': [], 'variables': []}

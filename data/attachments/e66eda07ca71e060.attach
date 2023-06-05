@@ -1,0 +1,18 @@
+Thu Jun  1 14:21:02 2023 user.notice root: start testcase: 8UFFILHVY
+Thu Jun  1 14:21:48 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 8.8.8.8
+Thu Jun  1 14:21:48 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"healthcheck","params":{"serial":"0006ae6df0db","uuid":1685628630,"sanity":67,"data":{"unit":{"memory":39},"interfaces":{"down1v0":{"dhcp":false,"location":"/interfaces/1","warning":["DHCP did not offer any leases"]}}}}}
+Thu Jun  1 14:21:50 2023 daemon.info hostapd: wlan0-2: STA 00:0a:52:06:1b:e3 IEEE 802.11: authenticated
+Thu Jun  1 14:21:50 2023 daemon.info hostapd: wlan0-2: STA 00:0a:52:06:1b:e3 IEEE 802.11: associated (aid 1)
+Thu Jun  1 14:21:50 2023 daemon.notice hostapd: wlan0-2: CTRL-EVENT-EAP-STARTED 00:0a:52:06:1b:e3
+Thu Jun  1 14:21:50 2023 daemon.notice hostapd: wlan0-2: CTRL-EVENT-EAP-PROPOSED-METHOD vendor=0 method=1
+Thu Jun  1 14:21:50 2023 daemon.notice hostapd: wlan0-2: CTRL-EVENT-EAP-SUCCESS2 00:0a:52:06:1b:e3
+Thu Jun  1 14:21:50 2023 daemon.info hostapd: wlan0-2: STA 00:0a:52:06:1b:e3 WPA: pairwise key handshake completed (RSN)
+Thu Jun  1 14:21:50 2023 daemon.notice hostapd: wlan0-2: AP-STA-CONNECTED 00:0a:52:06:1b:e3
+Thu Jun  1 14:21:50 2023 daemon.info hostapd: wlan0-2: STA 00:0a:52:06:1b:e3 RADIUS: starting accounting session 48B9A5620EFA3687
+Thu Jun  1 14:21:50 2023 daemon.info hostapd: wlan0-2: STA 00:0a:52:06:1b:e3 IEEE 802.1X: authenticated - EAP type: 13 (TLS)
+Thu Jun  1 14:22:36 2023 daemon.notice hostapd: wlan0-2: AP-STA-DISCONNECTED 00:0a:52:06:1b:e3
+Thu Jun  1 14:22:36 2023 daemon.info hostapd: wlan0-2: STA 00:0a:52:06:1b:e3 RADIUS: stopped accounting session 48B9A5620EFA3687
+Thu Jun  1 14:22:39 2023 daemon.notice hostapd: wlan1-1: AP-STA-DISCONNECTED 00:0a:52:06:64:e3
+Thu Jun  1 14:22:39 2023 daemon.info hostapd: wlan1-1: STA 00:0a:52:06:64:e3 RADIUS: stopped accounting session 389CDC401DD64BDC
+Thu Jun  1 14:22:39 2023 daemon.info hostapd: wlan1-1: STA 00:0a:52:06:64:e3 IEEE 802.11: disassociated due to inactivity
+Thu Jun  1 14:22:39 2023 user.notice root: stop testcase: 8UFFILHVY

@@ -1,0 +1,83 @@
+2023-06-01 19:01:27 [32mINFO[0m Executing Command on AP: fw_setenv developer 0
+2023-06-01 19:01:27 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:01:27 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:01:27 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:01:27 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:01:27 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:01:27 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "fw_setenv developer 0" 
+2023-06-01 19:01:28 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "fw_setenv developer 0" 
+2023-06-01 19:01:28 [32mINFO[0m Output for command: fw_setenv developer 0
+
+2023-06-01 19:01:28 [32mINFO[0m Executing Command on AP: echo "{\"country\":[\"US\", \"CA\"],\"dfs\": true,\"rtty\": true,\"tty\": true,\"developer\": true,\"sysupgrade\": true,\"commands\": true,\"key_info\": {\"vendor\": \"dummy\",\"algo\": \"static\"}}" > /certificates/restrictions.json && echo "True"
+2023-06-01 19:01:28 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:01:28 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:01:28 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:01:28 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:01:28 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:01:28 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value 'echo "{\"country\":[\"US\", \"CA\"],\"dfs\": true,\"rtty\": true,\"tty\": true,\"developer\": true,\"sysupgrade\": true,\"commands\": true,\"key_info\": {\"vendor\": \"dummy\",\"algo\": \"static\"}}" > /certificates/restrictions.json && echo "True"' 
+2023-06-01 19:01:28 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value 'echo "{\"country\":[\"US\", \"CA\"],\"dfs\": true,\"rtty\": true,\"tty\": true,\"developer\": true,\"sysupgrade\": true,\"commands\": true,\"key_info\": {\"vendor\": \"dummy\",\"algo\": \"static\"}}" > /certificates/restrictions.json && echo "True"' 
+2023-06-01 19:01:28 [32mINFO[0m Output for command: echo "{\"country\":[\"US\", \"CA\"],\"dfs\": true,\"rtty\": true,\"tty\": true,\"developer\": true,\"sysupgrade\": true,\"commands\": true,\"key_info\": {\"vendor\": \"dummy\",\"algo\": \"static\"}}" > /certificates/restrictions.json && echo "True"
+
+ true,\"tty\": true,\"developer\": true,\"sysupgrade\": true,\"commands\": true,
+
+\"key_info\": {\"vendor\": \"dummy\",\"algo\": \"static\"}}" > /certificates/res
+
+trictions.json && echo "True"
+True
+
+2023-06-01 19:01:28 [32mINFO[0m started factory reset
+2023-06-01 19:01:28 [32mINFO[0m Executing Command on AP: jffs2reset -y -r
+2023-06-01 19:01:28 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:01:28 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:01:28 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:01:28 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:01:28 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:02:00 [32mINFO[0m Done Factory reset
+2023-06-01 19:04:01 [32mINFO[0m From GW it's confirmed that AP is restricted now
+2023-06-01 19:04:03 [32mINFO[0m Sending Command: 
+TimeStamp: 2023-06-01 13:34:03.995750
+URI: https://gw-qa01.cicd.lab.wlan.tip.build:16002/api/v1/file/c7b176eb-3cd5-45c7-ba02-a45add43440d?serialNumber=0006ae6df0db
+Headers: {'Authorization': 'Bearer 48dd6c01e9258ed35adb8c2d4604afa60f0d585d328c5962e1aa415c62a101df', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}
+2023-06-01 19:04:15 [33mWARNING[0m Received response with both Content-Length and Transfer-Encoding set. This is expressly forbidden by RFC 7230 sec 3.3.2. Ignoring Content-Length and attempting to process response as Transfer-Encoding: chunked.
+2023-06-01 19:04:15 [32mINFO[0m Executing Command on AP: rm /certificates/restrictions.json
+2023-06-01 19:04:15 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:04:15 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:04:15 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:04:15 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:04:15 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:04:15 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "rm /certificates/restrictions.json" 
+2023-06-01 19:04:45 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "rm /certificates/restrictions.json" 
+2023-06-01 19:04:45 [32mINFO[0m Output for command: rm /certificates/restrictions.json
+
+2023-06-01 19:04:45 [32mINFO[0m Executing Command on AP: rm /etc/ucentral/restrictions.json
+2023-06-01 19:04:45 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:04:45 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:04:45 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:04:46 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:04:46 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:04:46 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "rm /etc/ucentral/restrictions.json" 
+2023-06-01 19:04:46 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "rm /etc/ucentral/restrictions.json" 
+2023-06-01 19:04:46 [32mINFO[0m Output for command: rm /etc/ucentral/restrictions.json
+
+2023-06-01 19:04:46 [32mINFO[0m started factory reset
+2023-06-01 19:04:46 [32mINFO[0m Executing Command on AP: jffs2reset -y -r
+2023-06-01 19:04:46 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:04:46 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:04:46 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:04:46 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:04:46 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:05:18 [32mINFO[0m Done Factory reset
+2023-06-01 19:07:18 [32mINFO[0m Executing Command on AP: [ -f /etc/ucentral/restrictions.json ] && echo "True" || echo "False"
+2023-06-01 19:07:18 [32mINFO[0m Trying SSH Connection to: 192.168.180.214 on port: 22 with username: lanforge and password: lanforge
+2023-06-01 19:07:18 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:07:18 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:07:18 [32mINFO[0m Connected (version 2.0, client OpenSSH_8.0)
+2023-06-01 19:07:18 [32mINFO[0m Authentication (password) successful!
+2023-06-01 19:07:18 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "[ -f /etc/ucentral/restrictions.json ] && echo "True" || echo "False"" 
+2023-06-01 19:07:48 [32mINFO[0m cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0006ae6df0db -s serial --log stdout --user root --passwd openwifi -t /dev/ttyUSB0 --action cmd --value "[ -f /etc/ucentral/restrictions.json ] && echo "True" || echo "False"" 
+2023-06-01 19:07:48 [32mINFO[0m Output for command: [ -f /etc/ucentral/restrictions.json ] && echo "True" || echo "False"
+
+ False
+False
+
+2023-06-01 19:07:49 [32mINFO[0m Removed Restrictions
